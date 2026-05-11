@@ -1,0 +1,89 @@
+<view class="container">
+  <!-- 顶部学习概览 -->
+  <view class="header-card">
+    <view class="header-content">
+      <view class="greeting">
+        <text class="greeting-text">早安，外贸人 👋</text>
+        <text class="greeting-sub">坚持学习，成单更容易</text>
+      </view>
+      <view class="stats-row">
+        <view class="stat-item">
+          <text class="stat-number">{{studyProgress.streakDays}}</text>
+          <text class="stat-label">连续打卡</text>
+        </view>
+        <view class="stat-item">
+          <text class="stat-number">{{studyProgress.masteredWords}}</text>
+          <text class="stat-label">已掌握</text>
+        </view>
+        <view class="stat-item">
+          <text class="stat-number">{{studyProgress.todayStudyTime}}</text>
+          <text class="stat-label">今日分钟</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 每日推荐 -->
+  <view class="daily-section">
+    <view class="section-header">
+      <text class="section-title">📅 每日推荐</text>
+      <text class="section-date">{{dailyWord.date}}</text>
+    </view>
+    
+    <!-- 每日一词 -->
+    <view class="daily-word-card" bindtap="viewDailyWord">
+      <view class="daily-word-header">
+        <text class="daily-tag">每日一词</text>
+        <text class="daily-word-text">{{dailyWord.word}}</text>
+      </view>
+      <view class="daily-word-info">
+        <text class="phonetic">{{dailyWord.phonetic}}</text>
+        <text class="meaning">{{dailyWord.meaning}}</text>
+      </view>
+      <view class="daily-example">
+        <text class="example-text">{{dailyWord.example}}</text>
+      </view>
+    </view>
+
+    <!-- 每日一句 -->
+    <view class="daily-sentence-card">
+      <view class="daily-sentence-header">
+        <text class="daily-tag">每日一句</text>
+        <text class="scene-tag">{{dailySentence.scene}}</text>
+      </view>
+      <text class="sentence-text">{{dailySentence.text}}</text>
+      <text class="sentence-chinese">{{dailySentence.chinese}}</text>
+      <view class="audio-btn" bindtap="playDailyAudio">
+        <text class="audio-icon">🔊</text>
+        <text class="audio-text">播放音频</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 功能模块入口 -->
+  <view class="modules-section">
+    <text class="section-title">🚀 开始学习</text>
+    <view class="modules-grid">
+      <view 
+        class="module-card" 
+        wx:for="{{moduleList}}" 
+        wx:key="id"
+        data-page="{{item.page}}"
+        bindtap="navigateToModule"
+        style="border-left-color: {{item.color}}"
+      >
+        <view class="module-icon" style="background: {{item.color}}20; color: {{item.color}}">
+          <text>{{item.icon}}</text>
+        </view>
+        <view class="module-info">
+          <text class="module-name">{{item.name}}</text>
+          <text class="module-desc">{{item.desc}}</text>
+        </view>
+        <text class="module-arrow">›</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 底部占位 -->
+  <view class="safe-area-bottom"></view>
+</view>

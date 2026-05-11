@@ -1,0 +1,49 @@
+<view class="container">
+  <!-- 头部 -->
+  <view class="header">
+    <text class="page-title">⚠️ 错题本</text>
+    <text class="page-subtitle">记录你的易错单词，针对性复习</text>
+  </view>
+
+  <!-- 空状态 -->
+  <view class="empty-state" wx:if="{{isEmpty}}">
+    <text class="empty-icon">🎉</text>
+    <text class="empty-title">太棒了！</text>
+    <text class="empty-desc">你还没有错题，继续保持！</text>
+  </view>
+
+  <!-- 错题列表 -->
+  <view class="error-list" wx:if="{{!isEmpty}}">
+    <view class="list-header">
+      <text class="list-count">共 {{errorWords.length}} 个错题</text>
+      <text class="clear-btn" bindtap="clearAllErrors">清空全部</text>
+    </view>
+
+    <view 
+      class="error-item"
+      wx:for="{{errorWords}}"
+      wx:key="word"
+      data-word="{{item.word}}"
+      bindtap="viewWordDetail"
+    >
+      <view class="word-main">
+        <text class="word-text">{{item.word}}</text>
+        <text class="word-phonetic">{{item.phonetic}}</text>
+      </view>
+      
+      <view class="word-info">
+        <text class="word-meaning">{{item.meaning}}</text>
+        <text class="error-time" wx:if="{{item.lastError}}">{{item.lastError}}</text>
+      </view>
+
+      <view class="word-actions">
+        <view class="action-btn" catchtap="playAudio" data-word="{{item.word}}">
+          <text>🔊</text>
+        </view>
+        <view class="action-btn remove-btn" catchtap="removeFromErrorBook" data-word="{{item.word}}">
+          <text>✕</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

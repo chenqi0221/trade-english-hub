@@ -1,0 +1,157 @@
+.container {
+  padding: 20rpx;
+  padding-bottom: 40rpx;
+}
+
+/* 头部 */
+.header {
+  margin-bottom: 30rpx;
+  padding: 0 10rpx;
+}
+
+.page-title {
+  font-size: 40rpx;
+  font-weight: 700;
+  color: var(--text-primary);
+  display: block;
+  margin-bottom: 8rpx;
+}
+
+.page-subtitle {
+  font-size: 26rpx;
+  color: var(--text-light);
+}
+
+/* 练习网格 */
+.practice-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16rpx;
+  margin-bottom: 30rpx;
+}
+
+.practice-card {
+  background: var(--bg-white);
+  border-radius: 16rpx;
+  padding: 30rpx;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2rpx 12rpx rgba(0, 0, 0, 0.06);
+  border-left: 6rpx solid;
+  transition: transform 0.2s;
+}
+
+.practice-card:active {
+  transform: scale(0.98);
+}
+
+.practice-icon {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 20rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40rpx;
+  margin-right: 24rpx;
+}
+
+.practice-info {
+  flex: 1;
+}
+
+.practice-name {
+  font-size: 32rpx;
+  font-weight: 600;
+  color: var(--text-primary);
+  display: block;
+  margin-bottom: 6rpx;
+}
+
+.practice-desc {
+  font-size: 24rpx;
+  color: var(--text-light);
+}
+
+.practice-arrow {
+  font-size: 36rpx;
+  color: var(--text-light);
+}
+
+/* 最近练习 */
+.recent-section {
+  margin-bottom: 30rpx;
+}
+
+.section-title {
+  font-size: 32rpx;
+  font-weight: 600;
+  color: var(--text-primary);
+  display: block;
+  margin-bottom: 16rpx;
+  padding: 0 10rpx;
+}
+
+.recent-list {
+  background: var(--bg-white);
+  border-radius: 16rpx;
+  box-shadow: 0 2rpx 12rpx rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+}
+
+.recent-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24rpx 30rpx;
+  border-bottom: 1rpx solid var(--border);
+}
+
+.recent-item:last-child {
+  border-bottom: none;
+}
+
+.recent-name {
+  font-size: 28rpx;
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.recent-time {
+  font-size: 22rpx;
+  color: var(--text-light);
+}
+
+/* 练习建议 */
+.tips-section {
+  margin-bottom: 30rpx;
+}
+
+.tips-card {
+  background: var(--bg-white);
+  border-radius: 16rpx;
+  padding: 24rpx;
+  box-shadow: 0 2rpx 12rpx rgba(0, 0, 0, 0.06);
+}
+
+.tip-item {
+  display: flex;
+  align-items: center;
+  padding: 16rpx 0;
+  border-bottom: 1rpx solid var(--border);
+}
+
+.tip-item:last-child {
+  border-bottom: none;
+}
+
+.tip-icon {
+  font-size: 32rpx;
+  margin-right: 16rpx;
+}
+
+.tip-text {
+  font-size: 26rpx;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}

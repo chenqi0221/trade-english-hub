@@ -1,0 +1,121 @@
+<view class="container">
+  <!-- 学习概览 -->
+  <view class="overview-card">
+    <view class="overview-header">
+      <text class="overview-title">📊 学习概览</text>
+      <view class="streak-badge">
+        <text class="fire-icon">🔥</text>
+        <text class="streak-text">{{studyProgress.streakDays}}天</text>
+      </view>
+    </view>
+    
+    <view class="progress-stats">
+      <view class="progress-item">
+        <view class="progress-circle">
+          <text class="progress-number">{{studyProgress.masteredWords}}</text>
+          <text class="progress-label">已掌握</text>
+        </view>
+      </view>
+      <view class="progress-item">
+        <view class="progress-circle">
+          <text class="progress-number">{{studyProgress.todayStudyTime}}</text>
+          <text class="progress-label">今日分钟</text>
+        </view>
+      </view>
+      <view class="progress-item">
+        <view class="progress-circle">
+          <text class="progress-number">{{studyProgress.totalWords}}</text>
+          <text class="progress-label">总词汇量</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 功能入口 -->
+  <view class="features-section">
+    <text class="section-title">🎯 学习工具</text>
+    <view class="features-grid">
+      <view class="feature-card" bindtap="goToWordPractice">
+        <view class="feature-icon" style="background: rgba(30, 95, 142, 0.1); color: var(--primary)">📝</view>
+        <text class="feature-name">单词速记</text>
+        <text class="feature-desc">打字+选择练习</text>
+      </view>
+      <view class="feature-card" bindtap="goToPronunciation">
+        <view class="feature-icon" style="background: rgba(255, 107, 53, 0.1); color: var(--accent)">🎵</view>
+        <text class="feature-name">发音纠正</text>
+        <text class="feature-desc">录音对比练习</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 今日单词 -->
+  <view class="today-words-section">
+    <view class="section-header">
+      <text class="section-title">📅 今日单词</text>
+      <text class="section-more" bindtap="goToWordPractice">查看更多 ›</text>
+    </view>
+    
+    <view class="word-list">
+      <view 
+        class="word-item"
+        wx:for="{{todayWords}}"
+        wx:key="word"
+        data-word="{{item.word}}"
+        bindtap="viewWordDetail"
+      >
+        <view class="word-info">
+          <text class="word-text">{{item.word}}</text>
+          <text class="word-phonetic">{{item.phonetic}}</text>
+        </view>
+        <text class="word-meaning">{{item.meaning}}</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 最近错题 -->
+  <view class="error-section" wx:if="{{recentErrors.length > 0}}">
+    <view class="section-header">
+      <text class="section-title">⚠️ 最近错题</text>
+      <text class="section-more" bindtap="goToErrorBook">查看全部 ›</text>
+    </view>
+    
+    <view class="error-list">
+      <view 
+        class="error-item"
+        wx:for="{{recentErrors}}"
+        wx:key="word"
+        data-word="{{item.word}}"
+        bindtap="viewWordDetail"
+      >
+        <view class="error-word-info">
+          <text class="error-word-text">{{item.word}}</text>
+          <text class="error-word-meaning">{{item.meaning}}</text>
+        </view>
+        <view class="error-count">
+          <text class="error-count-text">错{{item.errorCount || 1}}次</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 分类浏览 -->
+  <view class="categories-section">
+    <text class="section-title">📂 场景分类</text>
+    <view class="category-list">
+      <view 
+        class="category-item"
+        wx:for="{{categories}}"
+        wx:key="id"
+        data-id="{{item.id}}"
+        bindtap="goToWordPractice"
+      >
+        <text class="category-icon">{{item.icon}}</text>
+        <view class="category-info">
+          <text class="category-name">{{item.name}}</text>
+          <text class="category-desc">{{item.description}}</text>
+        </view>
+        <text class="category-arrow">›</text>
+      </view>
+    </view>
+  </view>
+</view>

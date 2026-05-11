@@ -1,0 +1,67 @@
+<view class="container">
+  <!-- 头部 -->
+  <view class="header">
+    <text class="page-title">💪 口语练习</text>
+    <text class="page-subtitle">选择练习方式，提升口语能力</text>
+  </view>
+
+  <!-- 练习入口 -->
+  <view class="practice-grid">
+    <view 
+      class="practice-card"
+      wx:for="{{practiceItems}}"
+      wx:key="id"
+      data-page="{{item.page}}"
+      data-name="{{item.name}}"
+      bindtap="navigateToPractice"
+      style="border-left-color: {{item.color}}"
+    >
+      <view class="practice-icon" style="background: {{item.color}}20; color: {{item.color}}">
+        <text>{{item.icon}}</text>
+      </view>
+      <view class="practice-info">
+        <text class="practice-name">{{item.name}}</text>
+        <text class="practice-desc">{{item.desc}}</text>
+      </view>
+      <text class="practice-arrow">›</text>
+    </view>
+  </view>
+
+  <!-- 最近练习 -->
+  <view class="recent-section" wx:if="{{recentPractice.length > 0}}">
+    <text class="section-title">🕐 最近练习</text>
+    <view class="recent-list">
+      <view 
+        class="recent-item"
+        wx:for="{{recentPractice}}"
+        wx:key="time"
+      >
+        <text class="recent-name">{{item.name}}</text>
+        <text class="recent-time">{{item.time}}</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 练习建议 -->
+  <view class="tips-section">
+    <text class="section-title">💡 练习建议</text>
+    <view class="tips-card">
+      <view class="tip-item">
+        <text class="tip-icon">1️⃣</text>
+        <text class="tip-text">每天坚持练习15分钟，效果更明显</text>
+      </view>
+      <view class="tip-item">
+        <text class="tip-icon">2️⃣</text>
+        <text class="tip-text">先听标准发音，再跟读练习</text>
+      </view>
+      <view class="tip-item">
+        <text class="tip-icon">3️⃣</text>
+        <text class="tip-text">录音对比，找出自己的发音问题</text>
+      </view>
+      <view class="tip-item">
+        <text class="tip-icon">4️⃣</text>
+        <text class="tip-text">多使用场景演练，模拟真实对话</text>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,150 @@
+.container {
+  padding: 20rpx;
+  padding-bottom: 40rpx;
+}
+
+/* 头部 */
+.header {
+  margin-bottom: 30rpx;
+  padding: 0 10rpx;
+}
+
+.page-title {
+  font-size: 40rpx;
+  font-weight: 700;
+  color: var(--text-primary);
+  display: block;
+  margin-bottom: 8rpx;
+}
+
+.page-subtitle {
+  font-size: 26rpx;
+  color: var(--text-light);
+}
+
+/* 空状态 */
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100rpx 40rpx;
+}
+
+.empty-icon {
+  font-size: 80rpx;
+  margin-bottom: 20rpx;
+}
+
+.empty-title {
+  font-size: 36rpx;
+  font-weight: 600;
+  color: var(--success);
+  margin-bottom: 12rpx;
+}
+
+.empty-desc {
+  font-size: 28rpx;
+  color: var(--text-light);
+}
+
+/* 列表头部 */
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16rpx;
+  padding: 0 10rpx;
+}
+
+.list-count {
+  font-size: 26rpx;
+  color: var(--text-secondary);
+}
+
+.clear-btn {
+  font-size: 24rpx;
+  color: var(--error);
+  padding: 8rpx 16rpx;
+  border-radius: 8rpx;
+  background: rgba(245, 34, 45, 0.1);
+}
+
+/* 错题列表 */
+.error-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12rpx;
+}
+
+.error-item {
+  background: linear-gradient(135deg, #FFF5F5, #FFF);
+  border-radius: 16rpx;
+  padding: 24rpx;
+  display: flex;
+  align-items: center;
+  border: 2rpx solid #FFD4D4;
+  transition: transform 0.2s;
+}
+
+.error-item:active {
+  transform: scale(0.98);
+}
+
+.word-main {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20rpx;
+  min-width: 120rpx;
+}
+
+.word-text {
+  font-size: 32rpx;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 4rpx;
+  font-family: 'Courier New', monospace;
+}
+
+.word-phonetic {
+  font-size: 22rpx;
+  color: var(--text-secondary);
+}
+
+.word-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.word-meaning {
+  font-size: 26rpx;
+  color: var(--text-primary);
+  margin-bottom: 4rpx;
+}
+
+.error-time {
+  font-size: 20rpx;
+  color: var(--text-light);
+}
+
+.word-actions {
+  display: flex;
+  gap: 12rpx;
+}
+
+.action-btn {
+  width: 48rpx;
+  height: 48rpx;
+  border-radius: 24rpx;
+  background: var(--bg-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.08);
+}
+
+.remove-btn {
+  background: rgba(245, 34, 45, 0.1);
+  color: var(--error);
+}

@@ -1,0 +1,184 @@
+<view class="container">
+  <!-- 分类选择界面 -->
+  <block wx:if="{{!currentCategory && !isFinished}}">
+    <view class="header">
+      <text class="page-title">📝 单词速记</text>
+      <text class="page-subtitle">选择场景分类，开始练习</text>
+    </view>
+
+    <view class="categories-grid">
+      <view 
+        class="category-card" 
+        wx:for="{{categories}}" 
+        wx:key="id"
+        data-id="{{item.id}}"
+        bindtap="selectCategory"
+      >
+        <view class="category-icon">{{item.icon}}</view>
+        <view class="category-info">
+          <text class="category-name">{{item.name}}</text>
+          <text class="category-desc">{{item.description}}</text>
+        </view>
+        <text class="category-arrow">›</text>
+      </view>
+    </view>
+
+    <!-- 错题本入口 -->
+    <view class="error-book-entry" bindtap="goToErrorBook" wx:if="{{errorWords.length > 0}}">
+      <text class="error-icon">⚠️</text>
+      <view class="error-info">
+        <text class="error-title">错题本</text>
+        <text class="error-count">{{errorWords.length}} 个待复习</text>
+      </view>
+      <text class="error-arrow">›</text>
+    </view>
+  </block>
+
+  <!-- 练习界面 -->
+  <block wx:if="{{currentCategory && !isFinished}}">
+    <!-- 进度条 -->
+    <view class="progress-header">
+      <view class="progress-info">
+        <text class="progress-text">{{currentWordIndex + 1}} / {{words.length}}</text>
+        <view class="streak-info" wx:if="{{streak > 0}}">
+          <text class="streak-fire">🔥</text>
+          <text class="streak-count">{{streak}}</text>
+        </view>
+      </view>
+      <view class="progress-bar">
+        <view class="progress-fill" style="width: {{((currentWordIndex + 1) / words.length) * 100}}%"></view>
+      </view>
+    </view>
+
+    <!-- 单词卡片 -->
+    <view class="word-card {{isCorrect === true ? 'correct' : ''}} {{isCorrect === false ? 'wrong' : ''}}">
+      <view class="word-header">
+        <text class="word-category-tag">{{currentWord.category}}</text>
+        <view class="audio-btn" bindtap="playWordAudio">
+          <text class="audio-icon">🔊</text>
+        </view>
+      </view>
+
+      <view class="word-content">
+        <text class="word-text">{{currentWord.word}}</text>
+        <text class="word-phonetic">{{currentWord.phonetic}}</text>
+        <text class="word-meaning">{{currentWord.meaning}}</text>
+      </view>
+
+      <!-- 例句 -->
+      <view class="word-example" wx:if="{{showResult}}">
+        <text class="example-label">例句</text>
+        <text class="example-text">{{currentWord.example}}</text>
+      </view>
+
+      <!-- 结果提示 -->
+      <view class="result-hint {{isCorrect ? 'correct-hint' : 'wrong-hint'}}" wx:if="{{showResult}}">
+        <text>{{isCorrect ? '✅ 正确！' : '❌ 错误'}}</text>
+        <text wx:if="{{!isCorrect}}" class="correct-answer">正确答案: {{currentWord.word}}</text>
+      </view>
+    </view>
+
+    <!-- 练习模式切换 -->
+    <view class="mode-switch" wx:if="{{!showResult}}">
+      <view 
+        class="mode-btn {{practiceMode === 'typing' ? 'active' : ''}}"
+        data-mode="typing"
+        bindtap="switchMode"
+      >
+        <text>⌨️ 打字</text>
+      </view>
+      <view 
+        class="mode-btn {{practiceMode === 'choice' ? 'active' : ''}}"
+        data-mode="choice"
+        bindtap="switchMode"
+      >
+        <text>🎯 选择</text>
+      </view>
+    </view>
+
+    <!-- 打字模式输入 -->
+    <view class="input-section" wx:if="{{practiceMode === 'typing' && !showResult}}">
+      <input 
+        class="word-input {{isCorrect === false ? 'input-error' : ''}}"
+        type="text"
+        placeholder="输入单词..."
+        value="{{userInput}}"
+        bindinput="onInput"
+        focus
+      />
+      <text class="input-hint">输入上方显示的单词</text>
+    </view>
+
+    <!-- 选择模式 -->
+    <view class="options-section" wx:if="{{practiceMode === 'choice' && !showResult}}">
+      <view 
+        class="option-btn"
+        wx:for="{{options}}"
+        wx:key="word"
+        data-word="{{item.word}}"
+        bindtap="selectOption"
+      >
+        <text class="option-word">{{item.word}}</text>
+        <text class="option-meaning">{{item.meaning}}</text>
+      </view>
+    </view>
+
+    <!-- 统计信息 -->
+    <view class="stats-bar">
+      <view class="stat">
+        <text class="stat-value correct">{{correctCount}}</text>
+        <text class="stat-label">正确</text>
+      </view>
+      <view class="stat">
+        <text class="stat-value wrong">{{wrongCount}}</text>
+        <text class="stat-label">错误</text>
+      </view>
+      <view class="stat">
+        <text class="stat-value">{{bestStreak}}</text>
+        <text class="stat-label">最高连击</text>
+      </view>
+    </view>
+  </block>
+
+  <!-- 完成界面 -->
+  <block wx:if="{{isFinished}}">
+    <view class="finish-container">
+      <view class="finish-icon">🎉</view>
+      <text class="finish-title">练习完成！</text>
+      
+      <view class="finish-stats">
+        <view class="stat-row">
+          <view class="stat-box">
+            <text class="stat-number">{{finalStats.total}}</text>
+            <text class="stat-label">总题数</text>
+          </view>
+          <view class="stat-box">
+            <text class="stat-number correct">{{finalStats.correctCount}}</text>
+            <text class="stat-label">正确</text>
+          </view>
+          <view class="stat-box">
+            <text class="stat-number wrong">{{finalStats.wrongCount}}</text>
+            <text class="stat-label">错误</text>
+          </view>
+        </view>
+        
+        <view class="accuracy-section">
+          <text class="accuracy-label">正确率</text>
+          <text class="accuracy-value">{{finalStats.accuracy}}%</text>
+          <view class="accuracy-bar">
+            <view class="accuracy-fill" style="width: {{finalStats.accuracy}}%"></view>
+          </view>
+        </view>
+
+        <view class="achievement-section" wx:if="{{finalStats.bestStreak >= 5}}">
+          <text class="achievement-text">🔥 最高连击 {{finalStats.bestStreak}}！太棒了！</text>
+        </view>
+      </view>
+
+      <view class="finish-buttons">
+        <button class="btn-primary" bindtap="restartPractice">再来一次</button>
+        <button class="btn-secondary" bindtap="backToCategories">选择其他分类</button>
+      </view>
+    </view>
+  </block>
+</view>

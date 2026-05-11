@@ -1,0 +1,94 @@
+<view class="container">
+  <!-- 用户信息 -->
+  <view class="user-card">
+    <block wx:if="{{userInfo}}">
+      <image class="user-avatar" src="{{userInfo.avatarUrl}}" mode="aspectFill"/>
+      <text class="user-name">{{userInfo.nickName}}</text>
+      <text class="user-level">外贸英语学习者</text>
+    </block>
+    <block wx:else>
+      <view class="user-avatar default-avatar">👤</view>
+      <button class="login-btn" bindtap="getUserProfile">点击登录</button>
+    </block>
+  </view>
+
+  <!-- 学习统计 -->
+  <view class="stats-card">
+    <view class="stats-row">
+      <view class="stat-item">
+        <text class="stat-value">{{studyProgress.masteredWords}}</text>
+        <text class="stat-label">已掌握</text>
+      </view>
+      <view class="stat-divider"></view>
+      <view class="stat-item">
+        <text class="stat-value">{{studyProgress.todayStudyTime}}</text>
+        <text class="stat-label">今日分钟</text>
+      </view>
+      <view class="stat-divider"></view>
+      <view class="stat-item">
+        <text class="stat-value">{{studyProgress.streakDays}}</text>
+        <text class="stat-label">连续打卡</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 菜单列表 -->
+  <view class="menu-list">
+    <view 
+      class="menu-item"
+      wx:for="{{menuItems}}"
+      wx:key="id"
+      data-item="{{item}}"
+      bindtap="onMenuTap"
+    >
+      <text class="menu-icon">{{item.icon}}</text>
+      <text class="menu-name">{{item.name}}</text>
+      <text class="menu-arrow">›</text>
+    </view>
+  </view>
+
+  <!-- 设置弹窗 -->
+  <view class="modal {{showSettings ? 'show' : ''}}" bindtap="hideSettings">
+    <view class="modal-content" catchtap="preventHide">
+      <view class="modal-header">
+        <text class="modal-title">⚙️ 设置</text>
+        <text class="modal-close" bindtap="hideSettings">✕</text>
+      </view>
+      <view class="modal-body">
+        <view class="setting-item" bindtap="clearCache">
+          <text class="setting-name">🗑️ 清除学习数据</text>
+          <text class="setting-desc">清除所有学习记录和缓存</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 关于弹窗 -->
+  <view class="modal {{showAbout ? 'show' : ''}}" bindtap="hideAbout">
+    <view class="modal-content" catchtap="preventHide">
+      <view class="modal-header">
+        <text class="modal-title">ℹ️ 关于</text>
+        <text class="modal-close" bindtap="hideAbout">✕</text>
+      </view>
+      <view class="modal-body">
+        <view class="about-content">
+          <text class="app-name">外贸英语通</text>
+          <text class="app-version">版本 1.0.0</text>
+          <text class="app-desc">专为外贸从业者打造的英语学习工具</text>
+          <text class="app-features">整合GitHub三大高星项目：</text>
+          <view class="feature-list">
+            <text class="feature-item">• qwerty-learner - 打字练习</text>
+            <text class="feature-item">• chinese-programmer-wrong-pronunciation - 发音纠正</text>
+            <text class="feature-item">• everyone-can-use-english - AI学习理念</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 底部信息 -->
+  <view class="footer">
+    <text class="footer-text">外贸英语通 v1.0.0</text>
+    <text class="footer-text">专为外贸人打造</text>
+  </view>
+</view>

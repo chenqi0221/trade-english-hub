@@ -1,0 +1,48 @@
+<view class="container">
+  <!-- 头部 -->
+  <view class="header">
+    <text class="page-title">⭐ 收藏夹</text>
+    <text class="page-subtitle">你收藏的单词都在这里</text>
+  </view>
+
+  <!-- 空状态 -->
+  <view class="empty-state" wx:if="{{isEmpty}}">
+    <text class="empty-icon">📚</text>
+    <text class="empty-title">暂无收藏</text>
+    <text class="empty-desc">在单词详情页点击⭐收藏单词</text>
+  </view>
+
+  <!-- 收藏列表 -->
+  <view class="favorites-list" wx:if="{{!isEmpty}}">
+    <view class="list-header">
+      <text class="list-count">共 {{favorites.length}} 个收藏</text>
+      <text class="clear-btn" bindtap="clearAllFavorites">清空全部</text>
+    </view>
+
+    <view 
+      class="favorite-item"
+      wx:for="{{favorites}}"
+      wx:key="word"
+      data-word="{{item.word}}"
+      bindtap="viewWordDetail"
+    >
+      <view class="word-main">
+        <text class="word-text">{{item.word}}</text>
+        <text class="word-phonetic">{{item.phonetic}}</text>
+      </view>
+      
+      <view class="word-info">
+        <text class="word-meaning">{{item.meaning}}</text>
+      </view>
+
+      <view class="word-actions">
+        <view class="action-btn" catchtap="playAudio" data-word="{{item.word}}">
+          <text>🔊</text>
+        </view>
+        <view class="action-btn remove-btn" catchtap="removeFavorite" data-word="{{item.word}}">
+          <text>✕</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

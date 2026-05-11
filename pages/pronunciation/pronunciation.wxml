@@ -1,0 +1,142 @@
+<view class="container">
+  <!-- 头部 -->
+  <view class="header">
+    <text class="page-title">🎵 发音纠正</text>
+    <text class="page-subtitle">纠正常见发音错误，提升口语自信</text>
+  </view>
+
+  <!-- 常见错误提示 -->
+  <view class="error-tips-section" wx:if="{{commonErrors.length > 0}}">
+    <text class="section-title">⚠️ 常见发音错误</text>
+    <scroll-view scroll-x class="error-scroll">
+      <view class="error-cards">
+        <view class="error-card" wx:for="{{commonErrors}}" wx:key="word">
+          <text class="error-word">{{item.word}}</text>
+          <view class="phonetic-compare">
+            <text class="correct-phonetic">✓ {{item.correct}}</text>
+            <text class="wrong-phonetic">✗ {{item.wrong}}</text>
+          </view>
+          <text class="error-meaning">{{item.meaning}}</text>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+
+  <!-- 分类选择 -->
+  <view class="category-section" wx:if="{{!selectedCategory}}">
+    <text class="section-title">选择场景分类</text>
+    <view class="category-grid">
+      <view 
+        class="category-item"
+        wx:for="{{categories}}"
+        wx:key="id"
+        data-id="{{item.id}}"
+        bindtap="selectCategory"
+      >
+        <text class="category-icon">{{item.icon}}</text>
+        <text class="category-name">{{item.name}}</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 单词发音练习 -->
+  <view class="practice-section" wx:if="{{currentWord}}">
+    <!-- 进度 -->
+    <view class="progress-bar">
+      <view class="progress-fill" style="width: {{((currentIndex + 1) / wordList.length) * 100}}%"></view>
+    </view>
+
+    <!-- 单词卡片 -->
+    <view class="pronunciation-card">
+      <view class="word-display">
+        <text class="word-text">{{currentWord.word}}</text>
+        <text class="word-meaning" wx:if="{{showMeaning}}">{{currentWord.meaning}}</text>
+      </view>
+
+      <!-- 音标显示 -->
+      <view class="phonetic-section" wx:if="{{showPhonetic}}">
+        <view class="correct-phonetic">
+          <text class="phonetic-label">正确发音</text>
+          <text class="phonetic-text">{{currentWord.phonetic}}</text>
+          <view class="play-btn" bindtap="playCorrectAudio">
+            <text class="play-icon">▶️</text>
+            <text class="play-text">播放</text>
+          </view>
+        </view>
+
+        <!-- 错误发音警示 -->
+        <view class="wrong-phonetic-section" wx:if="{{currentWord.wrongPronunciation && currentWord.wrongPronunciation.length > 0}}">
+          <text class="phonetic-label">常见错误</text>
+          <view class="wrong-list">
+            <text class="wrong-phonetic-item" wx:for="{{currentWord.wrongPronunciation}}" wx:key="*this">
+              ✗ {{item}}
+            </text>
+          </view>
+        </view>
+      </view>
+
+      <!-- 例句 -->
+      <view class="example-section" wx:if="{{currentWord.example}}">
+        <text class="example-label">例句</text>
+        <text class="example-text">{{currentWord.example}}</text>
+      </view>
+    </view>
+
+    <!-- 控制按钮 -->
+    <view class="control-buttons">
+      <view class="control-btn" bindtap="prevWord">
+        <text class="btn-icon">⬅️</text>
+        <text class="btn-text">上一个</text>
+      </view>
+      
+      <view class="control-btn primary" bindtap="playCorrectAudio">
+        <text class="btn-icon">🔊</text>
+        <text class="btn-text">听发音</text>
+      </view>
+
+      <view class="control-btn" bindtap="changePlaybackRate">
+        <text class="btn-icon">⏩</text>
+        <text class="btn-text">{{playbackRate}}x</text>
+      </view>
+
+      <view class="control-btn primary {{isRecording ? 'recording' : ''}}" bindtap="{{isRecording ? 'stopRecording' : 'startRecording'}}">
+        <text class="btn-icon">{{isRecording ? '⏹️' : '🎙️'}}</text>
+        <text class="btn-text">{{isRecording ? '停止' : '录音'}}</text>
+      </view>
+
+      <view class="control-btn" bindtap="nextWord">
+        <text class="btn-icon">➡️</text>
+        <text class="btn-text">下一个</text>
+      </view>
+    </view>
+
+    <!-- 录音对比 -->
+    <view class="comparison-section" wx:if="{{showComparison && recordedAudio}}">
+      <text class="comparison-title">录音对比</text>
+      <view class="comparison-buttons">
+        <view class="compare-btn" bindtap="playCorrectAudio">
+          <text>🔊 标准发音</text>
+        </view>
+        <view class="compare-btn" bindtap="playRecording">
+          <text>🎙️ 我的录音</text>
+        </view>
+      </view>
+    </view>
+
+    <!-- 显示控制 -->
+    <view class="display-controls">
+      <view class="display-btn" bindtap="togglePhonetic">
+        <text class="display-icon">{{showPhonetic ? '👁️' : '🙈'}}</text>
+        <text class="display-text">音标</text>
+      </view>
+      <view class="display-btn" bindtap="toggleMeaning">
+        <text class="display-icon">{{showMeaning ? '👁️' : '🙈'}}</text>
+        <text class="display-text">释义</text>
+      </view>
+      <view class="display-btn" bindtap="viewWordDetail">
+        <text class="display-icon">📖</text>
+        <text class="display-text">详情</text>
+      </view>
+    </view>
+  </view>
+</view>

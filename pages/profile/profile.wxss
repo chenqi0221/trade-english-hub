@@ -1,0 +1,284 @@
+.container {
+  padding: 20rpx;
+  padding-bottom: 40rpx;
+}
+
+/* 用户卡片 */
+.user-card {
+  background: linear-gradient(135deg, var(--primary), var(--primary-light));
+  border-radius: 24rpx;
+  padding: 40rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin-bottom: 20rpx;
+  box-shadow: 0 8rpx 24rpx rgba(30, 95, 142, 0.3);
+}
+
+.user-avatar {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 60rpx;
+  margin-bottom: 16rpx;
+  border: 4rpx solid rgba(255, 255, 255, 0.3);
+}
+
+.default-avatar {
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60rpx;
+}
+
+.user-name {
+  font-size: 36rpx;
+  font-weight: 600;
+  margin-bottom: 8rpx;
+}
+
+.user-level {
+  font-size: 26rpx;
+  opacity: 0.9;
+}
+
+.login-btn {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: 2rpx solid rgba(255, 255, 255, 0.3);
+  border-radius: 32rpx;
+  padding: 12rpx 40rpx;
+  font-size: 28rpx;
+  margin-top: 8rpx;
+}
+
+/* 统计卡片 */
+.stats-card {
+  background: var(--bg-white);
+  border-radius: 16rpx;
+  padding: 24rpx;
+  margin-bottom: 20rpx;
+  box-shadow: 0 2rpx 12rpx rgba(0, 0, 0, 0.06);
+}
+
+.stats-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.stat-value {
+  font-size: 40rpx;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 4rpx;
+}
+
+.stat-label {
+  font-size: 24rpx;
+  color: var(--text-light);
+}
+
+.stat-divider {
+  width: 1rpx;
+  height: 60rpx;
+  background: var(--border);
+}
+
+/* 菜单列表 */
+.menu-list {
+  background: var(--bg-white);
+  border-radius: 16rpx;
+  overflow: hidden;
+  box-shadow: 0 2rpx 12rpx rgba(0, 0, 0, 0.06);
+  margin-bottom: 20rpx;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 28rpx 30rpx;
+  border-bottom: 1rpx solid var(--border);
+  transition: background 0.2s;
+}
+
+.menu-item:last-child {
+  border-bottom: none;
+}
+
+.menu-item:active {
+  background: var(--bg-gray);
+}
+
+.menu-icon {
+  font-size: 32rpx;
+  margin-right: 20rpx;
+}
+
+.menu-name {
+  flex: 1;
+  font-size: 30rpx;
+  color: var(--text-primary);
+}
+
+.menu-arrow {
+  font-size: 32rpx;
+  color: var(--text-light);
+}
+
+/* 弹窗 */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+  z-index: 1000;
+}
+
+.modal.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-content {
+  background: var(--bg-white);
+  border-radius: 24rpx 24rpx 0 0;
+  width: 100%;
+  max-height: 80vh;
+  transform: translateY(100%);
+  transition: transform 0.3s;
+}
+
+.modal.show .modal-content {
+  transform: translateY(0);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30rpx;
+  border-bottom: 1rpx solid var(--border);
+}
+
+.modal-title {
+  font-size: 32rpx;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.modal-close {
+  font-size: 32rpx;
+  color: var(--text-light);
+  padding: 8rpx;
+}
+
+.modal-body {
+  padding: 20rpx;
+  max-height: 60vh;
+  overflow-y: auto;
+}
+
+/* 设置项 */
+.setting-item {
+  padding: 24rpx;
+  border-bottom: 1rpx solid var(--border);
+  transition: background 0.2s;
+}
+
+.setting-item:last-child {
+  border-bottom: none;
+}
+
+.setting-item:active {
+  background: var(--bg-gray);
+}
+
+.setting-name {
+  font-size: 30rpx;
+  color: var(--text-primary);
+  display: block;
+  margin-bottom: 8rpx;
+}
+
+.setting-desc {
+  font-size: 24rpx;
+  color: var(--text-light);
+}
+
+/* 关于内容 */
+.about-content {
+  text-align: center;
+  padding: 20rpx;
+}
+
+.app-name {
+  font-size: 40rpx;
+  font-weight: 700;
+  color: var(--primary);
+  display: block;
+  margin-bottom: 12rpx;
+}
+
+.app-version {
+  font-size: 26rpx;
+  color: var(--text-light);
+  display: block;
+  margin-bottom: 20rpx;
+}
+
+.app-desc {
+  font-size: 28rpx;
+  color: var(--text-secondary);
+  display: block;
+  margin-bottom: 30rpx;
+}
+
+.app-features {
+  font-size: 26rpx;
+  color: var(--text-primary);
+  font-weight: 500;
+  display: block;
+  margin-bottom: 16rpx;
+}
+
+.feature-list {
+  text-align: left;
+}
+
+.feature-item {
+  font-size: 24rpx;
+  color: var(--text-secondary);
+  display: block;
+  margin-bottom: 8rpx;
+  line-height: 1.5;
+}
+
+/* 底部 */
+.footer {
+  text-align: center;
+  padding: 40rpx 20rpx;
+}
+
+.footer-text {
+  font-size: 22rpx;
+  color: var(--text-light);
+  display: block;
+  margin-bottom: 4rpx;
+}

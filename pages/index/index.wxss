@@ -1,0 +1,257 @@
+.container {
+  padding-bottom: 40rpx;
+}
+
+/* 顶部卡片 */
+.header-card {
+  background: linear-gradient(135deg, var(--primary), var(--primary-light));
+  margin: 20rpx;
+  border-radius: 24rpx;
+  padding: 40rpx 30rpx;
+  color: white;
+  box-shadow: 0 8rpx 24rpx rgba(30, 95, 142, 0.3);
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.greeting {
+  margin-bottom: 30rpx;
+}
+
+.greeting-text {
+  font-size: 40rpx;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 8rpx;
+}
+
+.greeting-sub {
+  font-size: 26rpx;
+  opacity: 0.9;
+}
+
+.stats-row {
+  display: flex;
+  justify-content: space-around;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 16rpx;
+  padding: 20rpx 0;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-number {
+  font-size: 44rpx;
+  font-weight: 700;
+  margin-bottom: 4rpx;
+}
+
+.stat-label {
+  font-size: 24rpx;
+  opacity: 0.85;
+}
+
+/* 每日推荐区域 */
+.daily-section {
+  margin: 30rpx 20rpx;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20rpx;
+  padding: 0 10rpx;
+}
+
+.section-title {
+  font-size: 34rpx;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.section-date {
+  font-size: 26rpx;
+  color: var(--text-light);
+}
+
+/* 每日一词卡片 */
+.daily-word-card {
+  background: var(--bg-white);
+  border-radius: 20rpx;
+  padding: 30rpx;
+  margin-bottom: 20rpx;
+  box-shadow: 0 4rpx 16rpx rgba(0, 0, 0, 0.06);
+  border-left: 8rpx solid var(--primary);
+}
+
+.daily-word-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16rpx;
+}
+
+.daily-tag {
+  background: linear-gradient(135deg, var(--primary), var(--primary-light));
+  color: white;
+  font-size: 22rpx;
+  padding: 6rpx 16rpx;
+  border-radius: 8rpx;
+  margin-right: 16rpx;
+}
+
+.daily-word-text {
+  font-size: 40rpx;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.daily-word-info {
+  margin-bottom: 16rpx;
+}
+
+.phonetic {
+  font-size: 28rpx;
+  color: var(--text-secondary);
+  margin-right: 20rpx;
+}
+
+.meaning {
+  font-size: 30rpx;
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.daily-example {
+  background: var(--bg-gray);
+  border-radius: 12rpx;
+  padding: 16rpx 20rpx;
+}
+
+.example-text {
+  font-size: 26rpx;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+/* 每日一句卡片 */
+.daily-sentence-card {
+  background: var(--bg-white);
+  border-radius: 20rpx;
+  padding: 30rpx;
+  box-shadow: 0 4rpx 16rpx rgba(0, 0, 0, 0.06);
+  border-left: 8rpx solid var(--accent);
+}
+
+.daily-sentence-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16rpx;
+}
+
+.scene-tag {
+  background: rgba(255, 107, 53, 0.1);
+  color: var(--accent);
+  font-size: 22rpx;
+  padding: 6rpx 16rpx;
+  border-radius: 8rpx;
+}
+
+.sentence-text {
+  font-size: 30rpx;
+  color: var(--text-primary);
+  line-height: 1.6;
+  margin-bottom: 10rpx;
+  display: block;
+}
+
+.sentence-chinese {
+  font-size: 26rpx;
+  color: var(--text-secondary);
+  margin-bottom: 20rpx;
+  display: block;
+}
+
+.audio-btn {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(255, 107, 53, 0.1);
+  padding: 12rpx 24rpx;
+  border-radius: 30rpx;
+}
+
+.audio-icon {
+  font-size: 28rpx;
+  margin-right: 8rpx;
+}
+
+.audio-text {
+  font-size: 24rpx;
+  color: var(--accent);
+}
+
+/* 功能模块 */
+.modules-section {
+  margin: 30rpx 20rpx;
+}
+
+.modules-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16rpx;
+}
+
+.module-card {
+  background: var(--bg-white);
+  border-radius: 16rpx;
+  padding: 30rpx;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2rpx 12rpx rgba(0, 0, 0, 0.06);
+  border-left: 6rpx solid;
+  transition: transform 0.2s;
+}
+
+.module-card:active {
+  transform: scale(0.98);
+}
+
+.module-icon {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 20rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40rpx;
+  margin-right: 24rpx;
+}
+
+.module-info {
+  flex: 1;
+}
+
+.module-name {
+  font-size: 32rpx;
+  font-weight: 600;
+  color: var(--text-primary);
+  display: block;
+  margin-bottom: 6rpx;
+}
+
+.module-desc {
+  font-size: 24rpx;
+  color: var(--text-light);
+}
+
+.module-arrow {
+  font-size: 36rpx;
+  color: var(--text-light);
+}

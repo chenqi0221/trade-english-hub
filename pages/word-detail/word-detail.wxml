@@ -1,0 +1,52 @@
+<view class="container" wx:if="{{word}}">
+  <!-- 单词头部 -->
+  <view class="word-header">
+    <text class="word-text">{{word.word}}</text>
+    <view class="word-actions">
+      <view class="action-btn" bindtap="playAudio">
+        <text class="action-icon">🔊</text>
+      </view>
+      <view class="action-btn" bindtap="toggleFavorite">
+        <text class="action-icon">{{isFavorite ? '⭐' : '☆'}}</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 音标和释义 -->
+  <view class="word-info-card">
+    <view class="phonetic-row">
+      <text class="phonetic-text">{{word.phonetic}}</text>
+    </view>
+    <view class="meaning-row">
+      <text class="meaning-text">{{word.meaning}}</text>
+    </view>
+    
+    <!-- 常见错误发音 -->
+    <view class="error-phonetic" wx:if="{{word.wrongPronunciation && word.wrongPronunciation.length > 0}}">
+      <text class="error-label">常见错误发音:</text>
+      <text class="error-text" wx:for="{{word.wrongPronunciation}}" wx:key="*this">{{item}}</text>
+    </view>
+  </view>
+
+  <!-- 例句 -->
+  <view class="example-card" wx:if="{{word.example}}">
+    <text class="card-title">📖 例句</text>
+    <text class="example-text">{{word.example}}</text>
+  </view>
+
+  <!-- 分类信息 -->
+  <view class="category-card">
+    <text class="card-title">📂 所属场景</text>
+    <view class="category-tags">
+      <text class="category-tag">{{word.category}}</text>
+    </view>
+  </view>
+
+  <!-- 操作按钮 -->
+  <view class="action-buttons">
+    <view class="action-btn-large" bindtap="addToErrorBook">
+      <text class="btn-icon">⚠️</text>
+      <text class="btn-text">加入错题本</text>
+    </view>
+  </view>
+</view>
