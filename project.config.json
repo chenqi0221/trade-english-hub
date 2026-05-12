@@ -47,8 +47,8 @@
     "disableSWC": true
   },
   "compileType": "miniprogram",
-  "libVersion": "2.32.0",
-  "appid": "wxf83d91461c9692ee",
+  "libVersion": "3.16.0",
+  "appid": "wxdac55b68194bef4f",
   "projectname": "trade-english-hub",
   "condition": {},
   "editorSetting": {
