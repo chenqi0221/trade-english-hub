@@ -56,8 +56,16 @@ Page({
   navigateToExamSelect(e) {
     const { id } = e.currentTarget.dataset
     console.log('Navigate to exam:', id)
+    if (!id) {
+      wx.showToast({ title: '考试ID为空', icon: 'none' })
+      return
+    }
     wx.navigateTo({
-      url: `/pages/exam-select/exam-select?id=${id}`
+      url: `/pages/exam-select/exam-select?id=${id}`,
+      fail: (err) => {
+        console.error('navigateTo exam-select failed:', err)
+        wx.showToast({ title: '页面跳转失败', icon: 'none' })
+      }
     })
   }
 })

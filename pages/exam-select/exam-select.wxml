@@ -1,4 +1,4 @@
-<view class="container">
+<view class="container" wx:if="{{examInfo}}">
   <!-- 考试信息头部 -->
   <view class="exam-header" style="background: linear-gradient(135deg, {{examInfo.color}}, {{examInfo.color}}DD)">
     <view class="exam-icon">{{examInfo.icon}}</view>
@@ -46,4 +46,11 @@
       <view class="mode-arrow">›</view>
     </view>
   </view>
+</view>
+
+<!-- 无数据提示 -->
+<view class="empty-state" wx:else>
+  <view class="empty-icon">📭</view>
+  <view class="empty-text">未找到考试信息</view>
+  <view class="empty-hint">请返回重新选择</view>
 </view>
