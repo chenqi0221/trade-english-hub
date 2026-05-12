@@ -5,6 +5,7 @@ Page({
     examId: '',
     words: [],
     currentIndex: 0,
+    currentWord: null,
     userInput: '',
     isCorrect: false,
     isWrong: false,
@@ -29,7 +30,7 @@ Page({
         return
       }
       const words = this.shuffleArray(data.slice(0, 50))
-      this.setData({ words, progress: 0 })
+      this.setData({ words, currentWord: words[0], progress: 0 })
     } catch (e) {
       wx.showToast({ title: '加载词库失败', icon: 'none' })
       console.error('词库加载失败:', e)
@@ -51,13 +52,13 @@ Page({
   },
 
   checkAnswer() {
-    const { userInput, words, currentIndex } = this.data
-    const currentWord = words[currentIndex]
-    
+    const { userInput, currentWord } = this.data
+    if (!currentWord) return
+
     if (!userInput.trim()) return
-    
+
     const isCorrect = userInput.trim().toLowerCase() === currentWord.word.toLowerCase()
-    
+
     if (isCorrect) {
       this.setData({
         isCorrect: true,
@@ -65,7 +66,7 @@ Page({
         correctCount: this.data.correctCount + 1,
         streak: this.data.streak + 1
       })
-      
+
       setTimeout(() => {
         this.nextWord()
       }, 800)
@@ -83,13 +84,15 @@ Page({
   nextWord() {
     const { currentIndex, words } = this.data
     if (currentIndex < words.length - 1) {
+      const nextIndex = currentIndex + 1
       this.setData({
-        currentIndex: currentIndex + 1,
+        currentIndex: nextIndex,
+        currentWord: words[nextIndex],
         userInput: '',
         isCorrect: false,
         isWrong: false,
         showAnswer: false,
-        progress: Math.round(((currentIndex + 1) / words.length) * 100)
+        progress: Math.round(((nextIndex) / words.length) * 100)
       })
     } else {
       this.showResult()

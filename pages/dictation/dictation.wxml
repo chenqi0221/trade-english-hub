@@ -16,7 +16,7 @@
 
   <!-- 答案提示 -->
   <view class="answer-hint" wx:if="{{showAnswer}}">
-    正确答案: <text class="answer-word">{{words[currentIndex].word}}</text>
+    正确答案: <text class="answer-word">{{currentWord.word}}</text>
   </view>
 
   <!-- 输入区 -->

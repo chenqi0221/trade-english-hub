@@ -5,6 +5,7 @@ Page({
     examId: '',
     words: [],
     currentIndex: 0,
+    currentWord: null,
     isFlipped: false,
     progress: 0,
     knowCount: 0,
@@ -24,10 +25,10 @@ Page({
         wx.showToast({ title: '暂无该词库', icon: 'none' })
         return
       }
-      // 随机打乱
       const words = this.shuffleArray(data.slice(0, 50))
-      this.setData({ 
+      this.setData({
         words,
+        currentWord: words[0],
         progress: 0
       })
     } catch (e) {
@@ -52,10 +53,12 @@ Page({
   nextWord() {
     const { currentIndex, words } = this.data
     if (currentIndex < words.length - 1) {
+      const nextIndex = currentIndex + 1
       this.setData({
-        currentIndex: currentIndex + 1,
+        currentIndex: nextIndex,
+        currentWord: words[nextIndex],
         isFlipped: false,
-        progress: Math.round(((currentIndex + 1) / words.length) * 100)
+        progress: Math.round(((nextIndex) / words.length) * 100)
       })
     } else {
       this.showResult()

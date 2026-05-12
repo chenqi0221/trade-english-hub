@@ -5,6 +5,7 @@ Page({
     examId: '',
     words: [],
     currentIndex: 0,
+    currentWord: null,
     userInput: '',
     isCorrect: false,
     isWrong: false,
@@ -28,7 +29,7 @@ Page({
         return
       }
       const words = this.shuffleArray(data.slice(0, 30))
-      this.setData({ words, progress: 0 })
+      this.setData({ words, currentWord: words[0], progress: 0 })
     } catch (e) {
       wx.showToast({ title: '加载词库失败', icon: 'none' })
       console.error('词库加载失败:', e)
@@ -45,11 +46,12 @@ Page({
   },
 
   playWord() {
-    const { words, currentIndex } = this.data
-    const word = words[currentIndex].word
-    
+    const { currentWord } = this.data
+    if (!currentWord) return
+    const word = currentWord.word
+
     this.setData({ isPlaying: true })
-    
+
     // 使用微信语音合成API
     const plugin = requirePlugin('WechatSI')
     if (plugin) {
@@ -62,12 +64,12 @@ Page({
             const innerAudioContext = wx.createInnerAudioContext()
             innerAudioContext.src = res.filename
             innerAudioContext.play()
-            
+
             innerAudioContext.onEnded(() => {
               this.setData({ isPlaying: false })
               innerAudioContext.destroy()
             })
-            
+
             innerAudioContext.onError(() => {
               this.setData({ isPlaying: false })
               innerAudioContext.destroy()
@@ -83,22 +85,20 @@ Page({
         }
       })
     } else {
-      // 降级：使用百度语音API（需要在微信公众平台配置域名）
       this.playWithBaiduTTS(word)
     }
   },
 
   playWithBaiduTTS(word) {
     const innerAudioContext = wx.createInnerAudioContext()
-    // 使用百度语音API（免费，无需配置域名）
     innerAudioContext.src = `https://fanyi.baidu.com/gettts?lan=en&text=${encodeURIComponent(word)}&spd=3&source=web`
     innerAudioContext.play()
-    
+
     innerAudioContext.onEnded(() => {
       this.setData({ isPlaying: false })
       innerAudioContext.destroy()
     })
-    
+
     innerAudioContext.onError((err) => {
       console.error('Audio error:', err)
       this.setData({ isPlaying: false })
@@ -112,13 +112,13 @@ Page({
   },
 
   checkAnswer() {
-    const { userInput, words, currentIndex } = this.data
-    const currentWord = words[currentIndex]
-    
+    const { userInput, currentWord } = this.data
+    if (!currentWord) return
+
     if (!userInput.trim()) return
-    
+
     const isCorrect = userInput.trim().toLowerCase() === currentWord.word.toLowerCase()
-    
+
     if (isCorrect) {
       this.setData({
         isCorrect: true,
@@ -138,13 +138,15 @@ Page({
   nextWord() {
     const { currentIndex, words } = this.data
     if (currentIndex < words.length - 1) {
+      const nextIndex = currentIndex + 1
       this.setData({
-        currentIndex: currentIndex + 1,
+        currentIndex: nextIndex,
+        currentWord: words[nextIndex],
         userInput: '',
         isCorrect: false,
         isWrong: false,
         showAnswer: false,
-        progress: Math.round(((currentIndex + 1) / words.length) * 100)
+        progress: Math.round(((nextIndex) / words.length) * 100)
       })
     } else {
       wx.showModal({

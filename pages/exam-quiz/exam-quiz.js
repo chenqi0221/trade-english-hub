@@ -5,6 +5,7 @@ Page({
     examId: '',
     words: [],
     currentIndex: 0,
+    currentWord: null,
     options: [],
     selectedOption: -1,
     isCorrect: false,
@@ -28,7 +29,7 @@ Page({
         return
       }
       const words = this.shuffleArray(data.slice(0, 20))
-      this.setData({ words, progress: 0 })
+      this.setData({ words, currentWord: words[0], progress: 0 })
       this.generateOptions(0, words)
     } catch (e) {
       wx.showToast({ title: '加载词库失败', icon: 'none' })
@@ -48,14 +49,12 @@ Page({
   generateOptions(index, words) {
     const currentWord = words[index]
     const correctAnswer = currentWord.word
-    
-    // 从其他单词中随机选3个错误选项
+
     const otherWords = words.filter((_, i) => i !== index)
     const wrongOptions = this.shuffleArray(otherWords).slice(0, 3).map(w => w.word)
-    
-    // 合并并打乱
+
     const allOptions = this.shuffleArray([correctAnswer, ...wrongOptions])
-    
+
     this.setData({
       options: allOptions,
       selectedOption: -1,
@@ -66,21 +65,19 @@ Page({
 
   selectOption(e) {
     const { index } = e.currentTarget.dataset
-    const { words, currentIndex, answered } = this.data
-    
-    if (answered) return
-    
-    const currentWord = words[currentIndex]
+    const { currentWord, answered } = this.data
+
+    if (answered || !currentWord) return
+
     const isCorrect = this.data.options[index] === currentWord.word
-    
+
     this.setData({
       selectedOption: index,
       answered: true,
       isCorrect: isCorrect,
       score: isCorrect ? this.data.score + 1 : this.data.score
     })
-    
-    // 1.5秒后自动下一题
+
     setTimeout(() => {
       this.nextQuestion()
     }, 1500)
@@ -92,6 +89,7 @@ Page({
       const nextIndex = currentIndex + 1
       this.setData({
         currentIndex: nextIndex,
+        currentWord: words[nextIndex],
         progress: Math.round(((nextIndex) / words.length) * 100)
       })
       this.generateOptions(nextIndex, words)

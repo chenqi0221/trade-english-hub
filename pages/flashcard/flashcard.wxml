@@ -10,16 +10,16 @@
     <view class="flashcard {{isFlipped ? 'flipped' : ''}}">
       <!-- 正面 -->
       <view class="card-face card-front">
-        <text class="word">{{words[currentIndex].word}}</text>
-        <text class="phonetic" wx:if="{{words[currentIndex].phonetic}}">{{words[currentIndex].phonetic}}</text>
+        <text class="word">{{currentWord.word}}</text>
+        <text class="phonetic" wx:if="{{currentWord.phonetic}}">{{currentWord.phonetic}}</text>
         <text class="hint">点击翻转</text>
       </view>
       <!-- 背面 -->
       <view class="card-face card-back">
-        <text class="back-word">{{words[currentIndex].word}}</text>
-        <view class="meaning">{{words[currentIndex].meaning}}</view>
-        <view class="phrases" wx:if="{{words[currentIndex].phrases.length > 0}}">
-          <view class="phrase-item" wx:for="{{words[currentIndex].phrases}}" wx:key="index">
+        <text class="back-word">{{currentWord.word}}</text>
+        <view class="meaning">{{currentWord.meaning}}</view>
+        <view class="phrases" wx:if="{{currentWord.phrases.length > 0}}">
+          <view class="phrase-item" wx:for="{{currentWord.phrases}}" wx:key="index">
             <text class="phrase">{{item.phrase}}</text>
             <text class="phrase-trans">{{item.translation}}</text>
           </view>

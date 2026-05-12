@@ -23,9 +23,9 @@
 
   <!-- 单词显示区 -->
   <view class="word-display">
-    <view class="meaning-text">{{words[currentIndex].meaning}}</view>
+    <view class="meaning-text">{{currentWord.meaning}}</view>
     <view class="hint-text" wx:if="{{showAnswer}}">
-      答案: <text class="answer-word">{{words[currentIndex].word}}</text>
+      答案: <text class="answer-word">{{currentWord.word}}</text>
     </view>
   </view>
 
