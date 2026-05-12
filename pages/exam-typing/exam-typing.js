@@ -1,3 +1,5 @@
+const vocabData = require('../../utils/vocabData.js')
+
 Page({
   data: {
     examId: '',
@@ -21,11 +23,16 @@ Page({
 
   loadWords(examId) {
     try {
-      const data = require(`../../data/${examId}.json`)
+      const data = vocabData[examId] || []
+      if (!data.length) {
+        wx.showToast({ title: '暂无该词库', icon: 'none' })
+        return
+      }
       const words = this.shuffleArray(data.slice(0, 50))
       this.setData({ words, progress: 0 })
     } catch (e) {
       wx.showToast({ title: '加载词库失败', icon: 'none' })
+      console.error('词库加载失败:', e)
     }
   },
 
