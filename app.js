@@ -11,15 +11,20 @@ App({
 
   onLaunch() {
     console.log('外贸英语通 启动')
-    this.initCloud()
+    // 暂时禁用云开发初始化，避免超时
+    // this.initCloud()
     this.loadStudyProgress()
   },
 
   initCloud() {
-    wx.cloud.init({
-      env: 'your-cloud-env-id',
-      traceUser: true
-    })
+    try {
+      wx.cloud.init({
+        env: 'your-cloud-env-id',
+        traceUser: true
+      })
+    } catch (e) {
+      console.error('Cloud init failed:', e)
+    }
   },
 
   loadStudyProgress() {
