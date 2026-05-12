@@ -21,26 +21,26 @@
       {
         "pagePath": "pages/index/index",
         "text": "首页",
-        "iconPath": "images/home.png",
-        "selectedIconPath": "images/home-active.png"
+        "iconPath": "images/home.svg",
+        "selectedIconPath": "images/home-active.svg"
       },
       {
         "pagePath": "pages/study/study",
         "text": "学习",
-        "iconPath": "images/study.png",
-        "selectedIconPath": "images/study-active.png"
+        "iconPath": "images/study.svg",
+        "selectedIconPath": "images/study-active.svg"
       },
       {
         "pagePath": "pages/practice/practice",
         "text": "练习",
-        "iconPath": "images/practice.png",
-        "selectedIconPath": "images/practice-active.png"
+        "iconPath": "images/practice.svg",
+        "selectedIconPath": "images/practice-active.svg"
       },
       {
         "pagePath": "pages/profile/profile",
         "text": "我的",
-        "iconPath": "images/profile.png",
-        "selectedIconPath": "images/profile-active.png"
+        "iconPath": "images/profile.svg",
+        "selectedIconPath": "images/profile-active.svg"
       }
     ]
   },
