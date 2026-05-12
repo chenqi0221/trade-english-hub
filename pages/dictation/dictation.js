@@ -43,10 +43,48 @@ Page({
     
     this.setData({ isPlaying: true })
     
-    // 使用微信内置语音合成
+    // 使用微信语音合成API
+    const plugin = requirePlugin('WechatSI')
+    if (plugin) {
+      plugin.textToSpeech({
+        lang: 'en_US',
+        tts: true,
+        content: word,
+        success: (res) => {
+          if (res.filename) {
+            const innerAudioContext = wx.createInnerAudioContext()
+            innerAudioContext.src = res.filename
+            innerAudioContext.play()
+            
+            innerAudioContext.onEnded(() => {
+              this.setData({ isPlaying: false })
+              innerAudioContext.destroy()
+            })
+            
+            innerAudioContext.onError(() => {
+              this.setData({ isPlaying: false })
+              innerAudioContext.destroy()
+            })
+          } else {
+            this.setData({ isPlaying: false })
+            wx.showToast({ title: '语音合成失败', icon: 'none' })
+          }
+        },
+        fail: () => {
+          this.setData({ isPlaying: false })
+          wx.showToast({ title: '语音合成失败', icon: 'none' })
+        }
+      })
+    } else {
+      // 降级：使用百度语音API（需要在微信公众平台配置域名）
+      this.playWithBaiduTTS(word)
+    }
+  },
+
+  playWithBaiduTTS(word) {
     const innerAudioContext = wx.createInnerAudioContext()
-    // 使用有道语音API
-    innerAudioContext.src = `https://dict.youdao.com/dictvoice?audio=${word}&type=2`
+    // 使用百度语音API（免费，无需配置域名）
+    innerAudioContext.src = `https://fanyi.baidu.com/gettts?lan=en&text=${encodeURIComponent(word)}&spd=3&source=web`
     innerAudioContext.play()
     
     innerAudioContext.onEnded(() => {
@@ -54,9 +92,10 @@ Page({
       innerAudioContext.destroy()
     })
     
-    innerAudioContext.onError(() => {
+    innerAudioContext.onError((err) => {
+      console.error('Audio error:', err)
       this.setData({ isPlaying: false })
-      wx.showToast({ title: '播放失败', icon: 'none' })
+      wx.showToast({ title: '音频播放失败，请检查网络', icon: 'none' })
       innerAudioContext.destroy()
     })
   },

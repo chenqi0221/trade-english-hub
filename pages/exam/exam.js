@@ -1,5 +1,17 @@
 const app = getApp()
-const indexData = require('../../data/index.json')
+
+// 内联考试数据，避免require问题
+const EXAM_DATA = {
+  exams: [
+    { id: 'cet4', name: '大学英语四级', icon: '📘', wordCount: 1500, color: '#4A90D9' },
+    { id: 'cet6', name: '大学英语六级', icon: '📗', wordCount: 1500, color: '#5CB85C' },
+    { id: 'ielts', name: '雅思', icon: '📕', wordCount: 500, color: '#F0AD4E' },
+    { id: 'toefl', name: '托福', icon: '📙', wordCount: 1500, color: '#D9534F' },
+    { id: 'gre', name: 'GRE', icon: '📓', wordCount: 500, color: '#6F42C1' },
+    { id: 'sat', name: 'SAT', icon: '📔', wordCount: 1500, color: '#17A2B8' },
+    { id: 'kaoyan', name: '考研英语', icon: '📚', wordCount: 1500, color: '#E83E8C' }
+  ]
+}
 
 Page({
   data: {
@@ -11,13 +23,15 @@ Page({
   },
 
   onLoad() {
+    console.log('Exam page onLoad')
     this.setData({
-      exams: indexData.exams
+      exams: EXAM_DATA.exams
     })
     this.loadStudyProgress()
   },
 
   onShow() {
+    console.log('Exam page onShow')
     this.loadStudyProgress()
   },
 
@@ -26,7 +40,8 @@ Page({
     let masteredWords = 0
     let totalWords = 0
     
-    this.data.exams.forEach(exam => {
+    const exams = this.data.exams || EXAM_DATA.exams
+    exams.forEach(exam => {
       const examProgress = progress[exam.id] || { mastered: 0 }
       masteredWords += examProgress.mastered || 0
       totalWords += exam.wordCount
@@ -40,6 +55,7 @@ Page({
 
   navigateToExamSelect(e) {
     const { id } = e.currentTarget.dataset
+    console.log('Navigate to exam:', id)
     wx.navigateTo({
       url: `/pages/exam-select/exam-select?id=${id}`
     })
