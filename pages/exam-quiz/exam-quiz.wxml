@@ -1,0 +1,48 @@
+<view class="container">
+  <!-- 结果页面 -->
+  <view class="result-page" wx:if="{{showResult}}">
+    <view class="result-icon">🎉</view>
+    <view class="result-title">测试完成</view>
+    <view class="result-score">{{score}} / {{words.length}}</view>
+    <view class="result-percent">{{Math.round(score / words.length * 100)}}%</view>
+    <view class="result-message">
+      {{score / words.length >= 0.8 ? '太棒了！继续保持！' : score / words.length >= 0.6 ? '不错，还有进步空间！' : '加油，多练习会更好！'}}
+    </view>
+    <view class="result-buttons">
+      <view class="btn btn-restart" bindtap="restartQuiz">重新测试</view>
+      <view class="btn btn-back" bindtap="goBack">返回</view>
+    </view>
+  </view>
+
+  <!-- 答题页面 -->
+  <view class="quiz-page" wx:else>
+    <!-- 进度条 -->
+    <view class="progress-bar">
+      <view class="progress-fill" style="width: {{progress}}%"></view>
+    </view>
+    <view class="progress-text">{{currentIndex + 1}} / {{words.length}}</view>
+
+    <!-- 题目 -->
+    <view class="question-section">
+      <view class="question-label">选择正确的单词</view>
+      <view class="question-meaning">{{words[currentIndex].meaning}}</view>
+    </view>
+
+    <!-- 选项 -->
+    <view class="options-section">
+      <view 
+        class="option {{answered && options[index] === words[currentIndex].word ? 'correct' : ''}} {{answered && selectedOption === index && options[index] !== words[currentIndex].word ? 'wrong' : ''}}"
+        wx:for="{{options}}"
+        wx:key="index"
+        data-index="{{index}}"
+        bindtap="selectOption"
+      >
+        <text class="option-letter">{{['A', 'B', 'C', 'D'][index]}}</text>
+        <text class="option-text">{{item}}</text>
+      </view>
+    </view>
+
+    <!-- 得分 -->
+    <view class="score-display">得分: {{score}}</view>
+  </view>
+</view>

@@ -255,3 +255,5 @@
   font-size: 36rpx;
   color: var(--text-light);
 }
+
+@import 'index-wxa-auto-dark.wxss'

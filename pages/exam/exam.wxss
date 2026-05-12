@@ -1,0 +1,113 @@
+.container {
+  padding: 20rpx;
+  padding-bottom: 40rpx;
+  background-color: #F5F5F5;
+  min-height: 100vh;
+}
+
+/* 顶部卡片 */
+.header-card {
+  background: linear-gradient(135deg, #1E5F8E, #2E7FB8);
+  margin: 0 10rpx 30rpx;
+  border-radius: 24rpx;
+  padding: 40rpx 30rpx;
+  color: white;
+  box-shadow: 0 8rpx 24rpx rgba(30, 95, 142, 0.3);
+}
+
+.header-title {
+  font-size: 36rpx;
+  font-weight: 600;
+  margin-bottom: 30rpx;
+  text-align: center;
+}
+
+.stats-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 16rpx;
+  padding: 24rpx 0;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.stat-number {
+  font-size: 48rpx;
+  font-weight: 700;
+  margin-bottom: 8rpx;
+}
+
+.stat-label {
+  font-size: 24rpx;
+  opacity: 0.85;
+}
+
+.stat-divider {
+  width: 2rpx;
+  height: 60rpx;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* 区域标题 */
+.section-title {
+  font-size: 32rpx;
+  font-weight: 600;
+  color: #333;
+  margin: 20rpx 10rpx 20rpx;
+  padding-left: 16rpx;
+  border-left: 8rpx solid #1E5F8E;
+}
+
+/* 考试卡片网格 */
+.exams-grid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10rpx;
+}
+
+/* 考试卡片 */
+.exam-card {
+  width: calc(50% - 20rpx);
+  margin: 10rpx;
+  background: #FFFFFF;
+  border-radius: 20rpx;
+  padding: 30rpx 20rpx;
+  text-align: center;
+  box-shadow: 0 4rpx 16rpx rgba(0, 0, 0, 0.06);
+  border: 2rpx solid transparent;
+  box-sizing: border-box;
+}
+
+.exam-card:active {
+  opacity: 0.8;
+}
+
+.exam-icon {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 20rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40rpx;
+  margin: 0 auto 16rpx;
+}
+
+.exam-name {
+  font-size: 28rpx;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 8rpx;
+}
+
+.exam-count {
+  font-size: 24rpx;
+  color: #666666;
+}

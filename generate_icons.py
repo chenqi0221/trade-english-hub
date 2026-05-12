@@ -86,6 +86,36 @@ def create_icon(filename, icon_type, color, size=81):
             ]
             draw.line(check_points, fill=color, width=3)
     
+    elif icon_type == 'exam':
+        # Draw exam/test icon - document with pencil
+        center = size // 2
+        if 'active' in filename:
+            # Filled document
+            doc_margin = margin + 3
+            draw.rectangle([doc_margin, doc_margin, size - doc_margin, size - doc_margin], fill=color, outline=color)
+            # White lines representing text
+            line_y_start = doc_margin + 12
+            for i in range(3):
+                y = line_y_start + i * 14
+                draw.line([(doc_margin + 10, y), (size - doc_margin - 10, y)], fill=(255, 255, 255, 255), width=2)
+            # Checkmark at bottom
+            check_y = line_y_start + 3 * 14 + 5
+            draw.line([(center - 8, check_y), (center - 2, check_y + 6)], fill=(255, 255, 255, 255), width=2)
+            draw.line([(center - 2, check_y + 6), (center + 8, check_y - 4)], fill=(255, 255, 255, 255), width=2)
+        else:
+            # Outline document
+            doc_margin = margin + 3
+            draw.rectangle([doc_margin, doc_margin, size - doc_margin, size - doc_margin], outline=color, width=3)
+            # Lines
+            line_y_start = doc_margin + 12
+            for i in range(3):
+                y = line_y_start + i * 14
+                draw.line([(doc_margin + 10, y), (size - doc_margin - 10, y)], fill=color, width=2)
+            # Checkmark
+            check_y = line_y_start + 3 * 14 + 5
+            draw.line([(center - 8, check_y), (center - 2, check_y + 6)], fill=color, width=2)
+            draw.line([(center - 2, check_y + 6), (center + 8, check_y - 4)], fill=color, width=2)
+    
     elif icon_type == 'profile':
         # Draw user icon
         center = size // 2
@@ -126,6 +156,8 @@ def main():
         ('study-active.png', 'study', blue),
         ('practice.png', 'practice', gray),
         ('practice-active.png', 'practice', blue),
+        ('exam.png', 'exam', gray),
+        ('exam-active.png', 'exam', blue),
         ('profile.png', 'profile', gray),
         ('profile-active.png', 'profile', blue),
     ]

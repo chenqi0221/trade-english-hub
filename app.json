@@ -3,6 +3,7 @@
     "pages/index/index",
     "pages/study/study",
     "pages/practice/practice",
+    "pages/exam/exam",
     "pages/profile/profile",
     "pages/word-practice/word-practice",
     "pages/pronunciation/pronunciation",
@@ -10,7 +11,12 @@
     "pages/scene-practice/scene-practice",
     "pages/word-detail/word-detail",
     "pages/error-book/error-book",
-    "pages/favorites/favorites"
+    "pages/favorites/favorites",
+    "pages/exam-select/exam-select",
+    "pages/flashcard/flashcard",
+    "pages/exam-typing/exam-typing",
+    "pages/dictation/dictation",
+    "pages/exam-quiz/exam-quiz"
   ],
   "tabBar": {
     "color": "#999999",
@@ -35,6 +41,12 @@
         "text": "练习",
         "iconPath": "images/practice.png",
         "selectedIconPath": "images/practice-active.png"
+      },
+      {
+        "pagePath": "pages/exam/exam",
+        "text": "考试",
+        "iconPath": "images/exam.png",
+        "selectedIconPath": "images/exam-active.png"
       },
       {
         "pagePath": "pages/profile/profile",

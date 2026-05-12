@@ -1,0 +1,48 @@
+<view class="container">
+  <!-- 进度条 -->
+  <view class="progress-bar">
+    <view class="progress-fill" style="width: {{progress}}%"></view>
+  </view>
+  <view class="progress-text">{{currentIndex + 1}} / {{words.length}}</view>
+
+  <!-- 统计 -->
+  <view class="stats-row">
+    <view class="stat-item">
+      <text class="stat-num correct">{{correctCount}}</text>
+      <text class="stat-label">正确</text>
+    </view>
+    <view class="stat-item">
+      <text class="stat-num wrong">{{wrongCount}}</text>
+      <text class="stat-label">错误</text>
+    </view>
+    <view class="stat-item">
+      <text class="stat-num streak">{{streak}}</text>
+      <text class="stat-label">连击</text>
+    </view>
+  </view>
+
+  <!-- 单词显示区 -->
+  <view class="word-display">
+    <view class="meaning-text">{{words[currentIndex].meaning}}</view>
+    <view class="hint-text" wx:if="{{showAnswer}}">
+      答案: <text class="answer-word">{{words[currentIndex].word}}</text>
+    </view>
+  </view>
+
+  <!-- 输入区 -->
+  <view class="input-section">
+    <input 
+      class="word-input {{isCorrect ? 'correct' : ''}} {{isWrong ? 'wrong' : ''}}"
+      type="text"
+      value="{{userInput}}"
+      placeholder="输入单词..."
+      bindinput="onInput"
+      confirm-type="done"
+      bindconfirm="checkAnswer"
+    />
+    <view class="btn-check" bindtap="checkAnswer">确认</view>
+  </view>
+
+  <!-- 跳过按钮 -->
+  <view class="skip-btn" bindtap="skipWord">跳过</view>
+</view>

@@ -1,0 +1,49 @@
+<view class="container">
+  <!-- 考试信息头部 -->
+  <view class="exam-header" style="background: linear-gradient(135deg, {{examInfo.color}}, {{examInfo.color}}DD)">
+    <view class="exam-icon">{{examInfo.icon}}</view>
+    <view class="exam-name">{{examInfo.name}}</view>
+    <view class="exam-count">{{examInfo.wordCount}}个单词</view>
+  </view>
+
+  <!-- 学习模式选择 -->
+  <view class="modes-section">
+    <view class="section-title">学习模式</view>
+    
+    <view class="mode-card" bindtap="navigateToFlashcard">
+      <view class="mode-icon" style="background: {{examInfo.color}}15; color: {{examInfo.color}}">📚</view>
+      <view class="mode-info">
+        <text class="mode-name">闪卡模式</text>
+        <text class="mode-desc">正面单词，背面释义，点击翻转</text>
+      </view>
+      <view class="mode-arrow">›</view>
+    </view>
+
+    <view class="mode-card" bindtap="navigateToTyping">
+      <view class="mode-icon" style="background: {{examInfo.color}}15; color: {{examInfo.color}}">⌨️</view>
+      <view class="mode-info">
+        <text class="mode-name">打字练习</text>
+        <text class="mode-desc">看释义输入单词，强化记忆</text>
+      </view>
+      <view class="mode-arrow">›</view>
+    </view>
+
+    <view class="mode-card" bindtap="navigateToDictation">
+      <view class="mode-icon" style="background: {{examInfo.color}}15; color: {{examInfo.color}}">🎧</view>
+      <view class="mode-info">
+        <text class="mode-name">听写模式</text>
+        <text class="mode-desc">听发音写单词，训练听力</text>
+      </view>
+      <view class="mode-arrow">›</view>
+    </view>
+
+    <view class="mode-card" bindtap="navigateToQuiz">
+      <view class="mode-icon" style="background: {{examInfo.color}}15; color: {{examInfo.color}}">✍️</view>
+      <view class="mode-info">
+        <text class="mode-name">测试模式</text>
+        <text class="mode-desc">选择题测试，检验学习成果</text>
+      </view>
+      <view class="mode-arrow">›</view>
+    </view>
+  </view>
+</view>

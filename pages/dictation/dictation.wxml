@@ -1,0 +1,40 @@
+<view class="container">
+  <!-- 进度条 -->
+  <view class="progress-bar">
+    <view class="progress-fill" style="width: {{progress}}%"></view>
+  </view>
+  <view class="progress-text">{{currentIndex + 1}} / {{words.length}}</view>
+
+  <!-- 播放按钮 -->
+  <view class="play-section">
+    <view class="play-btn {{isPlaying ? 'playing' : ''}}" bindtap="playWord">
+      <text class="play-icon">{{isPlaying ? '🔊' : '▶️'}}</text>
+      <text class="play-text">{{isPlaying ? '播放中...' : '点击播放'}}</text>
+    </view>
+    <view class="play-hint">听发音，写出单词</view>
+  </view>
+
+  <!-- 答案提示 -->
+  <view class="answer-hint" wx:if="{{showAnswer}}">
+    正确答案: <text class="answer-word">{{words[currentIndex].word}}</text>
+  </view>
+
+  <!-- 输入区 -->
+  <view class="input-section">
+    <input 
+      class="word-input {{isCorrect ? 'correct' : ''}} {{isWrong ? 'wrong' : ''}}"
+      type="text"
+      value="{{userInput}}"
+      placeholder="输入听到的单词..."
+      bindinput="onInput"
+      confirm-type="done"
+      bindconfirm="checkAnswer"
+    />
+  </view>
+
+  <!-- 操作按钮 -->
+  <view class="action-buttons">
+    <view class="btn btn-skip" bindtap="skipWord">跳过</view>
+    <view class="btn btn-check" bindtap="checkAnswer">确认</view>
+  </view>
+</view>
