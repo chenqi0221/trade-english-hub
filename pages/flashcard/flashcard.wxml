@@ -1,42 +1,50 @@
 <view class="container">
-  <!-- 进度条 -->
-  <view class="progress-bar">
-    <view class="progress-fill" style="width: {{progress}}%"></view>
+  <!-- 加载中 -->
+  <view class="loading-state" wx:if="{{isLoading}}">
+    <view class="loading-text">加载词库中...</view>
   </view>
-  <view class="progress-text">{{currentIndex + 1}} / {{words.length}}</view>
 
-  <!-- 闪卡 -->
-  <view class="card-container" bindtap="flipCard">
-    <view class="flashcard {{isFlipped ? 'flipped' : ''}}">
-      <!-- 正面 -->
-      <view class="card-face card-front">
-        <text class="word">{{currentWord.word}}</text>
-        <text class="phonetic" wx:if="{{currentWord.phonetic}}">{{currentWord.phonetic}}</text>
-        <text class="hint">点击翻转</text>
-      </view>
-      <!-- 背面 -->
-      <view class="card-face card-back">
-        <text class="back-word">{{currentWord.word}}</text>
-        <view class="meaning">{{currentWord.meaning}}</view>
-        <view class="phrases" wx:if="{{currentWord.phrases.length > 0}}">
-          <view class="phrase-item" wx:for="{{currentWord.phrases}}" wx:key="index">
-            <text class="phrase">{{item.phrase}}</text>
-            <text class="phrase-trans">{{item.translation}}</text>
+  <!-- 主要内容 -->
+  <block wx:else>
+    <!-- 进度条 -->
+    <view class="progress-bar">
+      <view class="progress-fill" style="width: {{progress}}%"></view>
+    </view>
+    <view class="progress-text">{{currentIndex + 1}} / {{words.length}}</view>
+
+    <!-- 闪卡 -->
+    <view class="card-container" bindtap="flipCard">
+      <view class="flashcard {{isFlipped ? 'flipped' : ''}}">
+        <!-- 正面 -->
+        <view class="card-face card-front">
+          <text class="word">{{currentWord.word}}</text>
+          <text class="phonetic" wx:if="{{currentWord.phonetic}}">{{currentWord.phonetic}}</text>
+          <text class="hint">点击翻转</text>
+        </view>
+        <!-- 背面 -->
+        <view class="card-face card-back">
+          <text class="back-word">{{currentWord.word}}</text>
+          <view class="meaning">{{currentWord.meaning}}</view>
+          <view class="phrases" wx:if="{{currentWord.phrases.length > 0}}">
+            <view class="phrase-item" wx:for="{{currentWord.phrases}}" wx:key="index">
+              <text class="phrase">{{item.phrase}}</text>
+              <text class="phrase-trans">{{item.translation}}</text>
+            </view>
           </view>
         </view>
       </view>
     </view>
-  </view>
 
-  <!-- 操作按钮 -->
-  <view class="action-buttons">
-    <view class="btn btn-unknown" bindtap="markUnknown">
-      <text class="btn-icon">✗</text>
-      <text class="btn-text">不认识</text>
+    <!-- 操作按钮 -->
+    <view class="action-buttons">
+      <view class="btn btn-unknown" bindtap="markUnknown">
+        <text class="btn-icon">✗</text>
+        <text class="btn-text">不认识</text>
+      </view>
+      <view class="btn btn-known" bindtap="markKnown">
+        <text class="btn-icon">✓</text>
+        <text class="btn-text">认识</text>
+      </view>
     </view>
-    <view class="btn btn-known" bindtap="markKnown">
-      <text class="btn-icon">✓</text>
-      <text class="btn-text">认识</text>
-    </view>
-  </view>
+  </block>
 </view>

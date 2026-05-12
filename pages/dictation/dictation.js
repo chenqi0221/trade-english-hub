@@ -1,4 +1,4 @@
-const vocabData = require('../../utils/vocabData.js')
+const vocabLoader = require('../../utils/vocabLoader.js')
 
 Page({
   data: {
@@ -12,7 +12,8 @@ Page({
     correctCount: 0,
     progress: 0,
     showAnswer: false,
-    isPlaying: false
+    isPlaying: false,
+    isLoading: true
   },
 
   onLoad(options) {
@@ -22,18 +23,17 @@ Page({
   },
 
   loadWords(examId) {
-    try {
-      const data = vocabData[examId] || []
-      if (!data.length) {
-        wx.showToast({ title: '暂无该词库', icon: 'none' })
+    this.setData({ isLoading: true })
+    vocabLoader.load(examId, (err, data) => {
+      this.setData({ isLoading: false })
+      if (err || !data || !data.length) {
+        wx.showToast({ title: '加载词库失败', icon: 'none' })
+        console.error('词库加载失败:', err)
         return
       }
       const words = this.shuffleArray(data.slice(0, 30))
       this.setData({ words, currentWord: words[0], progress: 0 })
-    } catch (e) {
-      wx.showToast({ title: '加载词库失败', icon: 'none' })
-      console.error('词库加载失败:', e)
-    }
+    })
   },
 
   shuffleArray(arr) {
@@ -52,7 +52,6 @@ Page({
 
     this.setData({ isPlaying: true })
 
-    // 使用微信语音合成API
     const plugin = requirePlugin('WechatSI')
     if (plugin) {
       plugin.textToSpeech({

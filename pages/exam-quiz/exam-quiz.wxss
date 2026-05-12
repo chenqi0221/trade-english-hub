@@ -187,3 +187,16 @@
   font-weight: 600;
   margin-top: 40rpx;
 }
+
+/* 加载状态 */
+.loading-state {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+}
+
+.loading-text {
+  font-size: 32rpx;
+  color: #666;
+}
