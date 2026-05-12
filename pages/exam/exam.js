@@ -27,6 +27,7 @@ Page({
     this.setData({
       exams: EXAM_DATA.exams
     })
+    console.log('Exams set:', this.data.exams)
     this.loadStudyProgress()
   },
 
@@ -51,6 +52,7 @@ Page({
       'studyProgress.totalWords': totalWords,
       'studyProgress.masteredWords': masteredWords
     })
+    console.log('Study progress loaded:', this.data.studyProgress)
   },
 
   navigateToExamSelect(e) {
