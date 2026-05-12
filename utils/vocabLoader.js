@@ -1,28 +1,39 @@
+// 词库加载器
+// 使用文件系统读取JSON词库，避免大文件内联导致编译超时
 
-// 词库加载器 - 使用wx.request加载本地JSON
+const fsm = wx.getFileSystemManager()
+
 const vocabLoader = {
+  // 缓存已加载的词库
   cache: {},
 
+  // 加载指定考试的词库
   load(examId, callback) {
+    // 检查缓存
     if (this.cache[examId]) {
       callback && callback(null, this.cache[examId])
       return
     }
 
-    wx.request({
-      url: '/data/' + examId + '.json',
-      header: { 'Content-Type': 'application/json' },
+    // 微信小程序中读取项目内文件的正确路径
+    const filePath = `data/${examId}.json`
+
+    // 使用文件系统管理器读取本地JSON文件
+    fsm.readFile({
+      filePath: filePath,
+      encoding: 'utf8',
       success: (res) => {
-        if (res.statusCode === 200 && res.data) {
-          const data = typeof res.data === 'string' ? JSON.parse(res.data) : res.data
+        try {
+          const data = JSON.parse(res.data)
           this.cache[examId] = data
           callback && callback(null, data)
-        } else {
-          callback && callback(new Error('加载失败: ' + res.statusCode), null)
+        } catch (e) {
+          console.error('JSON parse error:', e)
+          callback && callback(e, null)
         }
       },
       fail: (err) => {
-        console.error('词库加载失败:', err)
+        console.error('Read file failed:', err)
         callback && callback(err, null)
       }
     })
