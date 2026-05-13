@@ -1,7 +1,7 @@
-const app = getApp()
+var app = getApp()
 
 // 内联考试数据，避免require问题
-const EXAM_DATA = {
+var EXAM_DATA = {
   exams: [
     { id: 'cet4', name: '大学英语四级', icon: '📘', wordCount: 1500, color: '#4A90D9' },
     { id: 'cet6', name: '大学英语六级', icon: '📗', wordCount: 1500, color: '#5CB85C' },
@@ -22,7 +22,7 @@ Page({
     }
   },
 
-  onLoad() {
+  onLoad: function() {
     console.log('Exam page onLoad')
     this.setData({
       exams: EXAM_DATA.exams
@@ -31,40 +31,59 @@ Page({
     this.loadStudyProgress()
   },
 
-  onShow() {
+  onShow: function() {
     console.log('Exam page onShow')
     this.loadStudyProgress()
   },
 
-  loadStudyProgress() {
-    const progress = wx.getStorageSync('examStudyProgress') || {}
-    let masteredWords = 0
-    let totalWords = 0
-    
-    const exams = this.data.exams || EXAM_DATA.exams
-    exams.forEach(exam => {
-      const examProgress = progress[exam.id] || { mastered: 0 }
-      masteredWords += examProgress.mastered || 0
-      totalWords += exam.wordCount
-    })
-    
-    this.setData({
-      'studyProgress.totalWords': totalWords,
-      'studyProgress.masteredWords': masteredWords
-    })
-    console.log('Study progress loaded:', this.data.studyProgress)
+  loadStudyProgress: function() {
+    try {
+      var progress = wx.getStorageSync('studyProgress') || {}
+      
+      // 统一读取 masteredWords
+      var masteredWords = 0
+      
+      if (typeof progress.masteredWords === 'number') {
+        // 新格式
+        masteredWords = progress.masteredWords
+      } else {
+        // 旧格式或空数据
+        // 尝试从各个考试汇总
+        for (var key in progress) {
+          if (progress[key] && typeof progress[key].mastered === 'number') {
+            masteredWords += progress[key].mastered
+          }
+        }
+      }
+      
+      // 计算总单词数
+      var totalWords = 0
+      var exams = this.data.exams || EXAM_DATA.exams
+      for (var i = 0; i < exams.length; i++) {
+        totalWords += exams[i].wordCount
+      }
+      
+      this.setData({
+        'studyProgress.totalWords': totalWords,
+        'studyProgress.masteredWords': masteredWords
+      })
+      
+      console.log('Study progress loaded:', this.data.studyProgress)
+    } catch (err) {
+      console.error('加载学习进度失败:', err)
+    }
   },
 
-  navigateToExamSelect(e) {
-    const { id } = e.currentTarget.dataset
+  navigateToExamSelect: function(e) {
+    var id = e.currentTarget.dataset.id
     console.log('Navigate to exam:', id)
     if (!id) {
       wx.showToast({ title: '考试ID为空', icon: 'none' })
       return
     }
     wx.navigateTo({
-      url: `/pages/exam-select/exam-select?id=${id}`,
-      fail: (err) => {
+      url: '/pages/exam-select/exam-select?id=' + id,
+      fail: function(err) {
         console.error('navigateTo exam-select failed:', err)
         wx.showToast({ title: '页面跳转失败', icon: 'none' })
       }

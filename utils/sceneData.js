@@ -3,7 +3,7 @@
  * 模拟真实外贸沟通场景
  */
 
-const SCENES = [
+var SCENES = [
   {
     id: 'customer_dev',
     name: '客户开发',
@@ -271,7 +271,7 @@ const SCENES = [
 ]
 
 // 常用句型库
-const COMMON_PHRASES = {
+var COMMON_PHRASES = {
   greeting: [
     { en: 'Nice to meet you.', cn: '很高兴见到您。' },
     { en: 'It\'s a pleasure to connect with you.', cn: '很高兴与您联系。' },
@@ -299,7 +299,12 @@ function getAllScenes() {
 }
 
 function getSceneById(id) {
-  return SCENES.find(scene => scene.id === id)
+  for (var i = 0; i < SCENES.length; i++) {
+    if (SCENES[i].id === id) {
+      return SCENES[i]
+    }
+  }
+  return null
 }
 
 function getCommonPhrases(category) {
@@ -311,10 +316,10 @@ function getAllPhrases() {
 }
 
 module.exports = {
-  SCENES,
-  COMMON_PHRASES,
-  getAllScenes,
-  getSceneById,
-  getCommonPhrases,
-  getAllPhrases
+  SCENES: SCENES,
+  COMMON_PHRASES: COMMON_PHRASES,
+  getAllScenes: getAllScenes,
+  getSceneById: getSceneById,
+  getCommonPhrases: getCommonPhrases,
+  getAllPhrases: getAllPhrases
 }

@@ -1,17 +1,38 @@
-const wordData = require('../../utils/wordData.js')
-const sceneData = require('../../utils/sceneData.js')
+var wordData = require('../../utils/wordData.js')
+var sceneData = require('../../utils/sceneData.js')
+var audioManager = require('../../utils/audioManager.js')
+var quotes = require('../../utils/quotes.js')
 
 Page({
   data: {
-    userInfo: null,
     studyProgress: {
       totalWords: 0,
       masteredWords: 0,
       todayStudyTime: 0,
       streakDays: 0
     },
-    dailyWord: null,
-    dailySentence: null,
+    dailyWord: {
+      word: 'loading...',
+      phonetic: '',
+      meaning: '加载中...',
+      example: '',
+      date: ''
+    },
+    dailySentence: {
+      text: 'Loading...',
+      chinese: '加载中...',
+      scene: '',
+      date: ''
+    },
+    greeting: {
+      text: '你好，外贸人 👋',
+      sub: '坚持学习，成单更容易'
+    },
+    dailyQuote: {
+      text: '',
+      chinese: '',
+      author: ''
+    },
     moduleList: [
       {
         id: 'word',
@@ -48,99 +69,196 @@ Page({
     ]
   },
 
-  onLoad() {
+  onLoad: function() {
+    this.loadGreeting()
     this.loadDailyContent()
     this.loadStudyProgress()
   },
 
-  onShow() {
+  onShow: function() {
     this.loadStudyProgress()
   },
 
-  // 加载每日推荐内容
-  loadDailyContent() {
-    const dailyWord = wordData.getRandomWord()
-    const scenes = sceneData.getAllScenes()
-    const randomScene = scenes[Math.floor(Math.random() * scenes.length)]
-    const randomDialog = randomScene.dialogs[Math.floor(Math.random() * randomScene.dialogs.length)]
+  onUnload: function() {
+    audioManager.destroy()
+  },
+
+  loadGreeting: function() {
+    try {
+      var homeContent = quotes.getHomeContent()
+      this.setData({
+        greeting: {
+          text: homeContent.greeting,
+          sub: homeContent.subTitle
+        },
+        dailyQuote: homeContent.quote
+      })
+    } catch (err) {
+      console.error('加载问候语失败:', err)
+    }
+  },
+
+  loadDailyContent: function() {
+    try {
+      var dailyWord = wordData.getRandomWord()
+      var scenes = sceneData.getAllScenes()
+      
+      if (!scenes || scenes.length === 0) {
+        return
+      }
+      
+      var randomScene = scenes[Math.floor(Math.random() * scenes.length)]
+      
+      if (!randomScene || !randomScene.dialogs || randomScene.dialogs.length === 0) {
+        return
+      }
+      
+      var randomDialog = randomScene.dialogs[Math.floor(Math.random() * randomScene.dialogs.length)]
+      
+      if (!dailyWord) {
+        return
+      }
+      
+      this.setData({
+        dailyWord: {
+          word: dailyWord.word || 'unknown',
+          phonetic: dailyWord.phonetic || '',
+          meaning: dailyWord.meaning || '',
+          example: dailyWord.example || '',
+          date: this.formatDate(new Date())
+        },
+        dailySentence: {
+          text: randomDialog.text || '',
+          chinese: randomDialog.chinese || '',
+          scene: randomScene.name || '',
+          date: this.formatDate(new Date())
+        }
+      })
+    } catch (err) {
+      console.error('加载每日内容失败:', err)
+    }
+  },
+
+  loadStudyProgress: function() {
+    try {
+      var progress = wx.getStorageSync('studyProgress') || {}
+      
+      var masteredWords = 0
+      var streakDays = 1
+      var todayStudyTime = 0
+      
+      if (typeof progress.masteredWords === 'number') {
+        masteredWords = progress.masteredWords
+        streakDays = progress.streakDays || 1
+        todayStudyTime = progress.todayStudyTime || 0
+      } else {
+        for (var key in progress) {
+          if (progress[key] && typeof progress[key].mastered === 'number') {
+            masteredWords += progress[key].mastered
+          }
+        }
+      }
+      
+      this.setData({
+        studyProgress: {
+          totalWords: masteredWords + 100,
+          masteredWords: masteredWords,
+          todayStudyTime: todayStudyTime,
+          streakDays: streakDays
+        }
+      })
+    } catch (err) {
+      console.error('加载学习进度失败:', err)
+    }
+  },
+
+  formatDate: function(date) {
+    try {
+      var month = date.getMonth() + 1
+      var day = date.getDate()
+      var weekDays = ['日', '一', '二', '三', '四', '五', '六']
+      var weekDay = weekDays[date.getDay()]
+      return month + '月' + day + '日 周' + weekDay
+    } catch (err) {
+      return ''
+    }
+  },
+
+  navigateToModule: function(e) {
+    var page = e.currentTarget.dataset.page
+    if (page) {
+      wx.navigateTo({ url: page })
+    }
+  },
+
+  viewDailyWord: function() {
+    var dailyWord = this.data.dailyWord
+    if (dailyWord && dailyWord.word && dailyWord.word !== 'loading...') {
+      wx.navigateTo({
+        url: '/pages/word-detail/word-detail?word=' + dailyWord.word
+      })
+    }
+  },
+
+  playDailyAudio: function() {
+    var dailySentence = this.data.dailySentence
+    console.log('playDailyAudio called, dailySentence:', dailySentence)
     
-    this.setData({
-      dailyWord: {
-        ...dailyWord,
-        date: this.formatDate(new Date())
-      },
-      dailySentence: {
-        text: randomDialog.text,
-        chinese: randomDialog.chinese,
-        scene: randomScene.name,
-        date: this.formatDate(new Date())
+    if (!dailySentence || !dailySentence.text || dailySentence.text === 'Loading...') {
+      wx.showToast({ title: '暂无内容可播放', icon: 'none' })
+      return
+    }
+
+    var text = dailySentence.text.trim()
+    console.log('Playing audio for text:', text)
+    
+    var self = this
+    
+    // 使用有道智云 TTS 播放
+    var self = this
+    audioManager.playYoudaoAPI(text, {
+      onError: function(err) {
+        console.error('有道智云TTS播放失败，尝试有道词典:', err)
+        // 如果有道智云失败，回退到有道词典 TTS
+        audioManager.playYoudao(text, {
+          onError: function(err2) {
+            console.error('有道词典TTS也失败:', err2)
+            wx.showToast({ title: '音频播放失败', icon: 'none' })
+          }
+        })
       }
     })
   },
 
-  // 加载学习进度
-  loadStudyProgress() {
-    const progress = wx.getStorageSync('studyProgress') || {
-      totalWords: 0,
-      masteredWords: 0,
-      todayStudyTime: 0,
-      streakDays: 1
+  playQuoteAudio: function() {
+    var dailyQuote = this.data.dailyQuote
+    if (!dailyQuote || !dailyQuote.text) {
+      wx.showToast({ title: '暂无内容可播放', icon: 'none' })
+      return
     }
-    this.setData({ studyProgress: progress })
+
+    audioManager.playYoudaoAPI(dailyQuote.text, {
+      onError: function(err) {
+        console.error('有道智云名言播放失败，尝试有道词典:', err)
+        // 如果有道智云失败，回退到有道词典 TTS
+        audioManager.playYoudao(dailyQuote.text, {
+          onError: function(err2) {
+            console.error('有道词典名言也失败:', err2)
+            wx.showToast({ title: '音频播放失败', icon: 'none' })
+          }
+        })
+      }
+    })
   },
 
-  // 格式化日期
-  formatDate(date) {
-    const month = date.getMonth() + 1
-    const day = date.getDate()
-    const weekDays = ['日', '一', '二', '三', '四', '五', '六']
-    const weekDay = weekDays[date.getDay()]
-    return `${month}月${day}日 周${weekDay}`
-  },
-
-  // 跳转到模块页面
-  navigateToModule(e) {
-    const { page } = e.currentTarget.dataset
-    wx.navigateTo({ url: page })
-  },
-
-  // 查看每日单词详情
-  viewDailyWord() {
-    if (this.data.dailyWord) {
-      wx.navigateTo({
-        url: `/pages/word-detail/word-detail?word=${this.data.dailyWord.word}`
-      })
-    }
-  },
-
-  // 播放每日句子音频
-  playDailyAudio() {
-    if (this.data.dailySentence) {
-      const innerAudioContext = wx.createInnerAudioContext()
-      // 使用微信语音合成
-      wx.request({
-        url: 'https://dict.youdao.com/dictvoice',
-        data: {
-          audio: this.data.dailySentence.text,
-          type: 2
-        },
-        success: () => {
-          innerAudioContext.src = `https://dict.youdao.com/dictvoice?audio=${encodeURIComponent(this.data.dailySentence.text)}&type=2`
-          innerAudioContext.play()
-        }
-      })
-    }
-  },
-
-  // 开始学习
-  startLearning() {
+  startLearning: function() {
     wx.switchTab({
       url: '/pages/study/study'
     })
   },
 
-  // 下拉刷新
-  onPullDownRefresh() {
+  onPullDownRefresh: function() {
+    this.loadGreeting()
     this.loadDailyContent()
     this.loadStudyProgress()
     wx.stopPullDownRefresh()

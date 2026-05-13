@@ -3,7 +3,7 @@
  * 整合自 qwerty-learner 商务英语词库 + 外贸专业术语
  */
 
-const TRADE_CATEGORIES = {
+var TRADE_CATEGORIES = {
   CUSTOMER_DEVELOPMENT: {
     id: 'customer_dev',
     name: '客户开发',
@@ -55,7 +55,7 @@ const TRADE_CATEGORIES = {
 }
 
 // BEC商务英语核心词汇 + 外贸专业术语
-const WORD_LIST = [
+var WORD_LIST = [
   // 客户开发
   {
     word: 'prospect',
@@ -387,12 +387,22 @@ const WORD_LIST = [
 
 // 获取分类列表
 function getCategories() {
-  return Object.values(TRADE_CATEGORIES)
+  var result = []
+  for (var key in TRADE_CATEGORIES) {
+    result.push(TRADE_CATEGORIES[key])
+  }
+  return result
 }
 
 // 根据分类获取单词
 function getWordsByCategory(categoryId) {
-  return WORD_LIST.filter(word => word.category === categoryId)
+  var result = []
+  for (var i = 0; i < WORD_LIST.length; i++) {
+    if (WORD_LIST[i].category === categoryId) {
+      result.push(WORD_LIST[i])
+    }
+  }
+  return result
 }
 
 // 获取所有单词
@@ -402,38 +412,50 @@ function getAllWords() {
 
 // 根据难度获取单词
 function getWordsByDifficulty(difficulty) {
-  return WORD_LIST.filter(word => word.difficulty === difficulty)
+  var result = []
+  for (var i = 0; i < WORD_LIST.length; i++) {
+    if (WORD_LIST[i].difficulty === difficulty) {
+      result.push(WORD_LIST[i])
+    }
+  }
+  return result
 }
 
 // 搜索单词
 function searchWords(keyword) {
-  const lowerKeyword = keyword.toLowerCase()
-  return WORD_LIST.filter(word => 
-    word.word.toLowerCase().includes(lowerKeyword) ||
-    word.meaning.includes(keyword)
-  )
+  var lowerKeyword = keyword.toLowerCase()
+  var result = []
+  for (var i = 0; i < WORD_LIST.length; i++) {
+    var word = WORD_LIST[i]
+    if (word.word.toLowerCase().indexOf(lowerKeyword) >= 0 ||
+        word.meaning.indexOf(keyword) >= 0) {
+      result.push(word)
+    }
+  }
+  return result
 }
 
 // 获取随机单词（用于每日推荐）
 function getRandomWord() {
-  const index = Math.floor(Math.random() * WORD_LIST.length)
+  var index = Math.floor(Math.random() * WORD_LIST.length)
   return WORD_LIST[index]
 }
 
 // 获取今日单词列表（用于每日学习）
-function getDailyWords(count = 10) {
-  const shuffled = [...WORD_LIST].sort(() => 0.5 - Math.random())
+function getDailyWords(count) {
+  count = count || 10
+  var shuffled = WORD_LIST.slice().sort(function() { return 0.5 - Math.random() })
   return shuffled.slice(0, count)
 }
 
 module.exports = {
-  TRADE_CATEGORIES,
-  WORD_LIST,
-  getCategories,
-  getWordsByCategory,
-  getAllWords,
-  getWordsByDifficulty,
-  searchWords,
-  getRandomWord,
-  getDailyWords
+  TRADE_CATEGORIES: TRADE_CATEGORIES,
+  WORD_LIST: WORD_LIST,
+  getCategories: getCategories,
+  getWordsByCategory: getWordsByCategory,
+  getAllWords: getAllWords,
+  getWordsByDifficulty: getWordsByDifficulty,
+  searchWords: searchWords,
+  getRandomWord: getRandomWord,
+  getDailyWords: getDailyWords
 }

@@ -3,8 +3,8 @@
   <view class="header-card">
     <view class="header-content">
       <view class="greeting">
-        <text class="greeting-text">早安，外贸人 👋</text>
-        <text class="greeting-sub">坚持学习，成单更容易</text>
+        <text class="greeting-text">{{greeting.text}}</text>
+        <text class="greeting-sub">{{greeting.sub}}</text>
       </view>
       <view class="stats-row">
         <view class="stat-item">
@@ -19,6 +19,22 @@
           <text class="stat-number">{{studyProgress.todayStudyTime}}</text>
           <text class="stat-label">今日分钟</text>
         </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 每日名言 -->
+  <view class="quote-section" wx:if="{{dailyQuote.text}}">
+    <view class="quote-card">
+      <view class="quote-header">
+        <text class="quote-tag">💡 每日一句</text>
+        <text class="quote-author" wx:if="{{dailyQuote.author}}">— {{dailyQuote.author}}</text>
+      </view>
+      <text class="quote-text">{{dailyQuote.text}}</text>
+      <text class="quote-chinese">{{dailyQuote.chinese}}</text>
+      <view class="quote-audio-btn" bindtap="playQuoteAudio">
+        <text class="audio-icon">🔊</text>
+        <text class="audio-text">朗读</text>
       </view>
     </view>
   </view>

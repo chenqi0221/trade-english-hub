@@ -23,9 +23,14 @@
         </view>
         <!-- 背面 -->
         <view class="card-face card-back">
-          <text class="back-word">{{currentWord.word}}</text>
-          <view class="meaning">{{currentWord.meaning}}</view>
-          <view class="phrases" wx:if="{{currentWord.phrases.length > 0}}">
+        <view class="audio-btn" catchtap="playWordAudio">
+          <text class="audio-icon">🔊</text>
+          <text class="audio-text">发音</text>
+        </view>
+        <text class="back-word">{{currentWord.word}}</text>
+        <text class="phonetic">{{currentWord.phonetic}}</text>
+        <view class="meaning">{{currentWord.meaning}}</view>
+        <view class="phrases" wx:if="{{currentWord.phrases.length > 0}}">
             <view class="phrase-item" wx:for="{{currentWord.phrases}}" wx:key="index">
               <text class="phrase">{{item.phrase}}</text>
               <text class="phrase-trans">{{item.translation}}</text>

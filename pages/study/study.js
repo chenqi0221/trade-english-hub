@@ -1,4 +1,4 @@
-const wordData = require('../../utils/wordData.js')
+var wordData = require('../../utils/wordData.js')
 
 Page({
   data: {
@@ -13,57 +13,57 @@ Page({
     recentErrors: []
   },
 
-  onLoad() {
+  onLoad: function() {
     this.loadData()
   },
 
-  onShow() {
+  onShow: function() {
     this.loadData()
   },
 
-  loadData() {
-    const categories = wordData.getCategories()
-    const todayWords = wordData.getDailyWords(5)
-    const progress = wx.getStorageSync('studyProgress') || {
+  loadData: function() {
+    var categories = wordData.getCategories()
+    var todayWords = wordData.getDailyWords(5)
+    var progress = wx.getStorageSync('studyProgress') || {
       totalWords: 0,
       masteredWords: 0,
       todayStudyTime: 0,
       streakDays: 0
     }
-    const errorWords = wx.getStorageSync('errorWords') || []
+    var errorWords = wx.getStorageSync('errorWords') || []
 
     this.setData({
-      categories,
-      todayWords,
+      categories: categories,
+      todayWords: todayWords,
       studyProgress: progress,
       recentErrors: errorWords.slice(0, 5)
     })
   },
 
   // 跳转到单词练习
-  goToWordPractice() {
+  goToWordPractice: function() {
     wx.navigateTo({
       url: '/pages/word-practice/word-practice'
     })
   },
 
   // 跳转到发音纠正
-  goToPronunciation() {
+  goToPronunciation: function() {
     wx.navigateTo({
       url: '/pages/pronunciation/pronunciation'
     })
   },
 
   // 查看单词详情
-  viewWordDetail(e) {
-    const { word } = e.currentTarget.dataset
+  viewWordDetail: function(e) {
+    var word = e.currentTarget.dataset.word
     wx.navigateTo({
-      url: `/pages/word-detail/word-detail?word=${word}`
+      url: '/pages/word-detail/word-detail?word=' + word
     })
   },
 
   // 跳转到错题本
-  goToErrorBook() {
+  goToErrorBook: function() {
     wx.navigateTo({
       url: '/pages/error-book/error-book'
     })

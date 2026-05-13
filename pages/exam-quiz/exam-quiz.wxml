@@ -29,8 +29,12 @@
       </view>
       <view class="progress-text">{{currentIndex + 1}} / {{words.length}}</view>
 
-      <!-- 题目 -->
+      <!-- 题目区 -->
       <view class="question-section">
+        <view class="audio-btn" bindtap="playWordAudio">
+          <text class="audio-icon">🔊</text>
+          <text class="audio-text">发音</text>
+        </view>
         <view class="question-label">选择正确的单词</view>
         <view class="question-meaning">{{currentWord.meaning}}</view>
       </view>

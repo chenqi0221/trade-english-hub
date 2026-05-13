@@ -1,5 +1,5 @@
 // 内联考试数据，避免require问题
-const EXAM_DATA = {
+var EXAM_DATA = {
   exams: [
     { id: 'cet4', name: '大学英语四级', icon: '📘', wordCount: 1500, color: '#4A90D9' },
     { id: 'cet6', name: '大学英语六级', icon: '📗', wordCount: 1500, color: '#5CB85C' },
@@ -16,14 +16,20 @@ Page({
     examInfo: null
   },
 
-  onLoad(options) {
-    const examId = options.id
+  onLoad: function(options) {
+    var examId = options.id
     console.log('ExamSelect onLoad, id:', examId)
     if (!examId) {
       wx.showToast({ title: '参数错误', icon: 'none' })
       return
     }
-    const exam = EXAM_DATA.exams.find(item => item.id === examId)
+    var exam = null
+    for (var i = 0; i < EXAM_DATA.exams.length; i++) {
+      if (EXAM_DATA.exams[i].id === examId) {
+        exam = EXAM_DATA.exams[i]
+        break
+      }
+    }
     if (exam) {
       this.setData({ examInfo: exam })
       wx.setNavigationBarTitle({ title: exam.name })
@@ -32,64 +38,64 @@ Page({
     }
   },
 
-  navigateToFlashcard() {
+  navigateToFlashcard: function() {
     if (!this.data.examInfo) {
       console.log('navigateToFlashcard: examInfo is null')
       return
     }
-    const url = `/pages/flashcard/flashcard?examId=${this.data.examInfo.id}`
+    var url = '/pages/flashcard/flashcard?examId=' + this.data.examInfo.id
     console.log('Navigating to:', url)
     wx.navigateTo({
-      url,
-      fail: (err) => {
+      url: url,
+      fail: function(err) {
         console.error('navigateTo flashcard failed:', err)
         wx.showToast({ title: '页面跳转失败', icon: 'none' })
       }
     })
   },
 
-  navigateToTyping() {
+  navigateToTyping: function() {
     if (!this.data.examInfo) {
       console.log('navigateToTyping: examInfo is null')
       return
     }
-    const url = `/pages/exam-typing/exam-typing?examId=${this.data.examInfo.id}`
+    var url = '/pages/exam-typing/exam-typing?examId=' + this.data.examInfo.id
     console.log('Navigating to:', url)
     wx.navigateTo({
-      url,
-      fail: (err) => {
+      url: url,
+      fail: function(err) {
         console.error('navigateTo typing failed:', err)
         wx.showToast({ title: '页面跳转失败', icon: 'none' })
       }
     })
   },
 
-  navigateToDictation() {
+  navigateToDictation: function() {
     if (!this.data.examInfo) {
       console.log('navigateToDictation: examInfo is null')
       return
     }
-    const url = `/pages/dictation/dictation?examId=${this.data.examInfo.id}`
+    var url = '/pages/dictation/dictation?examId=' + this.data.examInfo.id
     console.log('Navigating to:', url)
     wx.navigateTo({
-      url,
-      fail: (err) => {
+      url: url,
+      fail: function(err) {
         console.error('navigateTo dictation failed:', err)
         wx.showToast({ title: '页面跳转失败', icon: 'none' })
       }
     })
   },
 
-  navigateToQuiz() {
+  navigateToQuiz: function() {
     if (!this.data.examInfo) {
       console.log('navigateToQuiz: examInfo is null')
       return
     }
-    const url = `/pages/exam-quiz/exam-quiz?examId=${this.data.examInfo.id}`
+    var url = '/pages/exam-quiz/exam-quiz?examId=' + this.data.examInfo.id
     console.log('Navigating to:', url)
     wx.navigateTo({
-      url,
-      fail: (err) => {
+      url: url,
+      fail: function(err) {
         console.error('navigateTo quiz failed:', err)
         wx.showToast({ title: '页面跳转失败', icon: 'none' })
       }

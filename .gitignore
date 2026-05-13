@@ -1,0 +1,25 @@
+# 微信小程序
+miniprogram_npm/
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 配置（包含敏感信息）
+utils/config.js
+
+# 私有配置
+project.private.config.json
+
+# 临时文件
+*.log
+.DS_Store
+
+# Trae IDE
+.trae/

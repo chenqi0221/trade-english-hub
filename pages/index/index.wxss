@@ -33,6 +33,74 @@
   opacity: 0.9;
 }
 
+/* 每日名言区域 */
+.quote-section {
+  margin: 20rpx 20rpx;
+}
+
+.quote-card {
+  background: linear-gradient(135deg, #FFF8E1, #FFECB3);
+  border-radius: 20rpx;
+  padding: 30rpx;
+  box-shadow: 0 4rpx 16rpx rgba(0, 0, 0, 0.06);
+  border-left: 8rpx solid #FF8F00;
+}
+
+.quote-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16rpx;
+}
+
+.quote-tag {
+  background: linear-gradient(135deg, #FF8F00, #FFB300);
+  color: white;
+  font-size: 22rpx;
+  padding: 6rpx 16rpx;
+  border-radius: 8rpx;
+}
+
+.quote-author {
+  font-size: 24rpx;
+  color: #E65100;
+  font-weight: 500;
+}
+
+.quote-text {
+  font-size: 30rpx;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 10rpx;
+  display: block;
+  font-style: italic;
+}
+
+.quote-chinese {
+  font-size: 26rpx;
+  color: #666;
+  margin-bottom: 20rpx;
+  display: block;
+}
+
+.quote-audio-btn {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(255, 143, 0, 0.15);
+  padding: 12rpx 24rpx;
+  border-radius: 30rpx;
+}
+
+.quote-audio-btn .audio-icon {
+  font-size: 28rpx;
+  margin-right: 8rpx;
+}
+
+.quote-audio-btn .audio-text {
+  font-size: 24rpx;
+  color: #E65100;
+}
+
 .stats-row {
   display: flex;
   justify-content: space-around;

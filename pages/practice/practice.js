@@ -21,22 +21,23 @@ Page({
     recentPractice: []
   },
 
-  onLoad() {
+  onLoad: function() {
     this.loadRecentPractice()
   },
 
-  onShow() {
+  onShow: function() {
     this.loadRecentPractice()
   },
 
-  loadRecentPractice() {
-    const recent = wx.getStorageSync('recentPractice') || []
+  loadRecentPractice: function() {
+    var recent = wx.getStorageSync('recentPractice') || []
     this.setData({ recentPractice: recent.slice(0, 5) })
   },
 
   // 跳转到练习页面
-  navigateToPractice(e) {
-    const { page, name } = e.currentTarget.dataset
+  navigateToPractice: function(e) {
+    var page = e.currentTarget.dataset.page
+    var name = e.currentTarget.dataset.name
     
     // 记录练习历史
     this.addToRecentPractice(name)
@@ -45,15 +46,21 @@ Page({
   },
 
   // 添加到最近练习
-  addToRecentPractice(name) {
-    let recent = wx.getStorageSync('recentPractice') || []
+  addToRecentPractice: function(name) {
+    var recent = wx.getStorageSync('recentPractice') || []
     
     // 移除重复项
-    recent = recent.filter(item => item.name !== name)
+    var filtered = []
+    for (var i = 0; i < recent.length; i++) {
+      if (recent[i].name !== name) {
+        filtered.push(recent[i])
+      }
+    }
+    recent = filtered
     
     // 添加到开头
     recent.unshift({
-      name,
+      name: name,
       time: new Date().toLocaleString()
     })
     

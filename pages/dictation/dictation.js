@@ -1,4 +1,5 @@
-const vocabLoader = require('../../utils/vocabLoader.js')
+var vocabLoader = require('../../utils/vocabLoader.js')
+var audioManager = require('../../utils/audioManager.js')
 
 Page({
   data: {
@@ -16,107 +17,91 @@ Page({
     isLoading: true
   },
 
-  onLoad(options) {
-    const examId = options.examId || 'cet4'
-    this.setData({ examId })
+  onLoad: function(options) {
+    var examId = options.examId || 'cet4'
+    this.setData({ examId: examId })
     this.loadWords(examId)
   },
 
-  loadWords(examId) {
+  onUnload: function() {
+    audioManager.destroy()
+  },
+
+  loadWords: function(examId) {
+    var self = this
     this.setData({ isLoading: true })
-    vocabLoader.load(examId, (err, data) => {
-      this.setData({ isLoading: false })
+    vocabLoader.load(examId, function(err, data) {
+      self.setData({ isLoading: false })
       if (err || !data || !data.length) {
         wx.showToast({ title: '加载词库失败', icon: 'none' })
-        console.error('词库加载失败:', err)
         return
       }
-      const words = this.shuffleArray(data.slice(0, 30))
-      this.setData({ words, currentWord: words[0], progress: 0 })
+      var words = self.shuffleArray(data.slice(0, 30))
+      self.setData({
+        words: words,
+        currentWord: words[0],
+        progress: 0
+      })
     })
   },
 
-  shuffleArray(arr) {
-    const array = [...arr]
-    for (let i = array.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [array[i], array[j]] = [array[j], array[i]]
+  shuffleArray: function(arr) {
+    var array = arr.slice()
+    for (var i = array.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1))
+      var temp = array[i]
+      array[i] = array[j]
+      array[j] = temp
     }
     return array
   },
 
-  playWord() {
-    const { currentWord } = this.data
-    if (!currentWord) return
-    const word = currentWord.word
+  playWord: function() {
+    var currentWord = this.data.currentWord
+    if (!currentWord || !currentWord.word) {
+      wx.showToast({ title: '暂无单词可播放', icon: 'none' })
+      return
+    }
+
+    if (this.data.isPlaying) {
+      audioManager.stop()
+      this.setData({ isPlaying: false })
+      return
+    }
 
     this.setData({ isPlaying: true })
 
-    const plugin = requirePlugin('WechatSI')
-    if (plugin) {
-      plugin.textToSpeech({
-        lang: 'en_US',
-        tts: true,
-        content: word,
-        success: (res) => {
-          if (res.filename) {
-            const innerAudioContext = wx.createInnerAudioContext()
-            innerAudioContext.src = res.filename
-            innerAudioContext.play()
+    var self = this
+    var success = audioManager.playYoudao(currentWord.word, {
+      onEnded: function() {
+        self.setData({ isPlaying: false })
+      },
+      onError: function(err) {
+        self.setData({ isPlaying: false })
+        wx.showToast({ title: '音频播放失败', icon: 'none' })
+      }
+    })
 
-            innerAudioContext.onEnded(() => {
-              this.setData({ isPlaying: false })
-              innerAudioContext.destroy()
-            })
-
-            innerAudioContext.onError(() => {
-              this.setData({ isPlaying: false })
-              innerAudioContext.destroy()
-            })
-          } else {
-            this.setData({ isPlaying: false })
-            wx.showToast({ title: '语音合成失败', icon: 'none' })
-          }
-        },
-        fail: () => {
-          this.setData({ isPlaying: false })
-          wx.showToast({ title: '语音合成失败', icon: 'none' })
-        }
-      })
-    } else {
-      this.playWithBaiduTTS(word)
+    if (!success) {
+      this.setData({ isPlaying: false })
     }
   },
 
-  playWithBaiduTTS(word) {
-    const innerAudioContext = wx.createInnerAudioContext()
-    innerAudioContext.src = `https://fanyi.baidu.com/gettts?lan=en&text=${encodeURIComponent(word)}&spd=3&source=web`
-    innerAudioContext.play()
-
-    innerAudioContext.onEnded(() => {
-      this.setData({ isPlaying: false })
-      innerAudioContext.destroy()
-    })
-
-    innerAudioContext.onError((err) => {
-      console.error('Audio error:', err)
-      this.setData({ isPlaying: false })
-      wx.showToast({ title: '音频播放失败，请检查网络', icon: 'none' })
-      innerAudioContext.destroy()
-    })
-  },
-
-  onInput(e) {
+  onInput: function(e) {
     this.setData({ userInput: e.detail.value })
   },
 
-  checkAnswer() {
-    const { userInput, currentWord } = this.data
+  checkAnswer: function() {
+    var userInput = this.data.userInput
+    var currentWord = this.data.currentWord
     if (!currentWord) return
 
-    if (!userInput.trim()) return
+    if (!userInput.trim()) {
+      wx.showToast({ title: '请输入单词', icon: 'none' })
+      return
+    }
 
-    const isCorrect = userInput.trim().toLowerCase() === currentWord.word.toLowerCase()
+    var isCorrect = userInput.trim().toLowerCase() === currentWord.word.toLowerCase()
 
     if (isCorrect) {
       this.setData({
@@ -124,7 +109,10 @@ Page({
         isWrong: false,
         correctCount: this.data.correctCount + 1
       })
-      setTimeout(() => this.nextWord(), 800)
+      var self = this
+      setTimeout(function() {
+        self.nextWord()
+      }, 800)
     } else {
       this.setData({
         isCorrect: false,
@@ -134,10 +122,11 @@ Page({
     }
   },
 
-  nextWord() {
-    const { currentIndex, words } = this.data
+  nextWord: function() {
+    var currentIndex = this.data.currentIndex
+    var words = this.data.words
     if (currentIndex < words.length - 1) {
-      const nextIndex = currentIndex + 1
+      var nextIndex = currentIndex + 1
       this.setData({
         currentIndex: nextIndex,
         currentWord: words[nextIndex],
@@ -150,14 +139,16 @@ Page({
     } else {
       wx.showModal({
         title: '听写完成',
-        content: `正确: ${this.data.correctCount}/${words.length}`,
+        content: '正确: ' + this.data.correctCount + '/' + words.length,
         showCancel: false,
-        success: () => wx.navigateBack()
+        success: function() {
+          wx.navigateBack()
+        }
       })
     }
   },
 
-  skipWord() {
+  skipWord: function() {
     this.nextWord()
   }
 })

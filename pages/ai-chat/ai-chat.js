@@ -1,4 +1,5 @@
 const sceneData = require('../../utils/sceneData.js')
+const audioManager = require('../../utils/audioManager.js')
 
 Page({
   data: {
@@ -26,6 +27,11 @@ Page({
       text: 'Hello! I\'m your AI English practice partner. Choose a topic below or type anything to start practicing!',
       chinese: '你好！我是你的AI英语练习伙伴。选择下方话题或直接输入开始练习！'
     })
+  },
+
+  onUnload() {
+    // 页面卸载时停止音频
+    audioManager.destroy()
   },
 
   // 选择话题
@@ -189,9 +195,17 @@ Page({
   // 播放消息音频
   playMessageAudio(e) {
     const { text } = e.currentTarget.dataset
-    const innerAudioContext = wx.createInnerAudioContext()
-    innerAudioContext.src = `https://dict.youdao.com/dictvoice?audio=${encodeURIComponent(text)}&type=2`
-    innerAudioContext.play()
+    if (!text) {
+      wx.showToast({ title: '暂无内容可播放', icon: 'none' })
+      return
+    }
+
+    audioManager.playYoudao(text, {
+      onError: (err) => {
+        console.error('消息音频播放失败:', err)
+        wx.showToast({ title: '音频播放失败', icon: 'none' })
+      }
+    })
   },
 
   // 显示/隐藏话题选择

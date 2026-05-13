@@ -1,3 +1,5 @@
+const audioManager = require('../../utils/audioManager.js')
+
 Page({
   data: {
     errorWords: [],
@@ -10,6 +12,11 @@ Page({
 
   onShow() {
     this.loadErrorWords()
+  },
+
+  onUnload() {
+    // 页面卸载时停止音频
+    audioManager.destroy()
   },
 
   // 加载错题本
@@ -32,9 +39,17 @@ Page({
   // 播放发音
   playAudio(e) {
     const { word } = e.currentTarget.dataset
-    const innerAudioContext = wx.createInnerAudioContext()
-    innerAudioContext.src = `https://dict.youdao.com/dictvoice?audio=${encodeURIComponent(word)}&type=2`
-    innerAudioContext.play()
+    if (!word) {
+      wx.showToast({ title: '暂无单词可播放', icon: 'none' })
+      return
+    }
+
+    audioManager.playYoudao(word, {
+      onError: (err) => {
+        console.error('发音播放失败:', err)
+        wx.showToast({ title: '音频播放失败', icon: 'none' })
+      }
+    })
   },
 
   // 从错题本移除

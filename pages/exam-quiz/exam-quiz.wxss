@@ -115,6 +115,28 @@
   margin-bottom: 20rpx;
 }
 
+/* 音频按钮 */
+.audio-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #E3F2FD;
+  border-radius: 40rpx;
+  padding: 16rpx 40rpx;
+  margin-bottom: 30rpx;
+}
+
+.audio-icon {
+  font-size: 36rpx;
+  margin-right: 12rpx;
+}
+
+.audio-text {
+  font-size: 28rpx;
+  color: #1E5F8E;
+  font-weight: 500;
+}
+
 .question-meaning {
   font-size: 36rpx;
   color: #333;

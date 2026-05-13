@@ -1,0 +1,7 @@
+{
+  "name": "tts",
+  "version": "1.0.0",
+  "description": "火山引擎TTS语音合成云函数",
+  "main": "index.js",
+  "dependencies": {}
+}

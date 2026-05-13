@@ -1,4 +1,5 @@
-const wordData = require('../../utils/wordData.js')
+var wordData = require('../../utils/wordData.js')
+var audioManager = require('../../utils/audioManager.js')
 
 Page({
   data: {
@@ -14,7 +15,7 @@ Page({
     streak: 0,
     bestStreak: 0,
     showResult: false,
-    practiceMode: 'typing', // typing, choice, spelling
+    practiceMode: 'typing',
     options: [],
     isFinished: false,
     errorWords: [],
@@ -22,37 +23,36 @@ Page({
     studyTime: 0
   },
 
-  onLoad(options) {
-    const categories = wordData.getCategories()
-    this.setData({ 
-      categories,
+  onLoad: function(options) {
+    var categories = wordData.getCategories()
+    this.setData({
+      categories: categories,
       startTime: Date.now()
     })
     this.loadErrorWords()
   },
 
-  onUnload() {
+  onUnload: function() {
     this.saveStudyTime()
+    audioManager.destroy()
   },
 
-  // 加载错题本
-  loadErrorWords() {
-    const errorWords = wx.getStorageSync('errorWords') || []
-    this.setData({ errorWords })
+  loadErrorWords: function() {
+    var errorWords = wx.getStorageSync('errorWords') || []
+    this.setData({ errorWords: errorWords })
   },
 
-  // 选择分类
-  selectCategory(e) {
-    const { id } = e.currentTarget.dataset
-    const words = wordData.getWordsByCategory(id)
+  selectCategory: function(e) {
+    var id = e.currentTarget.dataset.id
+    var words = wordData.getWordsByCategory(id)
     if (words.length === 0) {
       wx.showToast({ title: '该分类暂无单词', icon: 'none' })
       return
     }
-    
+
     this.setData({
       currentCategory: id,
-      words: this.shuffleArray([...words]),
+      words: this.shuffleArray(words.slice()),
       currentWordIndex: 0,
       correctCount: 0,
       wrongCount: 0,
@@ -63,82 +63,87 @@ Page({
     this.loadCurrentWord()
   },
 
-  // 打乱数组
-  shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [array[i], array[j]] = [array[j], array[i]]
+  shuffleArray: function(array) {
+    for (var i = array.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1))
+      var temp = array[i]
+      array[i] = array[j]
+      array[j] = temp
     }
     return array
   },
 
-  // 加载当前单词
-  loadCurrentWord() {
-    const { words, currentWordIndex } = this.data
+  loadCurrentWord: function() {
+    var words = this.data.words
+    var currentWordIndex = this.data.currentWordIndex
     if (currentWordIndex >= words.length) {
       this.finishPractice()
       return
     }
 
-    const currentWord = words[currentWordIndex]
-    const options = this.generateOptions(currentWord)
-    
+    var currentWord = words[currentWordIndex]
+    var options = this.generateOptions(currentWord)
+
     this.setData({
-      currentWord,
+      currentWord: currentWord,
       userInput: '',
       isCorrect: null,
       showResult: false,
-      options,
+      options: options,
       practiceMode: Math.random() > 0.5 ? 'typing' : 'choice'
     })
   },
 
-  // 生成选择题选项
-  generateOptions(correctWord) {
-    const allWords = wordData.getAllWords()
-    const wrongOptions = allWords
-      .filter(w => w.word !== correctWord.word)
-      .sort(() => 0.5 - Math.random())
-      .slice(0, 3)
-    
-    const options = [...wrongOptions, correctWord]
-      .sort(() => 0.5 - Math.random())
-      .map(w => ({
-        word: w.word,
-        meaning: w.meaning,
-        isCorrect: w.word === correctWord.word
-      }))
-    
-    return options
+  generateOptions: function(correctWord) {
+    var allWords = wordData.getAllWords()
+    var wrongOptions = []
+    for (var i = 0; i < allWords.length; i++) {
+      if (allWords[i].word !== correctWord.word) {
+        wrongOptions.push(allWords[i])
+      }
+    }
+    wrongOptions = this.shuffleArray(wrongOptions).slice(0, 3)
+
+    var options = wrongOptions.concat([correctWord])
+    options = this.shuffleArray(options)
+
+    var result = []
+    for (var k = 0; k < options.length; k++) {
+      result.push({
+        word: options[k].word,
+        meaning: options[k].meaning,
+        isCorrect: options[k].word === correctWord.word
+      })
+    }
+
+    return result
   },
 
-  // 输入处理（打字模式）
-  onInput(e) {
-    const userInput = e.detail.value
-    this.setData({ userInput })
+  onInput: function(e) {
+    var userInput = e.detail.value
+    this.setData({ userInput: userInput })
 
-    // 实时检查
     if (userInput.length >= this.data.currentWord.word.length) {
       this.checkAnswer(userInput)
     }
   },
 
-  // 选择答案（选择模式）
-  selectOption(e) {
-    const { word } = e.currentTarget.dataset
+  selectOption: function(e) {
+    var word = e.currentTarget.dataset.word
     this.checkAnswer(word)
   },
 
-  // 检查答案
-  checkAnswer(answer) {
-    const { currentWord, streak, bestStreak } = this.data
-    const isCorrect = answer.toLowerCase().trim() === currentWord.word.toLowerCase()
-    
-    let newStreak = isCorrect ? streak + 1 : 0
-    let newBestStreak = Math.max(bestStreak, newStreak)
-    
+  checkAnswer: function(answer) {
+    var currentWord = this.data.currentWord
+    var streak = this.data.streak
+    var bestStreak = this.data.bestStreak
+    var isCorrect = answer.toLowerCase().trim() === currentWord.word.toLowerCase()
+
+    var newStreak = isCorrect ? streak + 1 : 0
+    var newBestStreak = bestStreak > newStreak ? bestStreak : newStreak
+
     this.setData({
-      isCorrect,
+      isCorrect: isCorrect,
       showResult: true,
       streak: newStreak,
       bestStreak: newBestStreak,
@@ -146,102 +151,110 @@ Page({
       wrongCount: !isCorrect ? this.data.wrongCount + 1 : this.data.wrongCount
     })
 
-    // 播放音效
     this.playSound(isCorrect)
 
-    // 如果错误，加入错题本
     if (!isCorrect) {
       this.addToErrorWords(currentWord)
     }
 
-    // 延迟加载下一个
-    setTimeout(() => {
-      this.setData({
-        currentWordIndex: this.data.currentWordIndex + 1
+    var self = this
+    setTimeout(function() {
+      self.setData({
+        currentWordIndex: self.data.currentWordIndex + 1
       })
-      this.loadCurrentWord()
+      self.loadCurrentWord()
     }, 1500)
   },
 
-  // 播放音效
-  playSound(isCorrect) {
-    const innerAudioContext = wx.createInnerAudioContext()
-    innerAudioContext.src = isCorrect 
-      ? 'https://www.soundjay.com/buttons/sounds/button-09.mp3'
-      : 'https://www.soundjay.com/buttons/sounds/button-10.mp3'
-    innerAudioContext.play()
+  playSound: function(isCorrect) {
+    audioManager.playYoudao(isCorrect ? 'correct' : 'wrong', {
+      onError: function(err) {
+        console.error('音效播放失败:', err)
+      }
+    })
   },
 
-  // 加入错题本
-  addToErrorWords(word) {
-    let errorWords = wx.getStorageSync('errorWords') || []
-    if (!errorWords.find(w => w.word === word.word)) {
-      errorWords.push({
-        ...word,
-        errorCount: 1,
-        lastError: new Date().toISOString()
-      })
+  addToErrorWords: function(word) {
+    var errorWords = wx.getStorageSync('errorWords') || []
+    var found = false
+    for (var i = 0; i < errorWords.length; i++) {
+      if (errorWords[i].word === word.word) {
+        found = true
+        break
+      }
+    }
+    if (!found) {
+      var wordCopy = {}
+      for (var key in word) {
+        wordCopy[key] = word[key]
+      }
+      wordCopy.errorCount = 1
+      wordCopy.lastError = new Date().toISOString()
+      errorWords.push(wordCopy)
       wx.setStorageSync('errorWords', errorWords)
-      this.setData({ errorWords })
+      this.setData({ errorWords: errorWords })
     }
   },
 
-  // 完成练习
-  finishPractice() {
-    const { correctCount, wrongCount, bestStreak, studyTime } = this.data
-    const total = correctCount + wrongCount
-    const accuracy = total > 0 ? Math.round((correctCount / total) * 100) : 0
+  finishPractice: function() {
+    var correctCount = this.data.correctCount
+    var wrongCount = this.data.wrongCount
+    var bestStreak = this.data.bestStreak
+    var studyTime = this.data.studyTime
+    var total = correctCount + wrongCount
+    var accuracy = total > 0 ? Math.round((correctCount / total) * 100) : 0
 
     this.setData({
       isFinished: true,
       finalStats: {
-        total,
-        correctCount,
-        wrongCount,
-        accuracy,
-        bestStreak,
+        total: total,
+        correctCount: correctCount,
+        wrongCount: wrongCount,
+        accuracy: accuracy,
+        bestStreak: bestStreak,
         studyTime: Math.round(studyTime / 60)
       }
     })
 
-    // 更新学习进度
     this.updateStudyProgress(correctCount)
   },
 
-  // 更新学习进度
-  updateStudyProgress(learnedWords) {
-    const progress = wx.getStorageSync('studyProgress') || {
+  updateStudyProgress: function(learnedWords) {
+    var progress = wx.getStorageSync('studyProgress') || {
       totalWords: 0,
       masteredWords: 0,
       todayStudyTime: 0,
       streakDays: 1
     }
-    
+
     progress.masteredWords += learnedWords
     progress.totalWords = wordData.getAllWords().length
     wx.setStorageSync('studyProgress', progress)
   },
 
-  // 保存学习时间
-  saveStudyTime() {
-    const studyTime = Math.round((Date.now() - this.data.startTime) / 1000)
-    const progress = wx.getStorageSync('studyProgress') || {}
+  saveStudyTime: function() {
+    var studyTime = Math.round((Date.now() - this.data.startTime) / 1000)
+    var progress = wx.getStorageSync('studyProgress') || {}
     progress.todayStudyTime = (progress.todayStudyTime || 0) + Math.round(studyTime / 60)
     wx.setStorageSync('studyProgress', progress)
   },
 
-  // 播放单词发音
-  playWordAudio() {
-    const { currentWord } = this.data
-    if (!currentWord) return
+  playWordAudio: function() {
+    var currentWord = this.data.currentWord
+    if (!currentWord || !currentWord.word) {
+      wx.showToast({ title: '暂无单词可播放', icon: 'none' })
+      return
+    }
 
-    const innerAudioContext = wx.createInnerAudioContext()
-    innerAudioContext.src = `https://dict.youdao.com/dictvoice?audio=${encodeURIComponent(currentWord.word)}&type=2`
-    innerAudioContext.play()
+    audioManager.playYoudao(currentWord.word, {
+      onError: function(err) {
+        console.error('单词发音播放失败:', err)
+        wx.showToast({ title: '音频播放失败', icon: 'none' })
+      }
+    })
   },
 
-  // 重新开始
-  restartPractice() {
+  restartPractice: function() {
     this.setData({
       currentCategory: null,
       currentWordIndex: 0,
@@ -253,17 +266,15 @@ Page({
     })
   },
 
-  // 返回分类选择
-  backToCategories() {
+  backToCategories: function() {
     this.setData({
       currentCategory: null,
       isFinished: false
     })
   },
 
-  // 切换练习模式
-  switchMode(e) {
-    const { mode } = e.currentTarget.dataset
+  switchMode: function(e) {
+    var mode = e.currentTarget.dataset.mode
     this.setData({ practiceMode: mode })
   }
 })

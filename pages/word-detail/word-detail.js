@@ -1,4 +1,5 @@
-const wordData = require('../../utils/wordData.js')
+var wordData = require('../../utils/wordData.js')
+var audioManager = require('../../utils/audioManager.js')
 
 Page({
   data: {
@@ -6,51 +7,78 @@ Page({
     isFavorite: false
   },
 
-  onLoad(options) {
-    const { word } = options
+  onLoad: function(options) {
+    var word = options.word
     if (word) {
       this.loadWordDetail(word)
       this.checkFavorite(word)
     }
   },
 
-  // 加载单词详情
-  loadWordDetail(wordText) {
-    const words = wordData.getAllWords()
-    const word = words.find(w => w.word.toLowerCase() === wordText.toLowerCase())
-    
-    if (word) {
-      this.setData({ word })
+  onUnload: function() {
+    audioManager.destroy()
+  },
+
+  loadWordDetail: function(wordText) {
+    var words = wordData.getAllWords()
+    var foundWord = null
+    for (var i = 0; i < words.length; i++) {
+      if (words[i].word.toLowerCase() === wordText.toLowerCase()) {
+        foundWord = words[i]
+        break
+      }
+    }
+
+    if (foundWord) {
+      this.setData({ word: foundWord })
     } else {
       wx.showToast({ title: '单词未找到', icon: 'none' })
-      setTimeout(() => wx.navigateBack(), 1500)
+      setTimeout(function() {
+        wx.navigateBack()
+      }, 1500)
     }
   },
 
-  // 检查是否收藏
-  checkFavorite(wordText) {
-    const favorites = wx.getStorageSync('favorites') || []
-    const isFavorite = favorites.some(f => f.word === wordText)
-    this.setData({ isFavorite })
+  checkFavorite: function(wordText) {
+    var favorites = wx.getStorageSync('favorites') || []
+    var isFavorite = false
+    for (var i = 0; i < favorites.length; i++) {
+      if (favorites[i].word === wordText) {
+        isFavorite = true
+        break
+      }
+    }
+    this.setData({ isFavorite: isFavorite })
   },
 
-  // 播放发音
-  playAudio() {
-    const { word } = this.data
-    if (!word) return
+  playAudio: function() {
+    var word = this.data.word
+    if (!word || !word.word) {
+      wx.showToast({ title: '暂无单词可播放', icon: 'none' })
+      return
+    }
 
-    const innerAudioContext = wx.createInnerAudioContext()
-    innerAudioContext.src = `https://dict.youdao.com/dictvoice?audio=${encodeURIComponent(word.word)}&type=2`
-    innerAudioContext.play()
+    audioManager.playYoudao(word.word, {
+      onError: function(err) {
+        console.error('发音播放失败:', err)
+        wx.showToast({ title: '音频播放失败', icon: 'none' })
+      }
+    })
   },
 
-  // 切换收藏
-  toggleFavorite() {
-    const { word, isFavorite } = this.data
-    let favorites = wx.getStorageSync('favorites') || []
+  toggleFavorite: function() {
+    var word = this.data.word
+    var isFavorite = this.data.isFavorite
+    var favorites = wx.getStorageSync('favorites') || []
 
     if (isFavorite) {
-      favorites = favorites.filter(f => f.word !== word.word)
+      var newFavorites = []
+      for (var i = 0; i < favorites.length; i++) {
+        if (favorites[i].word !== word.word) {
+          newFavorites.push(favorites[i])
+        }
+      }
+      favorites = newFavorites
       wx.showToast({ title: '已取消收藏', icon: 'success' })
     } else {
       favorites.push(word)
@@ -61,17 +89,26 @@ Page({
     this.setData({ isFavorite: !isFavorite })
   },
 
-  // 添加到错题本
-  addToErrorBook() {
-    const { word } = this.data
-    let errorWords = wx.getStorageSync('errorWords') || []
-    
-    if (!errorWords.find(w => w.word === word.word)) {
-      errorWords.push({
-        ...word,
-        errorCount: 1,
-        lastError: new Date().toISOString()
-      })
+  addToErrorBook: function() {
+    var word = this.data.word
+    var errorWords = wx.getStorageSync('errorWords') || []
+
+    var found = false
+    for (var i = 0; i < errorWords.length; i++) {
+      if (errorWords[i].word === word.word) {
+        found = true
+        break
+      }
+    }
+
+    if (!found) {
+      var wordCopy = {}
+      for (var key in word) {
+        wordCopy[key] = word[key]
+      }
+      wordCopy.errorCount = 1
+      wordCopy.lastError = new Date().toISOString()
+      errorWords.push(wordCopy)
       wx.setStorageSync('errorWords', errorWords)
       wx.showToast({ title: '已添加到错题本', icon: 'success' })
     } else {

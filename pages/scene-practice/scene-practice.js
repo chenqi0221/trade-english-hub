@@ -1,4 +1,5 @@
-const sceneData = require('../../utils/sceneData.js')
+var sceneData = require('../../utils/sceneData.js')
+var audioManager = require('../../utils/audioManager.js')
 
 Page({
   data: {
@@ -7,25 +8,28 @@ Page({
     currentDialogIndex: 0,
     isPlaying: false,
     showTranslation: true,
-    practiceMode: 'listen', // listen, speak, roleplay
-    userRole: 'sales', // sales, customer
+    practiceMode: 'listen',
+    userRole: 'sales',
     showPhrases: false,
     commonPhrases: []
   },
 
-  onLoad() {
-    const scenes = sceneData.getAllScenes()
-    this.setData({ 
-      scenes,
+  onLoad: function() {
+    var scenes = sceneData.getAllScenes()
+    this.setData({
+      scenes: scenes,
       commonPhrases: sceneData.getAllPhrases()
     })
   },
 
-  // 选择场景
-  selectScene(e) {
-    const { id } = e.currentTarget.dataset
-    const scene = sceneData.getSceneById(id)
-    
+  onUnload: function() {
+    audioManager.destroy()
+  },
+
+  selectScene: function(e) {
+    var id = e.currentTarget.dataset.id
+    var scene = sceneData.getSceneById(id)
+
     this.setData({
       currentScene: scene,
       currentDialogIndex: 0,
@@ -34,36 +38,52 @@ Page({
     })
   },
 
-  // 返回场景列表
-  backToScenes() {
+  backToScenes: function() {
     this.setData({
       currentScene: null,
       currentDialogIndex: 0,
       isPlaying: false
     })
+    audioManager.destroy()
   },
 
-  // 播放当前对话
-  playCurrentDialog() {
-    const { currentScene, currentDialogIndex } = this.data
+  playCurrentDialog: function() {
+    var currentScene = this.data.currentScene
+    var currentDialogIndex = this.data.currentDialogIndex
     if (!currentScene || currentDialogIndex >= currentScene.dialogs.length) return
 
-    const dialog = currentScene.dialogs[currentDialogIndex]
-    
+    var dialog = currentScene.dialogs[currentDialogIndex]
+
     this.setData({ isPlaying: true })
 
-    // 播放音频
-    const innerAudioContext = wx.createInnerAudioContext()
-    innerAudioContext.src = `https://dict.youdao.com/dictvoice?audio=${encodeURIComponent(dialog.text)}&type=2`
-    innerAudioContext.onEnded(() => {
-      this.setData({ isPlaying: false })
+    var self = this
+    
+    // 使用有道智云 TTS 播放
+    audioManager.playYoudaoAPI(dialog.text, {
+      voiceName: 'youxiaomei',
+      onEnded: function() {
+        self.setData({ isPlaying: false })
+      },
+      onError: function(err) {
+        console.error('有道智云TTS播放失败，尝试有道词典:', err)
+        // 如果有道智云失败，回退到有道词典 TTS
+        audioManager.playYoudao(dialog.text, {
+          onEnded: function() {
+            self.setData({ isPlaying: false })
+          },
+          onError: function(err2) {
+            console.error('有道词典TTS也失败:', err2)
+            self.setData({ isPlaying: false })
+            wx.showToast({ title: '音频播放失败', icon: 'none' })
+          }
+        })
+      }
     })
-    innerAudioContext.play()
   },
 
-  // 播放下一句
-  nextDialog() {
-    const { currentScene, currentDialogIndex } = this.data
+  nextDialog: function() {
+    var currentScene = this.data.currentScene
+    var currentDialogIndex = this.data.currentDialogIndex
     if (!currentScene) return
 
     if (currentDialogIndex < currentScene.dialogs.length - 1) {
@@ -71,18 +91,17 @@ Page({
         currentDialogIndex: currentDialogIndex + 1,
         isPlaying: false
       })
-      
-      // 自动播放
-      setTimeout(() => {
-        this.playCurrentDialog()
+
+      var self = this
+      setTimeout(function() {
+        self.playCurrentDialog()
       }, 500)
     } else {
-      // 场景完成
       wx.showModal({
         title: '场景完成',
         content: '恭喜！您已完成这个场景的练习。',
         showCancel: false,
-        success: () => {
+        success: function() {
           this.setData({
             currentDialogIndex: 0,
             isPlaying: false
@@ -92,9 +111,8 @@ Page({
     }
   },
 
-  // 上一句
-  prevDialog() {
-    const { currentDialogIndex } = this.data
+  prevDialog: function() {
+    var currentDialogIndex = this.data.currentDialogIndex
     if (currentDialogIndex > 0) {
       this.setData({
         currentDialogIndex: currentDialogIndex - 1,
@@ -103,54 +121,50 @@ Page({
     }
   },
 
-  // 切换翻译显示
-  toggleTranslation() {
+  toggleTranslation: function() {
     this.setData({ showTranslation: !this.data.showTranslation })
   },
 
-  // 切换练习模式
-  switchMode(e) {
-    const { mode } = e.currentTarget.dataset
+  switchMode: function(e) {
+    var mode = e.currentTarget.dataset.mode
     this.setData({ practiceMode: mode })
   },
 
-  // 切换角色
-  switchRole() {
-    const newRole = this.data.userRole === 'sales' ? 'customer' : 'sales'
+  switchRole: function() {
+    var newRole = this.data.userRole === 'sales' ? 'customer' : 'sales'
     this.setData({ userRole: newRole })
   },
 
-  // 显示/隐藏常用句型
-  togglePhrases() {
+  togglePhrases: function() {
     this.setData({ showPhrases: !this.data.showPhrases })
   },
 
-  // 使用常用句型
-  usePhrase(e) {
-    const { phrase } = e.currentTarget.dataset
+  usePhrase: function(e) {
+    var phrase = e.currentTarget.dataset.phrase
     wx.showModal({
       title: '常用句型',
-      content: `${phrase.en}\n\n${phrase.cn}`,
+      content: phrase.en + '\n\n' + phrase.cn,
       showCancel: false
     })
   },
 
-  // 录音练习
-  startRecording() {
-    const recorderManager = wx.getRecorderManager()
-    
-    recorderManager.onStart(() => {
+  startRecording: function() {
+    var recorderManager = wx.getRecorderManager()
+
+    recorderManager.onStart(function() {
       wx.showToast({ title: '录音中...', icon: 'none' })
     })
 
-    recorderManager.onStop((res) => {
+    recorderManager.onStop(function(res) {
       wx.hideToast()
       wx.showToast({ title: '录音完成', icon: 'success' })
-      
-      // 播放录音
-      const innerAudioContext = wx.createInnerAudioContext()
-      innerAudioContext.src = res.tempFilePath
-      innerAudioContext.play()
+
+      audioManager.playLocal(res.tempFilePath, {
+        onError: function(err) {
+          console.error('录音播放失败:', err)
+          wx.showToast({ title: '录音播放失败', icon: 'none' })
+        }
+      })
     })
 
     recorderManager.start({
@@ -162,16 +176,16 @@ Page({
     })
   },
 
-  // 获取当前对话
-  getCurrentDialog() {
-    const { currentScene, currentDialogIndex } = this.data
+  getCurrentDialog: function() {
+    var currentScene = this.data.currentScene
+    var currentDialogIndex = this.data.currentDialogIndex
     if (!currentScene) return null
     return currentScene.dialogs[currentDialogIndex]
   },
 
-  // 获取进度百分比
-  getProgress() {
-    const { currentScene, currentDialogIndex } = this.data
+  getProgress: function() {
+    var currentScene = this.data.currentScene
+    var currentDialogIndex = this.data.currentDialogIndex
     if (!currentScene) return 0
     return ((currentDialogIndex + 1) / currentScene.dialogs.length) * 100
   }

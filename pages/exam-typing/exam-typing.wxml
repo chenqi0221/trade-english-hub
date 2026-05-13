@@ -30,6 +30,10 @@
 
     <!-- 单词显示区 -->
     <view class="word-display">
+      <view class="audio-btn" bindtap="playWordAudio">
+        <text class="audio-icon">🔊</text>
+        <text class="audio-text">发音</text>
+      </view>
       <view class="meaning-text">{{currentWord.meaning}}</view>
       <view class="hint-text" wx:if="{{showAnswer}}">
         答案: <text class="answer-word">{{currentWord.word}}</text>
