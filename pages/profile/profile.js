@@ -12,13 +12,13 @@ Page({
         id: 'error-book',
         name: '错题本',
         icon: '⚠️',
-        page: '/pages/error-book/error-book'
+        page: '/package-study/pages/error-book/error-book'
       },
       {
         id: 'favorites',
         name: '收藏夹',
         icon: '⭐',
-        page: '/pages/favorites/favorites'
+        page: '/package-study/pages/favorites/favorites'
       },
       {
         id: 'settings',

@@ -11,11 +11,13 @@ Page({
     progress: 0,
     knowCount: 0,
     unknownCount: 0,
-    isLoading: true
+    isLoading: true,
+    totalStudied: 0
   },
 
   onLoad: function(options) {
     var examId = options.examId || 'cet4'
+    wx.setNavigationBarTitle({ title: this.getExamName(examId) })
     this.setData({ examId: examId })
     this.loadWords(examId)
   },
@@ -24,9 +26,15 @@ Page({
     audioManager.destroy()
   },
 
+  getExamName: function(examId) {
+    var map = { cet4: '四级', cet6: '六级', ielts: '雅思', toefl: '托福', gre: 'GRE', sat: 'SAT', kaoyan: '考研' }
+    return map[examId] || examId
+  },
+
   loadWords: function(examId) {
     var self = this
     this.setData({ isLoading: true })
+
     vocabLoader.load(examId, function(err, data) {
       self.setData({ isLoading: false })
       if (err || !data || !data.length) {
@@ -34,11 +42,53 @@ Page({
         console.error('词库加载失败:', err)
         return
       }
-      var words = self.shuffleArray(data.slice(0, 50))
+
+      var storageKey = 'flashcard_progress_' + examId
+      var studied = wx.getStorageSync(storageKey) || []
+      var studiedSet = {}
+
+      for (var i = 0; i < studied.length; i++) {
+        studiedSet[studied[i]] = true
+      }
+
+      var unstudied = []
+      for (var j = 0; j < data.length; j++) {
+        var wordText = (data[j].word || '').toLowerCase()
+        if (!studiedSet[wordText]) {
+          unstudied.push(data[j])
+        }
+      }
+
+      self.setData({ totalStudied: studied.length })
+
+      if (unstudied.length === 0) {
+        wx.showModal({
+          title: '全部学完',
+          content: '已学完' + data.length + '个单词，是否重新开始？',
+          confirmText: '重新开始',
+          cancelText: '返回',
+          success: function(res) {
+            if (res.confirm) {
+              wx.removeStorageSync(storageKey)
+              self.setData({ totalStudied: 0 })
+              self.loadWords(examId)
+            } else {
+              wx.navigateBack()
+            }
+          }
+        })
+        return
+      }
+
+      var batchSize = Math.min(50, unstudied.length)
+      var words = self.shuffleArray(unstudied.slice(0, batchSize))
+
       self.setData({
         words: words,
         currentWord: words[0],
-        progress: 0
+        progress: 0,
+        knowCount: 0,
+        unknownCount: 0
       })
     })
   },
@@ -88,13 +138,15 @@ Page({
     var knowCount = this.data.knowCount
     var unknownCount = this.data.unknownCount
     var examId = this.data.examId
-    
-    // 保存学习进度
+    var totalStudied = this.data.totalStudied
+    var nowTotal = totalStudied + this.data.words.length
+
+    this.saveStudiedWords(examId)
     this.saveStudyProgress(knowCount)
-    
+
     wx.showModal({
-      title: '学习完成',
-      content: '认识: ' + knowCount + '个  不认识: ' + unknownCount + '个',
+      title: '本组完成',
+      content: '本组认识: ' + knowCount + '个  不认识: ' + unknownCount + '个\n累计已学: ' + nowTotal + '个',
       showCancel: false,
       success: function() {
         wx.navigateBack()
@@ -102,18 +154,29 @@ Page({
     })
   },
 
-  // 保存学习进度 - 统一格式
+  saveStudiedWords: function(examId) {
+    var storageKey = 'flashcard_progress_' + examId
+    var studied = wx.getStorageSync(storageKey) || []
+    var words = this.data.words
+
+    for (var i = 0; i < words.length; i++) {
+      var wordText = (words[i].word || '').toLowerCase()
+      if (wordText && studied.indexOf(wordText) < 0) {
+        studied.push(wordText)
+      }
+    }
+
+    wx.setStorageSync(storageKey, studied)
+  },
+
   saveStudyProgress: function(learnedCount) {
     var examId = this.data.examId
     if (!examId || learnedCount <= 0) return
-    
+
     try {
-      // 读取现有进度
       var progress = wx.getStorageSync('studyProgress') || {}
-      
-      // 确保是基础格式（不是按考试分类的旧格式）
+
       if (progress.cet4 || progress.cet6) {
-        // 如果是旧格式，转换为新格式
         var totalMastered = 0
         for (var key in progress) {
           if (progress[key] && progress[key].mastered) {
@@ -127,29 +190,24 @@ Page({
           lastStudyDate: ''
         }
       }
-      
-      // 更新进度
+
       progress.masteredWords = (progress.masteredWords || 0) + learnedCount
-      
-      // 更新连续打卡
+
       var today = new Date().toDateString()
       var lastDate = progress.lastStudyDate
-      
+
       if (lastDate === today) {
-        // 今天已经学习过，不增加连续天数
       } else if (lastDate === new Date(Date.now() - 86400000).toDateString()) {
-        // 昨天学习过，连续天数+1
         progress.streakDays = (progress.streakDays || 1) + 1
       } else {
-        // 断签了，重新计算
         progress.streakDays = 1
       }
-      
+
       progress.lastStudyDate = today
-      progress.todayStudyTime = (progress.todayStudyTime || 0) + 5 // 假设学习5分钟
-      
+      progress.todayStudyTime = (progress.todayStudyTime || 0) + 5
+
       wx.setStorageSync('studyProgress', progress)
-      
+
       console.log('学习进度已保存:', progress)
     } catch (err) {
       console.error('保存学习进度失败:', err)

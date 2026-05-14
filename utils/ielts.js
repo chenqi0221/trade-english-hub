@@ -1,0 +1,382 @@
+module.exports = [
+  {
+    "word": "abandon",
+    "phonetic": "/əˈbændən/",
+    "meaning": "v. 放弃，遗弃",
+    "translations": [
+      {
+        "type": "v",
+        "translation": "放弃，遗弃"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "ability",
+    "phonetic": "/əˈbɪləti/",
+    "meaning": "n. 能力，才能",
+    "translations": [
+      {
+        "type": "n",
+        "translation": "能力，才能"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "absence",
+    "phonetic": "/ˈæbsəns/",
+    "meaning": "n. 缺席，缺乏",
+    "translations": [
+      {
+        "type": "n",
+        "translation": "缺席，缺乏"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "absolute",
+    "phonetic": "/ˈæbsəluːt/",
+    "meaning": "adj. 绝对的，完全的",
+    "translations": [
+      {
+        "type": "adj",
+        "translation": "绝对的，完全的"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "absorb",
+    "phonetic": "/əbˈzɔːrb/",
+    "meaning": "v. 吸收，吸引",
+    "translations": [
+      {
+        "type": "v",
+        "translation": "吸收，吸引"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "abstract",
+    "phonetic": "/ˈæbstrækt/",
+    "meaning": "adj. 抽象的 n. 摘要",
+    "translations": [
+      {
+        "type": "adj",
+        "translation": "抽象的"
+      },
+      {
+        "type": "n",
+        "translation": "摘要"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "abundant",
+    "phonetic": "/əˈbʌndənt/",
+    "meaning": "adj. 丰富的，充裕的",
+    "translations": [
+      {
+        "type": "adj",
+        "translation": "丰富的，充裕的"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "academic",
+    "phonetic": "/ˌækəˈdemɪk/",
+    "meaning": "adj. 学术的，理论的",
+    "translations": [
+      {
+        "type": "adj",
+        "translation": "学术的，理论的"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "academy",
+    "phonetic": "/əˈkædəmi/",
+    "meaning": "n. 学院，研究院",
+    "translations": [
+      {
+        "type": "n",
+        "translation": "学院，研究院"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "accelerate",
+    "phonetic": "/əkˈseləreɪt/",
+    "meaning": "v. 加速，促进",
+    "translations": [
+      {
+        "type": "v",
+        "translation": "加速，促进"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "accent",
+    "phonetic": "/ˈæksent/",
+    "meaning": "n. 口音，重音",
+    "translations": [
+      {
+        "type": "n",
+        "translation": "口音，重音"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "accept",
+    "phonetic": "/əkˈsept/",
+    "meaning": "v. 接受，认可",
+    "translations": [
+      {
+        "type": "v",
+        "translation": "接受，认可"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "access",
+    "phonetic": "/ˈækses/",
+    "meaning": "n. 通道，进入 v. 存取",
+    "translations": [
+      {
+        "type": "n",
+        "translation": "通道，进入"
+      },
+      {
+        "type": "v",
+        "translation": "存取"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "accident",
+    "phonetic": "/ˈæksɪdənt/",
+    "meaning": "n. 事故，意外",
+    "translations": [
+      {
+        "type": "n",
+        "translation": "事故，意外"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "accompany",
+    "phonetic": "/əˈkʌmpəni/",
+    "meaning": "v. 陪伴，伴随",
+    "translations": [
+      {
+        "type": "v",
+        "translation": "陪伴，伴随"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "accomplish",
+    "phonetic": "/əˈkʌmplɪʃ/",
+    "meaning": "v. 完成，实现",
+    "translations": [
+      {
+        "type": "v",
+        "translation": "完成，实现"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "accord",
+    "phonetic": "/əˈkɔːrd/",
+    "meaning": "v. 一致，符合 n. 协议",
+    "translations": [
+      {
+        "type": "v",
+        "translation": "一致，符合"
+      },
+      {
+        "type": "n",
+        "translation": "协议"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "account",
+    "phonetic": "/əˈkaʊnt/",
+    "meaning": "n. 账户，解释 v. 说明",
+    "translations": [
+      {
+        "type": "n",
+        "translation": "账户，解释"
+      },
+      {
+        "type": "v",
+        "translation": "说明"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "accumulate",
+    "phonetic": "/əˈkjuːmjəleɪt/",
+    "meaning": "v. 积累，积聚",
+    "translations": [
+      {
+        "type": "v",
+        "translation": "积累，积聚"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "accurate",
+    "phonetic": "/ˈækjərət/",
+    "meaning": "adj. 精确的，准确的",
+    "translations": [
+      {
+        "type": "adj",
+        "translation": "精确的，准确的"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "achieve",
+    "phonetic": "/əˈtʃiːv/",
+    "meaning": "v. 达到，实现",
+    "translations": [
+      {
+        "type": "v",
+        "translation": "达到，实现"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "achievement",
+    "phonetic": "/əˈtʃiːvmənt/",
+    "meaning": "n. 成就，成绩",
+    "translations": [
+      {
+        "type": "n",
+        "translation": "成就，成绩"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "acid",
+    "phonetic": "/ˈæsɪd/",
+    "meaning": "n. 酸 adj. 酸的",
+    "translations": [
+      {
+        "type": "n",
+        "translation": "酸"
+      },
+      {
+        "type": "adj",
+        "translation": "酸的"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "acknowledge",
+    "phonetic": "/əkˈnɑːlɪdʒ/",
+    "meaning": "v. 承认，致谢",
+    "translations": [
+      {
+        "type": "v",
+        "translation": "承认，致谢"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "acquire",
+    "phonetic": "/əˈkwaɪər/",
+    "meaning": "v. 获得，学到",
+    "translations": [
+      {
+        "type": "v",
+        "translation": "获得，学到"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "acquisition",
+    "phonetic": "/ˌækwɪˈzɪʃn/",
+    "meaning": "n. 获得，收购",
+    "translations": [
+      {
+        "type": "n",
+        "translation": "获得，收购"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "acre",
+    "phonetic": "/ˈeɪkər/",
+    "meaning": "n. 英亩",
+    "translations": [
+      {
+        "type": "n",
+        "translation": "英亩"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "adapt",
+    "phonetic": "/əˈdæpt/",
+    "meaning": "v. 适应，改编",
+    "translations": [
+      {
+        "type": "v",
+        "translation": "适应，改编"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "adequate",
+    "phonetic": "/ˈædɪkwət/",
+    "meaning": "adj. 足够的，适当的",
+    "translations": [
+      {
+        "type": "adj",
+        "translation": "足够的，适当的"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "adjust",
+    "phonetic": "/əˈdʒʌst/",
+    "meaning": "v. 调整，适应",
+    "translations": [
+      {
+        "type": "v",
+        "translation": "调整，适应"
+      }
+    ],
+    "phrases": []
+  }
+]

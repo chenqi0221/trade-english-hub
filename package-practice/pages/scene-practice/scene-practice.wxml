@@ -1,0 +1,146 @@
+<view class="container">
+  <!-- 场景列表 -->
+  <block wx:if="{{!currentScene}}">
+    <view class="header">
+      <text class="page-title">🎭 场景演练</text>
+      <text class="page-subtitle">模拟真实外贸沟通场景</text>
+    </view>
+
+    <view class="scenes-grid">
+      <view 
+        class="scene-card"
+        wx:for="{{scenes}}"
+        wx:key="id"
+        data-id="{{item.id}}"
+        bindtap="selectScene"
+      >
+        <view class="scene-icon">{{item.icon}}</view>
+        <view class="scene-info">
+          <text class="scene-name">{{item.name}}</text>
+          <text class="scene-desc">{{item.description}}</text>
+        </view>
+        <view class="scene-progress">
+          <text class="dialog-count">{{item.dialogs.length}}句</text>
+          <text class="scene-arrow">›</text>
+        </view>
+      </view>
+    </view>
+  </block>
+
+  <!-- 场景练习界面 -->
+  <block wx:if="{{currentScene}}">
+    <!-- 场景头部 -->
+    <view class="scene-header">
+      <view class="back-btn" bindtap="backToScenes">
+        <text>‹ 返回</text>
+      </view>
+      <view class="scene-title">
+        <text class="scene-icon">{{currentScene.icon}}</text>
+        <text class="scene-name">{{currentScene.name}}</text>
+      </view>
+      <view class="progress-info">
+        <text>{{currentDialogIndex + 1}}/{{currentScene.dialogs.length}}</text>
+      </view>
+    </view>
+
+    <!-- 进度条 -->
+    <view class="progress-bar">
+      <view class="progress-fill" style="width: {{((currentDialogIndex + 1) / currentScene.dialogs.length) * 100}}%"></view>
+    </view>
+
+    <!-- 模式切换 -->
+    <view class="mode-tabs">
+      <view 
+        class="mode-tab {{practiceMode === 'listen' ? 'active' : ''}}"
+        data-mode="listen"
+        bindtap="switchMode"
+      >
+        <text>👂 听力</text>
+      </view>
+      <view 
+        class="mode-tab {{practiceMode === 'speak' ? 'active' : ''}}"
+        data-mode="speak"
+        bindtap="switchMode"
+      >
+        <text>🗣️ 跟读</text>
+      </view>
+      <view 
+        class="mode-tab {{practiceMode === 'roleplay' ? 'active' : ''}}"
+        data-mode="roleplay"
+        bindtap="switchMode"
+      >
+        <text>🎭 角色扮演</text>
+      </view>
+    </view>
+
+    <!-- 角色切换（角色扮演模式） -->
+    <view class="role-switch" wx:if="{{practiceMode === 'roleplay'}}">
+      <text class="role-label">当前角色:</text>
+      <view class="role-btn" bindtap="switchRole">
+        <text>{{userRole === 'sales' ? '👔 业务员' : '👤 客户'}}</text>
+      </view>
+    </view>
+
+    <!-- 对话内容 -->
+    <view class="dialog-content">
+      <view class="dialog-card">
+        <view class="dialog-header">
+          <view class="role-badge {{currentScene.dialogs[currentDialogIndex].role}}">
+            <text>{{currentScene.dialogs[currentDialogIndex].role === 'sales' ? '👔' : '👤'}}</text>
+            <text>{{currentScene.dialogs[currentDialogIndex].role === 'sales' ? '业务员' : '客户'}}</text>
+          </view>
+          <view class="dialog-actions">
+            <text class="action-btn" bindtap="playCurrentDialog">{{isPlaying ? '⏸️' : '▶️'}}</text>
+            <text class="action-btn" bindtap="toggleTranslation">{{showTranslation ? '🙈' : '👁️'}}</text>
+          </view>
+        </view>
+
+        <view class="dialog-text">
+          <text class="english-text">{{currentScene.dialogs[currentDialogIndex].text}}</text>
+          <text class="chinese-text" wx:if="{{showTranslation}}">{{currentScene.dialogs[currentDialogIndex].chinese}}</text>
+        </view>
+      </view>
+
+      <!-- 跟读/录音按钮 -->
+      <view class="practice-actions" wx:if="{{practiceMode !== 'listen'}}">
+        <view class="record-btn" bindtap="startRecording">
+          <text class="record-icon">🎙️</text>
+          <text class="record-text">录音练习</text>
+        </view>
+      </view>
+    </view>
+
+    <!-- 常用句型 -->
+    <view class="phrases-section" wx:if="{{showPhrases}}">
+      <view class="phrases-header">
+        <text class="phrases-title">💡 常用句型</text>
+        <text class="close-btn" bindtap="togglePhrases">✕</text>
+      </view>
+      <view class="phrases-list">
+        <view 
+          class="phrase-item"
+          wx:for="{{commonPhrases.greeting}}"
+          wx:key="en"
+          data-phrase="{{item}}"
+          bindtap="usePhrase"
+        >
+          <text class="phrase-en">{{item.en}}</text>
+          <text class="phrase-cn">{{item.cn}}</text>
+        </view>
+      </view>
+    </view>
+
+    <!-- 底部控制 -->
+    <view class="bottom-controls">
+      <view class="control-btn" bindtap="prevDialog">
+        <text>⬅️ 上一句</text>
+      </view>
+      <view class="control-btn primary" bindtap="togglePhrases">
+        <text>💡 句型</text>
+      </view>
+      <view class="control-btn" bindtap="nextDialog">
+        <text>下一句 ➡️</text>
+      </view>
+    </view>
+  </block>
+</view>

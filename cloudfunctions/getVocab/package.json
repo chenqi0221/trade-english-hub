@@ -1,0 +1,9 @@
+{
+  "name": "getVocab",
+  "version": "1.0.0",
+  "description": "词库数据获取云函数",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "latest"
+  }
+}

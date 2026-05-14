@@ -82,7 +82,7 @@ Page({
       return
     }
     wx.navigateTo({
-      url: '/pages/exam-select/exam-select?id=' + id,
+      url: '/package-exam/pages/exam-select/exam-select?id=' + id,
       fail: function(err) {
         console.error('navigateTo exam-select failed:', err)
         wx.showToast({ title: '页面跳转失败', icon: 'none' })

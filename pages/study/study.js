@@ -43,14 +43,14 @@ Page({
   // 跳转到单词练习
   goToWordPractice: function() {
     wx.navigateTo({
-      url: '/pages/word-practice/word-practice'
+      url: '/package-study/pages/word-practice/word-practice'
     })
   },
 
   // 跳转到发音纠正
   goToPronunciation: function() {
     wx.navigateTo({
-      url: '/pages/pronunciation/pronunciation'
+      url: '/package-practice/pages/pronunciation/pronunciation'
     })
   },
 
@@ -58,14 +58,14 @@ Page({
   viewWordDetail: function(e) {
     var word = e.currentTarget.dataset.word
     wx.navigateTo({
-      url: '/pages/word-detail/word-detail?word=' + word
+      url: '/package-study/pages/word-detail/word-detail?word=' + word
     })
   },
 
   // 跳转到错题本
   goToErrorBook: function() {
     wx.navigateTo({
-      url: '/pages/error-book/error-book'
+      url: '/package-study/pages/error-book/error-book'
     })
   }
 })

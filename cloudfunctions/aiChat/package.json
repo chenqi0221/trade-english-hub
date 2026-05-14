@@ -1,0 +1,9 @@
+{
+  "name": "aiChat",
+  "version": "1.0.0",
+  "description": "AI口语对话云函数 - 调用火山方舟大模型",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "latest"
+  }
+}

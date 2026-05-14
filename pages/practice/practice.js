@@ -7,7 +7,7 @@ Page({
         icon: '🤖',
         desc: '与AI进行英语对话练习',
         color: '#52C41A',
-        page: '/pages/ai-chat/ai-chat'
+        page: '/package-practice/pages/ai-chat/ai-chat'
       },
       {
         id: 'scene',
@@ -15,7 +15,7 @@ Page({
         icon: '🎭',
         desc: '8大外贸场景模拟对话',
         color: '#722ED1',
-        page: '/pages/scene-practice/scene-practice'
+        page: '/package-practice/pages/scene-practice/scene-practice'
       }
     ],
     recentPractice: []

@@ -1,0 +1,33817 @@
+module.exports = [
+  {
+    "word": "act",
+    "phonetic": "",
+    "meaning": "v. 表演；举动；起作用; n. 行为，法令；一幕",
+    "translations": [
+      {
+        "translation": "表演；举动；起作用",
+        "type": "v"
+      },
+      {
+        "translation": "行为，法令；一幕",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "act as",
+        "translation": "担当"
+      },
+      {
+        "phrase": "act on",
+        "translation": "对…起作用；按照…行事"
+      },
+      {
+        "phrase": "act in",
+        "translation": "扮演；在…方面行动"
+      }
+    ]
+  },
+  {
+    "word": "action",
+    "phonetic": "",
+    "meaning": "n. 行动，动作；作用；运转；行为；战斗",
+    "translations": [
+      {
+        "translation": "行动，动作；作用；运转；行为；战斗",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "take action",
+        "translation": "采取行动；提出诉讼"
+      },
+      {
+        "phrase": "action on",
+        "translation": "对…的作用"
+      },
+      {
+        "phrase": "in action",
+        "translation": "在活动；在运转"
+      }
+    ]
+  },
+  {
+    "word": "activate",
+    "phonetic": "",
+    "meaning": "v. 启动，激活；驱动，驱使；使开始起作用",
+    "translations": [
+      {
+        "translation": "启动，激活；驱动，驱使；使开始起作用",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "active",
+    "phonetic": "",
+    "meaning": "adj. 活跃的，敏捷的，积极的；在活动中的",
+    "translations": [
+      {
+        "translation": "活跃的，敏捷的，积极的；在活动中的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "active in",
+        "translation": "积极于"
+      },
+      {
+        "phrase": "active role",
+        "translation": "积极任务；活跃角色"
+      },
+      {
+        "phrase": "active part",
+        "translation": "积极的作用；能动部分，主动部分"
+      }
+    ]
+  },
+  {
+    "word": "actress",
+    "phonetic": "",
+    "meaning": "n. 女演员",
+    "translations": [
+      {
+        "translation": "女演员",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "actual",
+    "phonetic": "",
+    "meaning": "adj. 实际的；现实的，真实的，目前的",
+    "translations": [
+      {
+        "translation": "实际的；现实的，真实的，目前的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "actual situation",
+        "translation": "实际情况"
+      },
+      {
+        "phrase": "actual strength",
+        "translation": "实际强度"
+      },
+      {
+        "phrase": "actual condition",
+        "translation": "实际情况；实际状况"
+      }
+    ]
+  },
+  {
+    "word": "interact",
+    "phonetic": "",
+    "meaning": "v. 互相作用,互相影响",
+    "translations": [
+      {
+        "translation": "互相作用,互相影响",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "interact with",
+        "translation": "与……相互作用"
+      },
+      {
+        "phrase": "interact on",
+        "translation": "作用；影响；制约"
+      }
+    ]
+  },
+  {
+    "word": "radioactive",
+    "phonetic": "",
+    "meaning": "adj. 放射性,放射引起的",
+    "translations": [
+      {
+        "translation": "放射性,放射引起的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "radioactive waste",
+        "translation": "放射性废弃物"
+      },
+      {
+        "phrase": "radioactive isotope",
+        "translation": "放射性同位素"
+      },
+      {
+        "phrase": "radioactive material",
+        "translation": "放射性物质；放射性材料"
+      }
+    ]
+  },
+  {
+    "word": "react",
+    "phonetic": "",
+    "meaning": "v. 反应,起作用;(against)反对,起反作用",
+    "translations": [
+      {
+        "translation": "反应,起作用;(against)反对,起反作用",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "react on",
+        "translation": "v. 起作用于；对…有影响"
+      },
+      {
+        "phrase": "react against",
+        "translation": "反抗；反对；起反作用"
+      }
+    ]
+  },
+  {
+    "word": "transaction",
+    "phonetic": "",
+    "meaning": "n. 办理,处理;交易,事务;(pl.)会报,学报",
+    "translations": [
+      {
+        "translation": "办理,处理;交易,事务;(pl.)会报,学报",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "transaction cost",
+        "translation": "交易成本，交易费用"
+      },
+      {
+        "phrase": "transaction processing",
+        "translation": "[计]事务处理"
+      },
+      {
+        "phrase": "business transaction",
+        "translation": "商业交易；[经]经济业务"
+      }
+    ]
+  },
+  {
+    "word": "character",
+    "phonetic": "",
+    "meaning": "n. 性格,品质,特性;人物,角色;字符,(汉)字",
+    "translations": [
+      {
+        "translation": "性格,品质,特性;人物,角色;字符,(汉)字",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "chinese character",
+        "translation": "汉字"
+      },
+      {
+        "phrase": "moral character",
+        "translation": "品德"
+      },
+      {
+        "phrase": "main character",
+        "translation": "主要人物；主要角色"
+      }
+    ]
+  },
+  {
+    "word": "characteristic",
+    "phonetic": "",
+    "meaning": "adj. 特有的,独特的; n. 特征,特性",
+    "translations": [
+      {
+        "translation": "特有的,独特的",
+        "type": "adj"
+      },
+      {
+        "translation": "特征,特性",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "characteristic of",
+        "translation": "特有的；表示…特性的"
+      },
+      {
+        "phrase": "dynamic characteristic",
+        "translation": "动态特性；负载特性曲线"
+      },
+      {
+        "phrase": "characteristic curve",
+        "translation": "特性曲线；特征曲线"
+      }
+    ]
+  },
+  {
+    "word": "characterize",
+    "phonetic": "",
+    "meaning": "v. 表示…的特性;描述…特性",
+    "translations": [
+      {
+        "translation": "表示…的特性;描述…特性",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "agency",
+    "phonetic": "",
+    "meaning": "n. 代理(处)；代办处；[美](政府的)机关，厅",
+    "translations": [
+      {
+        "translation": "代理(处)；代办处；[美](政府的)机关，厅",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "news agency",
+        "translation": "通讯社；新闻通讯社"
+      },
+      {
+        "phrase": "xinhua news agency",
+        "translation": "新华社"
+      },
+      {
+        "phrase": "travel agency",
+        "translation": "旅行社"
+      }
+    ]
+  },
+  {
+    "word": "agenda",
+    "phonetic": "",
+    "meaning": "n. 议事日程，记事册",
+    "translations": [
+      {
+        "translation": "议事日程，记事册",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "item on the agenda",
+        "translation": "议程项目"
+      },
+      {
+        "phrase": "hidden agenda",
+        "translation": "隐秘的议程；幕后的动机"
+      },
+      {
+        "phrase": "agenda setting",
+        "translation": "议题设定；议程设定"
+      }
+    ]
+  },
+  {
+    "word": "agent",
+    "phonetic": "",
+    "meaning": "n. 代理人；代理商；产生作用的人或事物",
+    "translations": [
+      {
+        "translation": "代理人；代理商；产生作用的人或事物",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "coupling agent",
+        "translation": "[化]偶联剂"
+      },
+      {
+        "phrase": "curing agent",
+        "translation": "固化剂；[化]硬化剂"
+      },
+      {
+        "phrase": "sales agent",
+        "translation": "销售代理商"
+      }
+    ]
+  },
+  {
+    "word": "agony",
+    "phonetic": "",
+    "meaning": "n. (精神或肉体的)极大痛苦，创伤",
+    "translations": [
+      {
+        "translation": "(精神或肉体的)极大痛苦，创伤",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "agony of",
+        "translation": "(感情上的)突然而强烈的爆发，任何精神上的激动"
+      },
+      {
+        "phrase": "in agony",
+        "translation": "痛苦不堪"
+      },
+      {
+        "phrase": "agony aunt",
+        "translation": "（英）问答专栏阿姨；心理咨询阿姨"
+      }
+    ]
+  },
+  {
+    "word": "agitate",
+    "phonetic": "",
+    "meaning": "v. 摇动(液体)；使焦虑不安；困扰；鼓动",
+    "translations": [
+      {
+        "translation": "摇动(液体)；使焦虑不安；困扰；鼓动",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "agitate for",
+        "translation": "鼓动"
+      }
+    ]
+  },
+  {
+    "word": "art",
+    "phonetic": "",
+    "meaning": "n. 艺术，美术；技术，技艺；文科，人文科学",
+    "translations": [
+      {
+        "translation": "艺术，美术；技术，技艺；文科，人文科学",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "contemporary art",
+        "translation": "当代艺术"
+      },
+      {
+        "phrase": "works of art",
+        "translation": "艺术品"
+      },
+      {
+        "phrase": "literature and art",
+        "translation": "文艺；文学与艺术"
+      }
+    ]
+  },
+  {
+    "word": "artery",
+    "phonetic": "",
+    "meaning": "n. 动脉；干线，要道",
+    "translations": [
+      {
+        "translation": "动脉；干线，要道",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "coronary artery",
+        "translation": "[解]冠状动脉"
+      },
+      {
+        "phrase": "coronary artery disease",
+        "translation": "冠状动脉疾病"
+      },
+      {
+        "phrase": "carotid artery",
+        "translation": "颈动脉"
+      }
+    ]
+  },
+  {
+    "word": "article",
+    "phonetic": "",
+    "meaning": "n. 文章，论文；条款，条文；物件；冠词",
+    "translations": [
+      {
+        "translation": "文章，论文；条款，条文；物件；冠词",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in articles",
+        "translation": "根据契约当学徒，依雇用契约工作着"
+      },
+      {
+        "phrase": "write an article",
+        "translation": "写文章"
+      },
+      {
+        "phrase": "first article",
+        "translation": "首产品"
+      }
+    ]
+  },
+  {
+    "word": "articulate",
+    "phonetic": "",
+    "meaning": "adj. 善于表达的；有关节相连的; v. 清楚地讲话",
+    "translations": [
+      {
+        "translation": "善于表达的；有关节相连的",
+        "type": "adj"
+      },
+      {
+        "translation": "清楚地讲话",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "artificial",
+    "phonetic": "",
+    "meaning": "adj. 人工的，人造的，人为的；虚伪的，做作的",
+    "translations": [
+      {
+        "translation": "人工的，人造的，人为的；虚伪的，做作的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "artificial intelligence",
+        "translation": "人工智能"
+      },
+      {
+        "phrase": "artificial leather",
+        "translation": "人造革"
+      },
+      {
+        "phrase": "artificial insemination",
+        "translation": "人工受精"
+      }
+    ]
+  },
+  {
+    "word": "artist",
+    "phonetic": "",
+    "meaning": "n. 艺术家，美术家；(某方面的)能手",
+    "translations": [
+      {
+        "translation": "艺术家，美术家；(某方面的)能手",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "graphic artist",
+        "translation": "艺术家"
+      },
+      {
+        "phrase": "martial artist",
+        "translation": "武术家"
+      },
+      {
+        "phrase": "make-up artist",
+        "translation": "化妆师；舞台监督"
+      }
+    ]
+  },
+  {
+    "word": "artistic",
+    "phonetic": "",
+    "meaning": "adj. 艺术(家)的，美术(家)的；善于艺术创作的",
+    "translations": [
+      {
+        "translation": "艺术(家)的，美术(家)的；善于艺术创作的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "artistic conception",
+        "translation": "意境"
+      },
+      {
+        "phrase": "artistic style",
+        "translation": "艺术风格"
+      },
+      {
+        "phrase": "artistic form",
+        "translation": "艺术形式"
+      }
+    ]
+  },
+  {
+    "word": "ban",
+    "phonetic": "",
+    "meaning": "v. 取缔,查禁;(from)禁止; n. 禁止,禁令",
+    "translations": [
+      {
+        "translation": "取缔,查禁;(from)禁止",
+        "type": "v"
+      },
+      {
+        "translation": "禁止,禁令",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "ban ki-moon",
+        "translation": "潘基文（男子名，韩国前外长，联合国秘书长）"
+      },
+      {
+        "phrase": "ban from",
+        "translation": "禁止"
+      },
+      {
+        "phrase": "lift the ban",
+        "translation": "解禁；取消禁令"
+      }
+    ]
+  },
+  {
+    "word": "abandon",
+    "phonetic": "",
+    "meaning": "v. 离弃，丢弃；遗弃，抛弃；放弃",
+    "translations": [
+      {
+        "translation": "离弃，丢弃；遗弃，抛弃；放弃",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "with abandon",
+        "translation": "恣意地，放纵地"
+      },
+      {
+        "phrase": "abandon ship",
+        "translation": "弃船"
+      }
+    ]
+  },
+  {
+    "word": "band",
+    "phonetic": "",
+    "meaning": "n. 条,带;乐队;波段;一群,一伙; v. 缚,绑扎",
+    "translations": [
+      {
+        "translation": "条,带;乐队;波段;一群,一伙",
+        "type": "n"
+      },
+      {
+        "translation": "缚,绑扎",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "frequency band",
+        "translation": "频带；频段"
+      },
+      {
+        "phrase": "wide band",
+        "translation": "宽频带；规定较大幅度的浮动汇率制度"
+      },
+      {
+        "phrase": "band gap",
+        "translation": "带隙"
+      }
+    ]
+  },
+  {
+    "word": "bandage",
+    "phonetic": "",
+    "meaning": "n. 绷带; v. 用绷带扎缚",
+    "translations": [
+      {
+        "translation": "绷带",
+        "type": "n"
+      },
+      {
+        "translation": "用绷带扎缚",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "elastic bandage",
+        "translation": "弹性绷带；橡胶绷带"
+      }
+    ]
+  },
+  {
+    "word": "bank",
+    "phonetic": "",
+    "meaning": "n. 银行；岸,堤；",
+    "translations": [
+      {
+        "translation": "银行；岸,堤；",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "central bank",
+        "translation": "[经]中央银行"
+      },
+      {
+        "phrase": "commercial bank",
+        "translation": "商业银行"
+      },
+      {
+        "phrase": "bank of china",
+        "translation": "中国银行"
+      }
+    ]
+  },
+  {
+    "word": "bankrupt",
+    "phonetic": "",
+    "meaning": "adj. 破产的；彻底缺乏的; v. 使破产n.破产者",
+    "translations": [
+      {
+        "translation": "破产的；彻底缺乏的",
+        "type": "adj"
+      },
+      {
+        "translation": "使破产n.破产者",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "go bankrupt",
+        "translation": "破产"
+      },
+      {
+        "phrase": "bankrupt of",
+        "translation": "完全缺乏"
+      }
+    ]
+  },
+  {
+    "word": "banner",
+    "phonetic": "",
+    "meaning": "n. 旗(帜)",
+    "translations": [
+      {
+        "translation": "旗(帜)",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "under the banner of",
+        "translation": "在…的旗帜下"
+      },
+      {
+        "phrase": "banner ads",
+        "translation": "横幅广告；旗帜广告"
+      },
+      {
+        "phrase": "star-spangled banner",
+        "translation": "美国国歌；美国国旗（等于Stars and Stripes）"
+      }
+    ]
+  },
+  {
+    "word": "banquet",
+    "phonetic": "",
+    "meaning": "n. (正式的)宴会; v. 参加宴会",
+    "translations": [
+      {
+        "translation": "(正式的)宴会",
+        "type": "n"
+      },
+      {
+        "translation": "参加宴会",
+        "type": "v"
+      },
+      {
+        "translation": "宴情",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "banquet hall",
+        "translation": "宴会厅；大餐厅"
+      },
+      {
+        "phrase": "banquet room",
+        "translation": "宴会厅；宴会室"
+      },
+      {
+        "phrase": "state banquet",
+        "translation": "国宴"
+      }
+    ]
+  },
+  {
+    "word": "husband",
+    "phonetic": "",
+    "meaning": "n. 丈夫",
+    "translations": [
+      {
+        "translation": "丈夫",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "husband and wife",
+        "translation": "夫妻"
+      }
+    ]
+  },
+  {
+    "word": "urban",
+    "phonetic": "",
+    "meaning": "adj. 城市的, 市内的",
+    "translations": [
+      {
+        "translation": "城市的, 市内的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "urban planning",
+        "translation": "城市规划；城镇规划"
+      },
+      {
+        "phrase": "urban construction",
+        "translation": "城市建设；城市工程"
+      },
+      {
+        "phrase": "urban development",
+        "translation": "城市发展；城市开发"
+      }
+    ]
+  },
+  {
+    "word": "bar",
+    "phonetic": "",
+    "meaning": "n. 条,杆,闩;酒吧;栅,障碍(物); v. 闩上,阻拦",
+    "translations": [
+      {
+        "translation": "条,杆,闩;酒吧;栅,障碍(物)",
+        "type": "n"
+      },
+      {
+        "translation": "闩上,阻拦",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "at the bar",
+        "translation": "在酒吧；受到公开审问"
+      },
+      {
+        "phrase": "bar code",
+        "translation": "条形码；电脑条码"
+      },
+      {
+        "phrase": "steel bar",
+        "translation": "钢筋；棒材；型钢；条钢"
+      }
+    ]
+  },
+  {
+    "word": "barbecue",
+    "phonetic": "",
+    "meaning": "n. 烤肉；烤肉用的台架; v. 炙烤(肉等)",
+    "translations": [
+      {
+        "translation": "烤肉；烤肉用的台架",
+        "type": "n"
+      },
+      {
+        "translation": "炙烤(肉等)",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "barbecue sauce",
+        "translation": "烤肉调味酱；在全烧时涂抹烤物用的沙司；烧烤鱼或肉时所用调味液"
+      },
+      {
+        "phrase": "korean barbecue",
+        "translation": "韩国烤肉"
+      }
+    ]
+  },
+  {
+    "word": "barber",
+    "phonetic": "",
+    "meaning": "n. 理发师",
+    "translations": [
+      {
+        "translation": "理发师",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "barber shop",
+        "translation": "理发店"
+      }
+    ]
+  },
+  {
+    "word": "bare",
+    "phonetic": "",
+    "meaning": "adj. 赤裸的,空的;稀少的,仅有的; v. 露出,暴露",
+    "translations": [
+      {
+        "translation": "赤裸的,空的;稀少的,仅有的",
+        "type": "adj"
+      },
+      {
+        "translation": "露出,暴露",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "bare of",
+        "translation": "vt. 几乎没有，缺乏"
+      },
+      {
+        "phrase": "lay bare",
+        "translation": "揭发，暴露；公开"
+      },
+      {
+        "phrase": "bare feet",
+        "translation": "赤脚；光脚；光着脚"
+      }
+    ]
+  },
+  {
+    "word": "barely",
+    "phonetic": "",
+    "meaning": "adv. 赤裸裸地,无遮蔽地;仅仅,勉强,几乎没有",
+    "translations": [
+      {
+        "translation": "赤裸裸地,无遮蔽地;仅仅,勉强,几乎没有",
+        "type": "adv"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "bargain",
+    "phonetic": "",
+    "meaning": "n. 廉价货;交易,契约,合同; v. 议价,成交",
+    "translations": [
+      {
+        "translation": "廉价货;交易,契约,合同",
+        "type": "n"
+      },
+      {
+        "translation": "议价,成交",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "bargain with",
+        "translation": "讨价还价；与…讨价还价"
+      },
+      {
+        "phrase": "real bargain",
+        "translation": "合算的交易"
+      },
+      {
+        "phrase": "bargain for",
+        "translation": "指望；想以廉价买"
+      }
+    ]
+  },
+  {
+    "word": "barn",
+    "phonetic": "",
+    "meaning": "n. 谷仓,仓库",
+    "translations": [
+      {
+        "translation": "谷仓,仓库",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "barn door",
+        "translation": "挡光板；谷仓门"
+      }
+    ]
+  },
+  {
+    "word": "barrel",
+    "phonetic": "",
+    "meaning": "n. 桶;枪管,炮管",
+    "translations": [
+      {
+        "translation": "桶;枪管,炮管",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in the barrel",
+        "translation": "[美国俚语、黑人用语]"
+      },
+      {
+        "phrase": "on the barrel",
+        "translation": "现付的；以现金"
+      },
+      {
+        "phrase": "gun barrel",
+        "translation": "枪筒；炮筒；油水分离罐"
+      }
+    ]
+  },
+  {
+    "word": "barren",
+    "phonetic": "",
+    "meaning": "adj. 贫瘠的；不育的；(植物)不结果的；无用的",
+    "translations": [
+      {
+        "translation": "贫瘠的；不育的；(植物)不结果的；无用的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "barren land",
+        "translation": "荒地；不毛之地"
+      },
+      {
+        "phrase": "barren field",
+        "translation": "贫瘠的荒野；无油气地区"
+      },
+      {
+        "phrase": "barren rock",
+        "translation": "无油气的岩层；空白岩石；无矿岩；废石"
+      }
+    ]
+  },
+  {
+    "word": "barrier",
+    "phonetic": "",
+    "meaning": "n. 栅栏,屏障;障碍(物)",
+    "translations": [
+      {
+        "translation": "栅栏,屏障;障碍(物)",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "trade barrier",
+        "translation": "贸易壁垒"
+      },
+      {
+        "phrase": "language barrier",
+        "translation": "n. 语言障碍"
+      },
+      {
+        "phrase": "barrier reef",
+        "translation": "堡礁；堤礁"
+      }
+    ]
+  },
+  {
+    "word": "embark",
+    "phonetic": "",
+    "meaning": "v. (使)上船(或飞机,汽车等);着手,从事",
+    "translations": [
+      {
+        "translation": "(使)上船(或飞机,汽车等);着手,从事",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "embark on",
+        "translation": "从事，着手；登上船"
+      },
+      {
+        "phrase": "embark upon",
+        "translation": "从事，着手，开始"
+      }
+    ]
+  },
+  {
+    "word": "embarrass",
+    "phonetic": "",
+    "meaning": "v. 使困窘,使局促不安;阻碍,麻烦",
+    "translations": [
+      {
+        "translation": "使困窘,使局促不安;阻碍,麻烦",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "base",
+    "phonetic": "",
+    "meaning": "n. 基础,底部;根据地; v. (on)把…基于",
+    "translations": [
+      {
+        "translation": "基础,底部;根据地",
+        "type": "n"
+      },
+      {
+        "translation": "(on)把…基于",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "base on",
+        "translation": "基于，以……为根据；在……基础上"
+      },
+      {
+        "phrase": "production base",
+        "translation": "生产基地"
+      },
+      {
+        "phrase": "on base",
+        "translation": "[体]占垒"
+      }
+    ]
+  },
+  {
+    "word": "ambassador",
+    "phonetic": "",
+    "meaning": "n. 大使；特使，(派驻国际组织的)代表",
+    "translations": [
+      {
+        "translation": "大使；特使，(派驻国际组织的)代表",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "an ambassador",
+        "translation": "大使"
+      },
+      {
+        "phrase": "goodwill ambassador",
+        "translation": "亲善大使，友好大使"
+      },
+      {
+        "phrase": "image ambassador",
+        "translation": "形象大使；商品代言人"
+      }
+    ]
+  },
+  {
+    "word": "baseball",
+    "phonetic": "",
+    "meaning": "n. 棒球",
+    "translations": [
+      {
+        "translation": "棒球",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "baseball game",
+        "translation": "棒球比赛"
+      },
+      {
+        "phrase": "baseball team",
+        "translation": "棒球队；棒球队型"
+      },
+      {
+        "phrase": "baseball player",
+        "translation": "棒球运动员；棒球选手"
+      }
+    ]
+  },
+  {
+    "word": "basement",
+    "phonetic": "",
+    "meaning": "n. 建筑物的底部,地下室,地窖",
+    "translations": [
+      {
+        "translation": "建筑物的底部,地下室,地窖",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "basement membrane",
+        "translation": "基膜；基底膜；底膜"
+      },
+      {
+        "phrase": "basement rock",
+        "translation": "基岩；基底岩石"
+      },
+      {
+        "phrase": "crystalline basement",
+        "translation": "结晶基底"
+      }
+    ]
+  },
+  {
+    "word": "basic",
+    "phonetic": "",
+    "meaning": "adj. 基本的,基础的",
+    "translations": [
+      {
+        "translation": "基本的,基础的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "basic principle",
+        "translation": "基本原理"
+      },
+      {
+        "phrase": "basic theory",
+        "translation": "基本理论"
+      },
+      {
+        "phrase": "basic level",
+        "translation": "基本水平"
+      }
+    ]
+  },
+  {
+    "word": "basin",
+    "phonetic": "",
+    "meaning": "n. 盆,脸盆;内海,盆地",
+    "translations": [
+      {
+        "translation": "盆,脸盆;内海,盆地",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "river basin",
+        "translation": "流域"
+      },
+      {
+        "phrase": "tarim basin",
+        "translation": "塔里木盆地（位于中国西部）"
+      },
+      {
+        "phrase": "lake basin",
+        "translation": "湖盆；湖泊盆地"
+      }
+    ]
+  },
+  {
+    "word": "basis",
+    "phonetic": "",
+    "meaning": "n. 基础,根据",
+    "translations": [
+      {
+        "translation": "基础,根据",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "on the basis of",
+        "translation": "根据；基于…"
+      },
+      {
+        "phrase": "basis for",
+        "translation": "以…作基础；为…打基础"
+      },
+      {
+        "phrase": "theoretical basis",
+        "translation": "理论基础"
+      }
+    ]
+  },
+  {
+    "word": "basket",
+    "phonetic": "",
+    "meaning": "n. 筐，篮，篓",
+    "translations": [
+      {
+        "translation": "筐，篮，篓",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "picnic basket",
+        "translation": "野餐篮"
+      },
+      {
+        "phrase": "fruit basket",
+        "translation": "果篮，水果篮"
+      },
+      {
+        "phrase": "bamboo basket",
+        "translation": "竹篮；竹篓"
+      }
+    ]
+  },
+  {
+    "word": "database",
+    "phonetic": "",
+    "meaning": "n. (databank)数据库",
+    "translations": [
+      {
+        "translation": "(databank)数据库",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "database system",
+        "translation": "数据库系统；资料库系统"
+      },
+      {
+        "phrase": "database management",
+        "translation": "数据库管理，资料库管理"
+      },
+      {
+        "phrase": "relational database",
+        "translation": "关系数据库"
+      }
+    ]
+  },
+  {
+    "word": "embassy",
+    "phonetic": "",
+    "meaning": "n. 大使馆;大使及其随员",
+    "translations": [
+      {
+        "translation": "大使馆;大使及其随员",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "bat",
+    "phonetic": "",
+    "meaning": "n. 球拍,球棒,短棒;蝙蝠",
+    "translations": [
+      {
+        "translation": "球拍,球棒,短棒;蝙蝠",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "at bat",
+        "translation": "轮到击球"
+      },
+      {
+        "phrase": "baseball bat",
+        "translation": "棒球棒"
+      },
+      {
+        "phrase": "off the bat",
+        "translation": "马上；立刻"
+      }
+    ]
+  },
+  {
+    "word": "acrobat",
+    "phonetic": "",
+    "meaning": "n. 特技演员，杂技演员",
+    "translations": [
+      {
+        "translation": "特技演员，杂技演员",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "bacterium",
+    "phonetic": "",
+    "meaning": "n. 细菌",
+    "translations": [
+      {
+        "translation": "细菌",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "acetic acid bacterium",
+        "translation": "醋细菌"
+      }
+    ]
+  },
+  {
+    "word": "batch",
+    "phonetic": "",
+    "meaning": "n. 一批,一组,一群",
+    "translations": [
+      {
+        "translation": "一批,一组,一群",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "a batch of",
+        "translation": "一批"
+      },
+      {
+        "phrase": "first batch",
+        "translation": "首批"
+      },
+      {
+        "phrase": "batch production",
+        "translation": "批量生产；成批生产；间歇生产"
+      }
+    ]
+  },
+  {
+    "word": "bath",
+    "phonetic": "",
+    "meaning": "n. 沐浴,洗澡;浴室(池,盆); v. (给…)洗澡",
+    "translations": [
+      {
+        "translation": "沐浴,洗澡;浴室(池,盆)",
+        "type": "n"
+      },
+      {
+        "translation": "(给…)洗澡",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "take a bath",
+        "translation": "洗个澡"
+      },
+      {
+        "phrase": "water bath",
+        "translation": "[医]水浴"
+      },
+      {
+        "phrase": "plating bath",
+        "translation": "电镀槽"
+      }
+    ]
+  },
+  {
+    "word": "bathe",
+    "phonetic": "",
+    "meaning": "v. 游泳,洗澡,浸,弄湿",
+    "translations": [
+      {
+        "translation": "游泳,洗澡,浸,弄湿",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "go for a bathe",
+        "translation": "[主英国英语] 去洗一次海(或河、湖)水浴；去游泳"
+      }
+    ]
+  },
+  {
+    "word": "bathroom",
+    "phonetic": "",
+    "meaning": "n. 浴室;盥洗室,卫生间",
+    "translations": [
+      {
+        "translation": "浴室;盥洗室,卫生间",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "bathroom accessories",
+        "translation": "浴室配件"
+      },
+      {
+        "phrase": "go to the bathroom",
+        "translation": "上厕所"
+      },
+      {
+        "phrase": "bathroom cabinet",
+        "translation": "浴室柜"
+      }
+    ]
+  },
+  {
+    "word": "battery",
+    "phonetic": "",
+    "meaning": "n. 电池(组)；(器具等的)一组，一套；炮兵连",
+    "translations": [
+      {
+        "translation": "电池(组)；(器具等的)一组，一套；炮兵连",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "battery of",
+        "translation": "一组；一套"
+      },
+      {
+        "phrase": "storage battery",
+        "translation": "蓄电池；蓄电池组"
+      },
+      {
+        "phrase": "lithium battery",
+        "translation": "锂电池；锂蓄电池"
+      }
+    ]
+  },
+  {
+    "word": "battle",
+    "phonetic": "",
+    "meaning": "n. 战役,战斗;斗争; v. 战斗,斗争,搏斗",
+    "translations": [
+      {
+        "translation": "战役,战斗;斗争",
+        "type": "n"
+      },
+      {
+        "translation": "战斗,斗争,搏斗",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in battle",
+        "translation": "在战斗中；在战争中"
+      },
+      {
+        "phrase": "half the battle",
+        "translation": "有助于成功的条件；成功一半"
+      },
+      {
+        "phrase": "battle with",
+        "translation": "与…战斗"
+      }
+    ]
+  },
+  {
+    "word": "combat",
+    "phonetic": "",
+    "meaning": "v&n. 战斗,搏斗,格斗",
+    "translations": [
+      {
+        "translation": "战斗,搏斗,格斗",
+        "type": "v&n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "combat with",
+        "translation": "v. 与…战斗"
+      },
+      {
+        "phrase": "combat aircraft",
+        "translation": "战斗机"
+      },
+      {
+        "phrase": "combat corruption",
+        "translation": "反腐；惩治腐败"
+      }
+    ]
+  },
+  {
+    "word": "debate",
+    "phonetic": "",
+    "meaning": "v&n. 争论,辩论",
+    "translations": [
+      {
+        "translation": "争论,辩论",
+        "type": "v&n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "debate on",
+        "translation": "关于…进行辩论"
+      },
+      {
+        "phrase": "public debate",
+        "translation": "公开辩论"
+      },
+      {
+        "phrase": "under debate",
+        "translation": "在争论中"
+      }
+    ]
+  },
+  {
+    "word": "call",
+    "phonetic": "",
+    "meaning": "vt. 叫，喊；打电话; vi. 叫；访问",
+    "translations": [
+      {
+        "translation": "叫，喊；打电话",
+        "type": "vt"
+      },
+      {
+        "translation": "叫；访问",
+        "type": "vi"
+      },
+      {
+        "translation": "叫；号召",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "call for",
+        "translation": "要求；需要；提倡；邀请；为…叫喊"
+      },
+      {
+        "phrase": "phone call",
+        "translation": "电话"
+      },
+      {
+        "phrase": "call on",
+        "translation": "访问，拜访；号召，请求"
+      }
+    ]
+  },
+  {
+    "word": "recall",
+    "phonetic": "",
+    "meaning": "v. 回忆,回想;撤消,收回",
+    "translations": [
+      {
+        "translation": "回忆,回想;撤消,收回",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "beyond recall",
+        "translation": "不可挽回；不能记起"
+      },
+      {
+        "phrase": "recall from",
+        "translation": "从…处召回"
+      },
+      {
+        "phrase": "recall to mind",
+        "translation": "回想起，回忆起，记得"
+      }
+    ]
+  },
+  {
+    "word": "calcium",
+    "phonetic": "",
+    "meaning": "n. 钙(化学符号Ca)",
+    "translations": [
+      {
+        "translation": "钙(化学符号Ca)",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "calcium carbonate",
+        "translation": "n. [化]碳酸钙"
+      },
+      {
+        "phrase": "calcium carbide",
+        "translation": "[化]电石，碳化钙"
+      },
+      {
+        "phrase": "calcium chloride",
+        "translation": "氯化钙"
+      }
+    ]
+  },
+  {
+    "word": "calculate",
+    "phonetic": "",
+    "meaning": "v. 计算,推算;计划,打算",
+    "translations": [
+      {
+        "translation": "计算,推算;计划,打算",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "calculate on",
+        "translation": "指望；期待"
+      },
+      {
+        "phrase": "be calculated for",
+        "translation": "适合于……；为适合…而设计的"
+      }
+    ]
+  },
+  {
+    "word": "calendar",
+    "phonetic": "",
+    "meaning": "n. 日历,月历",
+    "translations": [
+      {
+        "translation": "日历,月历",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "lunar calendar",
+        "translation": "n. 阴历"
+      },
+      {
+        "phrase": "calendar year",
+        "translation": "历年"
+      },
+      {
+        "phrase": "desk calendar",
+        "translation": "台历；台历芯"
+      }
+    ]
+  },
+  {
+    "word": "scale",
+    "phonetic": "",
+    "meaning": "n. 刻度;天平,磅秤;比例尺;规模;音阶;鱼鳞",
+    "translations": [
+      {
+        "translation": "刻度;天平,磅秤;比例尺;规模;音阶;鱼鳞",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "large scale",
+        "translation": "adj. 大规模的；大型的"
+      },
+      {
+        "phrase": "on a large scale",
+        "translation": "大规模地"
+      },
+      {
+        "phrase": "small scale",
+        "translation": "小规模；小比例尺"
+      }
+    ]
+  },
+  {
+    "word": "escalate",
+    "phonetic": "",
+    "meaning": "v. (使)逐步增长(或发展)，(使)逐步升级",
+    "translations": [
+      {
+        "translation": "(使)逐步增长(或发展)，(使)逐步升级",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "accelerate",
+    "phonetic": "",
+    "meaning": "v. 使加速，使增速，促进; v. 加快，增加",
+    "translations": [
+      {
+        "translation": "使加速，使增速，促进",
+        "type": "v"
+      },
+      {
+        "translation": "加快，增加",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "celebrate",
+    "phonetic": "",
+    "meaning": "v. 庆祝；颂扬，赞美vi.庆祝，过节",
+    "translations": [
+      {
+        "translation": "庆祝；颂扬，赞美vi.庆祝，过节",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "celebrate with",
+        "translation": "庆祝"
+      },
+      {
+        "phrase": "celebrate christmas",
+        "translation": "庆祝圣诞"
+      }
+    ]
+  },
+  {
+    "word": "celebrity",
+    "phonetic": "",
+    "meaning": "n. 名人，名流；著名，名声，名望",
+    "translations": [
+      {
+        "translation": "名人，名流；著名，名声，名望",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "cap",
+    "phonetic": "",
+    "meaning": "n. 便帽,军帽;盖,罩,套; v. 覆盖于…顶端",
+    "translations": [
+      {
+        "translation": "便帽,军帽;盖,罩,套",
+        "type": "n"
+      },
+      {
+        "translation": "覆盖于…顶端",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "cap rock",
+        "translation": "[地质]冠岩；盖岩"
+      },
+      {
+        "phrase": "bottle cap",
+        "translation": "瓶盖"
+      },
+      {
+        "phrase": "pile cap",
+        "translation": "桩帽"
+      }
+    ]
+  },
+  {
+    "word": "capable",
+    "phonetic": "",
+    "meaning": "adj. 有本领的,有能力的;(of)可以…的,能…的",
+    "translations": [
+      {
+        "translation": "有本领的,有能力的;(of)可以…的,能…的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "capable of",
+        "translation": "有…能力的；可…的"
+      },
+      {
+        "phrase": "capable person",
+        "translation": "有行为能力人"
+      }
+    ]
+  },
+  {
+    "word": "capacity",
+    "phonetic": "",
+    "meaning": "n. 容量,容积;能量,能力;接受力",
+    "translations": [
+      {
+        "translation": "容量,容积;能量,能力;接受力",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "production capacity",
+        "translation": "生产能力；生产力"
+      },
+      {
+        "phrase": "bearing capacity",
+        "translation": "承载量；结果能力；产仔能力"
+      },
+      {
+        "phrase": "capacity for",
+        "translation": "…的能力"
+      }
+    ]
+  },
+  {
+    "word": "cape",
+    "phonetic": "",
+    "meaning": "n. 海角，岬；披肩，短披风",
+    "translations": [
+      {
+        "translation": "海角，岬；披肩，短披风",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "cape town",
+        "translation": "开普敦（等于Capetown，南非西南部港市）"
+      },
+      {
+        "phrase": "cape canaveral",
+        "translation": "卡纳维拉尔角（位于美国）"
+      },
+      {
+        "phrase": "cape horn",
+        "translation": "合恩角"
+      }
+    ]
+  },
+  {
+    "word": "capital",
+    "phonetic": "",
+    "meaning": "n. 首都;大写字母;资本; adj. 主要的,大写字母的",
+    "translations": [
+      {
+        "translation": "首都;大写字母;资本",
+        "type": "n"
+      },
+      {
+        "translation": "主要的,大写字母的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "capital market",
+        "translation": "资本市场"
+      },
+      {
+        "phrase": "foreign capital",
+        "translation": "外国资本，外资"
+      },
+      {
+        "phrase": "human capital",
+        "translation": "人力资本，技能资本"
+      }
+    ]
+  },
+  {
+    "word": "capitalism",
+    "phonetic": "",
+    "meaning": "n. 资本主义",
+    "translations": [
+      {
+        "translation": "资本主义",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "state capitalism",
+        "translation": "n. 国家资本主义"
+      },
+      {
+        "phrase": "monopoly capitalism",
+        "translation": "垄断资本主义"
+      },
+      {
+        "phrase": "crony capitalism",
+        "translation": "裙带资本主义；权贵资本主义；唯亲资本主义"
+      }
+    ]
+  },
+  {
+    "word": "capsule",
+    "phonetic": "",
+    "meaning": "n. 胶囊;太空舱",
+    "translations": [
+      {
+        "translation": "胶囊;太空舱",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "soft capsule",
+        "translation": "软胶囊剂"
+      },
+      {
+        "phrase": "in a capsule",
+        "translation": "[口语]概括地说，简单扼要地讲"
+      },
+      {
+        "phrase": "time capsule",
+        "translation": "时代文物密藏器"
+      }
+    ]
+  },
+  {
+    "word": "captain",
+    "phonetic": "",
+    "meaning": "n. 首领,队长;船长;上尉; v. 做…的首领,指挥",
+    "translations": [
+      {
+        "translation": "首领,队长;船长;上尉",
+        "type": "n"
+      },
+      {
+        "translation": "做…的首领,指挥",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "sea captain",
+        "translation": "船长"
+      },
+      {
+        "phrase": "captain cook",
+        "translation": "库克船长（英国探险家和航海家）"
+      },
+      {
+        "phrase": "captain of industry",
+        "translation": "大企业之首脑"
+      }
+    ]
+  },
+  {
+    "word": "captive",
+    "phonetic": "",
+    "meaning": "n. 俘虏; adj. 被俘虏的,被监禁的",
+    "translations": [
+      {
+        "translation": "俘虏",
+        "type": "n"
+      },
+      {
+        "translation": "被俘虏的,被监禁的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "captive audience",
+        "translation": "受制而走不开的听众或观众"
+      }
+    ]
+  },
+  {
+    "word": "capture",
+    "phonetic": "",
+    "meaning": "v&n. 捕获,俘虏;夺得,攻占",
+    "translations": [
+      {
+        "translation": "捕获,俘虏;夺得,攻占",
+        "type": "v&n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "video capture",
+        "translation": "视频捕捉"
+      },
+      {
+        "phrase": "data capture",
+        "translation": "数据捕捉"
+      },
+      {
+        "phrase": "motion capture",
+        "translation": "动作捕捉"
+      }
+    ]
+  },
+  {
+    "word": "escape",
+    "phonetic": "",
+    "meaning": "n. 逃跑,逃脱; v. 逃跑;避开,避免",
+    "translations": [
+      {
+        "translation": "逃跑,逃脱",
+        "type": "n"
+      },
+      {
+        "translation": "逃跑;避开,避免",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "escape from",
+        "translation": "vt. 逃脱"
+      },
+      {
+        "phrase": "escape route",
+        "translation": "迂回进路；脱险通道；疏散路线"
+      },
+      {
+        "phrase": "fire escape",
+        "translation": "太平梯，太平门；安全出口"
+      }
+    ]
+  },
+  {
+    "word": "handicap",
+    "phonetic": "",
+    "meaning": "v. 妨碍; n. (身体或智力方面的)缺陷;不利条件",
+    "translations": [
+      {
+        "translation": "妨碍",
+        "type": "v"
+      },
+      {
+        "translation": "(身体或智力方面的)缺陷;不利条件",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "mental handicap",
+        "translation": "心理缺陷；心智障碍"
+      },
+      {
+        "phrase": "physical handicap",
+        "translation": "身体缺陷；生理缺陷"
+      }
+    ]
+  },
+  {
+    "word": "car",
+    "phonetic": "",
+    "meaning": "n. 汽车，车辆，车；(火车)车厢",
+    "translations": [
+      {
+        "translation": "汽车，车辆，车；(火车)车厢",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "by car",
+        "translation": "乘汽车"
+      },
+      {
+        "phrase": "car accident",
+        "translation": "车祸；交通事故"
+      },
+      {
+        "phrase": "car rental",
+        "translation": "汽车出租"
+      }
+    ]
+  },
+  {
+    "word": "cargo",
+    "phonetic": "",
+    "meaning": "n. 船货,货物",
+    "translations": [
+      {
+        "translation": "船货,货物",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "air cargo",
+        "translation": "空运货物"
+      },
+      {
+        "phrase": "bulk cargo",
+        "translation": "散装货"
+      },
+      {
+        "phrase": "cargo transport",
+        "translation": "货运；运货船/机"
+      }
+    ]
+  },
+  {
+    "word": "carpenter",
+    "phonetic": "",
+    "meaning": "n. 木工,木匠",
+    "translations": [
+      {
+        "translation": "木工,木匠",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "carpet",
+    "phonetic": "",
+    "meaning": "n. 地毯",
+    "translations": [
+      {
+        "translation": "地毯",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "on the carpet",
+        "translation": "在考虑中；在审议中"
+      },
+      {
+        "phrase": "red carpet",
+        "translation": "（迎接贵宾用的）红地毯；隆重的接待"
+      },
+      {
+        "phrase": "magic carpet",
+        "translation": "n. （《一千零一夜》中载人飞行的）魔毯；幻想中的神奇无比的交通工具"
+      }
+    ]
+  },
+  {
+    "word": "carriage",
+    "phonetic": "",
+    "meaning": "n. (四轮)马车;(火车)客车厢",
+    "translations": [
+      {
+        "translation": "(四轮)马车;(火车)客车厢",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "baby carriage",
+        "translation": "婴儿车；童车（等于baby buggy，carriage）"
+      },
+      {
+        "phrase": "carriage return",
+        "translation": "n. 回车"
+      },
+      {
+        "phrase": "carriage way",
+        "translation": "车行道"
+      }
+    ]
+  },
+  {
+    "word": "carrier",
+    "phonetic": "",
+    "meaning": "n. 搬运人;载体",
+    "translations": [
+      {
+        "translation": "搬运人;载体",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "aircraft carrier",
+        "translation": "n. 航空母舰；全能篮球中锋"
+      },
+      {
+        "phrase": "carrier frequency",
+        "translation": "载波频率"
+      },
+      {
+        "phrase": "carrier phase",
+        "translation": "载波相位"
+      }
+    ]
+  },
+  {
+    "word": "carrot",
+    "phonetic": "",
+    "meaning": "n. 胡萝卜",
+    "translations": [
+      {
+        "translation": "胡萝卜",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "carrot and stick",
+        "translation": "软硬兼施的；胡萝卜棍棒并用的"
+      }
+    ]
+  },
+  {
+    "word": "carry",
+    "phonetic": "",
+    "meaning": "v. 运送,搬运;传送,传播;领,带",
+    "translations": [
+      {
+        "translation": "运送,搬运;传送,传播;领,带",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "carry out",
+        "translation": "vt. 执行，实行；贯彻；实现；完成"
+      },
+      {
+        "phrase": "carry on",
+        "translation": "继续"
+      },
+      {
+        "phrase": "carry forward",
+        "translation": "发扬；推进"
+      }
+    ]
+  },
+  {
+    "word": "cart",
+    "phonetic": "",
+    "meaning": "n. (二轮货运)马车,手推车",
+    "translations": [
+      {
+        "translation": "(二轮货运)马车,手推车",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "shopping cart",
+        "translation": "购物手推车"
+      },
+      {
+        "phrase": "in the cart",
+        "translation": "[英国俚语]处于困境，处于失利地位；为难"
+      },
+      {
+        "phrase": "golf cart",
+        "translation": "高尔夫球车；球具手推车"
+      }
+    ]
+  },
+  {
+    "word": "cartoon",
+    "phonetic": "",
+    "meaning": "n. 漫画,幽默画;动画片",
+    "translations": [
+      {
+        "translation": "漫画,幽默画;动画片",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "animated cartoon",
+        "translation": "n. 动画；卡通片"
+      },
+      {
+        "phrase": "cartoon network",
+        "translation": "卡通频道；卡通电视网（美国一个专门播放动画节目的有线电视频道）"
+      }
+    ]
+  },
+  {
+    "word": "carve",
+    "phonetic": "",
+    "meaning": "v. (雕)刻",
+    "translations": [
+      {
+        "translation": "(雕)刻",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "carve out",
+        "translation": "创业；开拓；雕刻"
+      },
+      {
+        "phrase": "carve up",
+        "translation": "v. 瓜分；划分"
+      },
+      {
+        "phrase": "carve out of",
+        "translation": "从……切出（引伸为修建）"
+      }
+    ]
+  },
+  {
+    "word": "care",
+    "phonetic": "",
+    "meaning": "n. 小心;关怀,照料; v. (about)关心,介意,计较",
+    "translations": [
+      {
+        "translation": "小心;关怀,照料",
+        "type": "n"
+      },
+      {
+        "translation": "(about)关心,介意,计较",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "take care",
+        "translation": "注意；小心"
+      },
+      {
+        "phrase": "take care of",
+        "translation": "照顾；注意；抚养"
+      },
+      {
+        "phrase": "care of",
+        "translation": "由…转交"
+      }
+    ]
+  },
+  {
+    "word": "career",
+    "phonetic": "",
+    "meaning": "n. (个人的)事业；专业，生涯，职业，经历",
+    "translations": [
+      {
+        "translation": "(个人的)事业；专业，生涯，职业，经历",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "career development",
+        "translation": "职业发展，职业培训"
+      },
+      {
+        "phrase": "career planning",
+        "translation": "生涯规划；职业规划；事业前途策划"
+      },
+      {
+        "phrase": "career opportunities",
+        "translation": "就业机会，人事广告"
+      }
+    ]
+  },
+  {
+    "word": "careful",
+    "phonetic": "",
+    "meaning": "adj. 小心的,仔细的;细致的,精心的",
+    "translations": [
+      {
+        "translation": "小心的,仔细的;细致的,精心的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "careful in",
+        "translation": "在…方面小心"
+      },
+      {
+        "phrase": "careful consideration",
+        "translation": "深思熟虑；细心考虑"
+      },
+      {
+        "phrase": "be careful with",
+        "translation": "小心；照顾"
+      }
+    ]
+  },
+  {
+    "word": "caress",
+    "phonetic": "",
+    "meaning": "vt&n. 爱抚，抚摸",
+    "translations": [
+      {
+        "translation": "爱抚，抚摸",
+        "type": "vt&n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "cat",
+    "phonetic": "",
+    "meaning": "n. 猫；猫科；",
+    "translations": [
+      {
+        "translation": "猫；猫科；",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "cats and dogs",
+        "translation": "[美俚]价值低的股票；杂物；（下雨）猛烈地；大量地"
+      },
+      {
+        "phrase": "black cat",
+        "translation": "黑猫（软件名称）"
+      },
+      {
+        "phrase": "bell the cat",
+        "translation": "为大家的利益承担危险"
+      }
+    ]
+  },
+  {
+    "word": "catalog",
+    "phonetic": "",
+    "meaning": "n. （ue）目录(册); v. 编目(录)",
+    "translations": [
+      {
+        "translation": "（ue）目录(册)",
+        "type": "n"
+      },
+      {
+        "translation": "编目(录)",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "product catalog",
+        "translation": "产品目录"
+      },
+      {
+        "phrase": "card catalog",
+        "translation": "图书馆里的卡片目录（等于card catalogue）"
+      }
+    ]
+  },
+  {
+    "word": "catastrophe",
+    "phonetic": "",
+    "meaning": "n. 大灾难；(悲剧)结局",
+    "translations": [
+      {
+        "translation": "大灾难；(悲剧)结局",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "catastrophe theory",
+        "translation": "[数]突变理论"
+      },
+      {
+        "phrase": "catastrophe model",
+        "translation": "激变模型"
+      },
+      {
+        "phrase": "catastrophe risk",
+        "translation": "巨灾风险；特殊风险"
+      }
+    ]
+  },
+  {
+    "word": "catch",
+    "phonetic": "",
+    "meaning": "v. 捕捉,捕获;赶上;感染;理解,听到",
+    "translations": [
+      {
+        "translation": "捕捉,捕获;赶上;感染;理解,听到",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "catch oneself",
+        "translation": "发觉自己讲错而突然住嘴"
+      },
+      {
+        "phrase": "catch up",
+        "translation": "赶上；把…缠住"
+      },
+      {
+        "phrase": "catch up with",
+        "translation": "赶上，追上；逮捕；处罚"
+      }
+    ]
+  },
+  {
+    "word": "category",
+    "phonetic": "",
+    "meaning": "n. 种类，部属，类目；范畴，类型",
+    "translations": [
+      {
+        "translation": "种类，部属，类目；范畴，类型",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "product category",
+        "translation": "产品类别；产品目录；积范畴"
+      },
+      {
+        "phrase": "first category",
+        "translation": "第一纲"
+      },
+      {
+        "phrase": "category theory",
+        "translation": "范畴论"
+      }
+    ]
+  },
+  {
+    "word": "cater",
+    "phonetic": "",
+    "meaning": "v. (for/to)满足,迎合;(for)提供饮食及服务",
+    "translations": [
+      {
+        "translation": "(for/to)满足,迎合;(for)提供饮食及服务",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "cater for",
+        "translation": "迎合；供应伙食；为…提供所需"
+      }
+    ]
+  },
+  {
+    "word": "cathedral",
+    "phonetic": "",
+    "meaning": "n. 大教堂",
+    "translations": [
+      {
+        "translation": "大教堂",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "Catholic",
+    "phonetic": "",
+    "meaning": "adj. 天主教的; n. 天主教徒",
+    "translations": [
+      {
+        "translation": "天主教的",
+        "type": "adj"
+      },
+      {
+        "translation": "天主教徒",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "catholic church",
+        "translation": "天主教；天主教会；天主教堂；大公教会"
+      },
+      {
+        "phrase": "roman catholic",
+        "translation": "罗马天主教的；天主教会的；天主教徒"
+      },
+      {
+        "phrase": "roman catholic church",
+        "translation": "罗马天主教会；罗马公教"
+      }
+    ]
+  },
+  {
+    "word": "cattle",
+    "phonetic": "",
+    "meaning": "n. 牛;牲口,家畜",
+    "translations": [
+      {
+        "translation": "牛;牲口,家畜",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "beef cattle",
+        "translation": "菜牛"
+      },
+      {
+        "phrase": "dairy cattle",
+        "translation": "奶牛；乳畜"
+      },
+      {
+        "phrase": "cattle hide",
+        "translation": "牛皮"
+      }
+    ]
+  },
+  {
+    "word": "accident",
+    "phonetic": "",
+    "meaning": "n. 意外遭遇,事故；意外(因素)",
+    "translations": [
+      {
+        "translation": "意外遭遇,事故；意外(因素)",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "traffic accident",
+        "translation": "交通事故"
+      },
+      {
+        "phrase": "by accident",
+        "translation": "偶然；意外地"
+      },
+      {
+        "phrase": "car accident",
+        "translation": "车祸；交通事故"
+      }
+    ]
+  },
+  {
+    "word": "accidental",
+    "phonetic": "",
+    "meaning": "adj. 偶然的；意外的；无意中的",
+    "translations": [
+      {
+        "translation": "偶然的；意外的；无意中的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "accidental death",
+        "translation": "意外死亡；非正常死亡"
+      },
+      {
+        "phrase": "accidental damage",
+        "translation": "意外损坏"
+      },
+      {
+        "phrase": "accidental explosion",
+        "translation": "意外爆炸，偶发性爆炸"
+      }
+    ]
+  },
+  {
+    "word": "acid",
+    "phonetic": "",
+    "meaning": "n. 酸,酸性物质a.酸的,酸味的；尖刻的",
+    "translations": [
+      {
+        "translation": "酸,酸性物质a.酸的,酸味的；尖刻的",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "amino acid",
+        "translation": "n. [化]氨基酸"
+      },
+      {
+        "phrase": "acetic acid",
+        "translation": "[化]醋酸，乙酸"
+      },
+      {
+        "phrase": "sulfuric acid",
+        "translation": "硫酸"
+      }
+    ]
+  },
+  {
+    "word": "coincide",
+    "phonetic": "",
+    "meaning": "v. 同时发生；巧合；一致；相符；",
+    "translations": [
+      {
+        "translation": "同时发生；巧合；一致；相符；",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "coincide with",
+        "translation": "符合；与...相一致"
+      },
+      {
+        "phrase": "happen to coincide",
+        "translation": "不约而同；不谋而合"
+      }
+    ]
+  },
+  {
+    "word": "coincidence",
+    "phonetic": "",
+    "meaning": "n. 巧合；同时发生，共同存在；符合，一致",
+    "translations": [
+      {
+        "translation": "巧合；同时发生，共同存在；符合，一致",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "coincidence rate",
+        "translation": "符合率；符合计数率"
+      },
+      {
+        "phrase": "by coincidence",
+        "translation": "碰巧"
+      }
+    ]
+  },
+  {
+    "word": "decide",
+    "phonetic": "",
+    "meaning": "v. 决定,下决心;解决,裁决",
+    "translations": [
+      {
+        "translation": "决定,下决心;解决,裁决",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "decide on",
+        "translation": "决定；选定"
+      },
+      {
+        "phrase": "decide for",
+        "translation": "作对…有利的决定；赞成做某事"
+      },
+      {
+        "phrase": "decide to do",
+        "translation": "决定做某事"
+      }
+    ]
+  },
+  {
+    "word": "incidence",
+    "phonetic": "",
+    "meaning": "n. 影响程度，影响范围；发生率",
+    "translations": [
+      {
+        "translation": "影响程度，影响范围；发生率",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "incidence rate",
+        "translation": "发生率，发病率"
+      },
+      {
+        "phrase": "incidence angle",
+        "translation": "入射角，迎角；安装角"
+      },
+      {
+        "phrase": "angle of incidence",
+        "translation": "[计]入射角"
+      }
+    ]
+  },
+  {
+    "word": "incident",
+    "phonetic": "",
+    "meaning": "n. 事件,事变",
+    "translations": [
+      {
+        "translation": "事件,事变",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "incident angle",
+        "translation": "入射角"
+      },
+      {
+        "phrase": "incident light",
+        "translation": "[化]入射光"
+      },
+      {
+        "phrase": "incident wave",
+        "translation": "入射波"
+      }
+    ]
+  },
+  {
+    "word": "suicide",
+    "phonetic": "",
+    "meaning": "n. 自杀；给自己带来恶劣后果的行为",
+    "translations": [
+      {
+        "translation": "自杀；给自己带来恶劣后果的行为",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "commit suicide",
+        "translation": "自杀"
+      },
+      {
+        "phrase": "committed suicide",
+        "translation": "自杀死亡"
+      },
+      {
+        "phrase": "suicide bomber",
+        "translation": "人体炸弹"
+      }
+    ]
+  },
+  {
+    "word": "decision",
+    "phonetic": "",
+    "meaning": "n. 决定,决心;决议;决策",
+    "translations": [
+      {
+        "translation": "决定,决心;决议;决策",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "decision making",
+        "translation": "判定，决策"
+      },
+      {
+        "phrase": "decision support",
+        "translation": "决策支持"
+      },
+      {
+        "phrase": "make a decision",
+        "translation": "作决定"
+      }
+    ]
+  },
+  {
+    "word": "decisive",
+    "phonetic": "",
+    "meaning": "adj. 决定性的",
+    "translations": [
+      {
+        "translation": "决定性的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "decisive factor",
+        "translation": "决定性因素"
+      }
+    ]
+  },
+  {
+    "word": "incidentally",
+    "phonetic": "",
+    "meaning": "adv. 附带地,顺便提及",
+    "translations": [
+      {
+        "translation": "附带地,顺便提及",
+        "type": "adv"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "concise",
+    "phonetic": "",
+    "meaning": "adj. 简明的,简洁的",
+    "translations": [
+      {
+        "translation": "简明的,简洁的",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "cut",
+    "phonetic": "",
+    "meaning": "n&v. 切，割，削;削减，删节; n. 切口，伤口",
+    "translations": [
+      {
+        "translation": "切，割，削;削减，删节",
+        "type": "n&v"
+      },
+      {
+        "translation": "切口，伤口",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "cut off",
+        "translation": "切断；中断；使死亡；剥夺继承权"
+      },
+      {
+        "phrase": "cut down",
+        "translation": "v. 削减；砍倒；杀死；删节；胜过"
+      },
+      {
+        "phrase": "cut in",
+        "translation": "插嘴；超车；插入"
+      }
+    ]
+  },
+  {
+    "word": "execute",
+    "phonetic": "",
+    "meaning": "v. 实行;实施;执行;完成;履行;处死",
+    "translations": [
+      {
+        "translation": "实行;实施;执行;完成;履行;处死",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "execute plan",
+        "translation": "执行计划"
+      }
+    ]
+  },
+  {
+    "word": "executive",
+    "phonetic": "",
+    "meaning": "n. 总经理,董事,行政负责人; adj. 执行的,实施的",
+    "translations": [
+      {
+        "translation": "总经理,董事,行政负责人",
+        "type": "n"
+      },
+      {
+        "translation": "执行的,实施的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "chief executive",
+        "translation": "行政长官；董事长；美国总统；（美国的）州长"
+      },
+      {
+        "phrase": "executive director",
+        "translation": "执行理事；常务董事"
+      },
+      {
+        "phrase": "executive committee",
+        "translation": "执行委员会"
+      }
+    ]
+  },
+  {
+    "word": "accept",
+    "phonetic": "",
+    "meaning": "v. 接受，领受；认可，同意; v. 同意，认可",
+    "translations": [
+      {
+        "translation": "接受，领受；认可，同意",
+        "type": "v"
+      },
+      {
+        "translation": "同意，认可",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "accept of",
+        "translation": "v. 承兑"
+      }
+    ]
+  },
+  {
+    "word": "acceptance",
+    "phonetic": "",
+    "meaning": "n. 接受，接收，验收，接纳；承认，认可",
+    "translations": [
+      {
+        "translation": "接受，接收，验收，接纳；承认，认可",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "final acceptance",
+        "translation": "验收；最终验收；最后验收"
+      },
+      {
+        "phrase": "acceptance test",
+        "translation": "验收测试；接收试验"
+      },
+      {
+        "phrase": "acceptance criteria",
+        "translation": "验收准则"
+      }
+    ]
+  },
+  {
+    "word": "concept",
+    "phonetic": "",
+    "meaning": "n. 概念，观念，设想",
+    "translations": [
+      {
+        "translation": "概念，观念，设想",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "new concept",
+        "translation": "新概念"
+      },
+      {
+        "phrase": "basic concept",
+        "translation": "基本概念；本义"
+      },
+      {
+        "phrase": "design concept",
+        "translation": "设计理念；设计构思；设计原理"
+      }
+    ]
+  },
+  {
+    "word": "except",
+    "phonetic": "",
+    "meaning": "prep. 除…之外; v. 除外;反对",
+    "translations": [
+      {
+        "translation": "除…之外",
+        "type": "prep"
+      },
+      {
+        "translation": "除外;反对",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "except for",
+        "translation": "除了…以外；要不是由于"
+      },
+      {
+        "phrase": "except as",
+        "translation": "除…之外"
+      }
+    ]
+  },
+  {
+    "word": "exception",
+    "phonetic": "",
+    "meaning": "n. 例外,除外;反对;异议",
+    "translations": [
+      {
+        "translation": "例外,除外;反对;异议",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "with the exception of",
+        "translation": "除了…以外"
+      },
+      {
+        "phrase": "without exception",
+        "translation": "无例外地，一律"
+      },
+      {
+        "phrase": "with the exception",
+        "translation": "除了…情况"
+      }
+    ]
+  },
+  {
+    "word": "exceptional",
+    "phonetic": "",
+    "meaning": "adj. 例外的,异常的",
+    "translations": [
+      {
+        "translation": "例外的,异常的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "exceptional circumstances",
+        "translation": "特殊情况；例外情况"
+      },
+      {
+        "phrase": "exceptional child",
+        "translation": "n. 特殊（异常）儿童"
+      },
+      {
+        "phrase": "exceptional performance",
+        "translation": "非同一般的表现"
+      }
+    ]
+  },
+  {
+    "word": "reception",
+    "phonetic": "",
+    "meaning": "n. 接待,招待会;接收,接受,接收效果",
+    "translations": [
+      {
+        "translation": "接待,招待会;接收,接受,接收效果",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "warm reception",
+        "translation": "热情接待"
+      },
+      {
+        "phrase": "reception desk",
+        "translation": "接待处（等于front desk）"
+      },
+      {
+        "phrase": "reception area",
+        "translation": "接待处；接待室"
+      }
+    ]
+  },
+  {
+    "word": "susceptible",
+    "phonetic": "",
+    "meaning": "adj. 易受影响的;易受感动的;易受感染的",
+    "translations": [
+      {
+        "translation": "易受影响的;易受感动的;易受感染的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "susceptible of",
+        "translation": "容许…的，能…的"
+      },
+      {
+        "phrase": "susceptible strain",
+        "translation": "易受感染菌株；感性品系"
+      }
+    ]
+  },
+  {
+    "word": "conceive",
+    "phonetic": "",
+    "meaning": "v. (of)设想,构思,想象;以为;怀胎,怀有",
+    "translations": [
+      {
+        "translation": "(of)设想,构思,想象;以为;怀胎,怀有",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "conceive of",
+        "translation": "设想；想象"
+      }
+    ]
+  },
+  {
+    "word": "deceit",
+    "phonetic": "",
+    "meaning": "n. 欺骗,欺骗行为",
+    "translations": [
+      {
+        "translation": "欺骗,欺骗行为",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "deceive",
+    "phonetic": "",
+    "meaning": "v. 欺骗,蒙蔽",
+    "translations": [
+      {
+        "translation": "欺骗,蒙蔽",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "deceive oneself",
+        "translation": "自欺；误解，想错"
+      }
+    ]
+  },
+  {
+    "word": "perceive",
+    "phonetic": "",
+    "meaning": "v. 察觉,感知;理解,领悟",
+    "translations": [
+      {
+        "translation": "察觉,感知;理解,领悟",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "perceive as",
+        "translation": "视为；当作"
+      }
+    ]
+  },
+  {
+    "word": "receipt",
+    "phonetic": "",
+    "meaning": "n. 收据,收条;收到,接到",
+    "translations": [
+      {
+        "translation": "收据,收条;收到,接到",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "on receipt of",
+        "translation": "在收到…后"
+      },
+      {
+        "phrase": "official receipt",
+        "translation": "正式收据"
+      },
+      {
+        "phrase": "acknowledge receipt",
+        "translation": "证实收到"
+      }
+    ]
+  },
+  {
+    "word": "receive",
+    "phonetic": "",
+    "meaning": "v. 收到,接到;遭受,受到;接待,接见",
+    "translations": [
+      {
+        "translation": "收到,接到;遭受,受到;接待,接见",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "anticipate",
+    "phonetic": "",
+    "meaning": "v. 预料；期望；预先考虑；抢先；提前使用",
+    "translations": [
+      {
+        "translation": "预料；期望；预先考虑；抢先；提前使用",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "discipline",
+    "phonetic": "",
+    "meaning": "n. 纪律,学科",
+    "translations": [
+      {
+        "translation": "纪律,学科",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "academic discipline",
+        "translation": "n. 学术科目"
+      },
+      {
+        "phrase": "engineering discipline",
+        "translation": "工程学科；工程规范"
+      },
+      {
+        "phrase": "fiscal discipline",
+        "translation": "财政纪律"
+      }
+    ]
+  },
+  {
+    "word": "municipal",
+    "phonetic": "",
+    "meaning": "adj. 市(立,政)的;地方性的,地方自治的",
+    "translations": [
+      {
+        "translation": "市(立,政)的;地方性的,地方自治的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "municipal government",
+        "translation": "市政府"
+      },
+      {
+        "phrase": "municipal sewage",
+        "translation": "城市污水"
+      },
+      {
+        "phrase": "municipal engineering",
+        "translation": "市政工程"
+      }
+    ]
+  },
+  {
+    "word": "principal",
+    "phonetic": "",
+    "meaning": "adj. 最重要的,主要的n.负责人,校长;资本,本金",
+    "translations": [
+      {
+        "translation": "最重要的,主要的n.负责人,校长;资本,本金",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "principal component",
+        "translation": "主成分；[化]知组分"
+      },
+      {
+        "phrase": "principal component analysis",
+        "translation": "主成分分析"
+      },
+      {
+        "phrase": "principal and interest",
+        "translation": "本利，本金及利息"
+      }
+    ]
+  },
+  {
+    "word": "principle",
+    "phonetic": "",
+    "meaning": "n. 原理,原则;主义,信念",
+    "translations": [
+      {
+        "translation": "原理,原则;主义,信念",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "working principle",
+        "translation": "工作原理"
+      },
+      {
+        "phrase": "basic principle",
+        "translation": "基本原理"
+      },
+      {
+        "phrase": "on the principle of",
+        "translation": "根据...的原则"
+      }
+    ]
+  },
+  {
+    "word": "recipient",
+    "phonetic": "",
+    "meaning": "adj. 接受的,感受性强的; n. 接受者,感受者,容器",
+    "translations": [
+      {
+        "translation": "接受的,感受性强的",
+        "type": "adj"
+      },
+      {
+        "translation": "接受者,感受者,容器",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "intended recipient",
+        "translation": "接收者"
+      }
+    ]
+  },
+  {
+    "word": "reciprocal",
+    "phonetic": "",
+    "meaning": "adj. 相互的,往复的,互利的",
+    "translations": [
+      {
+        "translation": "相互的,往复的,互利的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "reciprocal relation",
+        "translation": "互反关系"
+      },
+      {
+        "phrase": "reciprocal transformation",
+        "translation": "相互转化；反向变换；倒数转换"
+      },
+      {
+        "phrase": "reciprocal relationship",
+        "translation": "互反关系"
+      }
+    ]
+  },
+  {
+    "word": "recipe",
+    "phonetic": "",
+    "meaning": "n. 烹饪法,食谱;诀窍,方法",
+    "translations": [
+      {
+        "translation": "烹饪法,食谱;诀窍,方法",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "secret recipe",
+        "translation": "秘方；秘密配方"
+      },
+      {
+        "phrase": "recipe for disaster",
+        "translation": "造成灾难的因素"
+      },
+      {
+        "phrase": "formulating of recipe",
+        "translation": "配方设计"
+      }
+    ]
+  },
+  {
+    "word": "cup",
+    "phonetic": "",
+    "meaning": "n. 杯子；奖杯，优胜杯；(一)杯，一杯的容量",
+    "translations": [
+      {
+        "translation": "杯子；奖杯，优胜杯；(一)杯，一杯的容量",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "world cup",
+        "translation": "n. 世界杯"
+      },
+      {
+        "phrase": "a cup of",
+        "translation": "一杯…"
+      },
+      {
+        "phrase": "cup of tea",
+        "translation": "n. 命运；心爱之人或物"
+      }
+    ]
+  },
+  {
+    "word": "cupboard",
+    "phonetic": "",
+    "meaning": "n. 碗柜,小橱",
+    "translations": [
+      {
+        "translation": "碗柜,小橱",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "cupboard love",
+        "translation": "（尤指小孩的）有所企图而假装的热情"
+      }
+    ]
+  },
+  {
+    "word": "occupation",
+    "phonetic": "",
+    "meaning": "n. 占领,占据;占用;职业,工作",
+    "translations": [
+      {
+        "translation": "占领,占据;占用;职业,工作",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "take up an occupation",
+        "translation": "就业"
+      }
+    ]
+  },
+  {
+    "word": "occupy",
+    "phonetic": "",
+    "meaning": "v. 占,占用;占据,占领;使忙碌,使从事",
+    "translations": [
+      {
+        "translation": "占,占用;占据,占领;使忙碌,使从事",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "occupy in",
+        "translation": "从事"
+      }
+    ]
+  },
+  {
+    "word": "ascertain",
+    "phonetic": "",
+    "meaning": "v. 确定，查明，弄清",
+    "translations": [
+      {
+        "translation": "确定，查明，弄清",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "certain",
+    "phonetic": "",
+    "meaning": "adj. 某,某一,某些;(of)一定的,确信的,可靠的",
+    "translations": [
+      {
+        "translation": "某,某一,某些;(of)一定的,确信的,可靠的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "a certain extent",
+        "translation": "一定程度上"
+      },
+      {
+        "phrase": "a certain degree",
+        "translation": "到某种程度"
+      },
+      {
+        "phrase": "for certain",
+        "translation": "肯定地；确凿地"
+      }
+    ]
+  },
+  {
+    "word": "certainly",
+    "phonetic": "",
+    "meaning": "adv. 一定,必定,无疑;当然,行",
+    "translations": [
+      {
+        "translation": "一定,必定,无疑;当然,行",
+        "type": "adv"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "certainty",
+    "phonetic": "",
+    "meaning": "n. 必然,肯定;必然的事",
+    "translations": [
+      {
+        "translation": "必然,肯定;必然的事",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "with certainty",
+        "translation": "确定无疑地"
+      },
+      {
+        "phrase": "to a certainty",
+        "translation": "必定，肯定"
+      },
+      {
+        "phrase": "for a certainty",
+        "translation": "确实，确定无疑地"
+      }
+    ]
+  },
+  {
+    "word": "certificate",
+    "phonetic": "",
+    "meaning": "n. 证(明)书,执照",
+    "translations": [
+      {
+        "translation": "证(明)书,执照",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "qualification certificate",
+        "translation": "资格证书"
+      },
+      {
+        "phrase": "registration certificate",
+        "translation": "登记证；注册证书；注册证明"
+      },
+      {
+        "phrase": "certificate of origin",
+        "translation": "[商]原产地证书"
+      }
+    ]
+  },
+  {
+    "word": "certify",
+    "phonetic": "",
+    "meaning": "v. 证明，证实；发证书(或执照)给",
+    "translations": [
+      {
+        "translation": "证明，证实；发证书(或执照)给",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "concert",
+    "phonetic": "",
+    "meaning": "n. 音乐会,演奏会;一齐,一致",
+    "translations": [
+      {
+        "translation": "音乐会,演奏会;一齐,一致",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in concert",
+        "translation": "一致；齐声"
+      },
+      {
+        "phrase": "concert hall",
+        "translation": "音乐厅"
+      },
+      {
+        "phrase": "in concert with",
+        "translation": "和…相呼应；与…合作；和…一致"
+      }
+    ]
+  },
+  {
+    "word": "access",
+    "phonetic": "",
+    "meaning": "n. 进入；接入；到达；享用权；入口; v. 存取",
+    "translations": [
+      {
+        "translation": "进入；接入；到达；享用权；入口",
+        "type": "n"
+      },
+      {
+        "translation": "存取",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "access control",
+        "translation": "访问控制"
+      },
+      {
+        "phrase": "have access to",
+        "translation": "使用；接近；可以利用"
+      },
+      {
+        "phrase": "internet access",
+        "translation": "互联网接入"
+      }
+    ]
+  },
+  {
+    "word": "accessory",
+    "phonetic": "",
+    "meaning": "n. 附件,附属品;(全套衣服增加美感的)服饰",
+    "translations": [
+      {
+        "translation": "附件,附属品;(全套衣服增加美感的)服饰",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "accessory equipment",
+        "translation": "辅助设备"
+      },
+      {
+        "phrase": "accessory nerve",
+        "translation": "副神经"
+      },
+      {
+        "phrase": "accessory ingredient",
+        "translation": "助剂；配合剂"
+      }
+    ]
+  },
+  {
+    "word": "concession",
+    "phonetic": "",
+    "meaning": "n. 让步，妥协；特许(权)；",
+    "translations": [
+      {
+        "translation": "让步，妥协；特许(权)；",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "price concession",
+        "translation": "价格让步"
+      },
+      {
+        "phrase": "concession contract",
+        "translation": "特许经营权合约；租让制合同"
+      },
+      {
+        "phrase": "tariff concession",
+        "translation": "关税减让"
+      }
+    ]
+  },
+  {
+    "word": "excess",
+    "phonetic": "",
+    "meaning": "adj. 过量的,额外的; n. 过量;过剩;超额;无节制",
+    "translations": [
+      {
+        "translation": "过量的,额外的",
+        "type": "adj"
+      },
+      {
+        "translation": "过量;过剩;超额;无节制",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in excess",
+        "translation": "过度；过量地"
+      },
+      {
+        "phrase": "in excess of",
+        "translation": "超过；较…为多"
+      },
+      {
+        "phrase": "excess capacity",
+        "translation": "超额生产能力；过剩设备"
+      }
+    ]
+  },
+  {
+    "word": "excessive",
+    "phonetic": "",
+    "meaning": "adj. 过多的;过分的;额外",
+    "translations": [
+      {
+        "translation": "过多的;过分的;额外",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "excessive competition",
+        "translation": "过度竞争"
+      },
+      {
+        "phrase": "excessive drinking",
+        "translation": "酗酒；过度饮酒"
+      },
+      {
+        "phrase": "excessive consumption",
+        "translation": "过度消耗；超前消费"
+      }
+    ]
+  },
+  {
+    "word": "predecessor",
+    "phonetic": "",
+    "meaning": "n. 前辈，前任",
+    "translations": [
+      {
+        "translation": "前辈，前任",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "predecessor company",
+        "translation": "被接管公司"
+      }
+    ]
+  },
+  {
+    "word": "process",
+    "phonetic": "",
+    "meaning": "n. 过程,进程;工序,制作法;工艺; v. 加工,处理",
+    "translations": [
+      {
+        "translation": "过程,进程;工序,制作法;工艺",
+        "type": "n"
+      },
+      {
+        "translation": "加工,处理",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "process of",
+        "translation": "…的过程"
+      },
+      {
+        "phrase": "in the process of",
+        "translation": "在…的过程中"
+      },
+      {
+        "phrase": "in the process",
+        "translation": "在过程中；在进行中"
+      }
+    ]
+  },
+  {
+    "word": "procession",
+    "phonetic": "",
+    "meaning": "n. 队伍,行列",
+    "translations": [
+      {
+        "translation": "队伍,行列",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "funeral procession",
+        "translation": "送葬"
+      }
+    ]
+  },
+  {
+    "word": "success",
+    "phonetic": "",
+    "meaning": "n. 成就，成功；成功的事物，有成就的人",
+    "translations": [
+      {
+        "translation": "成就，成功；成功的事物，有成就的人",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "success in",
+        "translation": "在…方面成功"
+      },
+      {
+        "phrase": "great success",
+        "translation": "巨大成功；非常成功"
+      },
+      {
+        "phrase": "with success",
+        "translation": "成功地"
+      }
+    ]
+  },
+  {
+    "word": "successful",
+    "phonetic": "",
+    "meaning": "adj. 圆满的；顺利的；成功的",
+    "translations": [
+      {
+        "translation": "圆满的；顺利的；成功的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "successful in",
+        "translation": "在…成功的"
+      },
+      {
+        "phrase": "successful person",
+        "translation": "成功的人"
+      },
+      {
+        "phrase": "successful marriage",
+        "translation": "成功的婚姻"
+      }
+    ]
+  },
+  {
+    "word": "succession",
+    "phonetic": "",
+    "meaning": "n. 连续,系列;继任,继承",
+    "translations": [
+      {
+        "translation": "连续,系列;继任,继承",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in succession",
+        "translation": "接连地，连续地"
+      },
+      {
+        "phrase": "a succession of",
+        "translation": "一连串；一系列"
+      },
+      {
+        "phrase": "in quick succession",
+        "translation": "紧接地"
+      }
+    ]
+  },
+  {
+    "word": "successive",
+    "phonetic": "",
+    "meaning": "adj. 接连的,连续的",
+    "translations": [
+      {
+        "translation": "接连的,连续的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "successive approximation",
+        "translation": "连续的近似值；连续的学习步骤；逐次近似计算法"
+      },
+      {
+        "phrase": "successive elimination",
+        "translation": "逐次消元"
+      }
+    ]
+  },
+  {
+    "word": "successor",
+    "phonetic": "",
+    "meaning": "n. 接替的人或事物，继任者",
+    "translations": [
+      {
+        "translation": "接替的人或事物，继任者",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "legal successor",
+        "translation": "法定继承人；合法继承人"
+      }
+    ]
+  },
+  {
+    "word": "concede",
+    "phonetic": "",
+    "meaning": "v. 承认；容许；(比赛结束前)认输；退让",
+    "translations": [
+      {
+        "translation": "承认；容许；(比赛结束前)认输；退让",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "precede",
+    "phonetic": "",
+    "meaning": "v. 领先(于),在(…之前);优先,先于",
+    "translations": [
+      {
+        "translation": "领先(于),在(…之前);优先,先于",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "precedent",
+    "phonetic": "",
+    "meaning": "n. 先例",
+    "translations": [
+      {
+        "translation": "先例",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "judicial precedent",
+        "translation": "司法判例"
+      },
+      {
+        "phrase": "condition precedent",
+        "translation": "先决条件"
+      },
+      {
+        "phrase": "conditions precedent",
+        "translation": "先决条件"
+      }
+    ]
+  },
+  {
+    "word": "preceding",
+    "phonetic": "",
+    "meaning": "adj. 在前的,在先的",
+    "translations": [
+      {
+        "translation": "在前的,在先的",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "procedure",
+    "phonetic": "",
+    "meaning": "n. 程序,手续,步骤",
+    "translations": [
+      {
+        "translation": "程序,手续,步骤",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "working procedure",
+        "translation": "运行程序；办理手续"
+      },
+      {
+        "phrase": "criminal procedure",
+        "translation": "刑事诉讼程序"
+      },
+      {
+        "phrase": "civil procedure",
+        "translation": "民事诉讼；民事诉讼法；民事诉讼程序"
+      }
+    ]
+  },
+  {
+    "word": "recede",
+    "phonetic": "",
+    "meaning": "v. 退回,后退;收回,撤回;跌落,缩减,贬值",
+    "translations": [
+      {
+        "translation": "退回,后退;收回,撤回;跌落,缩减,贬值",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "recede from",
+        "translation": "v. 收回；撤回"
+      }
+    ]
+  },
+  {
+    "word": "exceed",
+    "phonetic": "",
+    "meaning": "v. 超过,胜过;越出",
+    "translations": [
+      {
+        "translation": "超过,胜过;越出",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "exceed in",
+        "translation": "在…方面超过"
+      }
+    ]
+  },
+  {
+    "word": "exceedingly",
+    "phonetic": "",
+    "meaning": "adv. 极端地,非常",
+    "translations": [
+      {
+        "translation": "极端地,非常",
+        "type": "adv"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "proceed",
+    "phonetic": "",
+    "meaning": "v. 进行,继续下去;发生",
+    "translations": [
+      {
+        "translation": "进行,继续下去;发生",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "proceed with",
+        "translation": "继续进行"
+      },
+      {
+        "phrase": "proceed from",
+        "translation": "从...出发"
+      },
+      {
+        "phrase": "proceed against",
+        "translation": "起诉；控诉；提起诉讼"
+      }
+    ]
+  },
+  {
+    "word": "proceeding",
+    "phonetic": "",
+    "meaning": "n. 行动,进行,(pl.)会议录,学报",
+    "translations": [
+      {
+        "translation": "行动,进行,(pl.)会议录,学报",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "legal proceeding",
+        "translation": "诉讼；法律程序"
+      },
+      {
+        "phrase": "civil proceeding",
+        "translation": "民事（诉讼）程序"
+      },
+      {
+        "phrase": "judicial proceeding",
+        "translation": "司法程序"
+      }
+    ]
+  },
+  {
+    "word": "succeed",
+    "phonetic": "",
+    "meaning": "v. 成功；继承，接替; v. 接替；继…之后",
+    "translations": [
+      {
+        "translation": "成功；继承，接替",
+        "type": "v"
+      },
+      {
+        "translation": "接替；继…之后",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "succeed in",
+        "translation": "成功；在…方面成功；顺利完成"
+      },
+      {
+        "phrase": "succeed someone as",
+        "translation": "接任某人的职务"
+      },
+      {
+        "phrase": "succeed at",
+        "translation": "成功方面，在…方面成功"
+      }
+    ]
+  },
+  {
+    "word": "aggressive",
+    "phonetic": "",
+    "meaning": "adj. 侵略的，好斗的，有进取心的，敢作敢为的",
+    "translations": [
+      {
+        "translation": "侵略的，好斗的，有进取心的，敢作敢为的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "aggressive behavior",
+        "translation": "攻击行为；侵犯行为"
+      },
+      {
+        "phrase": "aggressive action",
+        "translation": "侵蚀作用；腐蚀性"
+      },
+      {
+        "phrase": "aggressive attitude",
+        "translation": "侵犯态度"
+      }
+    ]
+  },
+  {
+    "word": "congress",
+    "phonetic": "",
+    "meaning": "n. (代表)大会;(美国等国的)国会,议会",
+    "translations": [
+      {
+        "translation": "(代表)大会;(美国等国的)国会,议会",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "national people's congress",
+        "translation": "全国人民代表大会"
+      },
+      {
+        "phrase": "library of congress",
+        "translation": "n. 美国国会图书馆"
+      },
+      {
+        "phrase": "congress party",
+        "translation": "国大党"
+      }
+    ]
+  },
+  {
+    "word": "progress",
+    "phonetic": "",
+    "meaning": "v&n. 进步，进展；前进",
+    "translations": [
+      {
+        "translation": "进步，进展；前进",
+        "type": "v&n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "progress in",
+        "translation": "在…有进展"
+      },
+      {
+        "phrase": "economic progress",
+        "translation": "经济发展；经济进步"
+      },
+      {
+        "phrase": "social progress",
+        "translation": "社会进步"
+      }
+    ]
+  },
+  {
+    "word": "progressive",
+    "phonetic": "",
+    "meaning": "adj. 进步的,先进的;前进的",
+    "translations": [
+      {
+        "translation": "进步的,先进的;前进的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "progressive die",
+        "translation": "[机]级进模；顺序冲模"
+      },
+      {
+        "phrase": "progressive party",
+        "translation": "美国进步党"
+      },
+      {
+        "phrase": "democratic progressive party",
+        "translation": "民进党"
+      }
+    ]
+  },
+  {
+    "word": "circle",
+    "phonetic": "",
+    "meaning": "n. 圆,圆周;集团;周期,循环; v. 环绕,旋转",
+    "translations": [
+      {
+        "translation": "圆,圆周;集团;周期,循环",
+        "type": "n"
+      },
+      {
+        "translation": "环绕,旋转",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in circles",
+        "translation": "毫无进展，兜圈子"
+      },
+      {
+        "phrase": "vicious circle",
+        "translation": "恶性循环；循环论证法"
+      },
+      {
+        "phrase": "economic circle",
+        "translation": "经济圈；经济周期"
+      }
+    ]
+  },
+  {
+    "word": "circuit",
+    "phonetic": "",
+    "meaning": "n. 环行,周线,巡回;电路,线路",
+    "translations": [
+      {
+        "translation": "环行,周线,巡回;电路,线路",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "control circuit",
+        "translation": "控制电路"
+      },
+      {
+        "phrase": "integrated circuit",
+        "translation": "集成电路"
+      },
+      {
+        "phrase": "circuit design",
+        "translation": "电路设计"
+      }
+    ]
+  },
+  {
+    "word": "circular",
+    "phonetic": "",
+    "meaning": "adj. 圆(形)的,环形的;循环的; n. 传单,通报",
+    "translations": [
+      {
+        "translation": "圆(形)的,环形的;循环的",
+        "type": "adj"
+      },
+      {
+        "translation": "传单,通报",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "circular arc",
+        "translation": "圆弧"
+      },
+      {
+        "phrase": "circular saw",
+        "translation": "圆锯"
+      },
+      {
+        "phrase": "circular motion",
+        "translation": "圆周运动；圆运动"
+      }
+    ]
+  },
+  {
+    "word": "circulate",
+    "phonetic": "",
+    "meaning": "v. (使)循环,(使)流通",
+    "translations": [
+      {
+        "translation": "(使)循环,(使)流通",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "circumference",
+    "phonetic": "",
+    "meaning": "n. 圆周,周围",
+    "translations": [
+      {
+        "translation": "圆周,周围",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "waist circumference",
+        "translation": "腰围"
+      },
+      {
+        "phrase": "chest circumference",
+        "translation": "胸围"
+      },
+      {
+        "phrase": "head circumference",
+        "translation": "头围"
+      }
+    ]
+  },
+  {
+    "word": "circumstance",
+    "phonetic": "",
+    "meaning": "n. 环境，情况；事件；境遇",
+    "translations": [
+      {
+        "translation": "环境，情况；事件；境遇",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in the circumstances",
+        "translation": "在这种情况下；既然这样"
+      },
+      {
+        "phrase": "under the circumstance",
+        "translation": "在这种情况下"
+      },
+      {
+        "phrase": "in no circumstances",
+        "translation": "决不"
+      }
+    ]
+  },
+  {
+    "word": "circus",
+    "phonetic": "",
+    "meaning": "n. 马戏团,杂技团;马戏场,杂技场",
+    "translations": [
+      {
+        "translation": "马戏团,杂技团;马戏场,杂技场",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "piccadilly circus",
+        "translation": "皮卡迪利广场（戏院及娱乐中心）"
+      },
+      {
+        "phrase": "circus wagon",
+        "translation": "大篷车；（马戏团的）大篷车"
+      },
+      {
+        "phrase": "circus act",
+        "translation": "马戏节目"
+      }
+    ]
+  },
+  {
+    "word": "bicycle",
+    "phonetic": "",
+    "meaning": "n. (bike)自行车; v. 骑自行车",
+    "translations": [
+      {
+        "translation": "(bike)自行车",
+        "type": "n"
+      },
+      {
+        "translation": "骑自行车",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "electric bicycle",
+        "translation": "电动自行车"
+      },
+      {
+        "phrase": "by bicycle",
+        "translation": "骑脚踏车"
+      },
+      {
+        "phrase": "bicycle frame",
+        "translation": "车架，自行车架"
+      }
+    ]
+  },
+  {
+    "word": "cycle",
+    "phonetic": "",
+    "meaning": "n. 自行车;周期,循环; v. 骑自行车;循环",
+    "translations": [
+      {
+        "translation": "自行车;周期,循环",
+        "type": "n"
+      },
+      {
+        "translation": "骑自行车;循环",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "life cycle",
+        "translation": "寿命周期；生存期"
+      },
+      {
+        "phrase": "cell cycle",
+        "translation": "细胞周期"
+      },
+      {
+        "phrase": "development cycle",
+        "translation": "开发周期"
+      }
+    ]
+  },
+  {
+    "word": "recycle",
+    "phonetic": "",
+    "meaning": "v&n. 再循环,重复利用",
+    "translations": [
+      {
+        "translation": "再循环,重复利用",
+        "type": "v&n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "recycle bin",
+        "translation": "回收站；资源回收筒"
+      },
+      {
+        "phrase": "recycle gas",
+        "translation": "回注气，循环气"
+      }
+    ]
+  },
+  {
+    "word": "close",
+    "phonetic": "",
+    "meaning": "v&n. 关；结束; a&ad. 近的(地)；紧密的(地)",
+    "translations": [
+      {
+        "translation": "关；结束",
+        "type": "v&n"
+      },
+      {
+        "translation": "近的(地)；紧密的(地)",
+        "type": "a&ad"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "pay close attention to",
+        "translation": "密切注意"
+      },
+      {
+        "phrase": "close contact",
+        "translation": "近距离接触；紧密接触"
+      },
+      {
+        "phrase": "so close",
+        "translation": "如此亲密；如此贴近"
+      }
+    ]
+  },
+  {
+    "word": "conclude",
+    "phonetic": "",
+    "meaning": "v. 结束,终止;断定,下结论;缔结,议定",
+    "translations": [
+      {
+        "translation": "结束,终止;断定,下结论;缔结,议定",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "conclude with",
+        "translation": "以…结束"
+      },
+      {
+        "phrase": "conclude a contract",
+        "translation": "订立合同"
+      },
+      {
+        "phrase": "conclude an agreement",
+        "translation": "达成协议"
+      }
+    ]
+  },
+  {
+    "word": "conclusion",
+    "phonetic": "",
+    "meaning": "n. 结论，推论；结尾；缔结，议定",
+    "translations": [
+      {
+        "translation": "结论，推论；结尾；缔结，议定",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in conclusion",
+        "translation": "总之；最后"
+      },
+      {
+        "phrase": "draw a conclusion",
+        "translation": "得出结论；作结论"
+      },
+      {
+        "phrase": "come to a conclusion",
+        "translation": "得出结论；告终"
+      }
+    ]
+  },
+  {
+    "word": "exclude",
+    "phonetic": "",
+    "meaning": "v. 拒绝,把…排除在外,排斥",
+    "translations": [
+      {
+        "translation": "拒绝,把…排除在外,排斥",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "exclusive",
+    "phonetic": "",
+    "meaning": "adj. 独占的;排他的;孤高的;唯一的;高级的",
+    "translations": [
+      {
+        "translation": "独占的;排他的;孤高的;唯一的;高级的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "an exclusive",
+        "translation": "独家新闻，独家采访"
+      },
+      {
+        "phrase": "exclusive right",
+        "translation": "专有权；专利权"
+      },
+      {
+        "phrase": "mutually exclusive",
+        "translation": "互相排斥的"
+      }
+    ]
+  },
+  {
+    "word": "include",
+    "phonetic": "",
+    "meaning": "v. 包括,包含,计入",
+    "translations": [
+      {
+        "translation": "包括,包含,计入",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "include in",
+        "translation": "包括在…中"
+      }
+    ]
+  },
+  {
+    "word": "inclusive",
+    "phonetic": "",
+    "meaning": "adj. (of)包括的,包含的;范围广的",
+    "translations": [
+      {
+        "translation": "(of)包括的,包含的;范围广的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "inclusive of",
+        "translation": "把…包括在内"
+      },
+      {
+        "phrase": "all inclusive",
+        "translation": "无所不包的；包括一切的；总括"
+      }
+    ]
+  },
+  {
+    "word": "preclude",
+    "phonetic": "",
+    "meaning": "v. 排除,阻止,妨碍",
+    "translations": [
+      {
+        "translation": "排除,阻止,妨碍",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "closet",
+    "phonetic": "",
+    "meaning": "n. (壁)橱a.私下的vt.把…引进密室会谈",
+    "translations": [
+      {
+        "translation": "(壁)橱a.私下的vt.把…引进密室会谈",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "water closet",
+        "translation": "厕所；抽水马桶"
+      }
+    ]
+  },
+  {
+    "word": "cloth",
+    "phonetic": "",
+    "meaning": "n. (一块)布,织物,衣料",
+    "translations": [
+      {
+        "translation": "(一块)布,织物,衣料",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "cotton cloth",
+        "translation": "棉布"
+      },
+      {
+        "phrase": "table cloth",
+        "translation": "n. 桌布"
+      },
+      {
+        "phrase": "filter cloth",
+        "translation": "[化]滤布"
+      }
+    ]
+  },
+  {
+    "word": "clothe",
+    "phonetic": "",
+    "meaning": "v. (给…)穿衣,供给…衣服",
+    "translations": [
+      {
+        "translation": "(给…)穿衣,供给…衣服",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "clothes",
+    "phonetic": "",
+    "meaning": "n. 衣服(虽为复数，亦不可数)",
+    "translations": [
+      {
+        "translation": "衣服(虽为复数，亦不可数)",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "clothes rack",
+        "translation": "衣架"
+      },
+      {
+        "phrase": "clothes shop",
+        "translation": "n. 服装店"
+      },
+      {
+        "phrase": "clothes hanger",
+        "translation": "挂衣服的架子；衣架（等于coat hanger）"
+      }
+    ]
+  },
+  {
+    "word": "clothing",
+    "phonetic": "",
+    "meaning": "n. 服装,被褥",
+    "translations": [
+      {
+        "translation": "服装,被褥",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "clothing industry",
+        "translation": "服装工业；制衣业；缝纫业"
+      },
+      {
+        "phrase": "protective clothing",
+        "translation": "防护衣；防护罩，安全罩"
+      },
+      {
+        "phrase": "clothing store",
+        "translation": "服装店；成衣店"
+      }
+    ]
+  },
+  {
+    "word": "disclose",
+    "phonetic": "",
+    "meaning": "v. 揭示,泄露",
+    "translations": [
+      {
+        "translation": "揭示,泄露",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "enclose",
+    "phonetic": "",
+    "meaning": "v. 围住,圈起,封入",
+    "translations": [
+      {
+        "translation": "围住,圈起,封入",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "enclosure",
+    "phonetic": "",
+    "meaning": "n. 围住,圈起,封入,附件",
+    "translations": [
+      {
+        "translation": "围住,圈起,封入,附件",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "enclosure structure",
+        "translation": "密围式搭建物；密围式构筑物"
+      },
+      {
+        "phrase": "enclosure movement",
+        "translation": "（英国历史上的）圈地运动"
+      },
+      {
+        "phrase": "shower enclosure",
+        "translation": "浴室隔板；淋浴房；淋浴间"
+      }
+    ]
+  },
+  {
+    "word": "count",
+    "phonetic": "",
+    "meaning": "v. 数,计算;算入;看作,认为; n. 计数,总数",
+    "translations": [
+      {
+        "translation": "数,计算;算入;看作,认为",
+        "type": "v"
+      },
+      {
+        "translation": "计数,总数",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "count on",
+        "translation": "指望；依靠"
+      },
+      {
+        "phrase": "count for",
+        "translation": "有价值，有重要性"
+      },
+      {
+        "phrase": "count in",
+        "translation": "把…计算在内"
+      }
+    ]
+  },
+  {
+    "word": "account",
+    "phonetic": "",
+    "meaning": "adj. 叙述，说明；账目，账户; v. 说明，解释",
+    "translations": [
+      {
+        "translation": "叙述，说明；账目，账户",
+        "type": "adj"
+      },
+      {
+        "translation": "说明，解释",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "account of",
+        "translation": "在某人帐上重视，\t记帐"
+      },
+      {
+        "phrase": "account for",
+        "translation": "对…负有责任；对…做出解释；说明……的原因"
+      },
+      {
+        "phrase": "your account",
+        "translation": "您的帐号"
+      }
+    ]
+  },
+  {
+    "word": "accountant",
+    "phonetic": "",
+    "meaning": "n. 会计人员，会计师",
+    "translations": [
+      {
+        "translation": "会计人员，会计师",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "certified public accountant",
+        "translation": "有合格证件的会计师"
+      },
+      {
+        "phrase": "public accountant",
+        "translation": "公共会计师"
+      },
+      {
+        "phrase": "chief accountant",
+        "translation": "总会计师；会计主任，会计处长"
+      }
+    ]
+  },
+  {
+    "word": "counter",
+    "phonetic": "",
+    "meaning": "n. 柜台;计数器; a&ad. 相反(的)",
+    "translations": [
+      {
+        "translation": "柜台;计数器",
+        "type": "n"
+      },
+      {
+        "translation": "相反(的)",
+        "type": "a&ad"
+      },
+      {
+        "translation": "反对,反击",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "counter measure",
+        "translation": "对策；防范措施；反措施"
+      },
+      {
+        "phrase": "particle counter",
+        "translation": "粒子计数器；粒子计数管；颗粒测量计数器"
+      },
+      {
+        "phrase": "over the counter",
+        "translation": "成药；直接交易"
+      }
+    ]
+  },
+  {
+    "word": "country",
+    "phonetic": "",
+    "meaning": "n. 国家;农村,乡下",
+    "translations": [
+      {
+        "translation": "国家;农村,乡下",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in the country",
+        "translation": "在乡下"
+      },
+      {
+        "phrase": "developing country",
+        "translation": "发展中国家"
+      },
+      {
+        "phrase": "developed country",
+        "translation": "n. 发达国家"
+      }
+    ]
+  },
+  {
+    "word": "countryside",
+    "phonetic": "",
+    "meaning": "n. 乡下,农村",
+    "translations": [
+      {
+        "translation": "乡下,农村",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in the countryside",
+        "translation": "在乡村，在农村；在乡下"
+      }
+    ]
+  },
+  {
+    "word": "counterpart",
+    "phonetic": "",
+    "meaning": "n. 对应的人(或物)",
+    "translations": [
+      {
+        "translation": "对应的人(或物)",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "county",
+    "phonetic": "",
+    "meaning": "n. (英国)郡,(美国)县",
+    "translations": [
+      {
+        "translation": "(英国)郡,(美国)县",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "autonomous county",
+        "translation": "自治县"
+      },
+      {
+        "phrase": "county town",
+        "translation": "n. 县城；郡的首府"
+      },
+      {
+        "phrase": "county seat",
+        "translation": "郡政府所在地"
+      }
+    ]
+  },
+  {
+    "word": "discount",
+    "phonetic": "",
+    "meaning": "n. 折扣；贴现(率); v. 打折扣;不重视",
+    "translations": [
+      {
+        "translation": "折扣；贴现(率)",
+        "type": "n"
+      },
+      {
+        "translation": "打折扣;不重视",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "at a discount",
+        "translation": "打折扣；不受欢迎，没销路"
+      },
+      {
+        "phrase": "special discount",
+        "translation": "特别折扣"
+      },
+      {
+        "phrase": "discount price",
+        "translation": "折扣价格"
+      }
+    ]
+  },
+  {
+    "word": "discourse",
+    "phonetic": "",
+    "meaning": "n. 论文;演说;谈话;话语; v. 讲述,著述",
+    "translations": [
+      {
+        "translation": "论文;演说;谈话;话语",
+        "type": "n"
+      },
+      {
+        "translation": "讲述,著述",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "discourse analysis",
+        "translation": "话语分析"
+      },
+      {
+        "phrase": "discourse upon",
+        "translation": "论述，演讲"
+      },
+      {
+        "phrase": "universe of discourse",
+        "translation": "n. 论域；讨论或辩论的范围"
+      }
+    ]
+  },
+  {
+    "word": "encounter",
+    "phonetic": "",
+    "meaning": "n&v. 遇到,遭遇",
+    "translations": [
+      {
+        "translation": "遇到,遭遇",
+        "type": "n&v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "encounter with",
+        "translation": "遭遇，遇到"
+      },
+      {
+        "phrase": "close encounter",
+        "translation": "近距离接触；紧密交会"
+      }
+    ]
+  },
+  {
+    "word": "cover",
+    "phonetic": "",
+    "meaning": "v. 覆盖,包括,涉及; n. 盖子,套子;(书的)封面",
+    "translations": [
+      {
+        "translation": "覆盖,包括,涉及",
+        "type": "v"
+      },
+      {
+        "translation": "盖子,套子;(书的)封面",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "from cover to cover",
+        "translation": "从头至尾"
+      },
+      {
+        "phrase": "under cover",
+        "translation": "隐藏着；秘密地"
+      },
+      {
+        "phrase": "cover up",
+        "translation": "掩盖，盖住"
+      }
+    ]
+  },
+  {
+    "word": "discover",
+    "phonetic": "",
+    "meaning": "v. 发现,显示",
+    "translations": [
+      {
+        "translation": "发现,显示",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "discovery",
+    "phonetic": "",
+    "meaning": "n. 发现;被发现的事物",
+    "translations": [
+      {
+        "translation": "发现;被发现的事物",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "scientific discovery",
+        "translation": "科学发现"
+      },
+      {
+        "phrase": "discovery channel",
+        "translation": "探索频道"
+      },
+      {
+        "phrase": "great discovery",
+        "translation": "伟大的发现；好棒的发现"
+      }
+    ]
+  },
+  {
+    "word": "recover",
+    "phonetic": "",
+    "meaning": "v. 收回;(from)恢复,痊愈;重新获得",
+    "translations": [
+      {
+        "translation": "收回;(from)恢复,痊愈;重新获得",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "recover from",
+        "translation": "恢复；恢复知觉"
+      }
+    ]
+  },
+  {
+    "word": "recovery",
+    "phonetic": "",
+    "meaning": "n. 痊愈,复元;重获,恢复",
+    "translations": [
+      {
+        "translation": "痊愈,复元;重获,恢复",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "recovery rate",
+        "translation": "恢复速率"
+      },
+      {
+        "phrase": "oil recovery",
+        "translation": "油回收"
+      },
+      {
+        "phrase": "economic recovery",
+        "translation": "经济复苏；经济采收率"
+      }
+    ]
+  },
+  {
+    "word": "uncover",
+    "phonetic": "",
+    "meaning": "v. 揭开,揭露",
+    "translations": [
+      {
+        "translation": "揭开,揭露",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "create",
+    "phonetic": "",
+    "meaning": "v. 创造,创作;引起,造成,建立",
+    "translations": [
+      {
+        "translation": "创造,创作;引起,造成,建立",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "create button",
+        "translation": "创建按钮"
+      }
+    ]
+  },
+  {
+    "word": "acre",
+    "phonetic": "",
+    "meaning": "n. 英亩；田地；地产",
+    "translations": [
+      {
+        "translation": "英亩；田地；地产",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "concrete",
+    "phonetic": "",
+    "meaning": "adj. 具体的,实质性的n.混凝土v.用混凝土修筑",
+    "translations": [
+      {
+        "translation": "具体的,实质性的n.混凝土v.用混凝土修筑",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "reinforced concrete",
+        "translation": "n. 钢筋混凝土"
+      },
+      {
+        "phrase": "in the concrete",
+        "translation": "实际上，具体的"
+      },
+      {
+        "phrase": "concrete structure",
+        "translation": "混凝土结构；具体结构；混凝土建造物"
+      }
+    ]
+  },
+  {
+    "word": "cream",
+    "phonetic": "",
+    "meaning": "n. 乳脂,(鲜)奶油;奶油色",
+    "translations": [
+      {
+        "translation": "乳脂,(鲜)奶油;奶油色",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "ice cream",
+        "translation": "冰淇淋"
+      },
+      {
+        "phrase": "whipped cream",
+        "translation": "n. 生奶油"
+      },
+      {
+        "phrase": "cream cheese",
+        "translation": "n. 奶油干酪"
+      }
+    ]
+  },
+  {
+    "word": "creative",
+    "phonetic": "",
+    "meaning": "adj. 有创造力的,创造性的",
+    "translations": [
+      {
+        "translation": "有创造力的,创造性的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "creative thinking",
+        "translation": "创造性思维"
+      },
+      {
+        "phrase": "creative design",
+        "translation": "创意设计，创新设计；美工设计"
+      },
+      {
+        "phrase": "creative work",
+        "translation": "创作；创造性工作"
+      }
+    ]
+  },
+  {
+    "word": "creature",
+    "phonetic": "",
+    "meaning": "n. 人,动物;生物",
+    "translations": [
+      {
+        "translation": "人,动物;生物",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "living creature",
+        "translation": "生物；生命单位"
+      },
+      {
+        "phrase": "fellow creature",
+        "translation": "同类动物；人类"
+      },
+      {
+        "phrase": "creature comfort",
+        "translation": "n. 物质享受（尤指食物）"
+      }
+    ]
+  },
+  {
+    "word": "decrease",
+    "phonetic": "",
+    "meaning": "n. 减少,减小;减少量; v. 减少,变少,降低",
+    "translations": [
+      {
+        "translation": "减少,减小;减少量",
+        "type": "n"
+      },
+      {
+        "translation": "减少,变少,降低",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "on the decrease",
+        "translation": "在减少中"
+      },
+      {
+        "phrase": "decrease by",
+        "translation": "减少了…"
+      }
+    ]
+  },
+  {
+    "word": "discreet",
+    "phonetic": "",
+    "meaning": "adj. (言行)谨慎的；慎重的；有判断力的",
+    "translations": [
+      {
+        "translation": "(言行)谨慎的；慎重的；有判断力的",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "discrepancy",
+    "phonetic": "",
+    "meaning": "n. 相差;差异;矛盾;",
+    "translations": [
+      {
+        "translation": "相差;差异;矛盾;",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "increase",
+    "phonetic": "",
+    "meaning": "v&n. 增加,增长,增进",
+    "translations": [
+      {
+        "translation": "增加,增长,增进",
+        "type": "v&n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "increase in",
+        "translation": "（使）在…增加；（使）在…增大"
+      },
+      {
+        "phrase": "increase production",
+        "translation": "增产"
+      },
+      {
+        "phrase": "increase by",
+        "translation": "增加了；按…增长"
+      }
+    ]
+  },
+  {
+    "word": "increasingly",
+    "phonetic": "",
+    "meaning": "adv. 不断增加地,日益",
+    "translations": [
+      {
+        "translation": "不断增加地,日益",
+        "type": "adv"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "massacre",
+    "phonetic": "",
+    "meaning": "v. 残杀,集体屠杀; n. 残杀,大屠杀",
+    "translations": [
+      {
+        "translation": "残杀,集体屠杀",
+        "type": "v"
+      },
+      {
+        "translation": "残杀,大屠杀",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "recreation",
+    "phonetic": "",
+    "meaning": "n. 娱乐,消遣",
+    "translations": [
+      {
+        "translation": "娱乐,消遣",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "recreation center",
+        "translation": "娱乐中心；康乐中心；游憩中心"
+      },
+      {
+        "phrase": "recreation area",
+        "translation": "儿童游戏场；康乐用地；游憩用地"
+      },
+      {
+        "phrase": "recreation industry",
+        "translation": "旅游产业"
+      }
+    ]
+  },
+  {
+    "word": "secret",
+    "phonetic": "",
+    "meaning": "adj. 秘密的,机密的; n. 秘密",
+    "translations": [
+      {
+        "translation": "秘密的,机密的",
+        "type": "adj"
+      },
+      {
+        "translation": "秘密",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in secret",
+        "translation": "秘密地；私下地"
+      },
+      {
+        "phrase": "secret of success",
+        "translation": "n. 成功的秘诀"
+      },
+      {
+        "phrase": "keep a secret",
+        "translation": "保守秘密"
+      }
+    ]
+  },
+  {
+    "word": "secretary",
+    "phonetic": "",
+    "meaning": "n. 秘书,书记;部长,大臣",
+    "translations": [
+      {
+        "translation": "秘书,书记;部长,大臣",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "secretary of state",
+        "translation": "n. （美）国务卿；（英）国务大臣；（美）州政府秘书长"
+      },
+      {
+        "phrase": "secretary general",
+        "translation": "秘书长"
+      },
+      {
+        "phrase": "treasury secretary",
+        "translation": "财政部长"
+      }
+    ]
+  },
+  {
+    "word": "cry",
+    "phonetic": "",
+    "meaning": "n. &v.叫，喊，哭；(鸟兽)叫，啼，鸣，嗥",
+    "translations": [
+      {
+        "translation": "&v.叫，喊，哭；(鸟兽)叫，啼，鸣，嗥",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "cry for",
+        "translation": "迫切需要；恳求；吵着要"
+      },
+      {
+        "phrase": "a far cry from",
+        "translation": "与…有很大差别；完全不同；很长的距离或时间"
+      },
+      {
+        "phrase": "cry out",
+        "translation": "v. 大声呼喊；大声抱怨"
+      }
+    ]
+  },
+  {
+    "word": "crystal",
+    "phonetic": "",
+    "meaning": "n. 水晶,水晶饰品;结晶; adj. 水晶的,透明的",
+    "translations": [
+      {
+        "translation": "水晶,水晶饰品;结晶",
+        "type": "n"
+      },
+      {
+        "translation": "水晶的,透明的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "liquid crystal",
+        "translation": "液晶"
+      },
+      {
+        "phrase": "crystal structure",
+        "translation": "晶体结构，结晶组织"
+      },
+      {
+        "phrase": "single crystal",
+        "translation": "单晶"
+      }
+    ]
+  },
+  {
+    "word": "crime",
+    "phonetic": "",
+    "meaning": "n. 罪行,犯罪",
+    "translations": [
+      {
+        "translation": "罪行,犯罪",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "crime rate",
+        "translation": "犯罪率"
+      },
+      {
+        "phrase": "organized crime",
+        "translation": "集团犯罪"
+      },
+      {
+        "phrase": "violent crime",
+        "translation": "暴力犯罪，暴力罪行"
+      }
+    ]
+  },
+  {
+    "word": "criminal",
+    "phonetic": "",
+    "meaning": "n. 罪犯,刑事犯; adj. 犯罪的,刑事的",
+    "translations": [
+      {
+        "translation": "罪犯,刑事犯",
+        "type": "n"
+      },
+      {
+        "translation": "犯罪的,刑事的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "criminal law",
+        "translation": "刑法"
+      },
+      {
+        "phrase": "criminal procedure",
+        "translation": "刑事诉讼程序"
+      },
+      {
+        "phrase": "criminal responsibility",
+        "translation": "刑事责任"
+      }
+    ]
+  },
+  {
+    "word": "cripple",
+    "phonetic": "",
+    "meaning": "n. 跛子,残疾人; v. 使跛,使残疾",
+    "translations": [
+      {
+        "translation": "跛子,残疾人",
+        "type": "n"
+      },
+      {
+        "translation": "使跛,使残疾",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "crisis",
+    "phonetic": "",
+    "meaning": "n. (pl.crises)危机,紧要关头",
+    "translations": [
+      {
+        "translation": "(pl.crises)危机,紧要关头",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "financial crisis",
+        "translation": "金融危机；财政危机"
+      },
+      {
+        "phrase": "economic crisis",
+        "translation": "经济危机"
+      },
+      {
+        "phrase": "crisis management",
+        "translation": "危机管理，处理危急的办法"
+      }
+    ]
+  },
+  {
+    "word": "crisp",
+    "phonetic": "",
+    "meaning": "adj. 脆的,易碎的;简明扼要的；（空气）清爽的",
+    "translations": [
+      {
+        "translation": "脆的,易碎的;简明扼要的；（空气）清爽的",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "criterion",
+    "phonetic": "",
+    "meaning": "n. (pl.criteria或s)标准，尺度",
+    "translations": [
+      {
+        "translation": "(pl.criteria或s)标准，尺度",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "evaluation criterion",
+        "translation": "评估标准"
+      },
+      {
+        "phrase": "design criterion",
+        "translation": "设计标准；设计准则；设计规范"
+      },
+      {
+        "phrase": "failure criterion",
+        "translation": "失效准则；故障判据；抗剪强度破坏准则"
+      }
+    ]
+  },
+  {
+    "word": "critic",
+    "phonetic": "",
+    "meaning": "n. 批评家,评论家",
+    "translations": [
+      {
+        "translation": "批评家,评论家",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "art critic",
+        "translation": "艺术评论家"
+      }
+    ]
+  },
+  {
+    "word": "critical",
+    "phonetic": "",
+    "meaning": "adj. 批评的,评论的;危急,紧要的;临界的",
+    "translations": [
+      {
+        "translation": "批评的,评论的;危急,紧要的;临界的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "critical point",
+        "translation": "临界点"
+      },
+      {
+        "phrase": "critical thinking",
+        "translation": "批判性思维，批判性的思考；批判思考能力，判断思维"
+      },
+      {
+        "phrase": "critical factor",
+        "translation": "关键因素；临界因素"
+      }
+    ]
+  },
+  {
+    "word": "criticism",
+    "phonetic": "",
+    "meaning": "n. 评论性的文章，评论；批评，指责，非难",
+    "translations": [
+      {
+        "translation": "评论性的文章，评论；批评，指责，非难",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "literary criticism",
+        "translation": "n. 文艺评论"
+      },
+      {
+        "phrase": "textual criticism",
+        "translation": "校勘；考订；版本鉴定"
+      },
+      {
+        "phrase": "new criticism",
+        "translation": "新批评主义"
+      }
+    ]
+  },
+  {
+    "word": "criticize",
+    "phonetic": "",
+    "meaning": "v. (criticise)批评,评论",
+    "translations": [
+      {
+        "translation": "(criticise)批评,评论",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "discriminate",
+    "phonetic": "",
+    "meaning": "v. 区别,辨别;有差别地对待,歧视",
+    "translations": [
+      {
+        "translation": "区别,辨别;有差别地对待,歧视",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "discriminate against",
+        "translation": "歧视；排斥"
+      }
+    ]
+  },
+  {
+    "word": "cure",
+    "phonetic": "",
+    "meaning": "v. (of)治愈,医治;矫正; n. 治愈,痊愈;良药",
+    "translations": [
+      {
+        "translation": "(of)治愈,医治;矫正",
+        "type": "v"
+      },
+      {
+        "translation": "治愈,痊愈;良药",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "(prevention and) cure",
+        "translation": "防治"
+      },
+      {
+        "phrase": "cure of",
+        "translation": "治愈，医治；矫正"
+      },
+      {
+        "phrase": "cure rate",
+        "translation": "治愈率；痊愈率"
+      }
+    ]
+  },
+  {
+    "word": "accuracy",
+    "phonetic": "",
+    "meaning": "n. 准确（性）；精确；准确度",
+    "translations": [
+      {
+        "translation": "准确（性）；精确；准确度",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "high accuracy",
+        "translation": "高准确度"
+      },
+      {
+        "phrase": "measurement accuracy",
+        "translation": "量测精度"
+      },
+      {
+        "phrase": "measuring accuracy",
+        "translation": "测量精度；计量精度"
+      }
+    ]
+  },
+  {
+    "word": "accurate",
+    "phonetic": "",
+    "meaning": "adj. 正确无误的；准确的，精确的",
+    "translations": [
+      {
+        "translation": "正确无误的；准确的，精确的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "accurate measurement",
+        "translation": "精确测量"
+      },
+      {
+        "phrase": "accurate positioning",
+        "translation": "精确定位"
+      },
+      {
+        "phrase": "accurate model",
+        "translation": "准确模型"
+      }
+    ]
+  },
+  {
+    "word": "curb",
+    "phonetic": "",
+    "meaning": "n. 路边，场外证券市场，vt.制止，抑制",
+    "translations": [
+      {
+        "translation": "路边，场外证券市场，vt.制止，抑制",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "curb inflation",
+        "translation": "抑制通货膨胀"
+      },
+      {
+        "phrase": "curb market",
+        "translation": "n. 场外交易市场；股票证券场外交易市场"
+      }
+    ]
+  },
+  {
+    "word": "curiosity",
+    "phonetic": "",
+    "meaning": "n. 好奇心;古董,古玩",
+    "translations": [
+      {
+        "translation": "好奇心;古董,古玩",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "out of curiosity",
+        "translation": "出于好奇心"
+      },
+      {
+        "phrase": "intellectual curiosity",
+        "translation": "求知欲"
+      }
+    ]
+  },
+  {
+    "word": "curious",
+    "phonetic": "",
+    "meaning": "adj. 好奇的, 求知的, 古怪的, 爱挑剔的",
+    "translations": [
+      {
+        "translation": "好奇的, 求知的, 古怪的, 爱挑剔的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "curious about",
+        "translation": "好奇；想知道"
+      }
+    ]
+  },
+  {
+    "word": "curl",
+    "phonetic": "",
+    "meaning": "v. (使)卷曲,蜷缩; n. 卷发;卷曲状;卷曲物",
+    "translations": [
+      {
+        "translation": "(使)卷曲,蜷缩",
+        "type": "v"
+      },
+      {
+        "translation": "卷发;卷曲状;卷曲物",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "curl up",
+        "translation": "卷起"
+      }
+    ]
+  },
+  {
+    "word": "currency",
+    "phonetic": "",
+    "meaning": "n. 流传,流通；通货,货币",
+    "translations": [
+      {
+        "translation": "流传,流通；通货,货币",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "foreign currency",
+        "translation": "n. 外币"
+      },
+      {
+        "phrase": "reserve currency",
+        "translation": "储备货币"
+      },
+      {
+        "phrase": "currency exchange",
+        "translation": "货币兑换；外汇兑换"
+      }
+    ]
+  },
+  {
+    "word": "current",
+    "phonetic": "",
+    "meaning": "n. 电流,水流;潮流,趋势; adj. 当前的;流通的",
+    "translations": [
+      {
+        "translation": "电流,水流;潮流,趋势",
+        "type": "n"
+      },
+      {
+        "translation": "当前的;流通的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "current situation",
+        "translation": "现状，目前形势；现况"
+      },
+      {
+        "phrase": "current status",
+        "translation": "当前状态；目前状况"
+      },
+      {
+        "phrase": "current state",
+        "translation": "现行状态；初速电流状态"
+      }
+    ]
+  },
+  {
+    "word": "curriculum",
+    "phonetic": "",
+    "meaning": "n. 课程,(学校等的)全部课程",
+    "translations": [
+      {
+        "translation": "课程,(学校等的)全部课程",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "curriculum reform",
+        "translation": "课程改革"
+      },
+      {
+        "phrase": "curriculum design",
+        "translation": "课程设计"
+      },
+      {
+        "phrase": "curriculum development",
+        "translation": "课程开发；课程编制"
+      }
+    ]
+  },
+  {
+    "word": "curtain",
+    "phonetic": "",
+    "meaning": "n. 窗帘,门帘;幕(布);结束； vt遮掩",
+    "translations": [
+      {
+        "translation": "窗帘,门帘;幕(布);结束； vt遮掩",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "curtain wall",
+        "translation": "幕墙；护墙"
+      },
+      {
+        "phrase": "glass curtain wall",
+        "translation": "玻璃幕墙"
+      },
+      {
+        "phrase": "behind the curtain",
+        "translation": "adv. 幕后；秘密"
+      }
+    ]
+  },
+  {
+    "word": "curve",
+    "phonetic": "",
+    "meaning": "n. 曲线,弯曲(物); v. 弄弯,成曲形",
+    "translations": [
+      {
+        "translation": "曲线,弯曲(物)",
+        "type": "n"
+      },
+      {
+        "translation": "弄弯,成曲形",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "curve fitting",
+        "translation": "曲线拟合"
+      },
+      {
+        "phrase": "characteristic curve",
+        "translation": "特性曲线；特征曲线"
+      },
+      {
+        "phrase": "elliptic curve",
+        "translation": "椭圆曲线；橢圓曲線"
+      }
+    ]
+  },
+  {
+    "word": "excursion",
+    "phonetic": "",
+    "meaning": "n. 短途旅行,游览;离题;[物理]偏移,漂移",
+    "translations": [
+      {
+        "translation": "短途旅行,游览;离题;[物理]偏移,漂移",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "temperature excursion",
+        "translation": "温度剧增，超温"
+      }
+    ]
+  },
+  {
+    "word": "incur",
+    "phonetic": "",
+    "meaning": "v. 招致,惹起,遭受",
+    "translations": [
+      {
+        "translation": "招致,惹起,遭受",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "mercury",
+    "phonetic": "",
+    "meaning": "n. 水银,汞",
+    "translations": [
+      {
+        "translation": "水银,汞",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "mercury vapor",
+        "translation": "汞蒸气；水银蒸汽"
+      },
+      {
+        "phrase": "mercury lamp",
+        "translation": "汞灯；水银灯"
+      },
+      {
+        "phrase": "mercury contamination",
+        "translation": "汞污染"
+      }
+    ]
+  },
+  {
+    "word": "obscure",
+    "phonetic": "",
+    "meaning": "adj. 暗的,朦胧的;模糊的,晦涩的",
+    "translations": [
+      {
+        "translation": "暗的,朦胧的;模糊的,晦涩的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "obscure glass",
+        "translation": "不透茫璃；毛玻璃"
+      }
+    ]
+  },
+  {
+    "word": "occur",
+    "phonetic": "",
+    "meaning": "v. 发生,出现;存在;想起,想到",
+    "translations": [
+      {
+        "translation": "发生,出现;存在;想起,想到",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "occur as",
+        "translation": "以...的形式出现"
+      },
+      {
+        "phrase": "occur for",
+        "translation": "发生在…时候"
+      }
+    ]
+  },
+  {
+    "word": "occurrence",
+    "phonetic": "",
+    "meaning": "n. 发生,出现;事件,事故,发生的事情",
+    "translations": [
+      {
+        "translation": "发生,出现;事件,事故,发生的事情",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "probability of occurrence",
+        "translation": "发生概率；事件概率"
+      }
+    ]
+  },
+  {
+    "word": "recur",
+    "phonetic": "",
+    "meaning": "v. (尤指不好的事)一再发生；重现",
+    "translations": [
+      {
+        "translation": "(尤指不好的事)一再发生；重现",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "secure",
+    "phonetic": "",
+    "meaning": "adj. (from,against)安全的,放心的v.得到;防护",
+    "translations": [
+      {
+        "translation": "(from,against)安全的,放心的v.得到;防护",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "secure communication",
+        "translation": "保密通信；安全通信"
+      },
+      {
+        "phrase": "secure electronic transaction",
+        "translation": "安全电子交易"
+      },
+      {
+        "phrase": "secure sockets layer",
+        "translation": "安全套层；安全套接层"
+      }
+    ]
+  },
+  {
+    "word": "security",
+    "phonetic": "",
+    "meaning": "n. 安全(感),防御(物),保证(人),(pl.)证券",
+    "translations": [
+      {
+        "translation": "安全(感),防御(物),保证(人),(pl.)证券",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "social security",
+        "translation": "社会保险，社会保障"
+      },
+      {
+        "phrase": "public security",
+        "translation": "公共安全"
+      },
+      {
+        "phrase": "security system",
+        "translation": "安全系统"
+      }
+    ]
+  },
+  {
+    "word": "dictation",
+    "phonetic": "",
+    "meaning": "n. 听写,口述;命令",
+    "translations": [
+      {
+        "translation": "听写,口述;命令",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "addict",
+    "phonetic": "",
+    "meaning": "v. 使沉溺；使上瘾; n. 沉溺于不良嗜好的人",
+    "translations": [
+      {
+        "translation": "使沉溺；使上瘾",
+        "type": "v"
+      },
+      {
+        "translation": "沉溺于不良嗜好的人",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "drug addict",
+        "translation": "吸毒者；滥用药物者"
+      }
+    ]
+  },
+  {
+    "word": "addition",
+    "phonetic": "",
+    "meaning": "n. 加，加法；附加部分，增加(物)",
+    "translations": [
+      {
+        "translation": "加，加法；附加部分，增加(物)",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in addition",
+        "translation": "另外，此外"
+      },
+      {
+        "phrase": "addition to sth",
+        "translation": "增加"
+      },
+      {
+        "phrase": "with the addition of",
+        "translation": "外加"
+      }
+    ]
+  },
+  {
+    "word": "contradict",
+    "phonetic": "",
+    "meaning": "v. 反驳;同…矛盾,同…抵触",
+    "translations": [
+      {
+        "translation": "反驳;同…矛盾,同…抵触",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "contradict oneself",
+        "translation": "自相矛盾"
+      }
+    ]
+  },
+  {
+    "word": "contradiction",
+    "phonetic": "",
+    "meaning": "n. 反驳，否认；矛盾，不一致",
+    "translations": [
+      {
+        "translation": "反驳，否认；矛盾，不一致",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "contradiction between",
+        "translation": "矛盾，不一致"
+      },
+      {
+        "phrase": "in contradiction to",
+        "translation": "同…相矛盾"
+      },
+      {
+        "phrase": "in contradiction with",
+        "translation": "与…相抵触；与…矛盾着"
+      }
+    ]
+  },
+  {
+    "word": "dictionary",
+    "phonetic": "",
+    "meaning": "n. 词典,字典",
+    "translations": [
+      {
+        "translation": "词典,字典",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "chinese-english dictionary",
+        "translation": "汉英词典；汉英字典；汉英辞典"
+      },
+      {
+        "phrase": "electronic dictionary",
+        "translation": "电子字典"
+      },
+      {
+        "phrase": "english-chinese dictionary",
+        "translation": "英汉字典"
+      }
+    ]
+  },
+  {
+    "word": "predict",
+    "phonetic": "",
+    "meaning": "v. 预言,预测,预告",
+    "translations": [
+      {
+        "translation": "预言,预测,预告",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "dedicate",
+    "phonetic": "",
+    "meaning": "v. 奉献;献身于",
+    "translations": [
+      {
+        "translation": "奉献;献身于",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "indicate",
+    "phonetic": "",
+    "meaning": "v. 指出,指示;表明,暗示",
+    "translations": [
+      {
+        "translation": "指出,指示;表明,暗示",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "indication",
+    "phonetic": "",
+    "meaning": "n. 指出,指示;表明,暗示",
+    "translations": [
+      {
+        "translation": "指出,指示;表明,暗示",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "give clear indication of",
+        "translation": "注明"
+      },
+      {
+        "phrase": "visual indication",
+        "translation": "目测（指示）；可见指示"
+      },
+      {
+        "phrase": "fault indication",
+        "translation": "故障显示"
+      }
+    ]
+  },
+  {
+    "word": "indicative",
+    "phonetic": "",
+    "meaning": "adj. (of)指示的,暗示的",
+    "translations": [
+      {
+        "translation": "(of)指示的,暗示的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "indicative of",
+        "translation": "表明；说明"
+      }
+    ]
+  },
+  {
+    "word": "verdict",
+    "phonetic": "",
+    "meaning": "n. (陪审团的)裁决,判决；判断；定论",
+    "translations": [
+      {
+        "translation": "(陪审团的)裁决,判决；判断；定论",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "doctor",
+    "phonetic": "",
+    "meaning": "n. 医生;博士; v. 授以博士学位;诊断;修改",
+    "translations": [
+      {
+        "translation": "医生;博士",
+        "type": "n"
+      },
+      {
+        "translation": "授以博士学位;诊断;修改",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "doctorate",
+    "phonetic": "",
+    "meaning": "n. 博士学位;博士头衔",
+    "translations": [
+      {
+        "translation": "博士学位;博士头衔",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "doctorate degree",
+        "translation": "博士学位"
+      },
+      {
+        "phrase": "post doctorate",
+        "translation": "博士后"
+      }
+    ]
+  },
+  {
+    "word": "document",
+    "phonetic": "",
+    "meaning": "n. 公文,文献",
+    "translations": [
+      {
+        "translation": "公文,文献",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "document management",
+        "translation": "文件管理；资料管理"
+      },
+      {
+        "phrase": "document retrieval",
+        "translation": "[计]文档检索"
+      },
+      {
+        "phrase": "official document",
+        "translation": "官方文件，公文"
+      }
+    ]
+  },
+  {
+    "word": "documentary",
+    "phonetic": "",
+    "meaning": "adj. 文献的; n. 记录片",
+    "translations": [
+      {
+        "translation": "文献的",
+        "type": "adj"
+      },
+      {
+        "translation": "记录片",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "documentary film",
+        "translation": "纪录片；文献片"
+      },
+      {
+        "phrase": "documentary credit",
+        "translation": "押汇信用证"
+      },
+      {
+        "phrase": "documentary evidence",
+        "translation": "证明文件；书面证明"
+      }
+    ]
+  },
+  {
+    "word": "conduct",
+    "phonetic": "",
+    "meaning": "n. 行为,品行; v. 引导;管理;指挥(乐队);传导",
+    "translations": [
+      {
+        "translation": "行为,品行",
+        "type": "n"
+      },
+      {
+        "translation": "引导;管理;指挥(乐队);传导",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "conduct oneself",
+        "translation": "（行为）表现"
+      },
+      {
+        "phrase": "code of conduct",
+        "translation": "行为准则；规范"
+      },
+      {
+        "phrase": "conduct research",
+        "translation": "进行研究"
+      }
+    ]
+  },
+  {
+    "word": "conductor",
+    "phonetic": "",
+    "meaning": "n. 管理者；售票员；领队，指挥；导体",
+    "translations": [
+      {
+        "translation": "管理者；售票员；领队，指挥；导体",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "bus conductor",
+        "translation": "n. 公共汽车售票员"
+      },
+      {
+        "phrase": "good conductor",
+        "translation": "良导体"
+      },
+      {
+        "phrase": "electrical conductor",
+        "translation": "导电体，电导体；电导线"
+      }
+    ]
+  },
+  {
+    "word": "deduce",
+    "phonetic": "",
+    "meaning": "v. (from)演绎,推断,推论",
+    "translations": [
+      {
+        "translation": "(from)演绎,推断,推论",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "deduce from",
+        "translation": "推断；从…得出结论"
+      }
+    ]
+  },
+  {
+    "word": "deduct",
+    "phonetic": "",
+    "meaning": "v. 扣除;演绎(推理)",
+    "translations": [
+      {
+        "translation": "扣除;演绎(推理)",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "deduct from",
+        "translation": "扣除"
+      },
+      {
+        "phrase": "deduct money",
+        "translation": "扣钱；扣款"
+      }
+    ]
+  },
+  {
+    "word": "educate",
+    "phonetic": "",
+    "meaning": "v. 教育,培养,训练",
+    "translations": [
+      {
+        "translation": "教育,培养,训练",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "education",
+    "phonetic": "",
+    "meaning": "n. 教育,培养,训练",
+    "translations": [
+      {
+        "translation": "教育,培养,训练",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "higher education",
+        "translation": "高等教育（指含大学以上的教育）"
+      },
+      {
+        "phrase": "vocational education",
+        "translation": "职业教育"
+      },
+      {
+        "phrase": "physical education",
+        "translation": "n. 体育课；体育教育"
+      }
+    ]
+  },
+  {
+    "word": "induce",
+    "phonetic": "",
+    "meaning": "v. 引诱,劝使;引起,导致;感应",
+    "translations": [
+      {
+        "translation": "引诱,劝使;引起,导致;感应",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "introduce",
+    "phonetic": "",
+    "meaning": "v. 介绍；引进，传入；提出(议案等)",
+    "translations": [
+      {
+        "translation": "介绍；引进，传入；提出(议案等)",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "introduce oneself",
+        "translation": "自我介绍"
+      },
+      {
+        "phrase": "introduce myself",
+        "translation": "自我介绍"
+      },
+      {
+        "phrase": "introduce yourself",
+        "translation": "自我介绍；介绍你自己"
+      }
+    ]
+  },
+  {
+    "word": "introduction",
+    "phonetic": "",
+    "meaning": "n. (to)介绍;传入,引进;导言,导论,绪论",
+    "translations": [
+      {
+        "translation": "(to)介绍;传入,引进;导言,导论,绪论",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "introduction of",
+        "translation": "引进；引入"
+      },
+      {
+        "phrase": "brief introduction",
+        "translation": "简介；简短介绍"
+      },
+      {
+        "phrase": "letter of introduction",
+        "translation": "介绍信"
+      }
+    ]
+  },
+  {
+    "word": "produce",
+    "phonetic": "",
+    "meaning": "v. 生产,制造,显示,演出,导致; n. 产品",
+    "translations": [
+      {
+        "translation": "生产,制造,显示,演出,导致",
+        "type": "v"
+      },
+      {
+        "translation": "产品",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "farm produce",
+        "translation": "农产品"
+      },
+      {
+        "phrase": "dairy produce",
+        "translation": "乳制品"
+      },
+      {
+        "phrase": "produce electricity",
+        "translation": "发电"
+      }
+    ]
+  },
+  {
+    "word": "product",
+    "phonetic": "",
+    "meaning": "n. 产品,产物;乘积",
+    "translations": [
+      {
+        "translation": "产品,产物;乘积",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "product quality",
+        "translation": "产品质量"
+      },
+      {
+        "phrase": "product development",
+        "translation": "产品开发；产品发展"
+      },
+      {
+        "phrase": "product design",
+        "translation": "产品设计"
+      }
+    ]
+  },
+  {
+    "word": "production",
+    "phonetic": "",
+    "meaning": "n. 生产,产品,作品,(研究)成果,总产量",
+    "translations": [
+      {
+        "translation": "生产,产品,作品,(研究)成果,总产量",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "production process",
+        "translation": "生产流程"
+      },
+      {
+        "phrase": "production line",
+        "translation": "生产线"
+      },
+      {
+        "phrase": "production equipment",
+        "translation": "生产设备；生产装备"
+      }
+    ]
+  },
+  {
+    "word": "productive",
+    "phonetic": "",
+    "meaning": "adj. 生产(性)的,能产的,多产的",
+    "translations": [
+      {
+        "translation": "生产(性)的,能产的,多产的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "productive forces",
+        "translation": "生产力"
+      },
+      {
+        "phrase": "productive capacity",
+        "translation": "生产能力"
+      },
+      {
+        "phrase": "productive efficiency",
+        "translation": "生产效率；生产效能"
+      }
+    ]
+  },
+  {
+    "word": "productivity",
+    "phonetic": "",
+    "meaning": "n. 生产率",
+    "translations": [
+      {
+        "translation": "生产率",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "labor productivity",
+        "translation": "劳动生产率"
+      },
+      {
+        "phrase": "labour productivity",
+        "translation": "劳动生产率"
+      },
+      {
+        "phrase": "primary productivity",
+        "translation": "初级生产力；第一性生产力；基础生产力；初级生产率"
+      }
+    ]
+  },
+  {
+    "word": "reduce",
+    "phonetic": "",
+    "meaning": "v. 减少,缩小;简化,还原",
+    "translations": [
+      {
+        "translation": "减少,缩小;简化,还原",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "reduce pollution",
+        "translation": "降低污染"
+      },
+      {
+        "phrase": "reduce weight",
+        "translation": "整形美容减肥"
+      },
+      {
+        "phrase": "reduce waste",
+        "translation": "减少浪费"
+      }
+    ]
+  },
+  {
+    "word": "reduction",
+    "phonetic": "",
+    "meaning": "n. 减小,减少,缩小",
+    "translations": [
+      {
+        "translation": "减小,减少,缩小",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "noise reduction",
+        "translation": "噪声降低，噪声消减"
+      },
+      {
+        "phrase": "cost reduction",
+        "translation": "成本降低"
+      },
+      {
+        "phrase": "reduction method",
+        "translation": "还原法；设置限制方法"
+      }
+    ]
+  },
+  {
+    "word": "reproduce",
+    "phonetic": "",
+    "meaning": "v. 生殖;翻版;繁殖;复制,仿造",
+    "translations": [
+      {
+        "translation": "生殖;翻版;繁殖;复制,仿造",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "semiconductor",
+    "phonetic": "",
+    "meaning": "n. 半导体",
+    "translations": [
+      {
+        "translation": "半导体",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "semiconductor laser",
+        "translation": "[光]半导体激光（等于diode laser）"
+      },
+      {
+        "phrase": "semiconductor device",
+        "translation": "半导体器件；半导体装置；半导体掐"
+      },
+      {
+        "phrase": "power semiconductor",
+        "translation": "[电]功率半导体元件"
+      }
+    ]
+  },
+  {
+    "word": "dome",
+    "phonetic": "",
+    "meaning": "n. 圆屋顶",
+    "translations": [
+      {
+        "translation": "圆屋顶",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "dome structure",
+        "translation": "穹状构造；穹隆构造；穹窿构造"
+      },
+      {
+        "phrase": "geodesic dome",
+        "translation": "网格状球顶"
+      },
+      {
+        "phrase": "dome light",
+        "translation": "穹顶天窗孔；座舱顶灯"
+      }
+    ]
+  },
+  {
+    "word": "domain",
+    "phonetic": "",
+    "meaning": "n. (活动,思想等)领域,范围;领地",
+    "translations": [
+      {
+        "translation": "(活动,思想等)领域,范围;领地",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "domain name",
+        "translation": "网域名称"
+      },
+      {
+        "phrase": "time domain",
+        "translation": "时域，时间域"
+      },
+      {
+        "phrase": "frequency domain",
+        "translation": "[化]频域；频率范围"
+      }
+    ]
+  },
+  {
+    "word": "domestic",
+    "phonetic": "",
+    "meaning": "adj. 家里的;本国的;驯养的",
+    "translations": [
+      {
+        "translation": "家里的;本国的;驯养的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "domestic market",
+        "translation": "国内市场"
+      },
+      {
+        "phrase": "domestic demand",
+        "translation": "国内需求；本地内部需求"
+      },
+      {
+        "phrase": "domestic product",
+        "translation": "国内产品；本地生产"
+      }
+    ]
+  },
+  {
+    "word": "dominant",
+    "phonetic": "",
+    "meaning": "adj. 支配的,统治的,占优势的",
+    "translations": [
+      {
+        "translation": "支配的,统治的,占优势的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "dominant role",
+        "translation": "主要角色"
+      },
+      {
+        "phrase": "dominant effect",
+        "translation": "显性效应；显性效果"
+      },
+      {
+        "phrase": "diagonally dominant",
+        "translation": "对角占优；对角优势的"
+      }
+    ]
+  },
+  {
+    "word": "dominate",
+    "phonetic": "",
+    "meaning": "v. 支配,统治,控制;占优势",
+    "translations": [
+      {
+        "translation": "支配,统治,控制;占优势",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "dominate the market",
+        "translation": "欺行霸市"
+      }
+    ]
+  },
+  {
+    "word": "predominant",
+    "phonetic": "",
+    "meaning": "adj. (over)占优势的;主要的,突出的",
+    "translations": [
+      {
+        "translation": "(over)占优势的;主要的,突出的",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "doom",
+    "phonetic": "",
+    "meaning": "n. 厄运,劫数; v. 注定,命定",
+    "translations": [
+      {
+        "translation": "厄运,劫数",
+        "type": "n"
+      },
+      {
+        "translation": "注定,命定",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "doom and gloom",
+        "translation": "凄惨，前景不妙；无望"
+      }
+    ]
+  },
+  {
+    "word": "dorm",
+    "phonetic": "",
+    "meaning": "n. (itory)［美］［口］宿舍",
+    "translations": [
+      {
+        "translation": "(itory)［美］［口］宿舍",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "democracy",
+    "phonetic": "",
+    "meaning": "n. 民主,民主制,民主国家",
+    "translations": [
+      {
+        "translation": "民主,民主制,民主国家",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "social democracy",
+        "translation": "n. 社会主义；社会民主主义"
+      },
+      {
+        "phrase": "deliberative democracy",
+        "translation": "协商民主；审议民主；商议性民主"
+      },
+      {
+        "phrase": "liberal democracy",
+        "translation": "自由民主；自由民主主义；自由民主制（一种政府形式，由人民选出的民意代表行使决策权力）"
+      }
+    ]
+  },
+  {
+    "word": "democratic",
+    "phonetic": "",
+    "meaning": "adj. 民主的",
+    "translations": [
+      {
+        "translation": "民主的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "democratic party",
+        "translation": "（美）民主党"
+      },
+      {
+        "phrase": "democratic centralism",
+        "translation": "民主集中制"
+      },
+      {
+        "phrase": "democratic revolution",
+        "translation": "民主革命"
+      }
+    ]
+  },
+  {
+    "word": "equal",
+    "phonetic": "",
+    "meaning": "adj. 相等的;胜任的n.相等的事务;对手v.等于",
+    "translations": [
+      {
+        "translation": "相等的;胜任的n.相等的事务;对手v.等于",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "is equal to",
+        "translation": "等于"
+      },
+      {
+        "phrase": "equal opportunity",
+        "translation": "机会均等"
+      },
+      {
+        "phrase": "other things being equal",
+        "translation": "在其他条件都相同的情况下"
+      }
+    ]
+  },
+  {
+    "word": "adequate",
+    "phonetic": "",
+    "meaning": "adj. 充足的，足够的；适当的，胜任的",
+    "translations": [
+      {
+        "translation": "充足的，足够的；适当的，胜任的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "adequate for",
+        "translation": "胜任……的；对……是足够的；适合……的"
+      },
+      {
+        "phrase": "adequate consideration",
+        "translation": "充分考虑；适当约因"
+      },
+      {
+        "phrase": "adequate preparation",
+        "translation": "充分准备"
+      }
+    ]
+  },
+  {
+    "word": "equality",
+    "phonetic": "",
+    "meaning": "n. 同等;平等;相等;等式;等同性",
+    "translations": [
+      {
+        "translation": "同等;平等;相等;等式;等同性",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "equality and mutual benefit",
+        "translation": "平等互利"
+      },
+      {
+        "phrase": "racial equality",
+        "translation": "种族平等"
+      },
+      {
+        "phrase": "equality between the sexes",
+        "translation": "男女平等"
+      }
+    ]
+  },
+  {
+    "word": "equation",
+    "phonetic": "",
+    "meaning": "n. (数学)等式,方程式;(with)相等;均衡",
+    "translations": [
+      {
+        "translation": "(数学)等式,方程式;(with)相等;均衡",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "differential equation",
+        "translation": "微分方程"
+      },
+      {
+        "phrase": "wave equation",
+        "translation": "波动方程"
+      },
+      {
+        "phrase": "regression equation",
+        "translation": "回归方程"
+      }
+    ]
+  },
+  {
+    "word": "equator",
+    "phonetic": "",
+    "meaning": "n. 赤道",
+    "translations": [
+      {
+        "translation": "赤道",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "celestial equator",
+        "translation": "[天]天球赤道（等于equator，equinoctial，equinoctial circle，equinoctial line）"
+      }
+    ]
+  },
+  {
+    "word": "equip",
+    "phonetic": "",
+    "meaning": "v. (with)装备,配备;训练",
+    "translations": [
+      {
+        "translation": "(with)装备,配备;训练",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "equip with",
+        "translation": "装备，配备；备有…，以…装备"
+      }
+    ]
+  },
+  {
+    "word": "equipment",
+    "phonetic": "",
+    "meaning": "n. 设备,器材,装置;才能",
+    "translations": [
+      {
+        "translation": "设备,器材,装置;才能",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "production equipment",
+        "translation": "生产设备；生产装备"
+      },
+      {
+        "phrase": "medical equipment",
+        "translation": "医疗设备；医疗器材"
+      },
+      {
+        "phrase": "testing equipment",
+        "translation": "测试设备；试验设备"
+      }
+    ]
+  },
+  {
+    "word": "quarrel",
+    "phonetic": "",
+    "meaning": "v. 争吵,争论; n. 争吵,争吵的原因",
+    "translations": [
+      {
+        "translation": "争吵,争论",
+        "type": "v"
+      },
+      {
+        "translation": "争吵,争吵的原因",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "quarrel with",
+        "translation": "v. 抱怨；不同意；拒绝接受；跟…吵架"
+      },
+      {
+        "phrase": "quarrel about",
+        "translation": "争论；为…争吵"
+      }
+    ]
+  },
+  {
+    "word": "fact",
+    "phonetic": "",
+    "meaning": "n. 事实,实际",
+    "translations": [
+      {
+        "translation": "事实,实际",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in fact",
+        "translation": "事实上，实际上"
+      },
+      {
+        "phrase": "matter of fact",
+        "translation": "n. 事实"
+      },
+      {
+        "phrase": "facts and figures",
+        "translation": "事实和数字；准确的资料；确凿的事实"
+      }
+    ]
+  },
+  {
+    "word": "factor",
+    "phonetic": "",
+    "meaning": "n. 因素,要素",
+    "translations": [
+      {
+        "translation": "因素,要素",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "factor in",
+        "translation": "…的因素；将…纳入"
+      },
+      {
+        "phrase": "key factor",
+        "translation": "关键因素；主要因素"
+      },
+      {
+        "phrase": "factor analysis",
+        "translation": "因子分析；要素分析"
+      }
+    ]
+  },
+  {
+    "word": "factory",
+    "phonetic": "",
+    "meaning": "n. 工厂",
+    "translations": [
+      {
+        "translation": "工厂",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "hardware factory",
+        "translation": "五金厂"
+      },
+      {
+        "phrase": "factory building",
+        "translation": "厂房"
+      },
+      {
+        "phrase": "furniture factory",
+        "translation": "家具厂"
+      }
+    ]
+  },
+  {
+    "word": "satisfaction",
+    "phonetic": "",
+    "meaning": "n. 满足,满意;乐事,愉快",
+    "translations": [
+      {
+        "translation": "满足,满意;乐事,愉快",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "customer satisfaction",
+        "translation": "客户满意度"
+      },
+      {
+        "phrase": "with satisfaction",
+        "translation": "满意地"
+      },
+      {
+        "phrase": "job satisfaction",
+        "translation": "工作满意"
+      }
+    ]
+  },
+  {
+    "word": "satisfactory",
+    "phonetic": "",
+    "meaning": "adj. 令人满意的,圆满的,良好的,符合要求的",
+    "translations": [
+      {
+        "translation": "令人满意的,圆满的,良好的,符合要求的",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "affect",
+    "phonetic": "",
+    "meaning": "v. 影响；(疾病)侵袭；感动; n. 情感，感情",
+    "translations": [
+      {
+        "translation": "影响；(疾病)侵袭；感动",
+        "type": "v"
+      },
+      {
+        "translation": "情感，感情",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "affection",
+    "phonetic": "",
+    "meaning": "n. 爱，喜爱；爱慕之情；感情；疾病，不适",
+    "translations": [
+      {
+        "translation": "爱，喜爱；爱慕之情；感情；疾病，不适",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "defect",
+    "phonetic": "",
+    "meaning": "n. 过失;缺点;不足",
+    "translations": [
+      {
+        "translation": "过失;缺点;不足",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "zero defect",
+        "translation": "零缺陷；零缺点；无差错"
+      },
+      {
+        "phrase": "surface defect",
+        "translation": "表面损坏"
+      },
+      {
+        "phrase": "ventricular septal defect",
+        "translation": "[医]室中隔缺损"
+      }
+    ]
+  },
+  {
+    "word": "perfect",
+    "phonetic": "",
+    "meaning": "adj. 完善的;完全的;(语法)完成的; v. 使完美",
+    "translations": [
+      {
+        "translation": "完善的;完全的;(语法)完成的",
+        "type": "adj"
+      },
+      {
+        "translation": "使完美",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "perfect oneself in",
+        "translation": "精通；熟练；完全掌握"
+      },
+      {
+        "phrase": "perfect for",
+        "translation": "应用范围；对…是完美的"
+      },
+      {
+        "phrase": "perfect harmony",
+        "translation": "水乳交融；完美无谐波；十分和谐"
+      }
+    ]
+  },
+  {
+    "word": "perfection",
+    "phonetic": "",
+    "meaning": "n. 尽善尽美,完美",
+    "translations": [
+      {
+        "translation": "尽善尽美,完美",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "effect",
+    "phonetic": "",
+    "meaning": "n. 结果;效果;影响;印象; v. 招致;实现;达到",
+    "translations": [
+      {
+        "translation": "结果;效果;影响;印象",
+        "type": "n"
+      },
+      {
+        "translation": "招致;实现;达到",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "effect on",
+        "translation": "对…的作用"
+      },
+      {
+        "phrase": "curative effect",
+        "translation": "疗效"
+      },
+      {
+        "phrase": "main effect",
+        "translation": "主效应"
+      }
+    ]
+  },
+  {
+    "word": "effective",
+    "phonetic": "",
+    "meaning": "adj. 有效的,生效的;被实施的;给人深刻印象",
+    "translations": [
+      {
+        "translation": "有效的,生效的;被实施的;给人深刻印象",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "effective management",
+        "translation": "有效管理"
+      },
+      {
+        "phrase": "effective measure",
+        "translation": "有效措施"
+      },
+      {
+        "phrase": "cost effective",
+        "translation": "有成本效益的；划算的；成本效率"
+      }
+    ]
+  },
+  {
+    "word": "efficiency",
+    "phonetic": "",
+    "meaning": "n. 效率;功效",
+    "translations": [
+      {
+        "translation": "效率;功效",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "high efficiency",
+        "translation": "高效率"
+      },
+      {
+        "phrase": "production efficiency",
+        "translation": "生产效率"
+      },
+      {
+        "phrase": "work efficiency",
+        "translation": "工作效率；劳动效率；加工效率"
+      }
+    ]
+  },
+  {
+    "word": "efficient",
+    "phonetic": "",
+    "meaning": "adj. 有效的,效率高的;有能力的,能胜任的",
+    "translations": [
+      {
+        "translation": "有效的,效率高的;有能力的,能胜任的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "energy efficient",
+        "translation": "节能"
+      },
+      {
+        "phrase": "efficient production",
+        "translation": "有效生产"
+      },
+      {
+        "phrase": "efficient market",
+        "translation": "有效市场"
+      }
+    ]
+  },
+  {
+    "word": "infect",
+    "phonetic": "",
+    "meaning": "v. 传染，感染；影响(思想等)",
+    "translations": [
+      {
+        "translation": "传染，感染；影响(思想等)",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "infectious",
+    "phonetic": "",
+    "meaning": "adj. 传染的,传染性的,有感染力的",
+    "translations": [
+      {
+        "translation": "传染的,传染性的,有感染力的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "infectious disease",
+        "translation": "传染病"
+      },
+      {
+        "phrase": "infectious mononucleosis",
+        "translation": "传染性单核细胞增多"
+      },
+      {
+        "phrase": "infectious disease hospital",
+        "translation": "传染病院"
+      }
+    ]
+  },
+  {
+    "word": "beneficial",
+    "phonetic": "",
+    "meaning": "adj. (to)有利的,有益的",
+    "translations": [
+      {
+        "translation": "(to)有利的,有益的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "mutually beneficial",
+        "translation": "互利的；双赢的"
+      },
+      {
+        "phrase": "beneficial owner",
+        "translation": "受益所有人"
+      },
+      {
+        "phrase": "beneficial use",
+        "translation": "享用，有权使用"
+      }
+    ]
+  },
+  {
+    "word": "benefit",
+    "phonetic": "",
+    "meaning": "n. 利益,好处,恩惠; v. 有益于;(from,by)受益",
+    "translations": [
+      {
+        "translation": "利益,好处,恩惠",
+        "type": "n"
+      },
+      {
+        "translation": "有益于;(from,by)受益",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "economic benefit",
+        "translation": "经济效益"
+      },
+      {
+        "phrase": "benefit from",
+        "translation": "得益于；得利于；因…而得到好处"
+      },
+      {
+        "phrase": "mutual benefit",
+        "translation": "互惠互利"
+      }
+    ]
+  },
+  {
+    "word": "classification",
+    "phonetic": "",
+    "meaning": "n. 分类,分级",
+    "translations": [
+      {
+        "translation": "分类,分级",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "classification method",
+        "translation": "分类方法"
+      },
+      {
+        "phrase": "classification system",
+        "translation": "分类系统；叙级制度"
+      },
+      {
+        "phrase": "classification society",
+        "translation": "船级社；验船协会"
+      }
+    ]
+  },
+  {
+    "word": "classify",
+    "phonetic": "",
+    "meaning": "v. 分类,分等(级)",
+    "translations": [
+      {
+        "translation": "分类,分等(级)",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "classify as",
+        "translation": "把…分类为…"
+      }
+    ]
+  },
+  {
+    "word": "deficiency",
+    "phonetic": "",
+    "meaning": "n. 缺乏,不足;缺点,缺陷",
+    "translations": [
+      {
+        "translation": "缺乏,不足;缺点,缺陷",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "iron deficiency",
+        "translation": "缺铁；铁缺乏"
+      },
+      {
+        "phrase": "iron deficiency anemia",
+        "translation": "缺铁性贫血"
+      },
+      {
+        "phrase": "mental deficiency",
+        "translation": "心智缺陷；智力缺陷；精神不健全"
+      }
+    ]
+  },
+  {
+    "word": "deficit",
+    "phonetic": "",
+    "meaning": "n. 赤字,逆差;亏损,亏空;不足,缺乏",
+    "translations": [
+      {
+        "translation": "赤字,逆差;亏损,亏空;不足,缺乏",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "trade deficit",
+        "translation": "n. 贸易逆差；贸易赤字"
+      },
+      {
+        "phrase": "budget deficit",
+        "translation": "预算赤字"
+      },
+      {
+        "phrase": "fiscal deficit",
+        "translation": "财政赤字"
+      }
+    ]
+  },
+  {
+    "word": "difficult",
+    "phonetic": "",
+    "meaning": "adj. 困难的,艰难的",
+    "translations": [
+      {
+        "translation": "困难的,艰难的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "difficult problem",
+        "translation": "难题；难问题"
+      },
+      {
+        "phrase": "difficult point",
+        "translation": "难点"
+      },
+      {
+        "phrase": "difficult thing",
+        "translation": "困难的事；难事"
+      }
+    ]
+  },
+  {
+    "word": "difficulty",
+    "phonetic": "",
+    "meaning": "n. 困难,困境,难题",
+    "translations": [
+      {
+        "translation": "困难,困境,难题",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "with difficulty",
+        "translation": "困难地；吃力地"
+      },
+      {
+        "phrase": "have difficulty",
+        "translation": "有困难"
+      },
+      {
+        "phrase": "in difficulty",
+        "translation": "处境困难"
+      }
+    ]
+  },
+  {
+    "word": "fiction",
+    "phonetic": "",
+    "meaning": "n. 虚构,编造;小说",
+    "translations": [
+      {
+        "translation": "虚构,编造;小说",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "science fiction",
+        "translation": "科幻小说"
+      },
+      {
+        "phrase": "stranger than fiction",
+        "translation": "奇幻人生（电影名称）"
+      },
+      {
+        "phrase": "horror fiction",
+        "translation": "恐怖小说"
+      }
+    ]
+  },
+  {
+    "word": "identification",
+    "phonetic": "",
+    "meaning": "n. 识别,鉴别;证件;认同",
+    "translations": [
+      {
+        "translation": "识别,鉴别;证件;认同",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "system identification",
+        "translation": "系统辨识；系统识别"
+      },
+      {
+        "phrase": "fingerprint identification",
+        "translation": "指纹鉴定"
+      },
+      {
+        "phrase": "identification card",
+        "translation": "身份证；[计]标识卡"
+      }
+    ]
+  },
+  {
+    "word": "identify",
+    "phonetic": "",
+    "meaning": "v. 识别,鉴别;(with)把…和…看成一样",
+    "translations": [
+      {
+        "translation": "识别,鉴别;(with)把…和…看成一样",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "identify oneself",
+        "translation": "证明自己(的身份)"
+      },
+      {
+        "phrase": "identify with",
+        "translation": "认为…等同于，与一致"
+      }
+    ]
+  },
+  {
+    "word": "magnificent",
+    "phonetic": "",
+    "meaning": "adj. 华丽的,高尚的,宏伟的",
+    "translations": [
+      {
+        "translation": "华丽的,高尚的,宏伟的",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "magnify",
+    "phonetic": "",
+    "meaning": "v. 放大,扩大,夸大,夸张",
+    "translations": [
+      {
+        "translation": "放大,扩大,夸大,夸张",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "office",
+    "phonetic": "",
+    "meaning": "n. 办公室,办事处;职务,公职;部,局,处",
+    "translations": [
+      {
+        "translation": "办公室,办事处;职务,公职;部,局,处",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in the office",
+        "translation": "在办公室里"
+      },
+      {
+        "phrase": "in office",
+        "translation": "执政，在位"
+      },
+      {
+        "phrase": "head office",
+        "translation": "总公司；总行"
+      }
+    ]
+  },
+  {
+    "word": "officer",
+    "phonetic": "",
+    "meaning": "n. 官员,办事员;工作人员;军官",
+    "translations": [
+      {
+        "translation": "官员,办事员;工作人员;军官",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "police officer",
+        "translation": "n. 警官；警员"
+      },
+      {
+        "phrase": "executive officer",
+        "translation": "主任参谋，执行官"
+      },
+      {
+        "phrase": "chief executive officer",
+        "translation": "首席执行官；总裁"
+      }
+    ]
+  },
+  {
+    "word": "official",
+    "phonetic": "",
+    "meaning": "n. 官员,行政官员; adj. 官方的,官方的,正式的",
+    "translations": [
+      {
+        "translation": "官员,行政官员",
+        "type": "n"
+      },
+      {
+        "translation": "官方的,官方的,正式的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "government official",
+        "translation": "政府官员"
+      },
+      {
+        "phrase": "official language",
+        "translation": "官方语言；法定语文"
+      },
+      {
+        "phrase": "senior official",
+        "translation": "高级官员；资深官员"
+      }
+    ]
+  },
+  {
+    "word": "proficiency",
+    "phonetic": "",
+    "meaning": "n. (in)熟练,精通",
+    "translations": [
+      {
+        "translation": "(in)熟练,精通",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "proficiency in",
+        "translation": "熟练；精通"
+      },
+      {
+        "phrase": "english proficiency",
+        "translation": "英语水平；英文能力"
+      },
+      {
+        "phrase": "proficiency test",
+        "translation": "水平测试；熟练测验"
+      }
+    ]
+  },
+  {
+    "word": "significance",
+    "phonetic": "",
+    "meaning": "n. 意义,含义;重要性,重要的",
+    "translations": [
+      {
+        "translation": "意义,含义;重要性,重要的",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "economic significance",
+        "translation": "经济重要性"
+      },
+      {
+        "phrase": "statistical significance",
+        "translation": "统计显著性；统计数据"
+      },
+      {
+        "phrase": "significance test",
+        "translation": "显著性检验；显著性测定"
+      }
+    ]
+  },
+  {
+    "word": "significant",
+    "phonetic": "",
+    "meaning": "adj. 有意义的;重大的,重要的",
+    "translations": [
+      {
+        "translation": "有意义的;重大的,重要的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "significant difference",
+        "translation": "显著性差异"
+      },
+      {
+        "phrase": "significant change",
+        "translation": "显著变化；有效变化量"
+      },
+      {
+        "phrase": "statistically significant",
+        "translation": "统计上显著的"
+      }
+    ]
+  },
+  {
+    "word": "suffice",
+    "phonetic": "",
+    "meaning": "v. 充足，足够；vt.(食物等)使(某人)满足",
+    "translations": [
+      {
+        "translation": "充足，足够；vt.(食物等)使(某人)满足",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "suffice for",
+        "translation": "满足……的需要"
+      }
+    ]
+  },
+  {
+    "word": "sufficient",
+    "phonetic": "",
+    "meaning": "adj. (for)足够的,充分的(比enough拘谨、正式)",
+    "translations": [
+      {
+        "translation": "(for)足够的,充分的(比enough拘谨、正式)",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "sufficient condition",
+        "translation": "充分条件"
+      },
+      {
+        "phrase": "sufficient for oneself",
+        "translation": "不靠他人，不受他人影响"
+      },
+      {
+        "phrase": "necessary and sufficient condition",
+        "translation": "充要条件；必要且充分的条件"
+      }
+    ]
+  },
+  {
+    "word": "superficial",
+    "phonetic": "",
+    "meaning": "adj. 表面的;肤浅的,浅薄的",
+    "translations": [
+      {
+        "translation": "表面的;肤浅的,浅薄的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "superficial velocity",
+        "translation": "空塔速度；表面速度"
+      },
+      {
+        "phrase": "superficial layer",
+        "translation": "浅层；表面层"
+      },
+      {
+        "phrase": "superficial area",
+        "translation": "表面积"
+      }
+    ]
+  },
+  {
+    "word": "profit",
+    "phonetic": "",
+    "meaning": "n. 利润,收益; v. (by,from)得利,获益;有利于",
+    "translations": [
+      {
+        "translation": "利润,收益",
+        "type": "n"
+      },
+      {
+        "translation": "(by,from)得利,获益;有利于",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "profit from",
+        "translation": "得益于；利用"
+      },
+      {
+        "phrase": "net profit",
+        "translation": "净利润"
+      },
+      {
+        "phrase": "economic profit",
+        "translation": "经济利润，经济盈利"
+      }
+    ]
+  },
+  {
+    "word": "profitable",
+    "phonetic": "",
+    "meaning": "adj. 有利可图的,有益的",
+    "translations": [
+      {
+        "translation": "有利可图的,有益的",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "fin",
+    "phonetic": "",
+    "meaning": "n. 鱼鳍；鳍状物；尾翅；散热片",
+    "translations": [
+      {
+        "translation": "鱼鳍；鳍状物；尾翅；散热片",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "dorsal fin",
+        "translation": "n. 背鳍"
+      },
+      {
+        "phrase": "shark fin",
+        "translation": "鱼翅，鲨鱼鳍"
+      },
+      {
+        "phrase": "fin tube",
+        "translation": "[机]翅片管"
+      }
+    ]
+  },
+  {
+    "word": "confine",
+    "phonetic": "",
+    "meaning": "v. 限制；使不外出，禁闭n.[pl.]界限，范围",
+    "translations": [
+      {
+        "translation": "限制；使不外出，禁闭n.[pl.]界限，范围",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "define",
+    "phonetic": "",
+    "meaning": "v. 给…下定义;阐述;阐释;限定,规定",
+    "translations": [
+      {
+        "translation": "给…下定义;阐述;阐释;限定,规定",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "define as",
+        "translation": "vt. 解释为"
+      }
+    ]
+  },
+  {
+    "word": "definite",
+    "phonetic": "",
+    "meaning": "adj. 明确的;一定的;意志坚强的,立场坚定的",
+    "translations": [
+      {
+        "translation": "明确的;一定的;意志坚强的,立场坚定的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "definite integral",
+        "translation": "定积分"
+      },
+      {
+        "phrase": "positive definite",
+        "translation": "[计]正定的"
+      },
+      {
+        "phrase": "definite time",
+        "translation": "定时"
+      }
+    ]
+  },
+  {
+    "word": "definition",
+    "phonetic": "",
+    "meaning": "n. 定义,解释;(轮廓影像等的)清晰度;阐明;",
+    "translations": [
+      {
+        "translation": "定义,解释;(轮廓影像等的)清晰度;阐明;",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "definition of",
+        "translation": "定义"
+      },
+      {
+        "phrase": "by definition",
+        "translation": "按照定义；当然地；明显地"
+      },
+      {
+        "phrase": "high definition",
+        "translation": "高清晰度"
+      }
+    ]
+  },
+  {
+    "word": "final",
+    "phonetic": "",
+    "meaning": "adj. 最终的,决定性的; n. 结局;决赛;期末考试",
+    "translations": [
+      {
+        "translation": "最终的,决定性的",
+        "type": "adj"
+      },
+      {
+        "translation": "结局;决赛;期末考试",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "final decision",
+        "translation": "最后决定"
+      },
+      {
+        "phrase": "final product",
+        "translation": "最终产品；最后产物"
+      },
+      {
+        "phrase": "cup final",
+        "translation": "总决赛"
+      }
+    ]
+  },
+  {
+    "word": "finally",
+    "phonetic": "",
+    "meaning": "adv. 最后,最终;决定性地",
+    "translations": [
+      {
+        "translation": "最后,最终;决定性地",
+        "type": "adv"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "finance",
+    "phonetic": "",
+    "meaning": "n. 财政,金融; v. 为…提供资金",
+    "translations": [
+      {
+        "translation": "财政,金融",
+        "type": "n"
+      },
+      {
+        "translation": "为…提供资金",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "ministry of finance",
+        "translation": "财政部"
+      },
+      {
+        "phrase": "public finance",
+        "translation": "财政学"
+      },
+      {
+        "phrase": "international finance",
+        "translation": "国际金融"
+      }
+    ]
+  },
+  {
+    "word": "financial",
+    "phonetic": "",
+    "meaning": "adj. 财政的,金融的",
+    "translations": [
+      {
+        "translation": "财政的,金融的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "financial crisis",
+        "translation": "金融危机；财政危机"
+      },
+      {
+        "phrase": "financial management",
+        "translation": "财务管理；金融管理"
+      },
+      {
+        "phrase": "financial system",
+        "translation": "金融体系；财务系统"
+      }
+    ]
+  },
+  {
+    "word": "fine",
+    "phonetic": "",
+    "meaning": "adj. 晴朗的,美好的,细致的; v&n. 罚金,罚款",
+    "translations": [
+      {
+        "translation": "晴朗的,美好的,细致的",
+        "type": "adj"
+      },
+      {
+        "translation": "罚金,罚款",
+        "type": "v&n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in fine",
+        "translation": "最后；总而言之"
+      },
+      {
+        "phrase": "fine chemicals",
+        "translation": "精细化学品"
+      },
+      {
+        "phrase": "fine quality",
+        "translation": "优良品质；上等品"
+      }
+    ]
+  },
+  {
+    "word": "finger",
+    "phonetic": "",
+    "meaning": "n. 手指;指状物;指针",
+    "translations": [
+      {
+        "translation": "手指;指状物;指针",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "middle finger",
+        "translation": "中指"
+      },
+      {
+        "phrase": "index finger",
+        "translation": "食指"
+      },
+      {
+        "phrase": "little finger",
+        "translation": "小指"
+      }
+    ]
+  },
+  {
+    "word": "finish",
+    "phonetic": "",
+    "meaning": "n. 完成;结束;磨光; v. 完成;结束;用完;毁掉",
+    "translations": [
+      {
+        "translation": "完成;结束;磨光",
+        "type": "n"
+      },
+      {
+        "translation": "完成;结束;用完;毁掉",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "finish line",
+        "translation": "终点线，终航线"
+      },
+      {
+        "phrase": "finish with",
+        "translation": "完成，结束；与…断绝关系"
+      },
+      {
+        "phrase": "surface finish",
+        "translation": "[机]表面抛光"
+      }
+    ]
+  },
+  {
+    "word": "finite",
+    "phonetic": "",
+    "meaning": "adj. 有限的；[数]有穷的,限定的",
+    "translations": [
+      {
+        "translation": "有限的；[数]有穷的,限定的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "finite element",
+        "translation": "有限元"
+      },
+      {
+        "phrase": "finite element method (fem)",
+        "translation": "有限元素法"
+      },
+      {
+        "phrase": "finite element method",
+        "translation": "[计]有限元法；[化]有限单元法"
+      }
+    ]
+  },
+  {
+    "word": "infinite",
+    "phonetic": "",
+    "meaning": "adj. 无限的,无穷的; n. 无限",
+    "translations": [
+      {
+        "translation": "无限的,无穷的",
+        "type": "adj"
+      },
+      {
+        "translation": "无限",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "infinite loop",
+        "translation": "无限循环"
+      },
+      {
+        "phrase": "infinite space",
+        "translation": "无限空间"
+      },
+      {
+        "phrase": "infinite variety",
+        "translation": "多种多样"
+      }
+    ]
+  },
+  {
+    "word": "refine",
+    "phonetic": "",
+    "meaning": "v. 精炼,精制,提纯;使文雅,使高尚",
+    "translations": [
+      {
+        "translation": "精炼,精制,提纯;使文雅,使高尚",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "refine on",
+        "translation": "精于；改进"
+      }
+    ]
+  },
+  {
+    "word": "fraction",
+    "phonetic": "",
+    "meaning": "n. 碎片,小部分,一点儿;分数",
+    "translations": [
+      {
+        "translation": "碎片,小部分,一点儿;分数",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "volume fraction",
+        "translation": "体积分率，体积分数；容积率"
+      },
+      {
+        "phrase": "a fraction of",
+        "translation": "一小部分；一部分；零点几"
+      },
+      {
+        "phrase": "mass fraction",
+        "translation": "n. 质量分数"
+      }
+    ]
+  },
+  {
+    "word": "fracture",
+    "phonetic": "",
+    "meaning": "n. 裂缝(痕);骨折; v. (使)断裂,(使)折断",
+    "translations": [
+      {
+        "translation": "裂缝(痕);骨折",
+        "type": "n"
+      },
+      {
+        "translation": "(使)断裂,(使)折断",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "fracture toughness",
+        "translation": "断裂韧性"
+      },
+      {
+        "phrase": "fracture mechanics",
+        "translation": "断裂力学"
+      },
+      {
+        "phrase": "fracture surface",
+        "translation": "断裂面"
+      }
+    ]
+  },
+  {
+    "word": "fragile",
+    "phonetic": "",
+    "meaning": "adj. 易碎的，脆的，易损坏的；虚弱的，脆弱的",
+    "translations": [
+      {
+        "translation": "易碎的，脆的，易损坏的；虚弱的，脆弱的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "fragile goods",
+        "translation": "易碎商品；易碎货物"
+      },
+      {
+        "phrase": "fragile x syndrome",
+        "translation": "[精神病学]脆性X综合征；X染色体易损综合征"
+      }
+    ]
+  },
+  {
+    "word": "fragment",
+    "phonetic": "",
+    "meaning": "n. 碎片,小部分,片断",
+    "translations": [
+      {
+        "translation": "碎片,小部分,片断",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "fragment length polymorphism",
+        "translation": "片段长度多态性"
+      },
+      {
+        "phrase": "restriction fragment",
+        "translation": "限制酶断片"
+      },
+      {
+        "phrase": "rock fragment",
+        "translation": "岩屑，岩石碎块"
+      }
+    ]
+  },
+  {
+    "word": "fragrant",
+    "phonetic": "",
+    "meaning": "adj. 香的;芬芳的",
+    "translations": [
+      {
+        "translation": "香的;芬芳的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "fragrant plant",
+        "translation": "香料植物"
+      }
+    ]
+  },
+  {
+    "word": "fierce",
+    "phonetic": "",
+    "meaning": "adj. 凶猛的,残忍的;狂热的,强烈的",
+    "translations": [
+      {
+        "translation": "凶猛的,残忍的;狂热的,强烈的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "fierce competition",
+        "translation": "激烈的竞争"
+      }
+    ]
+  },
+  {
+    "word": "form",
+    "phonetic": "",
+    "meaning": "n. 形状,形式;表格; v. 组成,构成;形成",
+    "translations": [
+      {
+        "translation": "形状,形式;表格",
+        "type": "n"
+      },
+      {
+        "translation": "组成,构成;形成",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in the form of",
+        "translation": "以…的形式"
+      },
+      {
+        "phrase": "form a",
+        "translation": "普惠制原产地证明书"
+      },
+      {
+        "phrase": "in form",
+        "translation": "在形式上"
+      }
+    ]
+  },
+  {
+    "word": "conform",
+    "phonetic": "",
+    "meaning": "v. (to)遵守，适应；相似，一致，符合",
+    "translations": [
+      {
+        "translation": "(to)遵守，适应；相似，一致，符合",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "conform with",
+        "translation": "符合；与…一致"
+      }
+    ]
+  },
+  {
+    "word": "formal",
+    "phonetic": "",
+    "meaning": "adj. 正式的;形式的",
+    "translations": [
+      {
+        "translation": "正式的;形式的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "formal education",
+        "translation": "正规教育；形式教育"
+      },
+      {
+        "phrase": "record of formal schooling",
+        "translation": "学历"
+      },
+      {
+        "phrase": "formal description",
+        "translation": "形式描述"
+      }
+    ]
+  },
+  {
+    "word": "format",
+    "phonetic": "",
+    "meaning": "n. (出版物的)开本,版式,格式; v. 设计;安排",
+    "translations": [
+      {
+        "translation": "(出版物的)开本,版式,格式",
+        "type": "n"
+      },
+      {
+        "translation": "设计;安排",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "file format",
+        "translation": "[计]文件格式"
+      },
+      {
+        "phrase": "data format",
+        "translation": "数据格式"
+      },
+      {
+        "phrase": "standard format",
+        "translation": "标准格式；标准书型"
+      }
+    ]
+  },
+  {
+    "word": "formation",
+    "phonetic": "",
+    "meaning": "n. 形成;构成;组织;构造;编制;塑造",
+    "translations": [
+      {
+        "translation": "形成;构成;组织;构造;编制;塑造",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "formation damage",
+        "translation": "地层损害，油层损害；生产层损坏"
+      },
+      {
+        "phrase": "formation water",
+        "translation": "地层水"
+      },
+      {
+        "phrase": "bone formation",
+        "translation": "骨形成；骨生成"
+      }
+    ]
+  },
+  {
+    "word": "former",
+    "phonetic": "",
+    "meaning": "adj. 以前的,在前的; pron. 前者",
+    "translations": [
+      {
+        "translation": "以前的,在前的",
+        "type": "adj"
+      },
+      {
+        "translation": "前者",
+        "type": "pron"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "former president",
+        "translation": "前任总统"
+      },
+      {
+        "phrase": "former residence",
+        "translation": "故居"
+      },
+      {
+        "phrase": "former name",
+        "translation": "曾用名"
+      }
+    ]
+  },
+  {
+    "word": "formidable",
+    "phonetic": "",
+    "meaning": "adj. 强大的;令人敬畏的;可怕的;艰难的",
+    "translations": [
+      {
+        "translation": "强大的;令人敬畏的;可怕的;艰难的",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "formula",
+    "phonetic": "",
+    "meaning": "n. (pl.e)公式;规则;分子式;药方",
+    "translations": [
+      {
+        "translation": "(pl.e)公式;规则;分子式;药方",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "empirical formula",
+        "translation": "经验式；实验式"
+      },
+      {
+        "phrase": "infant formula",
+        "translation": "婴儿配方；婴儿配方食品"
+      },
+      {
+        "phrase": "formula one",
+        "translation": "一级方程式赛车"
+      }
+    ]
+  },
+  {
+    "word": "formulate",
+    "phonetic": "",
+    "meaning": "v. 用公式表示;规划;设计;系统地阐述",
+    "translations": [
+      {
+        "translation": "用公式表示;规划;设计;系统地阐述",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "inform",
+    "phonetic": "",
+    "meaning": "v. (of,about)通知,告诉,报告;告发,告密",
+    "translations": [
+      {
+        "translation": "(of,about)通知,告诉,报告;告发,告密",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "inform against",
+        "translation": "检举；告发"
+      },
+      {
+        "phrase": "inform of",
+        "translation": "通知；报告"
+      },
+      {
+        "phrase": "inform about",
+        "translation": "告发；通知；告诉"
+      }
+    ]
+  },
+  {
+    "word": "information",
+    "phonetic": "",
+    "meaning": "n. 通知,报告;情报,资料,消息;信息",
+    "translations": [
+      {
+        "translation": "通知,报告;情报,资料,消息;信息",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "information desk",
+        "translation": "服务台，问询处"
+      },
+      {
+        "phrase": "information system",
+        "translation": "信息系统"
+      },
+      {
+        "phrase": "information technology",
+        "translation": "信息技术"
+      }
+    ]
+  },
+  {
+    "word": "perform",
+    "phonetic": "",
+    "meaning": "v. 履行,执行;表演,演出;完成(事业)",
+    "translations": [
+      {
+        "translation": "履行,执行;表演,演出;完成(事业)",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "perform an operation",
+        "translation": "动手术；做手术"
+      },
+      {
+        "phrase": "perform on",
+        "translation": "表演；上演；演奏"
+      },
+      {
+        "phrase": "opportunity to perform",
+        "translation": "实践的机会；表现机会"
+      }
+    ]
+  },
+  {
+    "word": "performance",
+    "phonetic": "",
+    "meaning": "n. 履行,执行;表演,演出;性能,特性;成绩",
+    "translations": [
+      {
+        "translation": "履行,执行;表演,演出;性能,特性;成绩",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "high performance",
+        "translation": "高性能；高效能的"
+      },
+      {
+        "phrase": "good performance",
+        "translation": "良好的性能；良好绩效"
+      },
+      {
+        "phrase": "performance evaluation",
+        "translation": "性能评估；性能赋值"
+      }
+    ]
+  },
+  {
+    "word": "platform",
+    "phonetic": "",
+    "meaning": "n. 平台,台;站台,月台;政纲,党纲",
+    "translations": [
+      {
+        "translation": "平台,台;站台,月台;政纲,党纲",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "service platform",
+        "translation": "工作台；操作平台"
+      },
+      {
+        "phrase": "offshore platform",
+        "translation": "海上平台；近海平台"
+      },
+      {
+        "phrase": "open platform",
+        "translation": "开放平台"
+      }
+    ]
+  },
+  {
+    "word": "reform",
+    "phonetic": "",
+    "meaning": "v&n. 改革,改造,改良",
+    "translations": [
+      {
+        "translation": "改革,改造,改良",
+        "type": "v&n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "curriculum reform",
+        "translation": "课程改革"
+      },
+      {
+        "phrase": "educational reform",
+        "translation": "教育改革"
+      },
+      {
+        "phrase": "reform and opening-up",
+        "translation": "改革开放"
+      }
+    ]
+  },
+  {
+    "word": "transform",
+    "phonetic": "",
+    "meaning": "v. 改变,变换;变压;转化;改造,改造",
+    "translations": [
+      {
+        "translation": "改变,变换;变压;转化;改造,改造",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "fourier transform",
+        "translation": "傅里叶变换"
+      },
+      {
+        "phrase": "fast fourier transform",
+        "translation": "快速傅里叶变换"
+      },
+      {
+        "phrase": "transform into",
+        "translation": "转变成"
+      }
+    ]
+  },
+  {
+    "word": "uniform",
+    "phonetic": "",
+    "meaning": "n. 制服,军服; adj. 相同的,一律的",
+    "translations": [
+      {
+        "translation": "制服,军服",
+        "type": "n"
+      },
+      {
+        "translation": "相同的,一律的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in uniform",
+        "translation": "穿制服"
+      },
+      {
+        "phrase": "uniform distribution",
+        "translation": "均匀分布；一致分布"
+      },
+      {
+        "phrase": "school uniform",
+        "translation": "校服"
+      }
+    ]
+  },
+  {
+    "word": "fur",
+    "phonetic": "",
+    "meaning": "n. 毛,毛皮",
+    "translations": [
+      {
+        "translation": "毛,毛皮",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "fur coat",
+        "translation": "皮毛大衣"
+      },
+      {
+        "phrase": "fox fur",
+        "translation": "狐皮"
+      },
+      {
+        "phrase": "fur garment",
+        "translation": "裘皮服装"
+      }
+    ]
+  },
+  {
+    "word": "furious",
+    "phonetic": "",
+    "meaning": "adj. 狂怒的,狂暴的,猛烈的",
+    "translations": [
+      {
+        "translation": "狂怒的,狂暴的,猛烈的",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "furnace",
+    "phonetic": "",
+    "meaning": "n. 炉子,熔炉",
+    "translations": [
+      {
+        "translation": "炉子,熔炉",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "blast furnace",
+        "translation": "n. 鼓风炉，高炉"
+      },
+      {
+        "phrase": "heating furnace",
+        "translation": "加热炉；热气炉"
+      },
+      {
+        "phrase": "arc furnace",
+        "translation": "电弧炉，直接电弧炉"
+      }
+    ]
+  },
+  {
+    "word": "furnish",
+    "phonetic": "",
+    "meaning": "v. 供应,提供;装备,布置",
+    "translations": [
+      {
+        "translation": "供应,提供;装备,布置",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "furnish with",
+        "translation": "供给，提供；用…装饰"
+      }
+    ]
+  },
+  {
+    "word": "furniture",
+    "phonetic": "",
+    "meaning": "n. 家具",
+    "translations": [
+      {
+        "translation": "家具",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "office furniture",
+        "translation": "办公器具；办公室设备"
+      },
+      {
+        "phrase": "furniture design",
+        "translation": "家具设计"
+      },
+      {
+        "phrase": "wood furniture",
+        "translation": "木制家具"
+      }
+    ]
+  },
+  {
+    "word": "fuse",
+    "phonetic": "",
+    "meaning": "n. 保险丝,导火线,引信; v. 熔化,熔合",
+    "translations": [
+      {
+        "translation": "保险丝,导火线,引信",
+        "type": "n"
+      },
+      {
+        "translation": "熔化,熔合",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "fuse box",
+        "translation": "保险丝盒"
+      },
+      {
+        "phrase": "blasting fuse",
+        "translation": "导爆线；导火线"
+      },
+      {
+        "phrase": "have a short fuse",
+        "translation": "[美国口语]容易激动，脾气急躁，动辄发怒"
+      }
+    ]
+  },
+  {
+    "word": "confuse",
+    "phonetic": "",
+    "meaning": "v. 使混乱,混淆",
+    "translations": [
+      {
+        "translation": "使混乱,混淆",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "confuse with",
+        "translation": "混淆"
+      }
+    ]
+  },
+  {
+    "word": "confusion",
+    "phonetic": "",
+    "meaning": "n. 困惑，糊涂；混淆；混乱，骚乱",
+    "translations": [
+      {
+        "translation": "困惑，糊涂；混淆；混乱，骚乱",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in confusion",
+        "translation": "乱七八糟；处于混乱状态"
+      },
+      {
+        "phrase": "chaos and confusion",
+        "translation": "混乱与浑沌"
+      },
+      {
+        "phrase": "throw into confusion",
+        "translation": "打乱；使陷入混乱；使…惊慌失措"
+      }
+    ]
+  },
+  {
+    "word": "diffuse",
+    "phonetic": "",
+    "meaning": "v. 扩散;传播; adj. (文章等)冗长的,漫无边际的",
+    "translations": [
+      {
+        "translation": "扩散;传播",
+        "type": "v"
+      },
+      {
+        "translation": "(文章等)冗长的,漫无边际的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "diffuse reflectance",
+        "translation": "漫反射率；漫反射系数；护散反射率"
+      },
+      {
+        "phrase": "diffuse reflection",
+        "translation": "漫反射"
+      },
+      {
+        "phrase": "diffuse light",
+        "translation": "漫射光"
+      }
+    ]
+  },
+  {
+    "word": "refusal",
+    "phonetic": "",
+    "meaning": "n. 拒绝,回绝",
+    "translations": [
+      {
+        "translation": "拒绝,回绝",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "first refusal",
+        "translation": "优先取舍权；优先取决运务"
+      }
+    ]
+  },
+  {
+    "word": "refuse",
+    "phonetic": "",
+    "meaning": "v. 拒绝,谢绝; n. 废物,垃圾",
+    "translations": [
+      {
+        "translation": "拒绝,谢绝",
+        "type": "v"
+      },
+      {
+        "translation": "废物,垃圾",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "municipal refuse",
+        "translation": "城市垃圾"
+      },
+      {
+        "phrase": "refuse to do",
+        "translation": "拒绝做某事"
+      },
+      {
+        "phrase": "refuse treatment",
+        "translation": "垃圾处理；废物处理"
+      }
+    ]
+  },
+  {
+    "word": "gene",
+    "phonetic": "",
+    "meaning": "n. 基因",
+    "translations": [
+      {
+        "translation": "基因",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "gene expression",
+        "translation": "[化]基因表达；基因表现"
+      },
+      {
+        "phrase": "gene therapy",
+        "translation": "n. 基因治疗"
+      },
+      {
+        "phrase": "gene engineering",
+        "translation": "基因工程；遗传工程"
+      }
+    ]
+  },
+  {
+    "word": "degenerate",
+    "phonetic": "",
+    "meaning": "v. 衰退,堕落,蜕化; adj. 堕落的",
+    "translations": [
+      {
+        "translation": "衰退,堕落,蜕化",
+        "type": "v"
+      },
+      {
+        "translation": "堕落的",
+        "type": "adj"
+      },
+      {
+        "translation": "堕落者",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "gender",
+    "phonetic": "",
+    "meaning": "n. (生理上的)性；(名词、代词等的)性",
+    "translations": [
+      {
+        "translation": "(生理上的)性；(名词、代词等的)性",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "gender difference",
+        "translation": "性别差异"
+      },
+      {
+        "phrase": "gender role",
+        "translation": "性别角色"
+      },
+      {
+        "phrase": "gender discrimination",
+        "translation": "性别歧视"
+      }
+    ]
+  },
+  {
+    "word": "general",
+    "phonetic": "",
+    "meaning": "adj. 一般的,普通的;总的,大体的; n. 将军",
+    "translations": [
+      {
+        "translation": "一般的,普通的;总的,大体的",
+        "type": "adj"
+      },
+      {
+        "translation": "将军",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "(army) general",
+        "translation": "将军"
+      },
+      {
+        "phrase": "in general",
+        "translation": "总之，通常；一般而言"
+      },
+      {
+        "phrase": "general manager",
+        "translation": "总经理"
+      }
+    ]
+  },
+  {
+    "word": "generalize",
+    "phonetic": "",
+    "meaning": "v. (generalise)归纳,概括;推广,普及",
+    "translations": [
+      {
+        "translation": "(generalise)归纳,概括;推广,普及",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "generate",
+    "phonetic": "",
+    "meaning": "v. 产生,发生;生殖",
+    "translations": [
+      {
+        "translation": "产生,发生;生殖",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "generate electricity",
+        "translation": "发电"
+      },
+      {
+        "phrase": "generate profit",
+        "translation": "创利，产生利润"
+      }
+    ]
+  },
+  {
+    "word": "generation",
+    "phonetic": "",
+    "meaning": "n. 产生,发生;一代(人)",
+    "translations": [
+      {
+        "translation": "产生,发生;一代(人)",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "new generation",
+        "translation": "新世代，新一代；新生代"
+      },
+      {
+        "phrase": "power generation",
+        "translation": "发电，发电量；发电机设备"
+      },
+      {
+        "phrase": "from generation to generation",
+        "translation": "代代相传"
+      }
+    ]
+  },
+  {
+    "word": "generator",
+    "phonetic": "",
+    "meaning": "n. 发电机,发生器",
+    "translations": [
+      {
+        "translation": "发电机,发生器",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "signal generator",
+        "translation": "信号发生器；讯号产生机"
+      },
+      {
+        "phrase": "generator set",
+        "translation": "[工]发电机组"
+      },
+      {
+        "phrase": "steam generator",
+        "translation": "蒸汽发生器；蒸汽锅炉；蒸汽发电机"
+      }
+    ]
+  },
+  {
+    "word": "generous",
+    "phonetic": "",
+    "meaning": "adj. 宽宏大量的,慷慨的",
+    "translations": [
+      {
+        "translation": "宽宏大量的,慷慨的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "be generous with",
+        "translation": "用…很大方"
+      },
+      {
+        "phrase": "be generous in",
+        "translation": "乐于……"
+      }
+    ]
+  },
+  {
+    "word": "genetic",
+    "phonetic": "",
+    "meaning": "adj. 遗传(学)的; n. [-s]遗传学",
+    "translations": [
+      {
+        "translation": "遗传(学)的",
+        "type": "adj"
+      },
+      {
+        "translation": "[-s]遗传学",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "genetic algorithm",
+        "translation": "遗传算法"
+      },
+      {
+        "phrase": "genetic engineering",
+        "translation": "遗传工程"
+      },
+      {
+        "phrase": "genetic material",
+        "translation": "遗传物质；基因材料"
+      }
+    ]
+  },
+  {
+    "word": "genius",
+    "phonetic": "",
+    "meaning": "n. 天才",
+    "translations": [
+      {
+        "translation": "天才",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "universal genius",
+        "translation": "宇宙级天才；全能之才"
+      },
+      {
+        "phrase": "stroke of genius",
+        "translation": "神来一笔；天才之举"
+      },
+      {
+        "phrase": "genius loci",
+        "translation": "一个地方的风气或特色；一个地方的守护神"
+      }
+    ]
+  },
+  {
+    "word": "gentle",
+    "phonetic": "",
+    "meaning": "adj. 和蔼的,文雅的,有礼貌的",
+    "translations": [
+      {
+        "translation": "和蔼的,文雅的,有礼貌的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "gentle breeze",
+        "translation": "微风；[气象]蒲福三级风"
+      },
+      {
+        "phrase": "gentle slope",
+        "translation": "缓坡；平缓坡度；平缓倾斜"
+      },
+      {
+        "phrase": "gentle and soft",
+        "translation": "温柔"
+      }
+    ]
+  },
+  {
+    "word": "gently",
+    "phonetic": "",
+    "meaning": "adv. 文雅地,有礼貌地;轻轻地",
+    "translations": [
+      {
+        "translation": "文雅地,有礼貌地;轻轻地",
+        "type": "adv"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "genuine",
+    "phonetic": "",
+    "meaning": "adj. 真正的,名副其实的",
+    "translations": [
+      {
+        "translation": "真正的,名副其实的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "genuine leather",
+        "translation": "真皮"
+      },
+      {
+        "phrase": "genuine gold",
+        "translation": "纯金，赤金"
+      },
+      {
+        "phrase": "genuine diamond",
+        "translation": "真钻石的"
+      }
+    ]
+  },
+  {
+    "word": "homogeneous",
+    "phonetic": "",
+    "meaning": "adj. 同种类的，同性质的，有相同特征的",
+    "translations": [
+      {
+        "translation": "同种类的，同性质的，有相同特征的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "homogeneous catalysis",
+        "translation": "均相催化"
+      },
+      {
+        "phrase": "homogeneous distribution",
+        "translation": "均匀分布；单一分布"
+      },
+      {
+        "phrase": "homogeneous catalyst",
+        "translation": "均相催化剂"
+      }
+    ]
+  },
+  {
+    "word": "ingenious",
+    "phonetic": "",
+    "meaning": "adj. 机敏的;有独创性的;精致的;精巧制成的",
+    "translations": [
+      {
+        "translation": "机敏的;有独创性的;精致的;精巧制成的",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "pregnant",
+    "phonetic": "",
+    "meaning": "adj. 怀孕的；富有意义的",
+    "translations": [
+      {
+        "translation": "怀孕的；富有意义的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "pregnant woman",
+        "translation": "孕妇"
+      },
+      {
+        "phrase": "to be pregnant",
+        "translation": "怀孕"
+      },
+      {
+        "phrase": "pregnant solution",
+        "translation": "含贵重矿物溶液"
+      }
+    ]
+  },
+  {
+    "word": "malignant",
+    "phonetic": "",
+    "meaning": "adj. 恶性的，致命的；恶意的，恶毒的",
+    "translations": [
+      {
+        "translation": "恶性的，致命的；恶意的，恶毒的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "malignant tumor",
+        "translation": "[医]恶性肿瘤；[医]恶瘤"
+      },
+      {
+        "phrase": "malignant lymphoma",
+        "translation": "恶性淋巴瘤"
+      },
+      {
+        "phrase": "malignant melanoma",
+        "translation": "[医]恶性黑色素瘤"
+      }
+    ]
+  },
+  {
+    "word": "diagnose",
+    "phonetic": "",
+    "meaning": "v. 诊断(疾病)；判断(问题)",
+    "translations": [
+      {
+        "translation": "诊断(疾病)；判断(问题)",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "dignity",
+    "phonetic": "",
+    "meaning": "n. (举止,态度等的)庄严,端庄;尊贵,高贵",
+    "translations": [
+      {
+        "translation": "(举止,态度等的)庄严,端庄;尊贵,高贵",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "indignant",
+    "phonetic": "",
+    "meaning": "adj. 愤慨的,愤慨不平的",
+    "translations": [
+      {
+        "translation": "愤慨的,愤慨不平的",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "indignation",
+    "phonetic": "",
+    "meaning": "n. 愤怒,愤慨",
+    "translations": [
+      {
+        "translation": "愤怒,愤慨",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "cognitive",
+    "phonetic": "",
+    "meaning": "adj. 认知的，认识能力的",
+    "translations": [
+      {
+        "translation": "认知的，认识能力的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "cognitive psychology",
+        "translation": "认知心理学"
+      },
+      {
+        "phrase": "cognitive linguistics",
+        "translation": "认知语言学"
+      },
+      {
+        "phrase": "cognitive function",
+        "translation": "认知功能"
+      }
+    ]
+  },
+  {
+    "word": "recognition",
+    "phonetic": "",
+    "meaning": "n. 认出,辨认;承认",
+    "translations": [
+      {
+        "translation": "认出,辨认;承认",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "pattern recognition",
+        "translation": "模式识别"
+      },
+      {
+        "phrase": "recognition system",
+        "translation": "[计]识别系统"
+      },
+      {
+        "phrase": "speech recognition",
+        "translation": "语音辨识"
+      }
+    ]
+  },
+  {
+    "word": "recognize",
+    "phonetic": "",
+    "meaning": "v. (recognise)认出,承认,公认,赏识,表扬",
+    "translations": [
+      {
+        "translation": "(recognise)认出,承认,公认,赏识,表扬",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "grade",
+    "phonetic": "",
+    "meaning": "n. 等级,级别;年级;分数; v. 分等,分级",
+    "translations": [
+      {
+        "translation": "等级,级别;年级;分数",
+        "type": "n"
+      },
+      {
+        "translation": "分等,分级",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "high grade",
+        "translation": "高品位；高级的"
+      },
+      {
+        "phrase": "top grade",
+        "translation": "优级，最高级"
+      },
+      {
+        "phrase": "low grade",
+        "translation": "低级的；低质量的"
+      }
+    ]
+  },
+  {
+    "word": "centigrade",
+    "phonetic": "",
+    "meaning": "adj. n&adj摄氏温度计(的);百分度(的)",
+    "translations": [
+      {
+        "translation": "n&adj摄氏温度计(的);百分度(的)",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "degree centigrade",
+        "translation": "摄氏温度；百分度"
+      }
+    ]
+  },
+  {
+    "word": "gradual",
+    "phonetic": "",
+    "meaning": "adj. 逐渐的,逐步的",
+    "translations": [
+      {
+        "translation": "逐渐的,逐步的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "gradual change",
+        "translation": "渐变柔光，渐变"
+      },
+      {
+        "phrase": "gradual transition",
+        "translation": "渐变；逐次跃迁；缓变结"
+      },
+      {
+        "phrase": "gradual advance",
+        "translation": "逐渐上升，渐升"
+      }
+    ]
+  },
+  {
+    "word": "graduate",
+    "phonetic": "",
+    "meaning": "n. 大学毕业生,研究生v.大学毕业a.毕了业的",
+    "translations": [
+      {
+        "translation": "大学毕业生,研究生v.大学毕业a.毕了业的",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "graduate student",
+        "translation": "n. 研究生；毕业生"
+      },
+      {
+        "phrase": "graduate school",
+        "translation": "研究所，研究院"
+      },
+      {
+        "phrase": "graduate from",
+        "translation": "v. 从…毕业"
+      }
+    ]
+  },
+  {
+    "word": "upgrade",
+    "phonetic": "",
+    "meaning": "v. 提升,使升级",
+    "translations": [
+      {
+        "translation": "提升,使升级",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "upgrade oneself",
+        "translation": "提升自我"
+      },
+      {
+        "phrase": "on the upgrade",
+        "translation": "上升的；进步的"
+      },
+      {
+        "phrase": "upgrade kit",
+        "translation": "扩充成套"
+      }
+    ]
+  },
+  {
+    "word": "congratulate",
+    "phonetic": "",
+    "meaning": "v. (on)祝贺,向…致贺词",
+    "translations": [
+      {
+        "translation": "(on)祝贺,向…致贺词",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "congratulate oneself",
+        "translation": "v. 感到庆幸"
+      },
+      {
+        "phrase": "congratulate on",
+        "translation": "v. 祝贺"
+      }
+    ]
+  },
+  {
+    "word": "congratulation",
+    "phonetic": "",
+    "meaning": "n. (on)祝贺,(pl.)祝贺词",
+    "translations": [
+      {
+        "translation": "(on)祝贺,(pl.)祝贺词",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "disgrace",
+    "phonetic": "",
+    "meaning": "n. 失宠,耻辱; v. 使失宠;玷辱,使蒙羞",
+    "translations": [
+      {
+        "translation": "失宠,耻辱",
+        "type": "n"
+      },
+      {
+        "translation": "使失宠;玷辱,使蒙羞",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in disgrace",
+        "translation": "很不讨人喜欢"
+      }
+    ]
+  },
+  {
+    "word": "grace",
+    "phonetic": "",
+    "meaning": "n. 优美,文雅;恩惠,恩泽;宽限,缓刑;感恩祷告",
+    "translations": [
+      {
+        "translation": "优美,文雅;恩惠,恩泽;宽限,缓刑;感恩祷告",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "graceful",
+    "phonetic": "",
+    "meaning": "adj. 优美的,文雅的,大方的",
+    "translations": [
+      {
+        "translation": "优美的,文雅的,大方的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "graceful bearing",
+        "translation": "风采"
+      }
+    ]
+  },
+  {
+    "word": "gracious",
+    "phonetic": "",
+    "meaning": "adj. 亲切的,客气的;宽厚的,仁慈的",
+    "translations": [
+      {
+        "translation": "亲切的,客气的;宽厚的,仁慈的",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "grand",
+    "phonetic": "",
+    "meaning": "adj. 盛大的,豪华的;重大的,主要的",
+    "translations": [
+      {
+        "translation": "盛大的,豪华的;重大的,主要的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "grand prix",
+        "translation": "n. 国际汽车大奖赛；头等奖，最高奖"
+      },
+      {
+        "phrase": "grand canyon",
+        "translation": "n. （美）大峡谷"
+      },
+      {
+        "phrase": "grand canal",
+        "translation": "大运河"
+      }
+    ]
+  },
+  {
+    "word": "grandmother",
+    "phonetic": "",
+    "meaning": "n. 祖母,外祖母",
+    "translations": [
+      {
+        "translation": "祖母,外祖母",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "maternal grandmother",
+        "translation": "外祖母；外婆；姥姥"
+      }
+    ]
+  },
+  {
+    "word": "grant",
+    "phonetic": "",
+    "meaning": "v. 同意,准予;授予; n. 授予物;津贴;转让证书",
+    "translations": [
+      {
+        "translation": "同意,准予;授予",
+        "type": "v"
+      },
+      {
+        "translation": "授予物;津贴;转让证书",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "take for granted",
+        "translation": "认为…理所当然"
+      },
+      {
+        "phrase": "government grant",
+        "translation": "政府批地书，政府补助金"
+      },
+      {
+        "phrase": "land grant",
+        "translation": "政府赠地；政府拨给大学或铁路之土地"
+      }
+    ]
+  },
+  {
+    "word": "grateful",
+    "phonetic": "",
+    "meaning": "adj. (to,for)感激的;感谢的",
+    "translations": [
+      {
+        "translation": "(to,for)感激的;感谢的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "grateful for",
+        "translation": "为…而感谢"
+      }
+    ]
+  },
+  {
+    "word": "gratitude",
+    "phonetic": "",
+    "meaning": "n. 感激,感谢",
+    "translations": [
+      {
+        "translation": "感激,感谢",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "gratitude to sb",
+        "translation": "感激某人"
+      },
+      {
+        "phrase": "express gratitude",
+        "translation": "表达感谢"
+      },
+      {
+        "phrase": "debt of gratitude",
+        "translation": "人情债"
+      }
+    ]
+  },
+  {
+    "word": "greet",
+    "phonetic": "",
+    "meaning": "v. 致敬,敬意,迎接;扑(鼻),入(耳),触(目)",
+    "translations": [
+      {
+        "translation": "致敬,敬意,迎接;扑(鼻),入(耳),触(目)",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "greet something with something",
+        "translation": "对某事作出某种反应"
+      }
+    ]
+  },
+  {
+    "word": "greeting",
+    "phonetic": "",
+    "meaning": "n. 问候,致敬",
+    "translations": [
+      {
+        "translation": "问候,致敬",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "greeting card",
+        "translation": "贺卡"
+      },
+      {
+        "phrase": "season's greeting",
+        "translation": "新年祝福；节日问候"
+      }
+    ]
+  },
+  {
+    "word": "great",
+    "phonetic": "",
+    "meaning": "adj. 伟大的；重要的；大量的；很好的；美好的",
+    "translations": [
+      {
+        "translation": "伟大的；重要的；大量的；很好的；美好的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "great deal",
+        "translation": "大量"
+      },
+      {
+        "phrase": "a great deal of",
+        "translation": "大量"
+      },
+      {
+        "phrase": "great wall",
+        "translation": "万里长城；中国长城计算机集团公司"
+      }
+    ]
+  },
+  {
+    "word": "her",
+    "phonetic": "",
+    "meaning": "pron. [she的宾格]她；[she的所有格]她的",
+    "translations": [
+      {
+        "translation": "[she的宾格]她；[she的所有格]她的",
+        "type": "pron"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "herb",
+    "phonetic": "",
+    "meaning": "n. 药草，(调味用的)香草，草本植物",
+    "translations": [
+      {
+        "translation": "药草，(调味用的)香草，草本植物",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "medicinal herb",
+        "translation": "草药；药草"
+      },
+      {
+        "phrase": "chinese medicinal herb",
+        "translation": "中草药"
+      },
+      {
+        "phrase": "herb layer",
+        "translation": "草本层"
+      }
+    ]
+  },
+  {
+    "word": "herd",
+    "phonetic": "",
+    "meaning": "n. 群,兽群,牛群; v. 放牧,群集",
+    "translations": [
+      {
+        "translation": "群,兽群,牛群",
+        "type": "n"
+      },
+      {
+        "translation": "放牧,群集",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "a herd of",
+        "translation": "一群（牛、鹿等）"
+      },
+      {
+        "phrase": "herd behavior",
+        "translation": "羊群行为；羊群效应；从众行为；群体恐慌行为"
+      },
+      {
+        "phrase": "herd instinct",
+        "translation": "[心]群居本能，群体心理"
+      }
+    ]
+  },
+  {
+    "word": "here",
+    "phonetic": "",
+    "meaning": "adv. 在(到，向)这里；这时；在这一点上",
+    "translations": [
+      {
+        "translation": "在(到，向)这里；这时；在这一点上",
+        "type": "adv"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "come here",
+        "translation": "来这里"
+      },
+      {
+        "phrase": "click here",
+        "translation": "点击这里，点击此处；单击此处"
+      },
+      {
+        "phrase": "from here",
+        "translation": "由此处，从这儿"
+      }
+    ]
+  },
+  {
+    "word": "heritage",
+    "phonetic": "",
+    "meaning": "n. 遗产,继承物;传统",
+    "translations": [
+      {
+        "translation": "遗产,继承物;传统",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "cultural heritage",
+        "translation": "文化遗产"
+      },
+      {
+        "phrase": "natural heritage",
+        "translation": "自然遗产"
+      },
+      {
+        "phrase": "heritage preservation",
+        "translation": "遗产维护"
+      }
+    ]
+  },
+  {
+    "word": "hero",
+    "phonetic": "",
+    "meaning": "n. 英雄，勇士；男主角，男主人公",
+    "translations": [
+      {
+        "translation": "英雄，勇士；男主角，男主人公",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "national hero",
+        "translation": "民族英雄；国家英雄"
+      },
+      {
+        "phrase": "hero worship",
+        "translation": "英雄崇拜"
+      },
+      {
+        "phrase": "tragic hero",
+        "translation": "悲剧英雄；英雄好汉"
+      }
+    ]
+  },
+  {
+    "word": "heroic",
+    "phonetic": "",
+    "meaning": "adj. 英雄的，英勇的，崇高的",
+    "translations": [
+      {
+        "translation": "英雄的，英勇的，崇高的",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "heroine",
+    "phonetic": "",
+    "meaning": "n. 女英雄;女主角",
+    "translations": [
+      {
+        "translation": "女英雄;女主角",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "hers",
+    "phonetic": "",
+    "meaning": "pron. [she的物主代词]她的(所有物)",
+    "translations": [
+      {
+        "translation": "[she的物主代词]她的(所有物)",
+        "type": "pron"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "of hers",
+        "translation": "(属于)她的"
+      }
+    ]
+  },
+  {
+    "word": "herself",
+    "phonetic": "",
+    "meaning": "pron. [反身代词]她自己；她亲自，她本人",
+    "translations": [
+      {
+        "translation": "[反身代词]她自己；她亲自，她本人",
+        "type": "pron"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "by herself",
+        "translation": "她自己；她独立地"
+      }
+    ]
+  },
+  {
+    "word": "inherent",
+    "phonetic": "",
+    "meaning": "adj. 固有的,内在的,天生的",
+    "translations": [
+      {
+        "translation": "固有的,内在的,天生的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "inherent quality",
+        "translation": "固有性质"
+      },
+      {
+        "phrase": "inherent law",
+        "translation": "内在规律"
+      },
+      {
+        "phrase": "inherent characteristic",
+        "translation": "固有特性"
+      }
+    ]
+  },
+  {
+    "word": "inherit",
+    "phonetic": "",
+    "meaning": "v. 继承(金钱等)，经遗传而得(性格、特征)",
+    "translations": [
+      {
+        "translation": "继承(金钱等)，经遗传而得(性格、特征)",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "shepherd",
+    "phonetic": "",
+    "meaning": "n. 牧民,牧羊人",
+    "translations": [
+      {
+        "translation": "牧民,牧羊人",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "german shepherd",
+        "translation": "德国牧羊犬；阿尔萨斯狼犬；德国警犬（等于German police dog）"
+      },
+      {
+        "phrase": "shepherd dog",
+        "translation": "牧羊犬（等于sheepdog）"
+      },
+      {
+        "phrase": "german shepherd dog",
+        "translation": "n. 德国牧羊犬；阿尔萨斯狼犬"
+      }
+    ]
+  },
+  {
+    "word": "adhere",
+    "phonetic": "",
+    "meaning": "v. (to)粘着；坚持，遵守；依附，追随",
+    "translations": [
+      {
+        "translation": "(to)粘着；坚持，遵守；依附，追随",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "coherent",
+    "phonetic": "",
+    "meaning": "adj. 一致的，协调的；(话语等)条理清楚的",
+    "translations": [
+      {
+        "translation": "一致的，协调的；(话语等)条理清楚的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "coherent light",
+        "translation": "相干光，相干光线"
+      },
+      {
+        "phrase": "partially coherent light",
+        "translation": "部分相干光"
+      },
+      {
+        "phrase": "coherent demodulation",
+        "translation": "相干解调"
+      }
+    ]
+  },
+  {
+    "word": "cohesive",
+    "phonetic": "",
+    "meaning": "adj. 粘合性的，有结合力的",
+    "translations": [
+      {
+        "translation": "粘合性的，有结合力的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "cohesive force",
+        "translation": "内聚力；粘结力；粘合力"
+      },
+      {
+        "phrase": "cohesive soil",
+        "translation": "粘性土壤"
+      },
+      {
+        "phrase": "cohesive strength",
+        "translation": "凝聚强度"
+      }
+    ]
+  },
+  {
+    "word": "hesitate",
+    "phonetic": "",
+    "meaning": "v. 犹豫,踌躇;含糊,支吾",
+    "translations": [
+      {
+        "translation": "犹豫,踌躇;含糊,支吾",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "don't hesitate",
+        "translation": "别再犹豫了"
+      },
+      {
+        "phrase": "hesitate in",
+        "translation": "吞吞吐吐"
+      }
+    ]
+  },
+  {
+    "word": "eject",
+    "phonetic": "",
+    "meaning": "v. 喷射,排出;驱逐",
+    "translations": [
+      {
+        "translation": "喷射,排出;驱逐",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "inject",
+    "phonetic": "",
+    "meaning": "v. 注射(药液等)；注入",
+    "translations": [
+      {
+        "translation": "注射(药液等)；注入",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "object",
+    "phonetic": "",
+    "meaning": "n. 物体;客体,对象;目标;宾语; v. (to)反对",
+    "translations": [
+      {
+        "translation": "物体;客体,对象;目标;宾语",
+        "type": "n"
+      },
+      {
+        "translation": "(to)反对",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "object oriented",
+        "translation": "面向对象的；对象趋向的；物件导向的"
+      },
+      {
+        "phrase": "object of study",
+        "translation": "研究对象"
+      },
+      {
+        "phrase": "object function",
+        "translation": "目标函数；原函数"
+      }
+    ]
+  },
+  {
+    "word": "objection",
+    "phonetic": "",
+    "meaning": "n. (to)反对,异议,不喜欢,反对的理由",
+    "translations": [
+      {
+        "translation": "(to)反对,异议,不喜欢,反对的理由",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "objective",
+    "phonetic": "",
+    "meaning": "n. 目标,目的; adj. 客观的,真实的",
+    "translations": [
+      {
+        "translation": "目标,目的",
+        "type": "n"
+      },
+      {
+        "translation": "客观的,真实的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "objective function",
+        "translation": "目标函数"
+      },
+      {
+        "phrase": "objective analysis",
+        "translation": "目标分析，客观分析"
+      },
+      {
+        "phrase": "objective evaluation",
+        "translation": "客观评价"
+      }
+    ]
+  },
+  {
+    "word": "project",
+    "phonetic": "",
+    "meaning": "n. 方案,工程,项目v.投射,放映;设计,规划",
+    "translations": [
+      {
+        "translation": "方案,工程,项目v.投射,放映;设计,规划",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "project oneself",
+        "translation": "表现自己；突出自己"
+      },
+      {
+        "phrase": "project management",
+        "translation": "项目管理；专案管理"
+      },
+      {
+        "phrase": "construction project",
+        "translation": "建筑计划，建设项目；基建计划"
+      }
+    ]
+  },
+  {
+    "word": "projector",
+    "phonetic": "",
+    "meaning": "n. 放映机,幻灯机,投影仪",
+    "translations": [
+      {
+        "translation": "放映机,幻灯机,投影仪",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "overhead projector",
+        "translation": "n. 高射投影仪"
+      },
+      {
+        "phrase": "slide projector",
+        "translation": "幻灯机，幻灯片放映机"
+      },
+      {
+        "phrase": "movie projector",
+        "translation": "放映机"
+      }
+    ]
+  },
+  {
+    "word": "reject",
+    "phonetic": "",
+    "meaning": "v. 拒绝,抵制,丢弃,排斥,退掉; n. 落选者",
+    "translations": [
+      {
+        "translation": "拒绝,抵制,丢弃,排斥,退掉",
+        "type": "v"
+      },
+      {
+        "translation": "落选者",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "reject rate",
+        "translation": "废品率；拒绝率"
+      },
+      {
+        "phrase": "reject ratio",
+        "translation": "废品率；退件率"
+      }
+    ]
+  },
+  {
+    "word": "subject",
+    "phonetic": "",
+    "meaning": "n. 主题;学科; adj. 隶属的;易遭..的",
+    "translations": [
+      {
+        "translation": "主题;学科",
+        "type": "n"
+      },
+      {
+        "translation": "隶属的;易遭..的",
+        "type": "adj"
+      },
+      {
+        "translation": "使隶属",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "on the subject of",
+        "translation": "涉及…时"
+      },
+      {
+        "phrase": "subject matter",
+        "translation": "主题；主旨"
+      },
+      {
+        "phrase": "on the subject",
+        "translation": "就某话题"
+      }
+    ]
+  },
+  {
+    "word": "subjective",
+    "phonetic": "",
+    "meaning": "adj. 主观(上)的，个人的",
+    "translations": [
+      {
+        "translation": "主观(上)的，个人的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "subjective initiative",
+        "translation": "主观能动性"
+      },
+      {
+        "phrase": "subjective judgement",
+        "translation": "n. 主观判断"
+      },
+      {
+        "phrase": "subjective value",
+        "translation": "主观价值"
+      }
+    ]
+  },
+  {
+    "word": "collect",
+    "phonetic": "",
+    "meaning": "v. 收集,搜集;领取,接走;收(税等);聚集,堆积",
+    "translations": [
+      {
+        "translation": "收集,搜集;领取,接走;收(税等);聚集,堆积",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "collect oneself",
+        "translation": "镇定下来，使自己平心静气"
+      },
+      {
+        "phrase": "collect data",
+        "translation": "收集资料"
+      },
+      {
+        "phrase": "collect money",
+        "translation": "集资；筹钱"
+      }
+    ]
+  },
+  {
+    "word": "collection",
+    "phonetic": "",
+    "meaning": "n. 收藏(品),收集(物)",
+    "translations": [
+      {
+        "translation": "收藏(品),收集(物)",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "a collection of",
+        "translation": "一批，一些；收藏的；许多的；集…为一体的"
+      },
+      {
+        "phrase": "data collection",
+        "translation": "数据收集；资料收集"
+      },
+      {
+        "phrase": "collection system",
+        "translation": "收集系统；拖收系统"
+      }
+    ]
+  },
+  {
+    "word": "collective",
+    "phonetic": "",
+    "meaning": "n. 集体; adj. 集体的,共同的",
+    "translations": [
+      {
+        "translation": "集体",
+        "type": "n"
+      },
+      {
+        "translation": "集体的,共同的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "collective economy",
+        "translation": "集体经济"
+      },
+      {
+        "phrase": "collective action",
+        "translation": "集体行动；集体行为"
+      },
+      {
+        "phrase": "collective ownership",
+        "translation": "集体所有制"
+      }
+    ]
+  },
+  {
+    "word": "dialect",
+    "phonetic": "",
+    "meaning": "n. 方言",
+    "translations": [
+      {
+        "translation": "方言",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "chinese dialect",
+        "translation": "中国方言"
+      },
+      {
+        "phrase": "local dialect",
+        "translation": "地区方言"
+      }
+    ]
+  },
+  {
+    "word": "elect",
+    "phonetic": "",
+    "meaning": "v. 选举,推选;选择,作出选择",
+    "translations": [
+      {
+        "translation": "选举,推选;选择,作出选择",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "president elect",
+        "translation": "当选总统（尚未就职的）"
+      }
+    ]
+  },
+  {
+    "word": "intellectual",
+    "phonetic": "",
+    "meaning": "n. 知识分子; adj. 智力的，理智的，有理解力的",
+    "translations": [
+      {
+        "translation": "知识分子",
+        "type": "n"
+      },
+      {
+        "translation": "智力的，理智的，有理解力的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "intellectual property",
+        "translation": "知识产权；著作权"
+      },
+      {
+        "phrase": "intellectual property right",
+        "translation": "知识产权；智慧财产权"
+      },
+      {
+        "phrase": "intellectual capital",
+        "translation": "知识资本；智慧资本"
+      }
+    ]
+  },
+  {
+    "word": "intelligence",
+    "phonetic": "",
+    "meaning": "n. 智力,聪明;理解力;情报,消息,报导",
+    "translations": [
+      {
+        "translation": "智力,聪明;理解力;情报,消息,报导",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "artificial intelligence",
+        "translation": "人工智能"
+      },
+      {
+        "phrase": "competitive intelligence",
+        "translation": "竞争情报"
+      },
+      {
+        "phrase": "business intelligence",
+        "translation": "商业智能"
+      }
+    ]
+  },
+  {
+    "word": "intelligent",
+    "phonetic": "",
+    "meaning": "adj. 聪明的,明智的,理智的",
+    "translations": [
+      {
+        "translation": "聪明的,明智的,理智的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "intelligent control",
+        "translation": "智能控制"
+      },
+      {
+        "phrase": "intelligent building",
+        "translation": "智能型大楼"
+      },
+      {
+        "phrase": "intelligent system",
+        "translation": "智能系统"
+      }
+    ]
+  },
+  {
+    "word": "intelligible",
+    "phonetic": "",
+    "meaning": "adj. 可理解的，明白易懂的，清楚的",
+    "translations": [
+      {
+        "translation": "可理解的，明白易懂的，清楚的",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "lecture",
+    "phonetic": "",
+    "meaning": "n&v. 演讲,讲课",
+    "translations": [
+      {
+        "translation": "演讲,讲课",
+        "type": "n&v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "lecture on",
+        "translation": "有关…的演讲；训斥；告诫"
+      },
+      {
+        "phrase": "lecture note",
+        "translation": "讲义，上课笔记"
+      },
+      {
+        "phrase": "lecture hall",
+        "translation": "讲堂，大讲堂；演讲厅；大教室，阶梯教室"
+      }
+    ]
+  },
+  {
+    "word": "neglect",
+    "phonetic": "",
+    "meaning": "v&n. 忽视;疏忽,漏做,忽略",
+    "translations": [
+      {
+        "translation": "忽视;疏忽,漏做,忽略",
+        "type": "v&n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "neglect of",
+        "translation": "疏忽"
+      },
+      {
+        "phrase": "neglect of duty",
+        "translation": "玩忽职守；[法]失职；过失责任"
+      }
+    ]
+  },
+  {
+    "word": "recollect",
+    "phonetic": "",
+    "meaning": "v. 回忆,想起,记起,忆起,记得",
+    "translations": [
+      {
+        "translation": "回忆,想起,记起,忆起,记得",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "select",
+    "phonetic": "",
+    "meaning": "v. 选择,挑选; adj. 精选的,选择的",
+    "translations": [
+      {
+        "translation": "选择,挑选",
+        "type": "v"
+      },
+      {
+        "translation": "精选的,选择的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "select all",
+        "translation": "全部选择"
+      },
+      {
+        "phrase": "select committee",
+        "translation": "特别委员会（为某一特案组成的）"
+      },
+      {
+        "phrase": "mode select",
+        "translation": "方式选择；模态选择"
+      }
+    ]
+  },
+  {
+    "word": "selection",
+    "phonetic": "",
+    "meaning": "n. 选择,挑选;选集,精选物",
+    "translations": [
+      {
+        "translation": "选择,挑选;选集,精选物",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "natural selection",
+        "translation": "自然选择；[生]物竞天择说"
+      },
+      {
+        "phrase": "type selection",
+        "translation": "典型选择"
+      },
+      {
+        "phrase": "site selection",
+        "translation": "厂址选择；基地选择；位置选择"
+      }
+    ]
+  },
+  {
+    "word": "lever",
+    "phonetic": "",
+    "meaning": "n. 杆,杠杆,手段,途径,工具",
+    "translations": [
+      {
+        "translation": "杆,杠杆,手段,途径,工具",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "release lever",
+        "translation": "解锁手柄；分离杆"
+      },
+      {
+        "phrase": "lever principle",
+        "translation": "杠杆原理"
+      },
+      {
+        "phrase": "brake lever",
+        "translation": "制动杆"
+      }
+    ]
+  },
+  {
+    "word": "alleviate",
+    "phonetic": "",
+    "meaning": "v. 减轻，缓和，缓解(痛苦等)",
+    "translations": [
+      {
+        "translation": "减轻，缓和，缓解(痛苦等)",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "elevate",
+    "phonetic": "",
+    "meaning": "v. 举起,提拔,振奋,提升...的职位",
+    "translations": [
+      {
+        "translation": "举起,提拔,振奋,提升...的职位",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "elevator",
+    "phonetic": "",
+    "meaning": "n. 电梯,升降机",
+    "translations": [
+      {
+        "translation": "电梯,升降机",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "bucket elevator",
+        "translation": "斗式提升机；斗式运输机"
+      },
+      {
+        "phrase": "take the elevator",
+        "translation": "乘电梯"
+      },
+      {
+        "phrase": "hydraulic elevator",
+        "translation": "液压升降机；液压卷杨机；水力提升机"
+      }
+    ]
+  },
+  {
+    "word": "level",
+    "phonetic": "",
+    "meaning": "n. 水平，水准，等级; v. 弄平，铺平",
+    "translations": [
+      {
+        "translation": "水平，水准，等级",
+        "type": "n"
+      },
+      {
+        "translation": "弄平，铺平",
+        "type": "v"
+      },
+      {
+        "translation": "水平的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "level of",
+        "translation": "…的水平；…的等级"
+      },
+      {
+        "phrase": "high level",
+        "translation": "高层；高电平"
+      },
+      {
+        "phrase": "basic level",
+        "translation": "基本水平"
+      }
+    ]
+  },
+  {
+    "word": "levy",
+    "phonetic": "",
+    "meaning": "n. 征收,征税,征兵; v. 征收,征集,征用",
+    "translations": [
+      {
+        "translation": "征收,征税,征兵",
+        "type": "n"
+      },
+      {
+        "translation": "征收,征集,征用",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "tax levy",
+        "translation": "纳税；征收税款"
+      },
+      {
+        "phrase": "levy on",
+        "translation": "征税；扣押"
+      },
+      {
+        "phrase": "levy tax",
+        "translation": "征税"
+      }
+    ]
+  },
+  {
+    "word": "light",
+    "phonetic": "",
+    "meaning": "n. 光；灯; v. 点燃；照亮",
+    "translations": [
+      {
+        "translation": "光；灯",
+        "type": "n"
+      },
+      {
+        "translation": "点燃；照亮",
+        "type": "v"
+      },
+      {
+        "translation": "轻(快)；淡；明亮",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in the light of",
+        "translation": "根据，按照；当作"
+      },
+      {
+        "phrase": "in light",
+        "translation": "被光线照着"
+      },
+      {
+        "phrase": "in the light",
+        "translation": "灯光下；在光芒中"
+      }
+    ]
+  },
+  {
+    "word": "highlight",
+    "phonetic": "",
+    "meaning": "v. 使显著,使突出;强调; n. 最精彩的部分",
+    "translations": [
+      {
+        "translation": "使显著,使突出;强调",
+        "type": "v"
+      },
+      {
+        "translation": "最精彩的部分",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "daylight",
+    "phonetic": "",
+    "meaning": "n. 日光,白昼,黎明",
+    "translations": [
+      {
+        "translation": "日光,白昼,黎明",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in broad daylight",
+        "translation": "在大白天；公开地"
+      },
+      {
+        "phrase": "broad daylight",
+        "translation": "光天化日；公开地"
+      },
+      {
+        "phrase": "daylight saving",
+        "translation": "夏令时（指在夏季把标准时间拨早1小时）"
+      }
+    ]
+  },
+  {
+    "word": "delight",
+    "phonetic": "",
+    "meaning": "n. 快乐,高兴; v. (使)高兴,(使)欣喜",
+    "translations": [
+      {
+        "translation": "快乐,高兴",
+        "type": "n"
+      },
+      {
+        "translation": "(使)高兴,(使)欣喜",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "delight in",
+        "translation": "因…感到快乐"
+      },
+      {
+        "phrase": "with delight",
+        "translation": "欣然"
+      },
+      {
+        "phrase": "take delight in",
+        "translation": "乐于"
+      }
+    ]
+  },
+  {
+    "word": "enlighten",
+    "phonetic": "",
+    "meaning": "v. 启发,启蒙,教导",
+    "translations": [
+      {
+        "translation": "启发,启蒙,教导",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "lightning",
+    "phonetic": "",
+    "meaning": "n. 闪电; adj. 闪电般的,快速的",
+    "translations": [
+      {
+        "translation": "闪电",
+        "type": "n"
+      },
+      {
+        "translation": "闪电般的,快速的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "lightning protection",
+        "translation": "防雷法"
+      },
+      {
+        "phrase": "thunder and lightning",
+        "translation": "雷电；指责"
+      },
+      {
+        "phrase": "lightning strike",
+        "translation": "n. 雷击（等于lightning stroke）；闪电式罢工"
+      }
+    ]
+  },
+  {
+    "word": "illuminate",
+    "phonetic": "",
+    "meaning": "v. 照亮，照明；用灯光装饰；说明，阐释",
+    "translations": [
+      {
+        "translation": "照亮，照明；用灯光装饰；说明，阐释",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "lure",
+    "phonetic": "",
+    "meaning": "n. 吸引力,魅力,诱惑物; v. 引诱，吸引",
+    "translations": [
+      {
+        "translation": "吸引力,魅力,诱惑物",
+        "type": "n"
+      },
+      {
+        "translation": "引诱，吸引",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "illusion",
+    "phonetic": "",
+    "meaning": "n. 幻想，错误的观念；错觉，幻觉，假象",
+    "translations": [
+      {
+        "translation": "幻想，错误的观念；错觉，幻觉，假象",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "optical illusion",
+        "translation": "视错觉，错视；光幻觉"
+      },
+      {
+        "phrase": "visual illusion",
+        "translation": "视觉错误"
+      }
+    ]
+  },
+  {
+    "word": "illustrate",
+    "phonetic": "",
+    "meaning": "v. 举例说明,阐明;图解,加插图",
+    "translations": [
+      {
+        "translation": "举例说明,阐明;图解,加插图",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "illustrate with",
+        "translation": "用…来说明；给…加（插图）"
+      }
+    ]
+  },
+  {
+    "word": "illustration",
+    "phonetic": "",
+    "meaning": "n. 说明；例证，插图；举例说明",
+    "translations": [
+      {
+        "translation": "说明；例证，插图；举例说明",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "luxury",
+    "phonetic": "",
+    "meaning": "n. 奢侈,华贵;奢侈品; adj. 奢华的,豪华的",
+    "translations": [
+      {
+        "translation": "奢侈,华贵;奢侈品",
+        "type": "n"
+      },
+      {
+        "translation": "奢华的,豪华的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "luxury hotel",
+        "translation": "豪华饭店"
+      },
+      {
+        "phrase": "luxury goods",
+        "translation": "奢侈品"
+      },
+      {
+        "phrase": "luxury car",
+        "translation": "豪华车"
+      }
+    ]
+  },
+  {
+    "word": "local",
+    "phonetic": "",
+    "meaning": "adj. 地方的,当地的;局部的",
+    "translations": [
+      {
+        "translation": "地方的,当地的;局部的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "local government",
+        "translation": "地方政府；[总称]地方政府官员（或工作人员）"
+      },
+      {
+        "phrase": "local area network",
+        "translation": "n. 局域网"
+      },
+      {
+        "phrase": "local culture",
+        "translation": "本土文化；地方文化"
+      }
+    ]
+  },
+  {
+    "word": "allocate",
+    "phonetic": "",
+    "meaning": "v. 分配，分派；拨给；划归",
+    "translations": [
+      {
+        "translation": "分配，分派；拨给；划归",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "allocate funds",
+        "translation": "拨款；分配资金"
+      },
+      {
+        "phrase": "allocate for",
+        "translation": "为…而分配；把…拨给"
+      }
+    ]
+  },
+  {
+    "word": "locality",
+    "phonetic": "",
+    "meaning": "n. 位置,地点",
+    "translations": [
+      {
+        "translation": "位置,地点",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "locate",
+    "phonetic": "",
+    "meaning": "v. 查出,探出,查找…地点,使…坐落于,位于",
+    "translations": [
+      {
+        "translation": "查出,探出,查找…地点,使…坐落于,位于",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "locate in",
+        "translation": "在某一点设置；在…定居；坐落于"
+      }
+    ]
+  },
+  {
+    "word": "location",
+    "phonetic": "",
+    "meaning": "n. 位置,场所,定位,测位",
+    "translations": [
+      {
+        "translation": "位置,场所,定位,测位",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "fault location",
+        "translation": "故障定位"
+      },
+      {
+        "phrase": "strategic location",
+        "translation": "战略位置；关键部分"
+      },
+      {
+        "phrase": "on location",
+        "translation": "出外景；现场拍摄"
+      }
+    ]
+  },
+  {
+    "word": "locomotive",
+    "phonetic": "",
+    "meaning": "n. 机车,火车头; adj. 运动的,移动的,运载的",
+    "translations": [
+      {
+        "translation": "机车,火车头",
+        "type": "n"
+      },
+      {
+        "translation": "运动的,移动的,运载的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "electric locomotive",
+        "translation": "电气机车"
+      },
+      {
+        "phrase": "diesel locomotive",
+        "translation": "柴油机车；内油机车"
+      },
+      {
+        "phrase": "steam locomotive",
+        "translation": "蒸汽机车"
+      }
+    ]
+  },
+  {
+    "word": "logic",
+    "phonetic": "",
+    "meaning": "n. 逻辑,逻辑学",
+    "translations": [
+      {
+        "translation": "逻辑,逻辑学",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "fuzzy logic",
+        "translation": "模糊逻辑"
+      },
+      {
+        "phrase": "programmable logic",
+        "translation": "可编程序逻辑"
+      },
+      {
+        "phrase": "logic control",
+        "translation": "逻辑控制"
+      }
+    ]
+  },
+  {
+    "word": "analogue",
+    "phonetic": "",
+    "meaning": "n. 类似物；相似体；模拟",
+    "translations": [
+      {
+        "translation": "类似物；相似体；模拟",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "analogue method",
+        "translation": "相似法；模拟法；类比法"
+      },
+      {
+        "phrase": "analogue signal",
+        "translation": "模拟信号；仿真讯号；非数字讯号；模拟试验"
+      },
+      {
+        "phrase": "analogue computer",
+        "translation": "模拟电脑，模拟计算机"
+      }
+    ]
+  },
+  {
+    "word": "analogy",
+    "phonetic": "",
+    "meaning": "n. 类似，相似，类比，类推",
+    "translations": [
+      {
+        "translation": "类似，相似，类比，类推",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "by analogy",
+        "translation": "用类推的方法；同样"
+      },
+      {
+        "phrase": "analogy method",
+        "translation": "类比法；模拟方法"
+      },
+      {
+        "phrase": "analogy analysis",
+        "translation": "类比分析"
+      }
+    ]
+  },
+  {
+    "word": "dialog",
+    "phonetic": "",
+    "meaning": "n. (ue)对话,对白",
+    "translations": [
+      {
+        "translation": "(ue)对话,对白",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "dialog box",
+        "translation": "[计]对话框，对话窗口"
+      }
+    ]
+  },
+  {
+    "word": "eloquent",
+    "phonetic": "",
+    "meaning": "adj. 雄辩的,有说服力的;善辩的,口才流利的",
+    "translations": [
+      {
+        "translation": "雄辩的,有说服力的;善辩的,口才流利的",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "log",
+    "phonetic": "",
+    "meaning": "n. 原木,圆木;航海日志",
+    "translations": [
+      {
+        "translation": "原木,圆木;航海日志",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "log in",
+        "translation": "注册；请求联机"
+      },
+      {
+        "phrase": "log on",
+        "translation": "[计]登录；注册"
+      },
+      {
+        "phrase": "well log",
+        "translation": "测井曲线；钻井日志"
+      }
+    ]
+  },
+  {
+    "word": "logical",
+    "phonetic": "",
+    "meaning": "adj. 逻辑的,符合逻辑的",
+    "translations": [
+      {
+        "translation": "逻辑的,符合逻辑的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "logical analysis",
+        "translation": "[哲]逻辑分析"
+      },
+      {
+        "phrase": "logical thinking",
+        "translation": "逻辑思维，逻辑思考"
+      },
+      {
+        "phrase": "logical structure",
+        "translation": "逻辑结构"
+      }
+    ]
+  },
+  {
+    "word": "technology",
+    "phonetic": "",
+    "meaning": "n. 科学技术；工业技术；应用科学",
+    "translations": [
+      {
+        "translation": "科学技术；工业技术；应用科学",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "science and technology",
+        "translation": "科学与技术"
+      },
+      {
+        "phrase": "information technology",
+        "translation": "信息技术"
+      },
+      {
+        "phrase": "advanced technology",
+        "translation": "先进技术"
+      }
+    ]
+  },
+  {
+    "word": "biology",
+    "phonetic": "",
+    "meaning": "n. 生物学",
+    "translations": [
+      {
+        "translation": "生物学",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "molecular biology",
+        "translation": "[化]分子生物学"
+      },
+      {
+        "phrase": "cell biology",
+        "translation": "细胞学，细胞生物学"
+      },
+      {
+        "phrase": "marine biology",
+        "translation": "海洋生物学"
+      }
+    ]
+  },
+  {
+    "word": "ecology",
+    "phonetic": "",
+    "meaning": "n. 生态学",
+    "translations": [
+      {
+        "translation": "生态学",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "landscape ecology",
+        "translation": "景观生态学；园林生态"
+      },
+      {
+        "phrase": "ecology environment",
+        "translation": "生态环境"
+      },
+      {
+        "phrase": "restoration ecology",
+        "translation": "恢复生态学"
+      }
+    ]
+  },
+  {
+    "word": "geology",
+    "phonetic": "",
+    "meaning": "n. 地质(学)",
+    "translations": [
+      {
+        "translation": "地质(学)",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "engineering geology",
+        "translation": "工程地质学"
+      },
+      {
+        "phrase": "petroleum geology",
+        "translation": "石油地质学"
+      },
+      {
+        "phrase": "regional geology",
+        "translation": "区域地质学"
+      }
+    ]
+  },
+  {
+    "word": "ideology",
+    "phonetic": "",
+    "meaning": "n. 意识形态，(政治或社会的)思想意识",
+    "translations": [
+      {
+        "translation": "意识形态，(政治或社会的)思想意识",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "political ideology",
+        "translation": "政治意识形态"
+      }
+    ]
+  },
+  {
+    "word": "physiological",
+    "phonetic": "",
+    "meaning": "adj. 生理学的, 生理学上的",
+    "translations": [
+      {
+        "translation": "生理学的, 生理学上的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "physiological function",
+        "translation": "生理机能"
+      },
+      {
+        "phrase": "physiological process",
+        "translation": "生理过程"
+      },
+      {
+        "phrase": "physiological saline",
+        "translation": "生理盐水；生理盐溶液"
+      }
+    ]
+  },
+  {
+    "word": "psychology",
+    "phonetic": "",
+    "meaning": "n. 心理,心理学,心理状态",
+    "translations": [
+      {
+        "translation": "心理,心理学,心理状态",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "social psychology",
+        "translation": "社会心理学"
+      },
+      {
+        "phrase": "cognitive psychology",
+        "translation": "认知心理学"
+      },
+      {
+        "phrase": "educational psychology",
+        "translation": "教育心理学"
+      }
+    ]
+  },
+  {
+    "word": "sociology",
+    "phonetic": "",
+    "meaning": "n. 社会学",
+    "translations": [
+      {
+        "translation": "社会学",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "sociology of law",
+        "translation": "法律社会学"
+      },
+      {
+        "phrase": "economic sociology",
+        "translation": "经济社会学；社会经济学"
+      },
+      {
+        "phrase": "urban sociology",
+        "translation": "城市社会学，都市社会学"
+      }
+    ]
+  },
+  {
+    "word": "legacy",
+    "phonetic": "",
+    "meaning": "n. 遗产，遗赠；先人(或过去)留下的东西",
+    "translations": [
+      {
+        "translation": "遗产，遗赠；先人(或过去)留下的东西",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "legacy system",
+        "translation": "遗留系统"
+      }
+    ]
+  },
+  {
+    "word": "legal",
+    "phonetic": "",
+    "meaning": "adj. 法律的,法定的;合法的,正当的",
+    "translations": [
+      {
+        "translation": "法律的,法定的;合法的,正当的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "legal system",
+        "translation": "法律制度"
+      },
+      {
+        "phrase": "legal status",
+        "translation": "法律地位"
+      },
+      {
+        "phrase": "legal protection",
+        "translation": "法律保护；合法保护"
+      }
+    ]
+  },
+  {
+    "word": "legend",
+    "phonetic": "",
+    "meaning": "n. 传说,传奇",
+    "translations": [
+      {
+        "translation": "传说,传奇",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "urban legend",
+        "translation": "n. 都市传奇，传闻"
+      },
+      {
+        "phrase": "legend group",
+        "translation": "n. 联想集团（现名为lenovo）"
+      }
+    ]
+  },
+  {
+    "word": "legislation",
+    "phonetic": "",
+    "meaning": "n. 法律(规)；立法，法律的制定(或通过)",
+    "translations": [
+      {
+        "translation": "法律(规)；立法，法律的制定(或通过)",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "environmental legislation",
+        "translation": "环境立法"
+      },
+      {
+        "phrase": "subsidiary legislation",
+        "translation": "附属法例"
+      },
+      {
+        "phrase": "labour legislation",
+        "translation": "劳工法；劳动法规"
+      }
+    ]
+  },
+  {
+    "word": "legitimate",
+    "phonetic": "",
+    "meaning": "adj. 合法的；合理的，合乎逻辑的; v. 使合法",
+    "translations": [
+      {
+        "translation": "合法的；合理的，合乎逻辑的",
+        "type": "adj"
+      },
+      {
+        "translation": "使合法",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "legitimate authority",
+        "translation": "法定职权；合法权威"
+      },
+      {
+        "phrase": "legitimate interest",
+        "translation": "合法权益；合法利益"
+      },
+      {
+        "phrase": "legitimate income",
+        "translation": "[经]正当收入"
+      }
+    ]
+  },
+  {
+    "word": "college",
+    "phonetic": "",
+    "meaning": "n. 学院,高等专科学校,大学",
+    "translations": [
+      {
+        "translation": "学院,高等专科学校,大学",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in college",
+        "translation": "在大学"
+      },
+      {
+        "phrase": "college student",
+        "translation": "大学生"
+      },
+      {
+        "phrase": "medical college",
+        "translation": "医学院"
+      }
+    ]
+  },
+  {
+    "word": "elegant",
+    "phonetic": "",
+    "meaning": "adj. 优雅的;端庄的;雅致的",
+    "translations": [
+      {
+        "translation": "优雅的;端庄的;雅致的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "elegant appearance",
+        "translation": "美观大方"
+      },
+      {
+        "phrase": "elegant demeanour",
+        "translation": "风采"
+      },
+      {
+        "phrase": "elegant shape",
+        "translation": "式样优雅"
+      }
+    ]
+  },
+  {
+    "word": "diligent",
+    "phonetic": "",
+    "meaning": "adj. 勤奋的,用功的",
+    "translations": [
+      {
+        "translation": "勤奋的,用功的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "diligent in",
+        "translation": "勤勉于…，勤奋好学"
+      }
+    ]
+  },
+  {
+    "word": "negligible",
+    "phonetic": "",
+    "meaning": "adj. 可忽略不计的，微不足道的",
+    "translations": [
+      {
+        "translation": "可忽略不计的，微不足道的",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "obligation",
+    "phonetic": "",
+    "meaning": "n. 义务,责任",
+    "translations": [
+      {
+        "translation": "义务,责任",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "no obligation",
+        "translation": "无义务"
+      },
+      {
+        "phrase": "moral obligation",
+        "translation": "道义上的责任"
+      },
+      {
+        "phrase": "legal obligation",
+        "translation": "n. 法律义务"
+      }
+    ]
+  },
+  {
+    "word": "oblige",
+    "phonetic": "",
+    "meaning": "v. 强迫,迫使;责成;(使)感激,施恩于",
+    "translations": [
+      {
+        "translation": "强迫,迫使;责成;(使)感激,施恩于",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "eligible",
+    "phonetic": "",
+    "meaning": "adj. 符合条件的;(尤指婚姻等)合适(意)的",
+    "translations": [
+      {
+        "translation": "符合条件的;(尤指婚姻等)合适(意)的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "eligible for",
+        "translation": "合格；够资格"
+      },
+      {
+        "phrase": "eligible bidders",
+        "translation": "合格的投标商"
+      },
+      {
+        "phrase": "eligible products",
+        "translation": "合格产品"
+      }
+    ]
+  },
+  {
+    "word": "religion",
+    "phonetic": "",
+    "meaning": "n. 宗教,信仰",
+    "translations": [
+      {
+        "translation": "宗教,信仰",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "freedom of religion",
+        "translation": "宗教自由"
+      },
+      {
+        "phrase": "christian religion",
+        "translation": "基督教"
+      },
+      {
+        "phrase": "primitive religion",
+        "translation": "原始宗教"
+      }
+    ]
+  },
+  {
+    "word": "religious",
+    "phonetic": "",
+    "meaning": "adj. 宗教的,信教的,虔诚的",
+    "translations": [
+      {
+        "translation": "宗教的,信教的,虔诚的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "religious belief",
+        "translation": "宗教信仰"
+      },
+      {
+        "phrase": "religious culture",
+        "translation": "宗教文化"
+      },
+      {
+        "phrase": "religious education",
+        "translation": "宗教教育"
+      }
+    ]
+  },
+  {
+    "word": "law",
+    "phonetic": "",
+    "meaning": "n. 法律,法规,法学,规律,定律",
+    "translations": [
+      {
+        "translation": "法律,法规,法学,规律,定律",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "by law",
+        "translation": "n. 根据法律，在法律上；附则"
+      },
+      {
+        "phrase": "criminal law",
+        "translation": "刑法"
+      },
+      {
+        "phrase": "law enforcement",
+        "translation": "法律的实施"
+      }
+    ]
+  },
+  {
+    "word": "lawyer",
+    "phonetic": "",
+    "meaning": "n. 律师",
+    "translations": [
+      {
+        "translation": "律师",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "criminal lawyer",
+        "translation": "刑事律师"
+      }
+    ]
+  },
+  {
+    "word": "limit",
+    "phonetic": "",
+    "meaning": "n. 界限,限度,范围; v. (to)限制,限定",
+    "translations": [
+      {
+        "translation": "界限,限度,范围",
+        "type": "n"
+      },
+      {
+        "translation": "(to)限制,限定",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "time limit",
+        "translation": "期限；限期"
+      },
+      {
+        "phrase": "upper limit",
+        "translation": "上限；最高极限"
+      },
+      {
+        "phrase": "speed limit",
+        "translation": "速度限制；最高车速"
+      }
+    ]
+  },
+  {
+    "word": "limitation",
+    "phonetic": "",
+    "meaning": "n. 限制,局限性",
+    "translations": [
+      {
+        "translation": "限制,局限性",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "time limitation",
+        "translation": "时间限制"
+      },
+      {
+        "phrase": "limitation of liability",
+        "translation": "责任范围"
+      },
+      {
+        "phrase": "space limitation",
+        "translation": "空间限制"
+      }
+    ]
+  },
+  {
+    "word": "limited",
+    "phonetic": "",
+    "meaning": "adj. 有限的,被限制的",
+    "translations": [
+      {
+        "translation": "有限的,被限制的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "limited company",
+        "translation": "有限公司；（英）股份有限公司（等于limited-liability company）"
+      },
+      {
+        "phrase": "company limited",
+        "translation": "有限公司"
+      },
+      {
+        "phrase": "limited liability",
+        "translation": "有限责任；有限债务责任"
+      }
+    ]
+  },
+  {
+    "word": "preliminary",
+    "phonetic": "",
+    "meaning": "adj. 预备的,初步的",
+    "translations": [
+      {
+        "translation": "预备的,初步的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "preliminary study",
+        "translation": "初步研究"
+      },
+      {
+        "phrase": "preliminary analysis",
+        "translation": "初步分析"
+      },
+      {
+        "phrase": "preliminary design",
+        "translation": "初步设计"
+      }
+    ]
+  },
+  {
+    "word": "dilemma",
+    "phonetic": "",
+    "meaning": "n. 困境；进退两难；",
+    "translations": [
+      {
+        "translation": "困境；进退两难；",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in a dilemma",
+        "translation": "进退两难，左右为难"
+      },
+      {
+        "phrase": "prisoner's dilemma",
+        "translation": "囚徒困境，囚徒困境悖论"
+      },
+      {
+        "phrase": "moral dilemma",
+        "translation": "道德上的左右为难；道德两难处境；伦理两难"
+      }
+    ]
+  },
+  {
+    "word": "low",
+    "phonetic": "",
+    "meaning": "adj. 低，矮；低级的，下层的，卑贱的；低声的",
+    "translations": [
+      {
+        "translation": "低，矮；低级的，下层的，卑贱的；低声的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "low cost",
+        "translation": "低成本，廉价的"
+      },
+      {
+        "phrase": "low temperature",
+        "translation": "低温"
+      },
+      {
+        "phrase": "high and low",
+        "translation": "到处；高低贵贱"
+      }
+    ]
+  },
+  {
+    "word": "below",
+    "phonetic": "",
+    "meaning": "prep. 在…下面，在…以下; adv. 在下面，向下",
+    "translations": [
+      {
+        "translation": "在…下面，在…以下",
+        "type": "prep"
+      },
+      {
+        "translation": "在下面，向下",
+        "type": "adv"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "far below",
+        "translation": "远低于"
+      },
+      {
+        "phrase": "down below",
+        "translation": "adv. 在底下"
+      },
+      {
+        "phrase": "here below",
+        "translation": "在尘世间；在这一世"
+      }
+    ]
+  },
+  {
+    "word": "blow",
+    "phonetic": "",
+    "meaning": "v. 吹，吹气，打气；吹奏；爆炸；n.打,打击",
+    "translations": [
+      {
+        "translation": "吹，吹气，打气；吹奏；爆炸；n.打,打击",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "blow to something",
+        "translation": "[口语]款待，请(客)；对待(某事物)"
+      },
+      {
+        "phrase": "blow up",
+        "translation": "爆发，爆炸；放大；使充气"
+      },
+      {
+        "phrase": "blow molding",
+        "translation": "吹塑，吹塑法"
+      }
+    ]
+  },
+  {
+    "word": "fellow",
+    "phonetic": "",
+    "meaning": "n. 人,家伙;伙伴,同事; adj. 同样的,同事的",
+    "translations": [
+      {
+        "translation": "人,家伙;伙伴,同事",
+        "type": "n"
+      },
+      {
+        "translation": "同样的,同事的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "research fellow",
+        "translation": "研究员，研究人员"
+      },
+      {
+        "phrase": "young fellow",
+        "translation": "小伙子"
+      },
+      {
+        "phrase": "little fellow",
+        "translation": "小家伙，小鬼"
+      }
+    ]
+  },
+  {
+    "word": "fellowship",
+    "phonetic": "",
+    "meaning": "n. 伙伴关系;联谊会,团体",
+    "translations": [
+      {
+        "translation": "伙伴关系;联谊会,团体",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "good fellowship",
+        "translation": "交际广，好交际；讨人喜欢"
+      },
+      {
+        "phrase": "traveling fellowship",
+        "translation": "出国奖学金；旅行奖学金"
+      }
+    ]
+  },
+  {
+    "word": "follow",
+    "phonetic": "",
+    "meaning": "v. 跟随,接着;领会;沿着…前进,遵循;结果是",
+    "translations": [
+      {
+        "translation": "跟随,接着;领会;沿着…前进,遵循;结果是",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "follow up",
+        "translation": "跟踪；坚持完成；继续做某事"
+      },
+      {
+        "phrase": "as follow",
+        "translation": "adv. 依下列各项"
+      },
+      {
+        "phrase": "follow in",
+        "translation": "跟进；跟上投篮"
+      }
+    ]
+  },
+  {
+    "word": "following",
+    "phonetic": "",
+    "meaning": "adj. 下列的，下述的，其次的，接着的",
+    "translations": [
+      {
+        "translation": "下列的，下述的，其次的，接着的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in the following",
+        "translation": "在下面；在下文中"
+      },
+      {
+        "phrase": "answer the following questions",
+        "translation": "回答下列问题"
+      },
+      {
+        "phrase": "immediately following",
+        "translation": "紧跟着"
+      }
+    ]
+  },
+  {
+    "word": "hollow",
+    "phonetic": "",
+    "meaning": "adj. 空的,中空的;空洞的,空虚的; v. 挖空,凿空",
+    "translations": [
+      {
+        "translation": "空的,中空的;空洞的,空虚的",
+        "type": "adj"
+      },
+      {
+        "translation": "挖空,凿空",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "hollow fiber",
+        "translation": "中空纤维"
+      },
+      {
+        "phrase": "hollow glass",
+        "translation": "中空玻璃；凹窝载玻片"
+      },
+      {
+        "phrase": "hollow block",
+        "translation": "空心块，空心砖"
+      }
+    ]
+  },
+  {
+    "word": "lower",
+    "phonetic": "",
+    "meaning": "adj. 较低的,下级的,下游的; v. 降下,放低",
+    "translations": [
+      {
+        "translation": "较低的,下级的,下游的",
+        "type": "adj"
+      },
+      {
+        "translation": "降下,放低",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "lower oneself",
+        "translation": "失身份；自甘堕落"
+      },
+      {
+        "phrase": "lower level",
+        "translation": "下水平，低电平"
+      },
+      {
+        "phrase": "lower price",
+        "translation": "低价；降价"
+      }
+    ]
+  },
+  {
+    "word": "loyal",
+    "phonetic": "",
+    "meaning": "adj. (to)忠诚的,忠贞的",
+    "translations": [
+      {
+        "translation": "(to)忠诚的,忠贞的",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "loyalty",
+    "phonetic": "",
+    "meaning": "n. 忠诚,忠心",
+    "translations": [
+      {
+        "translation": "忠诚,忠心",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "customer loyalty",
+        "translation": "客户忠诚度；顾客信赖"
+      },
+      {
+        "phrase": "brand loyalty",
+        "translation": "品牌忠诚度"
+      }
+    ]
+  },
+  {
+    "word": "allow",
+    "phonetic": "",
+    "meaning": "v. 允许，准许；承认；给予；(for)考虑到",
+    "translations": [
+      {
+        "translation": "允许，准许；承认；给予；(for)考虑到",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "allow for",
+        "translation": "考虑到，虑及"
+      },
+      {
+        "phrase": "allow of",
+        "translation": "容许"
+      }
+    ]
+  },
+  {
+    "word": "allowance",
+    "phonetic": "",
+    "meaning": "n. 补贴，津贴；零用钱；减价，折扣；允许",
+    "translations": [
+      {
+        "translation": "补贴，津贴；零用钱；减价，折扣；允许",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "allowance for",
+        "translation": "…的留量；…的修正值"
+      },
+      {
+        "phrase": "housing allowance",
+        "translation": "n. 住房津贴"
+      },
+      {
+        "phrase": "make allowance",
+        "translation": "体谅；留余地"
+      }
+    ]
+  },
+  {
+    "word": "pillow",
+    "phonetic": "",
+    "meaning": "n. 枕头",
+    "translations": [
+      {
+        "translation": "枕头",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "pillow case",
+        "translation": "开口式枕套；无边式枕套"
+      },
+      {
+        "phrase": "soft pillow",
+        "translation": "软枕头"
+      },
+      {
+        "phrase": "pillow block",
+        "translation": "轴台；架座"
+      }
+    ]
+  },
+  {
+    "word": "shallow",
+    "phonetic": "",
+    "meaning": "adj. 浅的,浅薄的; n. 浅滩,浅处",
+    "translations": [
+      {
+        "translation": "浅的,浅薄的",
+        "type": "adj"
+      },
+      {
+        "translation": "浅滩,浅处",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "shallow water",
+        "translation": "浅水；浅海，浅水域；浅滩"
+      },
+      {
+        "phrase": "shallow sea",
+        "translation": "浅海"
+      },
+      {
+        "phrase": "shallow layer",
+        "translation": "浅层；薄层"
+      }
+    ]
+  },
+  {
+    "word": "swallow",
+    "phonetic": "",
+    "meaning": "n. 燕子;吞咽vt.吞,咽;轻信;忍受;vi.咽口水",
+    "translations": [
+      {
+        "translation": "燕子;吞咽vt.吞,咽;轻信;忍受;vi.咽口水",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "swallow up",
+        "translation": "淹没；吞下去；耗尽"
+      }
+    ]
+  },
+  {
+    "word": "yellow",
+    "phonetic": "",
+    "meaning": "adj. 黄的，黄色的; n. 黄色",
+    "translations": [
+      {
+        "translation": "黄的，黄色的",
+        "type": "adj"
+      },
+      {
+        "translation": "黄色",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "yellow river",
+        "translation": "黄河"
+      },
+      {
+        "phrase": "yellow sea",
+        "translation": "黄海"
+      },
+      {
+        "phrase": "turn yellow",
+        "translation": "变黄；胆怯起来"
+      }
+    ]
+  },
+  {
+    "word": "slow",
+    "phonetic": "",
+    "meaning": "adj. 慢的,不活跃的; v. (down)(使)放慢,减速",
+    "translations": [
+      {
+        "translation": "慢的,不活跃的",
+        "type": "adj"
+      },
+      {
+        "translation": "(down)(使)放慢,减速",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "slow down",
+        "translation": "减速，放慢速度；使……慢下来"
+      },
+      {
+        "phrase": "go slow",
+        "translation": "怠工；慢慢走"
+      },
+      {
+        "phrase": "slow speed",
+        "translation": "慢速，低速"
+      }
+    ]
+  },
+  {
+    "word": "man",
+    "phonetic": "",
+    "meaning": "n. (pl.men)人；人类(单数，不加冠词)；男人",
+    "translations": [
+      {
+        "translation": "(pl.men)人；人类(单数，不加冠词)；男人",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "old man",
+        "translation": "情人；丈夫；老头子；父亲"
+      },
+      {
+        "phrase": "young man",
+        "translation": "n. 青年；未婚夫；男友"
+      },
+      {
+        "phrase": "no man",
+        "translation": "没有人；[口]老喜欢唱反调的人（等于no-man）"
+      }
+    ]
+  },
+  {
+    "word": "chairman",
+    "phonetic": "",
+    "meaning": "n. 主席,议长,会长,董事长",
+    "translations": [
+      {
+        "translation": "主席,议长,会长,董事长",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "vice chairman",
+        "translation": "副主席；副会长"
+      },
+      {
+        "phrase": "board chairman",
+        "translation": "n. 董事长"
+      },
+      {
+        "phrase": "chairman of the board",
+        "translation": "n. 董事长；董事局主席"
+      }
+    ]
+  },
+  {
+    "word": "gentleman",
+    "phonetic": "",
+    "meaning": "n. 绅士,先生",
+    "translations": [
+      {
+        "translation": "绅士,先生",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "old gentleman",
+        "translation": "n. 恶魔；魔王"
+      },
+      {
+        "phrase": "ladies and gentleman",
+        "translation": "女士们先生们"
+      },
+      {
+        "phrase": "the gentleman from",
+        "translation": "[美国英语](美国众议院)某某州(选出的)议员"
+      }
+    ]
+  },
+  {
+    "word": "human",
+    "phonetic": "",
+    "meaning": "adj. 人的,人类的; n. 人",
+    "translations": [
+      {
+        "translation": "人的,人类的",
+        "type": "adj"
+      },
+      {
+        "translation": "人",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "human body",
+        "translation": "人体"
+      },
+      {
+        "phrase": "human resource",
+        "translation": "人的资源"
+      },
+      {
+        "phrase": "human being",
+        "translation": "人；人类"
+      }
+    ]
+  },
+  {
+    "word": "humanity",
+    "phonetic": "",
+    "meaning": "n. 人类,人性,人情;(pl.)人文科学",
+    "translations": [
+      {
+        "translation": "人类,人性,人情;(pl.)人文科学",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "crime against humanity",
+        "translation": "违反人道罪；危害人类罪"
+      }
+    ]
+  },
+  {
+    "word": "layman",
+    "phonetic": "",
+    "meaning": "n. 外行",
+    "translations": [
+      {
+        "translation": "外行",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "manage",
+    "phonetic": "",
+    "meaning": "v. 经营,管理,处理;设法,对付;操纵,运用",
+    "translations": [
+      {
+        "translation": "经营,管理,处理;设法,对付;操纵,运用",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "manage with",
+        "translation": "用…设法对付"
+      },
+      {
+        "phrase": "manage to do",
+        "translation": "挣扎做某事；设法完成某事"
+      },
+      {
+        "phrase": "can manage it",
+        "translation": "可以设法帮这个忙"
+      }
+    ]
+  },
+  {
+    "word": "management",
+    "phonetic": "",
+    "meaning": "n. 经营,管理;处理,操纵;管理部门",
+    "translations": [
+      {
+        "translation": "经营,管理;处理,操纵;管理部门",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "management system",
+        "translation": "管理系统；经营责任制"
+      },
+      {
+        "phrase": "quality management",
+        "translation": "质量管理"
+      },
+      {
+        "phrase": "project management",
+        "translation": "项目管理；专案管理"
+      }
+    ]
+  },
+  {
+    "word": "manager",
+    "phonetic": "",
+    "meaning": "n. 经理,管理人",
+    "translations": [
+      {
+        "translation": "经理,管理人",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "general manager",
+        "translation": "总经理"
+      },
+      {
+        "phrase": "project manager",
+        "translation": "项目经理"
+      },
+      {
+        "phrase": "sales manager",
+        "translation": "销售经理；营业主任"
+      }
+    ]
+  },
+  {
+    "word": "mankind",
+    "phonetic": "",
+    "meaning": "n. 人类",
+    "translations": [
+      {
+        "translation": "人类",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "manner",
+    "phonetic": "",
+    "meaning": "n. 方式;举止;(pl.)风度,礼貌;规矩;风俗",
+    "translations": [
+      {
+        "translation": "方式;举止;(pl.)风度,礼貌;规矩;风俗",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in a manner",
+        "translation": "在某种意义上；在某种程度上"
+      },
+      {
+        "phrase": "in the manner",
+        "translation": "在现行中；当场"
+      },
+      {
+        "phrase": "in this manner",
+        "translation": "以这种方式；如此"
+      }
+    ]
+  },
+  {
+    "word": "permanent",
+    "phonetic": "",
+    "meaning": "adj. 永久的,持久的",
+    "translations": [
+      {
+        "translation": "永久的,持久的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "permanent magnet",
+        "translation": "永久磁铁"
+      },
+      {
+        "phrase": "permanent residence",
+        "translation": "长期居留"
+      },
+      {
+        "phrase": "permanent resident",
+        "translation": "永久性居民"
+      }
+    ]
+  },
+  {
+    "word": "policeman",
+    "phonetic": "",
+    "meaning": "n. 警察",
+    "translations": [
+      {
+        "translation": "警察",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "traffic policeman",
+        "translation": "n. 交通警察"
+      }
+    ]
+  },
+  {
+    "word": "postman",
+    "phonetic": "",
+    "meaning": "n. 邮递员",
+    "translations": [
+      {
+        "translation": "邮递员",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "romance",
+    "phonetic": "",
+    "meaning": "n. 传奇,爱情故事",
+    "translations": [
+      {
+        "translation": "传奇,爱情故事",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "romance languages",
+        "translation": "罗曼斯语（由拉丁语演变而成的语言）"
+      }
+    ]
+  },
+  {
+    "word": "romantic",
+    "phonetic": "",
+    "meaning": "adj. 浪漫的,传奇式的;不切实际的,好幻想的",
+    "translations": [
+      {
+        "translation": "浪漫的,传奇式的;不切实际的,好幻想的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "romantic love",
+        "translation": "浪漫爱情"
+      },
+      {
+        "phrase": "romantic movement",
+        "translation": "浪漫主义运动（十八世纪末及十九世纪初西欧掀起的文学艺术运动）"
+      },
+      {
+        "phrase": "new romantic",
+        "translation": "新浪漫；新浪漫主义"
+      }
+    ]
+  },
+  {
+    "word": "salesman",
+    "phonetic": "",
+    "meaning": "n. 售货员,推销员",
+    "translations": [
+      {
+        "translation": "售货员,推销员",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "traveling salesman",
+        "translation": "旅行推销员"
+      },
+      {
+        "phrase": "traveling salesman problem",
+        "translation": "旅行商问题；货郎担问题"
+      },
+      {
+        "phrase": "travelling salesman",
+        "translation": "旅行推销员"
+      }
+    ]
+  },
+  {
+    "word": "spokesman",
+    "phonetic": "",
+    "meaning": "n. 发言人",
+    "translations": [
+      {
+        "translation": "发言人",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "sportsman",
+    "phonetic": "",
+    "meaning": "n. 爱好运动的人；运动员",
+    "translations": [
+      {
+        "translation": "爱好运动的人；运动员",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "statesman",
+    "phonetic": "",
+    "meaning": "n. 政治家,国务活动家",
+    "translations": [
+      {
+        "translation": "政治家,国务活动家",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "woman",
+    "phonetic": "",
+    "meaning": "n. (pl.）women妇女，成年女子",
+    "translations": [
+      {
+        "translation": "(pl.）women妇女，成年女子",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "old woman",
+        "translation": "[口]老婆；[口]母亲；婆婆妈妈的人；挑剔而胆小的人"
+      },
+      {
+        "phrase": "beautiful woman",
+        "translation": "美人；漂亮的女人"
+      },
+      {
+        "phrase": "pregnant woman",
+        "translation": "孕妇"
+      }
+    ]
+  },
+  {
+    "word": "fireman",
+    "phonetic": "",
+    "meaning": "n. 消防队员",
+    "translations": [
+      {
+        "translation": "消防队员",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "fisherman",
+    "phonetic": "",
+    "meaning": "n. 渔夫，捕鱼人",
+    "translations": [
+      {
+        "translation": "渔夫，捕鱼人",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "maneuver",
+    "phonetic": "",
+    "meaning": "n. (manoeuvre)机动;运用,操作;; v. 机动",
+    "translations": [
+      {
+        "translation": "(manoeuvre)机动;运用,操作;",
+        "type": "n"
+      },
+      {
+        "translation": "机动",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "manifest",
+    "phonetic": "",
+    "meaning": "v. 表明,证明,显示; adj. 明白的,明了的",
+    "translations": [
+      {
+        "translation": "表明,证明,显示",
+        "type": "v"
+      },
+      {
+        "translation": "明白的,明了的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "manifest destiny",
+        "translation": "天定命运"
+      },
+      {
+        "phrase": "assembly manifest",
+        "translation": "[计]程序集清单；装配件清单"
+      }
+    ]
+  },
+  {
+    "word": "manipulate",
+    "phonetic": "",
+    "meaning": "v. (熟练地)使用，操作；(巧妙地)处理",
+    "translations": [
+      {
+        "translation": "(熟练地)使用，操作；(巧妙地)处理",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "manipulate data",
+        "translation": "操作数据"
+      }
+    ]
+  },
+  {
+    "word": "manual",
+    "phonetic": "",
+    "meaning": "adj. 手的,手工做的,体力的; n. 手册,指南",
+    "translations": [
+      {
+        "translation": "手的,手工做的,体力的",
+        "type": "adj"
+      },
+      {
+        "translation": "手册,指南",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "manual operation",
+        "translation": "[计]人工操作；手控"
+      },
+      {
+        "phrase": "manual work",
+        "translation": "手工作业"
+      },
+      {
+        "phrase": "manual control",
+        "translation": "手动控制；人工控制"
+      }
+    ]
+  },
+  {
+    "word": "manufacture",
+    "phonetic": "",
+    "meaning": "v. 制造,加工; n. 制造,制造业;产品",
+    "translations": [
+      {
+        "translation": "制造,加工",
+        "type": "v"
+      },
+      {
+        "translation": "制造,制造业;产品",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "manufacture process",
+        "translation": "制造工艺；建造过程"
+      },
+      {
+        "phrase": "manufacture management",
+        "translation": "制造管理"
+      },
+      {
+        "phrase": "steel manufacture",
+        "translation": "钢铁工业；炼钢业"
+      }
+    ]
+  },
+  {
+    "word": "manuscript",
+    "phonetic": "",
+    "meaning": "n. 手稿,原稿",
+    "translations": [
+      {
+        "translation": "手稿,原稿",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "original manuscript",
+        "translation": "原稿"
+      }
+    ]
+  },
+  {
+    "word": "abdomen",
+    "phonetic": "",
+    "meaning": "n. 腹，下腹(胸部到腿部的部分)",
+    "translations": [
+      {
+        "translation": "腹，下腹(胸部到腿部的部分)",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "lower abdomen",
+        "translation": "小腹；下腹部"
+      },
+      {
+        "phrase": "acute abdomen",
+        "translation": "[医]急腹症"
+      },
+      {
+        "phrase": "abdomen in",
+        "translation": "收腹"
+      }
+    ]
+  },
+  {
+    "word": "specimen",
+    "phonetic": "",
+    "meaning": "n. 标本,样本",
+    "translations": [
+      {
+        "translation": "标本,样本",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "test specimen",
+        "translation": "试样；试棒；试块"
+      },
+      {
+        "phrase": "specimen signature",
+        "translation": "签字样本；印鉴样本"
+      },
+      {
+        "phrase": "specimen preparation",
+        "translation": "试片制作；样品制备"
+      }
+    ]
+  },
+  {
+    "word": "commence",
+    "phonetic": "",
+    "meaning": "v. 开始; v. 获得学位",
+    "translations": [
+      {
+        "translation": "开始",
+        "type": "v"
+      },
+      {
+        "translation": "获得学位",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "commence business",
+        "translation": "开始营业"
+      }
+    ]
+  },
+  {
+    "word": "menace",
+    "phonetic": "",
+    "meaning": "v. /n.有危险性的人(或物)；威胁，威吓",
+    "translations": [
+      {
+        "translation": "/n.有危险性的人(或物)；威胁，威吓",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "menu",
+    "phonetic": "",
+    "meaning": "n. 菜单",
+    "translations": [
+      {
+        "translation": "菜单",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "menu item",
+        "translation": "[计]菜单项"
+      },
+      {
+        "phrase": "menu bar",
+        "translation": "n. [计]菜单栏"
+      },
+      {
+        "phrase": "main menu",
+        "translation": "主菜单；主选单；炙单"
+      }
+    ]
+  },
+  {
+    "word": "communicate",
+    "phonetic": "",
+    "meaning": "v. 传达,传送;交流;通讯,通话",
+    "translations": [
+      {
+        "translation": "传达,传送;交流;通讯,通话",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "communicate with",
+        "translation": "沟通；通话"
+      },
+      {
+        "phrase": "communicate in",
+        "translation": "用...语言沟通"
+      }
+    ]
+  },
+  {
+    "word": "communication",
+    "phonetic": "",
+    "meaning": "n. 通讯,传达;(pl.)通讯系统;交通",
+    "translations": [
+      {
+        "translation": "通讯,传达;(pl.)通讯系统;交通",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "communication system",
+        "translation": "通信系统"
+      },
+      {
+        "phrase": "communication with",
+        "translation": "与……交流；与……通讯"
+      },
+      {
+        "phrase": "communication technology",
+        "translation": "通信技术"
+      }
+    ]
+  },
+  {
+    "word": "communism",
+    "phonetic": "",
+    "meaning": "n. 共产主义",
+    "translations": [
+      {
+        "translation": "共产主义",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "community",
+    "phonetic": "",
+    "meaning": "n. 同一地区全体居民,社会,社区;共同体",
+    "translations": [
+      {
+        "translation": "同一地区全体居民,社会,社区;共同体",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "international community",
+        "translation": "国际社会；国际共同体"
+      },
+      {
+        "phrase": "community health",
+        "translation": "社区卫生（健康）；公共卫生；社会健康"
+      },
+      {
+        "phrase": "community service",
+        "translation": "社会服务；社区服务性劳役"
+      }
+    ]
+  },
+  {
+    "word": "immune",
+    "phonetic": "",
+    "meaning": "adj. 免疫的,有免疫力的;有受影响的;豁免的",
+    "translations": [
+      {
+        "translation": "免疫的,有免疫力的;有受影响的;豁免的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "immune system",
+        "translation": "免疫系统"
+      },
+      {
+        "phrase": "immune response",
+        "translation": "免疫反应（体内免疫系统对外来有机体或化学物挑战所作出的反应）；免疫应答；免疫响应"
+      },
+      {
+        "phrase": "acquired immune deficiency syndrome",
+        "translation": "艾滋病；获得性免疫缺陷综合症"
+      }
+    ]
+  },
+  {
+    "word": "mark",
+    "phonetic": "",
+    "meaning": "n. 痕迹;记号;分数; v. 标记,打分,使有特色",
+    "translations": [
+      {
+        "translation": "痕迹;记号;分数",
+        "type": "n"
+      },
+      {
+        "translation": "标记,打分,使有特色",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "trade mark",
+        "translation": "商标；特征"
+      },
+      {
+        "phrase": "mark on",
+        "translation": "标上；在…上做记录"
+      },
+      {
+        "phrase": "mark twain",
+        "translation": "n. 马克·吐温（美国小说家）"
+      }
+    ]
+  },
+  {
+    "word": "marble",
+    "phonetic": "",
+    "meaning": "n. 大理石,云石",
+    "translations": [
+      {
+        "translation": "大理石,云石",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "white marble",
+        "translation": "汉白玉；白色大理石"
+      },
+      {
+        "phrase": "artificial marble",
+        "translation": "人造大理石"
+      },
+      {
+        "phrase": "marble arch",
+        "translation": "大理石拱门（有名的伦敦标志）"
+      }
+    ]
+  },
+  {
+    "word": "march",
+    "phonetic": "",
+    "meaning": "v. (使)行军,(使)行进; n. 行军,行程",
+    "translations": [
+      {
+        "translation": "(使)行军,(使)行进",
+        "type": "v"
+      },
+      {
+        "translation": "行军,行程",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in march",
+        "translation": "在三月；在三月份"
+      },
+      {
+        "phrase": "long march",
+        "translation": "长征"
+      },
+      {
+        "phrase": "march in",
+        "translation": "进入；（运动员）进场"
+      }
+    ]
+  },
+  {
+    "word": "March",
+    "phonetic": "",
+    "meaning": "n. 三月(略作; Mar. )",
+    "translations": [
+      {
+        "translation": "三月(略作",
+        "type": "n"
+      },
+      {
+        "translation": ")",
+        "type": "Mar"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in march",
+        "translation": "在三月；在三月份"
+      },
+      {
+        "phrase": "long march",
+        "translation": "长征"
+      },
+      {
+        "phrase": "march in",
+        "translation": "进入；（运动员）进场"
+      }
+    ]
+  },
+  {
+    "word": "margin",
+    "phonetic": "",
+    "meaning": "n. 页边空白;边缘;余地;幅度",
+    "translations": [
+      {
+        "translation": "页边空白;边缘;余地;幅度",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "profit margin",
+        "translation": "[经]利润率"
+      },
+      {
+        "phrase": "continental margin",
+        "translation": "大陆边缘"
+      },
+      {
+        "phrase": "gross margin",
+        "translation": "[经]毛利"
+      }
+    ]
+  },
+  {
+    "word": "marginal",
+    "phonetic": "",
+    "meaning": "adj. 记在页边的,旁注的;(意识)边缘的",
+    "translations": [
+      {
+        "translation": "记在页边的,旁注的;(意识)边缘的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "marginal cost",
+        "translation": "边际成本（经济学专有名词）"
+      },
+      {
+        "phrase": "marginal utility",
+        "translation": "边际效用"
+      },
+      {
+        "phrase": "marginal propensity",
+        "translation": "边际倾向"
+      }
+    ]
+  },
+  {
+    "word": "marine",
+    "phonetic": "",
+    "meaning": "adj. 海的,海生的;船舶的,航海的",
+    "translations": [
+      {
+        "translation": "海的,海生的;船舶的,航海的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "marine environment",
+        "translation": "海洋环境"
+      },
+      {
+        "phrase": "marine engineering",
+        "translation": "轮机工程；船舶工程"
+      },
+      {
+        "phrase": "marine insurance",
+        "translation": "海上保险"
+      }
+    ]
+  },
+  {
+    "word": "marital",
+    "phonetic": "",
+    "meaning": "adj. 婚姻的,夫妻之间的",
+    "translations": [
+      {
+        "translation": "婚姻的,夫妻之间的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "marital status",
+        "translation": "婚姻状况"
+      },
+      {
+        "phrase": "marital violence",
+        "translation": "婚姻暴力；婚后暴力"
+      }
+    ]
+  },
+  {
+    "word": "market",
+    "phonetic": "",
+    "meaning": "n. 集市,市场;销路,需求(量); v. 销售",
+    "translations": [
+      {
+        "translation": "集市,市场;销路,需求(量)",
+        "type": "n"
+      },
+      {
+        "translation": "销售",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "market economy",
+        "translation": "[经]市场经济"
+      },
+      {
+        "phrase": "socialist market economy",
+        "translation": "社会主义市场经济"
+      },
+      {
+        "phrase": "in the market",
+        "translation": "在市场里；想买的"
+      }
+    ]
+  },
+  {
+    "word": "marriage",
+    "phonetic": "",
+    "meaning": "n. 结婚,婚姻;结婚仪式",
+    "translations": [
+      {
+        "translation": "结婚,婚姻;结婚仪式",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "marriage law",
+        "translation": "婚姻法"
+      },
+      {
+        "phrase": "happy marriage",
+        "translation": "美满的婚姻"
+      },
+      {
+        "phrase": "marriage certificate",
+        "translation": "结婚证书"
+      }
+    ]
+  },
+  {
+    "word": "married",
+    "phonetic": "",
+    "meaning": "adj. 已婚的,夫妇的;(to)与…结婚的",
+    "translations": [
+      {
+        "translation": "已婚的,夫妇的;(to)与…结婚的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "get married",
+        "translation": "结婚"
+      },
+      {
+        "phrase": "got married",
+        "translation": "结婚（get married的过去式）"
+      },
+      {
+        "phrase": "married couple",
+        "translation": "新婚夫妻"
+      }
+    ]
+  },
+  {
+    "word": "marry",
+    "phonetic": "",
+    "meaning": "v. 结婚,嫁,娶",
+    "translations": [
+      {
+        "translation": "结婚,嫁,娶",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "marry him",
+        "translation": "嫁给他"
+      },
+      {
+        "phrase": "marry into",
+        "translation": "通过结婚成为…的一员"
+      },
+      {
+        "phrase": "marry up",
+        "translation": "结婚；结合；配合；联合"
+      }
+    ]
+  },
+  {
+    "word": "marvelous",
+    "phonetic": "",
+    "meaning": "adj. (marvellous)惊人的,奇迹般的,妙极的",
+    "translations": [
+      {
+        "translation": "(marvellous)惊人的,奇迹般的,妙极的",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "remark",
+    "phonetic": "",
+    "meaning": "n. (about,on)评语,意见; v. (on)评论;注意到",
+    "translations": [
+      {
+        "translation": "(about,on)评语,意见",
+        "type": "n"
+      },
+      {
+        "translation": "(on)评论;注意到",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "remark on",
+        "translation": "评论；谈论；议论"
+      }
+    ]
+  },
+  {
+    "word": "remarkable",
+    "phonetic": "",
+    "meaning": "adj. 值得注意的;显著的,异常的,非凡的",
+    "translations": [
+      {
+        "translation": "值得注意的;显著的,异常的,非凡的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "remarkable development",
+        "translation": "显著发展"
+      }
+    ]
+  },
+  {
+    "word": "grammar",
+    "phonetic": "",
+    "meaning": "n. 语法,语法书",
+    "translations": [
+      {
+        "translation": "语法,语法书",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "english grammar",
+        "translation": "英语语法；英文文法"
+      },
+      {
+        "phrase": "grammar and vocabulary",
+        "translation": "语法与词汇"
+      },
+      {
+        "phrase": "generative grammar",
+        "translation": "生成文法；衍生语法"
+      }
+    ]
+  },
+  {
+    "word": "nightmare",
+    "phonetic": "",
+    "meaning": "n. 恶梦；可怕的事物，无法摆脱的恐惧",
+    "translations": [
+      {
+        "translation": "恶梦；可怕的事物，无法摆脱的恐惧",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "submarine",
+    "phonetic": "",
+    "meaning": "n. 潜水艇; adj. 水底的,海底的",
+    "translations": [
+      {
+        "translation": "潜水艇",
+        "type": "n"
+      },
+      {
+        "translation": "水底的,海底的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "submarine pipeline",
+        "translation": "海底管道；水下管道"
+      },
+      {
+        "phrase": "nuclear submarine",
+        "translation": "核潜艇"
+      },
+      {
+        "phrase": "submarine cable",
+        "translation": "海底电缆"
+      }
+    ]
+  },
+  {
+    "word": "supermarket",
+    "phonetic": "",
+    "meaning": "n. 超级市场",
+    "translations": [
+      {
+        "translation": "超级市场",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "trademark",
+    "phonetic": "",
+    "meaning": "n. 商标；特征; vt. 注册的…商标",
+    "translations": [
+      {
+        "translation": "商标；特征",
+        "type": "n"
+      },
+      {
+        "translation": "注册的…商标",
+        "type": "vt"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "registered trademark",
+        "translation": "注册商标"
+      },
+      {
+        "phrase": "trademark law",
+        "translation": "商标法"
+      },
+      {
+        "phrase": "famous trademark",
+        "translation": "著名商标；驰名商标"
+      }
+    ]
+  },
+  {
+    "word": "summarize",
+    "phonetic": "",
+    "meaning": "v. (summarise)概括,总结",
+    "translations": [
+      {
+        "translation": "(summarise)概括,总结",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "summary",
+    "phonetic": "",
+    "meaning": "n. 摘要,概要; adj. 概括的,简略的",
+    "translations": [
+      {
+        "translation": "摘要,概要",
+        "type": "n"
+      },
+      {
+        "translation": "概括的,简略的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in summary",
+        "translation": "总之；概括起来"
+      },
+      {
+        "phrase": "summary procedure",
+        "translation": "简易程序；即决裁判程序"
+      },
+      {
+        "phrase": "summary report",
+        "translation": "汇总报表；概要报表"
+      }
+    ]
+  },
+  {
+    "word": "admire",
+    "phonetic": "",
+    "meaning": "v. 钦佩,赞赏,羡慕；称赞,夸奖",
+    "translations": [
+      {
+        "translation": "钦佩,赞赏,羡慕；称赞,夸奖",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "admire for",
+        "translation": "vt. 赞赏"
+      }
+    ]
+  },
+  {
+    "word": "miracle",
+    "phonetic": "",
+    "meaning": "n. 奇迹,令人惊奇的人(或事)",
+    "translations": [
+      {
+        "translation": "奇迹,令人惊奇的人(或事)",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "economic miracle",
+        "translation": "经济奇迹"
+      },
+      {
+        "phrase": "to a miracle",
+        "translation": "奇妙地；好得不可思议；好到惊人程度；完全地"
+      },
+      {
+        "phrase": "by a miracle",
+        "translation": "奇迹般地；依靠奇迹"
+      }
+    ]
+  },
+  {
+    "word": "mirror",
+    "phonetic": "",
+    "meaning": "n. 镜子;反映,反射; v. 反映,反射",
+    "translations": [
+      {
+        "translation": "镜子;反映,反射",
+        "type": "n"
+      },
+      {
+        "translation": "反映,反射",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "mirror image",
+        "translation": "[物]镜像"
+      },
+      {
+        "phrase": "mirror surface",
+        "translation": "镜面；镜像曲面"
+      },
+      {
+        "phrase": "rearview mirror",
+        "translation": "（车辆）后视镜"
+      }
+    ]
+  },
+  {
+    "word": "commerce",
+    "phonetic": "",
+    "meaning": "n. 商业，贸易；交际，交往",
+    "translations": [
+      {
+        "translation": "商业，贸易；交际，交往",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "industry and commerce",
+        "translation": "工商业"
+      },
+      {
+        "phrase": "electronic commerce",
+        "translation": "电子商务"
+      },
+      {
+        "phrase": "ministry of commerce",
+        "translation": "商业部"
+      }
+    ]
+  },
+  {
+    "word": "commercial",
+    "phonetic": "",
+    "meaning": "adj. 商业的；商务的；可获利的; n. 广告节目",
+    "translations": [
+      {
+        "translation": "商业的；商务的；可获利的",
+        "type": "adj"
+      },
+      {
+        "translation": "广告节目",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "commercial bank",
+        "translation": "商业银行"
+      },
+      {
+        "phrase": "industrial and commercial bank",
+        "translation": "工商银行"
+      },
+      {
+        "phrase": "commercial value",
+        "translation": "市场价值；经济价值；出售价格"
+      }
+    ]
+  },
+  {
+    "word": "emerge",
+    "phonetic": "",
+    "meaning": "v. 显现,浮现;暴露;形成;",
+    "translations": [
+      {
+        "translation": "显现,浮现;暴露;形成;",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "emerge from",
+        "translation": "自…出现；从…显露出来"
+      },
+      {
+        "phrase": "emerge in endlessly",
+        "translation": "层出不穷"
+      }
+    ]
+  },
+  {
+    "word": "emergency",
+    "phonetic": "",
+    "meaning": "n. 紧急情况,突然事件,非常时刻",
+    "translations": [
+      {
+        "translation": "紧急情况,突然事件,非常时刻",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in an emergency",
+        "translation": "在紧急情况下"
+      },
+      {
+        "phrase": "emergency response",
+        "translation": "应急响应"
+      },
+      {
+        "phrase": "in emergency",
+        "translation": "在紧急情况下"
+      }
+    ]
+  },
+  {
+    "word": "immerse",
+    "phonetic": "",
+    "meaning": "v. 使沉浸在;使浸没",
+    "translations": [
+      {
+        "translation": "使沉浸在;使浸没",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "immerse in",
+        "translation": "全神贯注于，专心于；把…浸入水中"
+      }
+    ]
+  },
+  {
+    "word": "merchandise",
+    "phonetic": "",
+    "meaning": "n. 商品,货物",
+    "translations": [
+      {
+        "translation": "商品,货物",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "general merchandise",
+        "translation": "杂货；日用商品"
+      },
+      {
+        "phrase": "merchandise trade",
+        "translation": "商品贸易"
+      },
+      {
+        "phrase": "merchandise sales",
+        "translation": "商品销售，销货"
+      }
+    ]
+  },
+  {
+    "word": "merchant",
+    "phonetic": "",
+    "meaning": "n. 商人,零售商",
+    "translations": [
+      {
+        "translation": "商人,零售商",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "merchant ship",
+        "translation": "商船"
+      },
+      {
+        "phrase": "merchant marine",
+        "translation": "（一个国家的）商船，商船队"
+      },
+      {
+        "phrase": "merchant bank",
+        "translation": "商业银行"
+      }
+    ]
+  },
+  {
+    "word": "mercy",
+    "phonetic": "",
+    "meaning": "n. 仁慈,怜悯,宽恕",
+    "translations": [
+      {
+        "translation": "仁慈,怜悯,宽恕",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "at the mercy of",
+        "translation": "受…支配"
+      },
+      {
+        "phrase": "without mercy",
+        "translation": "残忍地；毫不留情地"
+      },
+      {
+        "phrase": "have mercy on",
+        "translation": "对…怜悯"
+      }
+    ]
+  },
+  {
+    "word": "mere",
+    "phonetic": "",
+    "meaning": "adj. 纯粹的;仅仅,只不过",
+    "translations": [
+      {
+        "translation": "纯粹的;仅仅,只不过",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "mere trifle",
+        "translation": "小意思"
+      },
+      {
+        "phrase": "a mere nobody",
+        "translation": "微不足道的人"
+      }
+    ]
+  },
+  {
+    "word": "merely",
+    "phonetic": "",
+    "meaning": "adv. 仅仅，只不过",
+    "translations": [
+      {
+        "translation": "仅仅，只不过",
+        "type": "adv"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "merge",
+    "phonetic": "",
+    "meaning": "v. (使)结合，(使)合并，(使)合为一体",
+    "translations": [
+      {
+        "translation": "(使)结合，(使)合并，(使)合为一体",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "merge into",
+        "translation": "并入；结合"
+      },
+      {
+        "phrase": "merge with",
+        "translation": "融入（车流中）；与…结合；于…联合"
+      },
+      {
+        "phrase": "merge together",
+        "translation": "混合起来"
+      }
+    ]
+  },
+  {
+    "word": "merit",
+    "phonetic": "",
+    "meaning": "n. 优点,价值,功绩; v. 值得,应得",
+    "translations": [
+      {
+        "translation": "优点,价值,功绩",
+        "type": "n"
+      },
+      {
+        "translation": "值得,应得",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "on its merits",
+        "translation": "根据事物本身的优缺点；按照事情的是非曲直"
+      },
+      {
+        "phrase": "merit and demerit",
+        "translation": "优缺点"
+      },
+      {
+        "phrase": "have the merits",
+        "translation": "【法律】在诉讼中证明自己有理"
+      }
+    ]
+  },
+  {
+    "word": "merry",
+    "phonetic": "",
+    "meaning": "adj. 欢乐的,愉快的",
+    "translations": [
+      {
+        "translation": "欢乐的,愉快的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "merry christmas",
+        "translation": "圣诞快乐"
+      },
+      {
+        "phrase": "make merry",
+        "translation": "作乐；尽情欢乐"
+      },
+      {
+        "phrase": "merry chrismas",
+        "translation": "圣诞节快乐"
+      }
+    ]
+  },
+  {
+    "word": "submerge",
+    "phonetic": "",
+    "meaning": "v. 沉没,淹没;潜入",
+    "translations": [
+      {
+        "translation": "沉没,淹没;潜入",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "summer",
+    "phonetic": "",
+    "meaning": "n. 夏天，夏季; adj. 夏季的",
+    "translations": [
+      {
+        "translation": "夏天，夏季",
+        "type": "n"
+      },
+      {
+        "translation": "夏季的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in summer",
+        "translation": "在夏天；在夏季"
+      },
+      {
+        "phrase": "last summer",
+        "translation": "去年夏天；去年暑假"
+      },
+      {
+        "phrase": "summer vacation",
+        "translation": "暑假"
+      }
+    ]
+  },
+  {
+    "word": "memo",
+    "phonetic": "",
+    "meaning": "n. (randum)备忘录",
+    "translations": [
+      {
+        "translation": "(randum)备忘录",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "exchange memo",
+        "translation": "外汇兑换水单"
+      },
+      {
+        "phrase": "memo pad",
+        "translation": "记事簿，便笺"
+      },
+      {
+        "phrase": "weight memo",
+        "translation": "[经]货运重量单"
+      }
+    ]
+  },
+  {
+    "word": "commemorate",
+    "phonetic": "",
+    "meaning": "v. 纪念，庆祝",
+    "translations": [
+      {
+        "translation": "纪念，庆祝",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "member",
+    "phonetic": "",
+    "meaning": "n. 成员,会员",
+    "translations": [
+      {
+        "translation": "成员,会员",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "party member",
+        "translation": "党员"
+      },
+      {
+        "phrase": "family member",
+        "translation": "家庭成员；家族成员"
+      },
+      {
+        "phrase": "staff member",
+        "translation": "职员"
+      }
+    ]
+  },
+  {
+    "word": "membership",
+    "phonetic": "",
+    "meaning": "n. 会员资格,成员资格",
+    "translations": [
+      {
+        "translation": "会员资格,成员资格",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "membership function",
+        "translation": "从属函数；属籍函数"
+      },
+      {
+        "phrase": "membership fee",
+        "translation": "会员费；入会费"
+      },
+      {
+        "phrase": "degree of membership",
+        "translation": "隶属程度"
+      }
+    ]
+  },
+  {
+    "word": "memorial",
+    "phonetic": "",
+    "meaning": "adj. 记忆的,纪念的; n. 纪念物,纪念碑,纪念馆",
+    "translations": [
+      {
+        "translation": "记忆的,纪念的",
+        "type": "adj"
+      },
+      {
+        "translation": "纪念物,纪念碑,纪念馆",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "memorial hall",
+        "translation": "纪念馆；纪念堂"
+      },
+      {
+        "phrase": "memorial day",
+        "translation": "n. （美国）阵亡将士纪念日"
+      },
+      {
+        "phrase": "memorial service",
+        "translation": "追悼会；追思礼拜"
+      }
+    ]
+  },
+  {
+    "word": "memory",
+    "phonetic": "",
+    "meaning": "n. 记忆,记忆力;回忆;存储(器)",
+    "translations": [
+      {
+        "translation": "记忆,记忆力;回忆;存储(器)",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in memory of",
+        "translation": "纪念…"
+      },
+      {
+        "phrase": "shape memory",
+        "translation": "形状记忆；外形记忆"
+      },
+      {
+        "phrase": "from memory",
+        "translation": "根据记忆"
+      }
+    ]
+  },
+  {
+    "word": "remember",
+    "phonetic": "",
+    "meaning": "v. 记住;(to)转达问候,代…致意,代…问好",
+    "translations": [
+      {
+        "translation": "记住;(to)转达问候,代…致意,代…问好",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "remember oneself",
+        "translation": "约束自己；检点；(犯过失后)反省；仔细想一想；恢复镇定"
+      },
+      {
+        "phrase": "remember someone to someone",
+        "translation": "代某人向某人致意(或问好)"
+      },
+      {
+        "phrase": "remember to do",
+        "translation": "记得要做某事；记得去做某事"
+      }
+    ]
+  },
+  {
+    "word": "metre",
+    "phonetic": "",
+    "meaning": "n. (meter)米，公尺；仪表，计量器",
+    "translations": [
+      {
+        "translation": "(meter)米，公尺；仪表，计量器",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "square metre",
+        "translation": "平方米"
+      },
+      {
+        "phrase": "cubic metre",
+        "translation": "立方米"
+      }
+    ]
+  },
+  {
+    "word": "arithmetic",
+    "phonetic": "",
+    "meaning": "n. 算术，四则运算",
+    "translations": [
+      {
+        "translation": "算术，四则运算",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "arithmetic mean",
+        "translation": "算术均数；等差中项"
+      },
+      {
+        "phrase": "arithmetic average",
+        "translation": "算术平均数"
+      },
+      {
+        "phrase": "arithmetic operation",
+        "translation": "算术运算"
+      }
+    ]
+  },
+  {
+    "word": "cemetery",
+    "phonetic": "",
+    "meaning": "n. 坟墓，墓地，坟场",
+    "translations": [
+      {
+        "translation": "坟墓，墓地，坟场",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "arlington national cemetery",
+        "translation": "美国阿灵顿国家公墓"
+      }
+    ]
+  },
+  {
+    "word": "centimetre",
+    "phonetic": "",
+    "meaning": "n. (centimeter)厘米",
+    "translations": [
+      {
+        "translation": "(centimeter)厘米",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "diameter",
+    "phonetic": "",
+    "meaning": "n. 直径",
+    "translations": [
+      {
+        "translation": "直径",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "particle diameter",
+        "translation": "粒径；颗粒直径，粒子直径"
+      },
+      {
+        "phrase": "pipe diameter",
+        "translation": "管直径"
+      },
+      {
+        "phrase": "inner diameter",
+        "translation": "内径"
+      }
+    ]
+  },
+  {
+    "word": "geometry",
+    "phonetic": "",
+    "meaning": "n. 几何(学)",
+    "translations": [
+      {
+        "translation": "几何(学)",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "fractal geometry",
+        "translation": "[数]分形几何；碎形几何；不规则碎片几何体"
+      },
+      {
+        "phrase": "differential geometry",
+        "translation": "微分几何"
+      },
+      {
+        "phrase": "analytic geometry",
+        "translation": "解析几何；分析几何学"
+      }
+    ]
+  },
+  {
+    "word": "helmet",
+    "phonetic": "",
+    "meaning": "n. 头盔,钢盔",
+    "translations": [
+      {
+        "translation": "头盔,钢盔",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "safety helmet",
+        "translation": "安全帽，安全头盔"
+      },
+      {
+        "phrase": "motorcycle helmet",
+        "translation": "摩托车头盔"
+      },
+      {
+        "phrase": "welding helmet",
+        "translation": "n. 焊工帽；焊工面罩"
+      }
+    ]
+  },
+  {
+    "word": "kilometre",
+    "phonetic": "",
+    "meaning": "n. (kilometer) 公里，千米(略作km)",
+    "translations": [
+      {
+        "translation": "(kilometer) 公里，千米(略作km)",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "square kilometre",
+        "translation": "平方公里"
+      }
+    ]
+  },
+  {
+    "word": "metal",
+    "phonetic": "",
+    "meaning": "n. 金属,金属制品",
+    "translations": [
+      {
+        "translation": "金属,金属制品",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "heavy metal",
+        "translation": "重金属摇滚乐"
+      },
+      {
+        "phrase": "sheet metal",
+        "translation": "金属薄片"
+      },
+      {
+        "phrase": "nonferrous metal",
+        "translation": "有色金属；非铁金属"
+      }
+    ]
+  },
+  {
+    "word": "metaphor",
+    "phonetic": "",
+    "meaning": "n. 隐喻，暗喻",
+    "translations": [
+      {
+        "translation": "隐喻，暗喻",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "method",
+    "phonetic": "",
+    "meaning": "n. 方法,办法",
+    "translations": [
+      {
+        "translation": "方法,办法",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "analysis method",
+        "translation": "解析法；离子微探针质谱仪分析法"
+      },
+      {
+        "phrase": "design method",
+        "translation": "设计方法，设计法"
+      },
+      {
+        "phrase": "finite element method (FEM)",
+        "translation": "有限元素法"
+      }
+    ]
+  },
+  {
+    "word": "metric",
+    "phonetic": "",
+    "meaning": "adj. 米制的,公制的",
+    "translations": [
+      {
+        "translation": "米制的,公制的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "metric system",
+        "translation": "公制；米制；十进制"
+      },
+      {
+        "phrase": "metric space",
+        "translation": "度量空间"
+      },
+      {
+        "phrase": "metric ton",
+        "translation": "n. 公吨"
+      }
+    ]
+  },
+  {
+    "word": "metropolitan",
+    "phonetic": "",
+    "meaning": "adj. 首都的,主要都市的,大城市",
+    "translations": [
+      {
+        "translation": "首都的,主要都市的,大城市",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "metropolitan area",
+        "translation": "大城市区域，大都市区；大都会区"
+      },
+      {
+        "phrase": "metropolitan museum",
+        "translation": "大都会博物馆"
+      },
+      {
+        "phrase": "metropolitan police",
+        "translation": "都市警察"
+      }
+    ]
+  },
+  {
+    "word": "millimeter",
+    "phonetic": "",
+    "meaning": "n. (millimetre)毫米",
+    "translations": [
+      {
+        "translation": "(millimetre)毫米",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "millimeter wave",
+        "translation": "毫米波"
+      },
+      {
+        "phrase": "square millimeter",
+        "translation": "平方毫米"
+      }
+    ]
+  },
+  {
+    "word": "parameter",
+    "phonetic": "",
+    "meaning": "n. 参数,参量",
+    "translations": [
+      {
+        "translation": "参数,参量",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "parameter estimation",
+        "translation": "参数估计"
+      },
+      {
+        "phrase": "technical parameter",
+        "translation": "技术参数；技术参考"
+      },
+      {
+        "phrase": "technological parameter",
+        "translation": "工艺参数"
+      }
+    ]
+  },
+  {
+    "word": "symmetry",
+    "phonetic": "",
+    "meaning": "n. 对称(性);匀称,整齐",
+    "translations": [
+      {
+        "translation": "对称(性);匀称,整齐",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "axial symmetry",
+        "translation": "轴对称性"
+      },
+      {
+        "phrase": "rotational symmetry",
+        "translation": "旋转对称；轴对称"
+      },
+      {
+        "phrase": "symmetry axis",
+        "translation": "对称轴"
+      }
+    ]
+  },
+  {
+    "word": "thermometer",
+    "phonetic": "",
+    "meaning": "n. 温度计",
+    "translations": [
+      {
+        "translation": "温度计",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "infrared thermometer",
+        "translation": "红外测温仪；红外线温度计"
+      },
+      {
+        "phrase": "digital thermometer",
+        "translation": "数字（式）温度计"
+      },
+      {
+        "phrase": "clinical thermometer",
+        "translation": "体温计，体温表"
+      }
+    ]
+  },
+  {
+    "word": "middle",
+    "phonetic": "",
+    "meaning": "n. n&adj中间(的),当中(的)",
+    "translations": [
+      {
+        "translation": "n&adj中间(的),当中(的)",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in the middle",
+        "translation": "在中间；在中部"
+      },
+      {
+        "phrase": "in the middle of",
+        "translation": "在…中间"
+      },
+      {
+        "phrase": "middle school",
+        "translation": "n. 中学"
+      }
+    ]
+  },
+  {
+    "word": "amid",
+    "phonetic": "",
+    "meaning": "prep. 在…中间，在…之中，被…围绕",
+    "translations": [
+      {
+        "translation": "在…中间，在…之中，被…围绕",
+        "type": "prep"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "humid",
+    "phonetic": "",
+    "meaning": "adj. 湿的,湿气重的",
+    "translations": [
+      {
+        "translation": "湿的,湿气重的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "humid climate",
+        "translation": "湿润气候；潮湿气候"
+      },
+      {
+        "phrase": "humid air",
+        "translation": "湿空气"
+      },
+      {
+        "phrase": "humid heat",
+        "translation": "湿比热；湿润比热"
+      }
+    ]
+  },
+  {
+    "word": "humidity",
+    "phonetic": "",
+    "meaning": "n. 湿气,湿度",
+    "translations": [
+      {
+        "translation": "湿气,湿度",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "temperature and humidity",
+        "translation": "温度与湿度"
+      },
+      {
+        "phrase": "relative humidity",
+        "translation": "相对湿度"
+      },
+      {
+        "phrase": "high humidity",
+        "translation": "高湿度；湿度大；最高湿度"
+      }
+    ]
+  },
+  {
+    "word": "midst",
+    "phonetic": "",
+    "meaning": "n. 中间,当中",
+    "translations": [
+      {
+        "translation": "中间,当中",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in the midst of",
+        "translation": "在…之中"
+      },
+      {
+        "phrase": "into the midst of",
+        "translation": "在…当中，入…之中"
+      },
+      {
+        "phrase": "from the midst of",
+        "translation": "出自…之中，从…当中"
+      }
+    ]
+  },
+  {
+    "word": "pyramid",
+    "phonetic": "",
+    "meaning": "n. 金字塔",
+    "translations": [
+      {
+        "translation": "金字塔",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "the great pyramid",
+        "translation": "大金字塔"
+      },
+      {
+        "phrase": "pyramid scheme",
+        "translation": "金字塔骗局；非法传销"
+      },
+      {
+        "phrase": "pyramid selling",
+        "translation": "宝塔式销售；金字塔销售法"
+      }
+    ]
+  },
+  {
+    "word": "comedy",
+    "phonetic": "",
+    "meaning": "n. 喜剧;喜剧性事件",
+    "translations": [
+      {
+        "translation": "喜剧;喜剧性事件",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "divine comedy",
+        "translation": "n. 神曲（意大利诗人但丁作的叙事诗）"
+      },
+      {
+        "phrase": "situation comedy",
+        "translation": "n. （广播、电视的）系列幽默剧"
+      },
+      {
+        "phrase": "comedy film",
+        "translation": "喜剧片"
+      }
+    ]
+  },
+  {
+    "word": "immediate",
+    "phonetic": "",
+    "meaning": "adj. 立即的,即时的;直接的,最接近的",
+    "translations": [
+      {
+        "translation": "立即的,即时的;直接的,最接近的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "immediate effect",
+        "translation": "即刻效果；[生物化学]即时效应"
+      },
+      {
+        "phrase": "immediate attention",
+        "translation": "注视；及时关注"
+      },
+      {
+        "phrase": "immediate cause",
+        "translation": "直接原因"
+      }
+    ]
+  },
+  {
+    "word": "medal",
+    "phonetic": "",
+    "meaning": "n. 奖章,勋章,纪念章",
+    "translations": [
+      {
+        "translation": "奖章,勋章,纪念章",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "gold medal",
+        "translation": "金牌；金质奖章"
+      },
+      {
+        "phrase": "silver medal",
+        "translation": "银质奖章；银牌奖"
+      },
+      {
+        "phrase": "bronze medal",
+        "translation": "铜牌；铜质奖章"
+      }
+    ]
+  },
+  {
+    "word": "medical",
+    "phonetic": "",
+    "meaning": "adj. 医学的，医疗的，医药的；内科的",
+    "translations": [
+      {
+        "translation": "医学的，医疗的，医药的；内科的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "medical treatment",
+        "translation": "治疗，医疗"
+      },
+      {
+        "phrase": "medical equipment",
+        "translation": "医疗设备；医疗器材"
+      },
+      {
+        "phrase": "medical service",
+        "translation": "医疗服务"
+      }
+    ]
+  },
+  {
+    "word": "medicine",
+    "phonetic": "",
+    "meaning": "n. 内服药,医药;医术;医学,内科学",
+    "translations": [
+      {
+        "translation": "内服药,医药;医术;医学,内科学",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "chinese medicine",
+        "translation": "中医"
+      },
+      {
+        "phrase": "traditional medicine",
+        "translation": "传统医学；传统医药"
+      },
+      {
+        "phrase": "western medicine",
+        "translation": "西医；西药"
+      }
+    ]
+  },
+  {
+    "word": "medieval",
+    "phonetic": "",
+    "meaning": "adj. 中世纪的,中古(时代)的,老式的,原始的",
+    "translations": [
+      {
+        "translation": "中世纪的,中古(时代)的,老式的,原始的",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "meditate",
+    "phonetic": "",
+    "meaning": "v. 想,考虑,(尤指宗教上的)沉思,冥想",
+    "translations": [
+      {
+        "translation": "想,考虑,(尤指宗教上的)沉思,冥想",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "meditation",
+    "phonetic": "",
+    "meaning": "n. 熟虑;默想,沉思;(pl.)冥想录",
+    "translations": [
+      {
+        "translation": "熟虑;默想,沉思;(pl.)冥想录",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "medium",
+    "phonetic": "",
+    "meaning": "n. 媒体,方法,媒介,介质; adj. 中等的",
+    "translations": [
+      {
+        "translation": "媒体,方法,媒介,介质",
+        "type": "n"
+      },
+      {
+        "translation": "中等的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "medium sized",
+        "translation": "adj. 中等大小的"
+      },
+      {
+        "phrase": "culture medium",
+        "translation": "培养基（培养微生物的养料）"
+      },
+      {
+        "phrase": "medium size",
+        "translation": "中号，中码；中号尺码"
+      }
+    ]
+  },
+  {
+    "word": "mode",
+    "phonetic": "",
+    "meaning": "n. 方式,式样",
+    "translations": [
+      {
+        "translation": "方式,式样",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "operation mode",
+        "translation": "操作方式"
+      },
+      {
+        "phrase": "control mode",
+        "translation": "控制方式；调节状态"
+      },
+      {
+        "phrase": "mode of operation",
+        "translation": "操作方式；运行方式"
+      }
+    ]
+  },
+  {
+    "word": "accommodate",
+    "phonetic": "",
+    "meaning": "v. 向…提供住处；对...予以照顾性考虑",
+    "translations": [
+      {
+        "translation": "向…提供住处；对...予以照顾性考虑",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "accommodate with",
+        "translation": "向…供应；提供；以…供应"
+      }
+    ]
+  },
+  {
+    "word": "accommodation",
+    "phonetic": "",
+    "meaning": "n. 住宿，留宿；膳宿供应",
+    "translations": [
+      {
+        "translation": "住宿，留宿；膳宿供应",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "accommodation space",
+        "translation": "起居舱室"
+      },
+      {
+        "phrase": "hostel accommodation",
+        "translation": "宿舍单位"
+      }
+    ]
+  },
+  {
+    "word": "commodity",
+    "phonetic": "",
+    "meaning": "n. 日用品；商品；农/矿产品；有用之物",
+    "translations": [
+      {
+        "translation": "日用品；商品；农/矿产品；有用之物",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "commodity inspection",
+        "translation": "商品检验"
+      },
+      {
+        "phrase": "commodity economy",
+        "translation": "商品经济"
+      },
+      {
+        "phrase": "commodity price",
+        "translation": "商品价格"
+      }
+    ]
+  },
+  {
+    "word": "model",
+    "phonetic": "",
+    "meaning": "n. 样式,型;模范;模型,原型;模特; v. 模仿",
+    "translations": [
+      {
+        "translation": "样式,型;模范;模型,原型;模特",
+        "type": "n"
+      },
+      {
+        "translation": "模仿",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "mathematical model",
+        "translation": "数学模型"
+      },
+      {
+        "phrase": "utility model",
+        "translation": "实用新型（约十个国家法律承认的一种保护发明名称，期限五年）"
+      },
+      {
+        "phrase": "new model",
+        "translation": "新模型；新型号"
+      }
+    ]
+  },
+  {
+    "word": "moderate",
+    "phonetic": "",
+    "meaning": "adj. 有节制的,中等的,适度的,温和的,稳健的",
+    "translations": [
+      {
+        "translation": "有节制的,中等的,适度的,温和的,稳健的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "moderate price",
+        "translation": "公平价格；公道价格"
+      },
+      {
+        "phrase": "moderate temperature",
+        "translation": "中等温度"
+      },
+      {
+        "phrase": "moderate intensity",
+        "translation": "中等强度"
+      }
+    ]
+  },
+  {
+    "word": "modern",
+    "phonetic": "",
+    "meaning": "adj. 现代的,近代的,新式的",
+    "translations": [
+      {
+        "translation": "现代的,近代的,新式的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "modern society",
+        "translation": "现代社会"
+      },
+      {
+        "phrase": "modern chinese",
+        "translation": "现代汉语"
+      },
+      {
+        "phrase": "modern science",
+        "translation": "现代科学；近代科学"
+      }
+    ]
+  },
+  {
+    "word": "modernization",
+    "phonetic": "",
+    "meaning": "n. (modernisation)现代化",
+    "translations": [
+      {
+        "translation": "(modernisation)现代化",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "level of modernization",
+        "translation": "现代化水平"
+      }
+    ]
+  },
+  {
+    "word": "modest",
+    "phonetic": "",
+    "meaning": "adj. 谦虚的,有节制的",
+    "translations": [
+      {
+        "translation": "谦虚的,有节制的",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "mood",
+    "phonetic": "",
+    "meaning": "n. 心情,情绪;语气",
+    "translations": [
+      {
+        "translation": "心情,情绪;语气",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "bad mood",
+        "translation": "坏心情，坏情绪"
+      },
+      {
+        "phrase": "in the mood",
+        "translation": "兴致勃勃"
+      },
+      {
+        "phrase": "in a good mood",
+        "translation": "心情好，好心情"
+      }
+    ]
+  },
+  {
+    "word": "modify",
+    "phonetic": "",
+    "meaning": "v. 更改,修改,修饰",
+    "translations": [
+      {
+        "translation": "更改,修改,修饰",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "module",
+    "phonetic": "",
+    "meaning": "n. 组件，模块，模件；(航天器的)舱",
+    "translations": [
+      {
+        "translation": "组件，模块，模件；(航天器的)舱",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "control module",
+        "translation": "控制模块；控制部件"
+      },
+      {
+        "phrase": "communication module",
+        "translation": "[计]通信模块"
+      },
+      {
+        "phrase": "display module",
+        "translation": "显示组件，显示模组"
+      }
+    ]
+  },
+  {
+    "word": "moon",
+    "phonetic": "",
+    "meaning": "n. (加the)月球，月亮；卫星",
+    "translations": [
+      {
+        "translation": "(加the)月球，月亮；卫星",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "on the moon",
+        "translation": "在月球上"
+      },
+      {
+        "phrase": "full moon",
+        "translation": "满月"
+      },
+      {
+        "phrase": "moon cake",
+        "translation": "n. 月饼"
+      }
+    ]
+  },
+  {
+    "word": "among",
+    "phonetic": "",
+    "meaning": "prep. 在…之中；在一群(组)之中；于…之间",
+    "translations": [
+      {
+        "translation": "在…之中；在一群(组)之中；于…之间",
+        "type": "prep"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "from among",
+        "translation": "从…中间；从…当中"
+      },
+      {
+        "phrase": "among others",
+        "translation": "其中；尤其；除了别的之外"
+      },
+      {
+        "phrase": "among the rest",
+        "translation": "adv. 在其中"
+      }
+    ]
+  },
+  {
+    "word": "ceremony",
+    "phonetic": "",
+    "meaning": "n. 典礼,仪式;礼节,礼仪",
+    "translations": [
+      {
+        "translation": "典礼,仪式;礼节,礼仪",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "opening ceremony",
+        "translation": "开学典礼；开幕式；开幕仪式；开幕典礼"
+      },
+      {
+        "phrase": "wedding ceremony",
+        "translation": "n. 结婚典礼"
+      },
+      {
+        "phrase": "signing ceremony",
+        "translation": "签字仪式；签约仪式"
+      }
+    ]
+  },
+  {
+    "word": "common",
+    "phonetic": "",
+    "meaning": "adj. 普通的；共同的；一般的；n.公有地",
+    "translations": [
+      {
+        "translation": "普通的；共同的；一般的；n.公有地",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in common",
+        "translation": "共同的；共有的"
+      },
+      {
+        "phrase": "common people",
+        "translation": "大众，平民"
+      },
+      {
+        "phrase": "common ground",
+        "translation": "（争论双方的）共同基础；一致之处"
+      }
+    ]
+  },
+  {
+    "word": "commonplace",
+    "phonetic": "",
+    "meaning": "adj. 普通的n.寻常的事物，平庸的东西",
+    "translations": [
+      {
+        "translation": "普通的n.寻常的事物，平庸的东西",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "commonwealth",
+    "phonetic": "",
+    "meaning": "n. 共和国,联邦,共同体",
+    "translations": [
+      {
+        "translation": "共和国,联邦,共同体",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "british commonwealth",
+        "translation": "英联邦"
+      },
+      {
+        "phrase": "commonwealth games",
+        "translation": "英联邦运动会"
+      },
+      {
+        "phrase": "commonwealth of independent states",
+        "translation": "n. 独联体；独立国家联合体"
+      }
+    ]
+  },
+  {
+    "word": "demonstrate",
+    "phonetic": "",
+    "meaning": "v. 论证,证实;演示,说明",
+    "translations": [
+      {
+        "translation": "论证,证实;演示,说明",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "harmony",
+    "phonetic": "",
+    "meaning": "n. 协调,和谐;融洽",
+    "translations": [
+      {
+        "translation": "协调,和谐;融洽",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in harmony",
+        "translation": "adj. 和谐无间"
+      },
+      {
+        "phrase": "social harmony",
+        "translation": "社会和谐"
+      },
+      {
+        "phrase": "in harmony with",
+        "translation": "与…协调；与…一致"
+      }
+    ]
+  },
+  {
+    "word": "monarch",
+    "phonetic": "",
+    "meaning": "n. 帝王，君主，最高统治者",
+    "translations": [
+      {
+        "translation": "帝王，君主，最高统治者",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "monarch butterfly",
+        "translation": "黑脉金斑蝶，王蝶"
+      }
+    ]
+  },
+  {
+    "word": "Monday",
+    "phonetic": "",
+    "meaning": "n. 星期一",
+    "translations": [
+      {
+        "translation": "星期一",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "on monday",
+        "translation": "在星期一"
+      },
+      {
+        "phrase": "next monday",
+        "translation": "下周一"
+      },
+      {
+        "phrase": "monday morning",
+        "translation": "星期一的早晨"
+      }
+    ]
+  },
+  {
+    "word": "monetary",
+    "phonetic": "",
+    "meaning": "adj. 金融的,货币的",
+    "translations": [
+      {
+        "translation": "金融的,货币的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "monetary policy",
+        "translation": "货币政策"
+      },
+      {
+        "phrase": "international monetary fund",
+        "translation": "国际货币基金组织"
+      },
+      {
+        "phrase": "monetary system",
+        "translation": "货币制度"
+      }
+    ]
+  },
+  {
+    "word": "money",
+    "phonetic": "",
+    "meaning": "n. 货币,钱",
+    "translations": [
+      {
+        "translation": "货币,钱",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "make money",
+        "translation": "赚钱"
+      },
+      {
+        "phrase": "for money",
+        "translation": "现款交易"
+      },
+      {
+        "phrase": "any money",
+        "translation": "[口语]多少钱都行"
+      }
+    ]
+  },
+  {
+    "word": "monitor",
+    "phonetic": "",
+    "meaning": "n. 班长;监听器,监视器; v. 监控,监测",
+    "translations": [
+      {
+        "translation": "班长;监听器,监视器",
+        "type": "n"
+      },
+      {
+        "translation": "监控,监测",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "monitor system",
+        "translation": "监控系统；执行系统"
+      },
+      {
+        "phrase": "computer monitor",
+        "translation": "电脑显示器"
+      },
+      {
+        "phrase": "remote monitor",
+        "translation": "遥控监视器；远距离监控装置"
+      }
+    ]
+  },
+  {
+    "word": "monkey",
+    "phonetic": "",
+    "meaning": "n. 猴子",
+    "translations": [
+      {
+        "translation": "猴子",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "monkey business",
+        "translation": "胡闹，骗人的把戏；欺骗；恶作剧"
+      },
+      {
+        "phrase": "monkey king",
+        "translation": "美猴王，孙悟空"
+      },
+      {
+        "phrase": "golden monkey",
+        "translation": "金丝猴"
+      }
+    ]
+  },
+  {
+    "word": "monopoly",
+    "phonetic": "",
+    "meaning": "n. 垄断,专卖,专利权,专利事业",
+    "translations": [
+      {
+        "translation": "垄断,专卖,专利权,专利事业",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "natural monopoly",
+        "translation": "自然独占；天然垄断"
+      },
+      {
+        "phrase": "monopoly position",
+        "translation": "垄断地位"
+      },
+      {
+        "phrase": "monopoly power",
+        "translation": "垄断势力"
+      }
+    ]
+  },
+  {
+    "word": "monotonous",
+    "phonetic": "",
+    "meaning": "adj. 单调的,无变化的",
+    "translations": [
+      {
+        "translation": "单调的,无变化的",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "monster",
+    "phonetic": "",
+    "meaning": "n. 怪物,妖怪,畸形的动植物",
+    "translations": [
+      {
+        "translation": "怪物,妖怪,畸形的动植物",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "loch ness monster",
+        "translation": "尼斯湖水怪（相传在尼斯湖出现的一种巨型怪兽）"
+      },
+      {
+        "phrase": "green-eyed monster",
+        "translation": "n. 嫉妒"
+      },
+      {
+        "phrase": "sea monster",
+        "translation": "n. 海怪"
+      }
+    ]
+  },
+  {
+    "word": "month",
+    "phonetic": "",
+    "meaning": "n. 月,月份",
+    "translations": [
+      {
+        "translation": "月,月份",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "last month",
+        "translation": "上个月"
+      },
+      {
+        "phrase": "next month",
+        "translation": "下月"
+      },
+      {
+        "phrase": "per month",
+        "translation": "每月"
+      }
+    ]
+  },
+  {
+    "word": "monthly",
+    "phonetic": "",
+    "meaning": "adj. 每月的; adv. 每月一次,按月",
+    "translations": [
+      {
+        "translation": "每月的",
+        "type": "adj"
+      },
+      {
+        "translation": "每月一次,按月",
+        "type": "adv"
+      },
+      {
+        "translation": "月刊",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "monument",
+    "phonetic": "",
+    "meaning": "n. 纪念碑,纪念馆,遗迹,不朽的业绩",
+    "translations": [
+      {
+        "translation": "纪念碑,纪念馆,遗迹,不朽的业绩",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "washington monument",
+        "translation": "华盛顿纪念碑"
+      },
+      {
+        "phrase": "national monument",
+        "translation": "国立纪念物，国家历史文物"
+      },
+      {
+        "phrase": "historic monument",
+        "translation": "历史碑石"
+      }
+    ]
+  },
+  {
+    "word": "summon",
+    "phonetic": "",
+    "meaning": "v. 召唤;传讯,传唤;鼓起(勇气),振作(精神)",
+    "translations": [
+      {
+        "translation": "召唤;传讯,传唤;鼓起(勇气),振作(精神)",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "summon up",
+        "translation": "鼓起，唤起；振作"
+      }
+    ]
+  },
+  {
+    "word": "testimony",
+    "phonetic": "",
+    "meaning": "n. 证据,证词;表明,说明",
+    "translations": [
+      {
+        "translation": "证据,证词;表明,说明",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "expert testimony",
+        "translation": "专家证词；鉴定人证据；专家作证"
+      },
+      {
+        "phrase": "bear testimony to",
+        "translation": "证明；担保"
+      }
+    ]
+  },
+  {
+    "word": "move",
+    "phonetic": "",
+    "meaning": "v. 移动,迁移;活动;感动; n. 移动,活动,行动",
+    "translations": [
+      {
+        "translation": "移动,迁移;活动;感动",
+        "type": "v"
+      },
+      {
+        "translation": "移动,活动,行动",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "on the move",
+        "translation": "在活动中，在进行中；四处奔波"
+      },
+      {
+        "phrase": "move on",
+        "translation": "往前走，前进；出发，离开"
+      },
+      {
+        "phrase": "move in",
+        "translation": "生活于；周旋于；向内投"
+      }
+    ]
+  },
+  {
+    "word": "movement",
+    "phonetic": "",
+    "meaning": "n. 运动,活动;移动,迁移",
+    "translations": [
+      {
+        "translation": "运动,活动;移动,迁移",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "movie",
+    "phonetic": "",
+    "meaning": "n. 电影,电影院",
+    "translations": [
+      {
+        "translation": "电影,电影院",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "movie star",
+        "translation": "电影明星"
+      },
+      {
+        "phrase": "movie theater",
+        "translation": "n. 电影院"
+      },
+      {
+        "phrase": "see a movie",
+        "translation": "v. 看电影"
+      }
+    ]
+  },
+  {
+    "word": "removal",
+    "phonetic": "",
+    "meaning": "n. 移动,迁居;除去",
+    "translations": [
+      {
+        "translation": "移动,迁居;除去",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "removal efficiency",
+        "translation": "去除效率"
+      },
+      {
+        "phrase": "dust removal",
+        "translation": "除尘，除尘设备"
+      },
+      {
+        "phrase": "ash removal",
+        "translation": "除灰"
+      }
+    ]
+  },
+  {
+    "word": "remove",
+    "phonetic": "",
+    "meaning": "v. 移动,脱掉,调动,免职",
+    "translations": [
+      {
+        "translation": "移动,脱掉,调动,免职",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "remove oneself",
+        "translation": "[戏谑语]挪动挪动;走开,离开：\n\nShe removed herself reluctantly.\n她勉强地走开了。"
+      },
+      {
+        "phrase": "remove all",
+        "translation": "删除所有；全部移除"
+      },
+      {
+        "phrase": "remove from",
+        "translation": "除掉；移动"
+      }
+    ]
+  },
+  {
+    "word": "mob",
+    "phonetic": "",
+    "meaning": "n. 乌合之众(尤指暴力者); v. 围攻，聚众闹事",
+    "translations": [
+      {
+        "translation": "乌合之众(尤指暴力者)",
+        "type": "n"
+      },
+      {
+        "translation": "围攻，聚众闹事",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "mobile",
+    "phonetic": "",
+    "meaning": "adj. 可动的,活动的,运动的",
+    "translations": [
+      {
+        "translation": "可动的,活动的,运动的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "mobile phone",
+        "translation": "手机；行动电话"
+      },
+      {
+        "phrase": "mobile communication",
+        "translation": "移动式通信"
+      },
+      {
+        "phrase": "china mobile",
+        "translation": "中国移动通讯（世界500强之一）"
+      }
+    ]
+  },
+  {
+    "word": "mobilize",
+    "phonetic": "",
+    "meaning": "v. (mobilise)动员,赋予可动性",
+    "translations": [
+      {
+        "translation": "(mobilise)动员,赋予可动性",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "emotion",
+    "phonetic": "",
+    "meaning": "n. 情绪,情感,感情",
+    "translations": [
+      {
+        "translation": "情绪,情感,感情",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "with emotion",
+        "translation": "激动地；感动地"
+      },
+      {
+        "phrase": "intense emotion",
+        "translation": "激情"
+      },
+      {
+        "phrase": "emotion quotient (EQ)",
+        "translation": "情商"
+      }
+    ]
+  },
+  {
+    "word": "motel",
+    "phonetic": "",
+    "meaning": "n. (附有停车场的)汽车旅馆",
+    "translations": [
+      {
+        "translation": "(附有停车场的)汽车旅馆",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "motion",
+    "phonetic": "",
+    "meaning": "n. 运动,动;提议,动议; v. 提议,动议",
+    "translations": [
+      {
+        "translation": "运动,动;提议,动议",
+        "type": "n"
+      },
+      {
+        "translation": "提议,动议",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in motion",
+        "translation": "在开动中，在运转中"
+      },
+      {
+        "phrase": "motion control",
+        "translation": "运动控制，拖动控制；动作控制，移动控制"
+      },
+      {
+        "phrase": "wave motion",
+        "translation": "波动"
+      }
+    ]
+  },
+  {
+    "word": "motivate",
+    "phonetic": "",
+    "meaning": "v. 促动；激励，鼓励，作为…的动机",
+    "translations": [
+      {
+        "translation": "促动；激励，鼓励，作为…的动机",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "motive",
+    "phonetic": "",
+    "meaning": "n. 动机,目的; adj. 发动的,运动的",
+    "translations": [
+      {
+        "translation": "动机,目的",
+        "type": "n"
+      },
+      {
+        "translation": "发动的,运动的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "motive force",
+        "translation": "动力；起动力，原动力"
+      },
+      {
+        "phrase": "motive power",
+        "translation": "动力"
+      },
+      {
+        "phrase": "ulterior motive",
+        "translation": "隐秘不明的动机"
+      }
+    ]
+  },
+  {
+    "word": "motor",
+    "phonetic": "",
+    "meaning": "n. 发动机,电动机",
+    "translations": [
+      {
+        "translation": "发动机,电动机",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "motor vehicle",
+        "translation": "汽车；机动车辆"
+      },
+      {
+        "phrase": "dc motor",
+        "translation": "直流电动机；直流马达；直羚动机"
+      },
+      {
+        "phrase": "electric motor",
+        "translation": "电动机"
+      }
+    ]
+  },
+  {
+    "word": "promote",
+    "phonetic": "",
+    "meaning": "v. 促进,发扬;提升,提拔;增进,助长",
+    "translations": [
+      {
+        "translation": "促进,发扬;提升,提拔;增进,助长",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "promote sales",
+        "translation": "促销；推销商品"
+      },
+      {
+        "phrase": "promote reform",
+        "translation": "促进改革"
+      },
+      {
+        "phrase": "promote cooperation",
+        "translation": "促进合作"
+      }
+    ]
+  },
+  {
+    "word": "remote",
+    "phonetic": "",
+    "meaning": "adj. 远的,遥远的,疏远的,偏僻的,细微的",
+    "translations": [
+      {
+        "translation": "远的,遥远的,疏远的,偏僻的,细微的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "remote sensing",
+        "translation": "遥感；远距离读出"
+      },
+      {
+        "phrase": "remote control",
+        "translation": "n. 遥控；遥控装置"
+      },
+      {
+        "phrase": "remote monitoring",
+        "translation": "远距离遥控"
+      }
+    ]
+  },
+  {
+    "word": "name",
+    "phonetic": "",
+    "meaning": "n. 名字(称/声/义); v. 给…取名；列举；提名",
+    "translations": [
+      {
+        "translation": "名字(称/声/义)",
+        "type": "n"
+      },
+      {
+        "translation": "给…取名；列举；提名",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in the name of",
+        "translation": "以…的名义"
+      },
+      {
+        "phrase": "your name",
+        "translation": "您的姓名"
+      },
+      {
+        "phrase": "name for",
+        "translation": "vt. 以...命名"
+      }
+    ]
+  },
+  {
+    "word": "namely",
+    "phonetic": "",
+    "meaning": "adv. 即,也就是",
+    "translations": [
+      {
+        "translation": "即,也就是",
+        "type": "adv"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "nickname",
+    "phonetic": "",
+    "meaning": "n. 绰号，浑名vt.给…起绰号",
+    "translations": [
+      {
+        "translation": "绰号，浑名vt.给…起绰号",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "ornament",
+    "phonetic": "",
+    "meaning": "v. 装饰,美化; n. 装饰,装饰物",
+    "translations": [
+      {
+        "translation": "装饰,美化",
+        "type": "v"
+      },
+      {
+        "translation": "装饰,装饰物",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "anonymous",
+    "phonetic": "",
+    "meaning": "adj. 匿名的，无名的，姓氏不明的",
+    "translations": [
+      {
+        "translation": "匿名的，无名的，姓氏不明的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "alcoholics anonymous",
+        "translation": "匿名戒酒互助社；慝名戒毒会"
+      }
+    ]
+  },
+  {
+    "word": "nominal",
+    "phonetic": "",
+    "meaning": "adj. 名义上的;(金额,租金)微不足道的 name",
+    "translations": [
+      {
+        "translation": "名义上的;(金额,租金)微不足道的 name",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "nominal value",
+        "translation": "[化]标称值；票面价值"
+      },
+      {
+        "phrase": "nominal diameter",
+        "translation": "公称直径；标称直径"
+      },
+      {
+        "phrase": "nominal gdp",
+        "translation": "名义国内生产总值"
+      }
+    ]
+  },
+  {
+    "word": "nominate",
+    "phonetic": "",
+    "meaning": "v. 提名,任命",
+    "translations": [
+      {
+        "translation": "提名,任命",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "astronomy",
+    "phonetic": "",
+    "meaning": "n. n．天文学",
+    "translations": [
+      {
+        "translation": "n．天文学",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "radio astronomy",
+        "translation": "n. 射电天文学"
+      },
+      {
+        "phrase": "physics and astronomy",
+        "translation": "物理学和天文学"
+      },
+      {
+        "phrase": "national radio astronomy observatory",
+        "translation": "国立射电天文台"
+      }
+    ]
+  },
+  {
+    "word": "autonomy",
+    "phonetic": "",
+    "meaning": "n. 自治，自治权；",
+    "translations": [
+      {
+        "translation": "自治，自治权；",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "economic",
+    "phonetic": "",
+    "meaning": "adj. 经济(上)的,经济学的",
+    "translations": [
+      {
+        "translation": "经济(上)的,经济学的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "economic development",
+        "translation": "经济发展；经济开发"
+      },
+      {
+        "phrase": "economic growth",
+        "translation": "[经]经济增长，经济成长"
+      },
+      {
+        "phrase": "economic system",
+        "translation": "经济体制；经济体系，经济系统；经济制度"
+      }
+    ]
+  },
+  {
+    "word": "economical",
+    "phonetic": "",
+    "meaning": "adj. 节约的,经济的",
+    "translations": [
+      {
+        "translation": "节约的,经济的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "economical efficiency",
+        "translation": "经济效率，经济效果；经济有效"
+      },
+      {
+        "phrase": "economical and practical",
+        "translation": "经济实用；经济实惠"
+      },
+      {
+        "phrase": "economical operation",
+        "translation": "经济运行"
+      }
+    ]
+  },
+  {
+    "word": "economics",
+    "phonetic": "",
+    "meaning": "n. 经济学,经济情况",
+    "translations": [
+      {
+        "translation": "经济学,经济情况",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "rural economics",
+        "translation": "农村经济"
+      },
+      {
+        "phrase": "finance and economics",
+        "translation": "经济，财经；金融与经济"
+      },
+      {
+        "phrase": "information economics",
+        "translation": "信息经济学"
+      }
+    ]
+  },
+  {
+    "word": "economy",
+    "phonetic": "",
+    "meaning": "n. 节约;经济",
+    "translations": [
+      {
+        "translation": "节约;经济",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "market economy",
+        "translation": "[经]市场经济"
+      },
+      {
+        "phrase": "national economy",
+        "translation": "国民经济"
+      },
+      {
+        "phrase": "socialist market economy",
+        "translation": "社会主义市场经济"
+      }
+    ]
+  },
+  {
+    "word": "noun",
+    "phonetic": "",
+    "meaning": "n. 名词",
+    "translations": [
+      {
+        "translation": "名词",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "noun phrase",
+        "translation": "名词短语"
+      },
+      {
+        "phrase": "abstract noun",
+        "translation": "抽象名词"
+      },
+      {
+        "phrase": "proper noun",
+        "translation": "[语]专有名词"
+      }
+    ]
+  },
+  {
+    "word": "pronoun",
+    "phonetic": "",
+    "meaning": "n. 代词",
+    "translations": [
+      {
+        "translation": "代词",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "personal pronoun",
+        "translation": "n. 人称代名词"
+      },
+      {
+        "phrase": "demonstrative pronoun",
+        "translation": "n. 指示代词"
+      },
+      {
+        "phrase": "interrogative pronoun",
+        "translation": "疑问代词"
+      }
+    ]
+  },
+  {
+    "word": "pronounce",
+    "phonetic": "",
+    "meaning": "v. 发…的音;宣布,宣判",
+    "translations": [
+      {
+        "translation": "发…的音;宣布,宣判",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "pronounce on",
+        "translation": "对…发表意见"
+      }
+    ]
+  },
+  {
+    "word": "pronunciation",
+    "phonetic": "",
+    "meaning": "n. 发音,发音方法",
+    "translations": [
+      {
+        "translation": "发音,发音方法",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "correct pronunciation",
+        "translation": "正音；正确发音"
+      }
+    ]
+  },
+  {
+    "word": "announce",
+    "phonetic": "",
+    "meaning": "v. 正式宣布；发表；通告；广播（电台节目）",
+    "translations": [
+      {
+        "translation": "正式宣布；发表；通告；广播（电台节目）",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "denounce",
+    "phonetic": "",
+    "meaning": "v. 公开指责,公然抨击;谴责",
+    "translations": [
+      {
+        "translation": "公开指责,公然抨击;谴责",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "order",
+    "phonetic": "",
+    "meaning": "n. 命令;次序;整齐;定货单;等级; v. 定制,订购",
+    "translations": [
+      {
+        "translation": "命令;次序;整齐;定货单;等级",
+        "type": "n"
+      },
+      {
+        "translation": "定制,订购",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in order",
+        "translation": "整齐，秩序井然；按顺序；状况良好"
+      },
+      {
+        "phrase": "order of",
+        "translation": "约为，大约；订货；注尺寸顺序"
+      },
+      {
+        "phrase": "second order",
+        "translation": "adj. 二级的，二阶的"
+      }
+    ]
+  },
+  {
+    "word": "coordinate",
+    "phonetic": "",
+    "meaning": "adj. 同等的; n. 同等者,坐标",
+    "translations": [
+      {
+        "translation": "同等的",
+        "type": "adj"
+      },
+      {
+        "translation": "同等者,坐标",
+        "type": "n"
+      },
+      {
+        "translation": "协作，协调",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "coordinate system",
+        "translation": "[数]坐标系"
+      },
+      {
+        "phrase": "coordinate with",
+        "translation": "使协调；配合"
+      },
+      {
+        "phrase": "coordinate transformation",
+        "translation": "坐标变换"
+      }
+    ]
+  },
+  {
+    "word": "disorder",
+    "phonetic": "",
+    "meaning": "n. 混乱,杂乱;骚乱;失调,疾病",
+    "translations": [
+      {
+        "translation": "混乱,杂乱;骚乱;失调,疾病",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in disorder",
+        "translation": "混乱；慌乱地， 狼狈不堪；杂乱地"
+      },
+      {
+        "phrase": "mental disorder",
+        "translation": "精神病；心理失常"
+      },
+      {
+        "phrase": "bipolar disorder",
+        "translation": "躁郁症；两极型异常"
+      }
+    ]
+  },
+  {
+    "word": "extraordinary",
+    "phonetic": "",
+    "meaning": "adj. 非常的;格外的;意外的;离奇的;临时的",
+    "translations": [
+      {
+        "translation": "非常的;格外的;意外的;离奇的;临时的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "extraordinary general meeting",
+        "translation": "特别会员大会；非常股东大会"
+      }
+    ]
+  },
+  {
+    "word": "orderly",
+    "phonetic": "",
+    "meaning": "adj. 整齐的,有秩序的,有条理的; n. 勤务兵",
+    "translations": [
+      {
+        "translation": "整齐的,有秩序的,有条理的",
+        "type": "adj"
+      },
+      {
+        "translation": "勤务兵",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "ordinary",
+    "phonetic": "",
+    "meaning": "adj. 普通的,平凡的,平常的;平庸的",
+    "translations": [
+      {
+        "translation": "普通的,平凡的,平常的;平庸的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in ordinary",
+        "translation": "（职务等）常任的；（待修的船只等）闲搁着的"
+      },
+      {
+        "phrase": "ordinary people",
+        "translation": "普通人，一般人"
+      },
+      {
+        "phrase": "out of the ordinary",
+        "translation": "不平常的"
+      }
+    ]
+  },
+  {
+    "word": "subordinate",
+    "phonetic": "",
+    "meaning": "adj. (to)次要的,从属的;下级的",
+    "translations": [
+      {
+        "translation": "(to)次要的,从属的;下级的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "subordinate body",
+        "translation": "下属机构；附属机构"
+      },
+      {
+        "phrase": "subordinate clause",
+        "translation": "从句"
+      },
+      {
+        "phrase": "subordinate staff",
+        "translation": "下属人员；从属人员"
+      }
+    ]
+  },
+  {
+    "word": "pale",
+    "phonetic": "",
+    "meaning": "adj. 苍白的,灰白的;浅的,暗淡的",
+    "translations": [
+      {
+        "translation": "苍白的,灰白的;浅的,暗淡的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "pale yellow",
+        "translation": "adj. 淡黄色，浅黄色"
+      },
+      {
+        "phrase": "turn pale",
+        "translation": "变得苍白（脸色）"
+      },
+      {
+        "phrase": "pale green",
+        "translation": "淡绿，浅绿"
+      }
+    ]
+  },
+  {
+    "word": "appal",
+    "phonetic": "",
+    "meaning": "v. 使惊骇，使恐怖",
+    "translations": [
+      {
+        "translation": "使惊骇，使恐怖",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "palace",
+    "phonetic": "",
+    "meaning": "n. 宫,宫殿",
+    "translations": [
+      {
+        "translation": "宫,宫殿",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "palace museum",
+        "translation": "故宫博物院"
+      },
+      {
+        "phrase": "imperial palace",
+        "translation": "n. 宫城；皇城"
+      },
+      {
+        "phrase": "buckingham palace",
+        "translation": "白金汉宫（英国皇宫）"
+      }
+    ]
+  },
+  {
+    "word": "pan",
+    "phonetic": "",
+    "meaning": "n. 平底锅,盘子,面板",
+    "translations": [
+      {
+        "translation": "平底锅,盘子,面板",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "pots and pans",
+        "translation": "坛坛罐罐；炊事用具"
+      },
+      {
+        "phrase": "flash in the pan",
+        "translation": "昙花一现（指开始预料取得重大成功，结果失败）；淘金盆里的反光（形容空欢喜一场，好景不长）"
+      },
+      {
+        "phrase": "frying pan",
+        "translation": "煎锅；长柄平底锅"
+      }
+    ]
+  },
+  {
+    "word": "accompany",
+    "phonetic": "",
+    "meaning": "v. 陪伴，陪同；伴随，一起发生，伴奏",
+    "translations": [
+      {
+        "translation": "陪伴，陪同；伴随，一起发生，伴奏",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "accompany with",
+        "translation": "伴随着，兼带着；陪…同行"
+      },
+      {
+        "phrase": "accompany by",
+        "translation": "随行，伴奏；在…的陪同下"
+      }
+    ]
+  },
+  {
+    "word": "companion",
+    "phonetic": "",
+    "meaning": "n. 同伴,共事者;伴侣",
+    "translations": [
+      {
+        "translation": "同伴,共事者;伴侣",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "companion animal",
+        "translation": "宠物；同伴动物"
+      },
+      {
+        "phrase": "companion star",
+        "translation": "伴星"
+      }
+    ]
+  },
+  {
+    "word": "company",
+    "phonetic": "",
+    "meaning": "n. 公司;陪伴;宾客;连(队),(一)群,队,伙",
+    "translations": [
+      {
+        "translation": "公司;陪伴;宾客;连(队),(一)群,队,伙",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "limited company",
+        "translation": "有限公司；（英）股份有限公司（等于limited-liability company）"
+      },
+      {
+        "phrase": "in company",
+        "translation": "一起；当众"
+      },
+      {
+        "phrase": "company with",
+        "translation": "奉陪；与…一起"
+      }
+    ]
+  },
+  {
+    "word": "expand",
+    "phonetic": "",
+    "meaning": "v. (使)膨胀,(使)扩张;张开,展开",
+    "translations": [
+      {
+        "translation": "(使)膨胀,(使)扩张;张开,展开",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "expand market",
+        "translation": "开拓市场"
+      },
+      {
+        "phrase": "expand into",
+        "translation": "扩大为"
+      },
+      {
+        "phrase": "expand domestic demand",
+        "translation": "扩大内需"
+      }
+    ]
+  },
+  {
+    "word": "expansion",
+    "phonetic": "",
+    "meaning": "n. 扩张,膨胀;张开,伸展",
+    "translations": [
+      {
+        "translation": "扩张,膨胀;张开,伸展",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "thermal expansion",
+        "translation": "热膨胀"
+      },
+      {
+        "phrase": "business expansion",
+        "translation": "业务扩张，营业扩充；经济高涨"
+      },
+      {
+        "phrase": "expansion coefficient",
+        "translation": "膨胀系数，膨胀率；展开系数"
+      }
+    ]
+  },
+  {
+    "word": "panel",
+    "phonetic": "",
+    "meaning": "n. 面,板;控制板,仪表盘;专门小组",
+    "translations": [
+      {
+        "translation": "面,板;控制板,仪表盘;专门小组",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "control panel",
+        "translation": "[计]控制面板"
+      },
+      {
+        "phrase": "on the panel",
+        "translation": "◎[英国英语]已登记为替参加国民健康保险者治病的医生"
+      },
+      {
+        "phrase": "panel data",
+        "translation": "固定样本数据"
+      }
+    ]
+  },
+  {
+    "word": "panic",
+    "phonetic": "",
+    "meaning": "n. n&adj恐慌(的),惊慌(的); v. 使惊慌,使害怕",
+    "translations": [
+      {
+        "translation": "n&adj恐慌(的),惊慌(的)",
+        "type": "n"
+      },
+      {
+        "translation": "使惊慌,使害怕",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "no panic",
+        "translation": "[美国俚语]不大高明；平凡"
+      },
+      {
+        "phrase": "panic disorder",
+        "translation": "惊恐性障碍，恐慌症"
+      },
+      {
+        "phrase": "in panic",
+        "translation": "惊慌的"
+      }
+    ]
+  },
+  {
+    "word": "panorama",
+    "phonetic": "",
+    "meaning": "n. 全景,全景画,全景摄影,全景照片[装置]",
+    "translations": [
+      {
+        "translation": "全景,全景画,全景摄影,全景照片[装置]",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "part",
+    "phonetic": "",
+    "meaning": "n. 部分,角色,一方,零件,地区,部,篇v.使分开",
+    "translations": [
+      {
+        "translation": "部分,角色,一方,零件,地区,部,篇v.使分开",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "part of",
+        "translation": "部分的；一部分"
+      },
+      {
+        "phrase": "in part",
+        "translation": "部分地；在某种程度上"
+      },
+      {
+        "phrase": "take part",
+        "translation": "参与， 参加"
+      }
+    ]
+  },
+  {
+    "word": "apart",
+    "phonetic": "",
+    "meaning": "adv. 分离，离开，隔开; adj. 分离的，分隔的",
+    "translations": [
+      {
+        "translation": "分离，离开，隔开",
+        "type": "adv"
+      },
+      {
+        "translation": "分离的，分隔的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "apart from",
+        "translation": "远离，除…之外；且不说；缺少"
+      },
+      {
+        "phrase": "fall apart",
+        "translation": "崩溃；土崩瓦解；破碎"
+      },
+      {
+        "phrase": "set apart",
+        "translation": "留出…；使分离；区别"
+      }
+    ]
+  },
+  {
+    "word": "apartment",
+    "phonetic": "",
+    "meaning": "n. [英]房间，套间；[美]公寓",
+    "translations": [
+      {
+        "translation": "[英]房间，套间；[美]公寓",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "apartment building",
+        "translation": "（美）公寓大楼"
+      },
+      {
+        "phrase": "apartment house",
+        "translation": "（美）隔成公寓的建筑物"
+      },
+      {
+        "phrase": "apartment complex",
+        "translation": "公寓大楼"
+      }
+    ]
+  },
+  {
+    "word": "compartment",
+    "phonetic": "",
+    "meaning": "n. 卧车包房,隔间;分隔的空间",
+    "translations": [
+      {
+        "translation": "卧车包房,隔间;分隔的空间",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "compartment syndrome",
+        "translation": "筋膜室综合征；间室症候群"
+      },
+      {
+        "phrase": "passenger compartment",
+        "translation": "乘客舱；客厢；包房"
+      },
+      {
+        "phrase": "engine compartment",
+        "translation": "机舱；发动机室；机器间"
+      }
+    ]
+  },
+  {
+    "word": "depart",
+    "phonetic": "",
+    "meaning": "v. 离开,起程; adj. 过去的,逝世的",
+    "translations": [
+      {
+        "translation": "离开,起程",
+        "type": "v"
+      },
+      {
+        "translation": "过去的,逝世的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "depart from",
+        "translation": "离开；开出；从……出发"
+      },
+      {
+        "phrase": "depart for",
+        "translation": "开往…；去往…；动身去…"
+      }
+    ]
+  },
+  {
+    "word": "department",
+    "phonetic": "",
+    "meaning": "n. 部,局,处,科,部门;系,学部",
+    "translations": [
+      {
+        "translation": "部,局,处,科,部门;系,学部",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "department store",
+        "translation": "百货公司；百货商店"
+      },
+      {
+        "phrase": "state department",
+        "translation": "n. （美国）国务院"
+      },
+      {
+        "phrase": "sales department",
+        "translation": "业务部，营业部"
+      }
+    ]
+  },
+  {
+    "word": "departure",
+    "phonetic": "",
+    "meaning": "n. 离开,起程",
+    "translations": [
+      {
+        "translation": "离开,起程",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "departure from",
+        "translation": "离开；违反，违背"
+      },
+      {
+        "phrase": "point of departure",
+        "translation": "出发地"
+      },
+      {
+        "phrase": "departure time",
+        "translation": "出发时间；撤离时刻；起飞时刻"
+      }
+    ]
+  },
+  {
+    "word": "impart",
+    "phonetic": "",
+    "meaning": "v. 传授，给予；告知，通知",
+    "translations": [
+      {
+        "translation": "传授，给予；告知，通知",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "partial",
+    "phonetic": "",
+    "meaning": "adj. 部分的,不完全的;偏袒的,不公平的,偏爱的",
+    "translations": [
+      {
+        "translation": "部分的,不完全的;偏袒的,不公平的,偏爱的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "partial differential",
+        "translation": "偏微分"
+      },
+      {
+        "phrase": "partial discharge",
+        "translation": "局部放电；部分放电；部份履行"
+      },
+      {
+        "phrase": "partial differential equation",
+        "translation": "偏微分方程"
+      }
+    ]
+  },
+  {
+    "word": "participant",
+    "phonetic": "",
+    "meaning": "n. 参加者,参与者; adj. 有份的,参与的",
+    "translations": [
+      {
+        "translation": "参加者,参与者",
+        "type": "n"
+      },
+      {
+        "translation": "有份的,参与的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "participant observation",
+        "translation": "参与观察"
+      }
+    ]
+  },
+  {
+    "word": "participate",
+    "phonetic": "",
+    "meaning": "v. (in)参与,参加;分享,分担;含有,带有",
+    "translations": [
+      {
+        "translation": "(in)参与,参加;分享,分担;含有,带有",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "participate in",
+        "translation": "参加；分享"
+      },
+      {
+        "phrase": "participate in social activities",
+        "translation": "参与社会活动"
+      }
+    ]
+  },
+  {
+    "word": "particle",
+    "phonetic": "",
+    "meaning": "n. 粒子,微粒;极小量;小品词,虚词",
+    "translations": [
+      {
+        "translation": "粒子,微粒;极小量;小品词,虚词",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "particle size",
+        "translation": "粒度；颗粒大小"
+      },
+      {
+        "phrase": "particle size distribution",
+        "translation": "粒度分布"
+      },
+      {
+        "phrase": "particle diameter",
+        "translation": "粒径；颗粒直径，粒子直径"
+      }
+    ]
+  },
+  {
+    "word": "particular",
+    "phonetic": "",
+    "meaning": "adj. 特殊的,苛求的,个别的n.详情,细节,特色",
+    "translations": [
+      {
+        "translation": "特殊的,苛求的,个别的n.详情,细节,特色",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in particular",
+        "translation": "尤其，特别"
+      },
+      {
+        "phrase": "particular case",
+        "translation": "特例；特定情况"
+      },
+      {
+        "phrase": "particular about",
+        "translation": "过分讲究的；难以取悦的"
+      }
+    ]
+  },
+  {
+    "word": "partly",
+    "phonetic": "",
+    "meaning": "adv. 部分地,不完全地,在一定程度上",
+    "translations": [
+      {
+        "translation": "部分地,不完全地,在一定程度上",
+        "type": "adv"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "partly cloudy",
+        "translation": "局部多云；少云"
+      }
+    ]
+  },
+  {
+    "word": "partner",
+    "phonetic": "",
+    "meaning": "n. 合作者,合伙人,合股人,伙伴,舞伴,配偶",
+    "translations": [
+      {
+        "translation": "合作者,合伙人,合股人,伙伴,舞伴,配偶",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "business partner",
+        "translation": "商业伙伴，业务合作伙伴；买卖的合伙人"
+      },
+      {
+        "phrase": "partner with",
+        "translation": "v. 做伙伴"
+      },
+      {
+        "phrase": "trading partner",
+        "translation": "贸易伙伴；合作伙伴"
+      }
+    ]
+  },
+  {
+    "word": "party",
+    "phonetic": "",
+    "meaning": "n. 聚会,政党,当事人; v. 举行(参加)社交聚会",
+    "translations": [
+      {
+        "translation": "聚会,政党,当事人",
+        "type": "n"
+      },
+      {
+        "translation": "举行(参加)社交聚会",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "third party",
+        "translation": "第三方"
+      },
+      {
+        "phrase": "communist party",
+        "translation": "共产党"
+      },
+      {
+        "phrase": "party committee",
+        "translation": "党委"
+      }
+    ]
+  },
+  {
+    "word": "parachute",
+    "phonetic": "",
+    "meaning": "n. 降落伞; v. 跳伞",
+    "translations": [
+      {
+        "translation": "降落伞",
+        "type": "n"
+      },
+      {
+        "translation": "跳伞",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "golden parachute",
+        "translation": "金降落伞；黄金降落伞"
+      },
+      {
+        "phrase": "parachute jump",
+        "translation": "跳伞"
+      }
+    ]
+  },
+  {
+    "word": "parade",
+    "phonetic": "",
+    "meaning": "n&v. 游行,夸耀n.检阅,阅兵式v.使列队行进",
+    "translations": [
+      {
+        "translation": "游行,夸耀n.检阅,阅兵式v.使列队行进",
+        "type": "n&v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "on parade",
+        "translation": "受检阅；在游行"
+      },
+      {
+        "phrase": "military parade",
+        "translation": "阅兵；军事博览"
+      },
+      {
+        "phrase": "join the parade",
+        "translation": "[美国英语]学时髦；跟着大众行动"
+      }
+    ]
+  },
+  {
+    "word": "paradigm",
+    "phonetic": "",
+    "meaning": "n. 典范; 范例; 示例",
+    "translations": [
+      {
+        "translation": "典范; 范例; 示例",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "paradigm shift",
+        "translation": "典范转移；思考模式的转移"
+      }
+    ]
+  },
+  {
+    "word": "paradox",
+    "phonetic": "",
+    "meaning": "n. 似非而是的话,自相矛盾的话,反论",
+    "translations": [
+      {
+        "translation": "似非而是的话,自相矛盾的话,反论",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "parallel",
+    "phonetic": "",
+    "meaning": "adj. 平行的,相同的,类似的n.平行线,类似,对比",
+    "translations": [
+      {
+        "translation": "平行的,相同的,类似的n.平行线,类似,对比",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in parallel",
+        "translation": "并行的；[电]并联的；平行的"
+      },
+      {
+        "phrase": "parallel processing",
+        "translation": "[计]并行处理；平行加工"
+      },
+      {
+        "phrase": "parallel with",
+        "translation": "平行；与…比较"
+      }
+    ]
+  },
+  {
+    "word": "paralyze",
+    "phonetic": "",
+    "meaning": "v. (paralyse)使瘫痪(麻痹);使丧失作用",
+    "translations": [
+      {
+        "translation": "(paralyse)使瘫痪(麻痹);使丧失作用",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "parasite",
+    "phonetic": "",
+    "meaning": "n. 寄生虫,食客",
+    "translations": [
+      {
+        "translation": "寄生虫,食客",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "apparatus",
+    "phonetic": "",
+    "meaning": "n. 器械，器具，仪器；机构，组织",
+    "translations": [
+      {
+        "translation": "器械，器具，仪器；机构，组织",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "apparent",
+    "phonetic": "",
+    "meaning": "adj. 表面上的,貌似真实的；显然的,明明白白的",
+    "translations": [
+      {
+        "translation": "表面上的,貌似真实的；显然的,明明白白的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "apparent viscosity",
+        "translation": "表观粘度"
+      },
+      {
+        "phrase": "apparent density",
+        "translation": "表观密度；松装密度"
+      },
+      {
+        "phrase": "apparent activation energy",
+        "translation": "表观活化能"
+      }
+    ]
+  },
+  {
+    "word": "comparable",
+    "phonetic": "",
+    "meaning": "adj. (with,to)可比较的,比得上的",
+    "translations": [
+      {
+        "translation": "(with,to)可比较的,比得上的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "comparable with",
+        "translation": "可比较的，比得上的；与…相容；可同…比较"
+      },
+      {
+        "phrase": "comparable data",
+        "translation": "参照数据"
+      },
+      {
+        "phrase": "comparable price",
+        "translation": "可比价格，比较价格"
+      }
+    ]
+  },
+  {
+    "word": "comparative",
+    "phonetic": "",
+    "meaning": "adj. 比较的,相当的",
+    "translations": [
+      {
+        "translation": "比较的,相当的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "comparative study",
+        "translation": "比较研究；对比研究"
+      },
+      {
+        "phrase": "comparative advantage",
+        "translation": "[经]比较利益；相对优势"
+      },
+      {
+        "phrase": "comparative literature",
+        "translation": "比较文学"
+      }
+    ]
+  },
+  {
+    "word": "compare",
+    "phonetic": "",
+    "meaning": "v. (to，with)比较；(to)把…比作vi.相比",
+    "translations": [
+      {
+        "translation": "(to，with)比较；(to)把…比作vi.相比",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "compare with",
+        "translation": "与…相比较"
+      },
+      {
+        "phrase": "compare notes",
+        "translation": "交换意见"
+      },
+      {
+        "phrase": "compare favourably with",
+        "translation": "比…毫不逊色，比得上"
+      }
+    ]
+  },
+  {
+    "word": "comparison",
+    "phonetic": "",
+    "meaning": "n. 比较,对比,比喻,比拟",
+    "translations": [
+      {
+        "translation": "比较,对比,比喻,比拟",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "comparison with",
+        "translation": "与…相比"
+      },
+      {
+        "phrase": "in comparison",
+        "translation": "adj. 相比之下；与……比较"
+      },
+      {
+        "phrase": "in comparison with",
+        "translation": "与…比较，同…比较起来"
+      }
+    ]
+  },
+  {
+    "word": "parcel",
+    "phonetic": "",
+    "meaning": "n. 包裹,邮包,部分; v. 打包,捆扎,分配",
+    "translations": [
+      {
+        "translation": "包裹,邮包,部分",
+        "type": "n"
+      },
+      {
+        "translation": "打包,捆扎,分配",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "part and parcel",
+        "translation": "必要部分；重要的部分"
+      },
+      {
+        "phrase": "part and parcel of",
+        "translation": "不可缺少的一部分"
+      },
+      {
+        "phrase": "parcel post",
+        "translation": "邮政包裹；包裹邮递"
+      }
+    ]
+  },
+  {
+    "word": "pardon",
+    "phonetic": "",
+    "meaning": "n. 原谅,宽恕;请再说一遍; v. 原谅,饶恕,赦免",
+    "translations": [
+      {
+        "translation": "原谅,宽恕;请再说一遍",
+        "type": "n"
+      },
+      {
+        "translation": "原谅,饶恕,赦免",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "beg your pardon",
+        "translation": "对不起，请原谅"
+      },
+      {
+        "phrase": "pardon someone for something",
+        "translation": "原谅(或宽恕)某人(做)某事(如犯错误等) [亦作 pardon someone something]"
+      },
+      {
+        "phrase": "pardon for",
+        "translation": "原谅"
+      }
+    ]
+  },
+  {
+    "word": "parent",
+    "phonetic": "",
+    "meaning": "n. 父母,母亲;(pl.)双亲;父母",
+    "translations": [
+      {
+        "translation": "父母,母亲;(pl.)双亲;父母",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "parent company",
+        "translation": "总公司，母公司"
+      },
+      {
+        "phrase": "female parent",
+        "translation": "[生]母本"
+      },
+      {
+        "phrase": "single parent",
+        "translation": "n. 单亲；单身母亲；单身父亲"
+      }
+    ]
+  },
+  {
+    "word": "parliament",
+    "phonetic": "",
+    "meaning": "n. 国会,议会",
+    "translations": [
+      {
+        "translation": "国会,议会",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "european parliament",
+        "translation": "欧洲议会（缩写为EP）"
+      },
+      {
+        "phrase": "member of parliament",
+        "translation": "国会议员；下院议员；下议院议员"
+      },
+      {
+        "phrase": "houses of parliament",
+        "translation": "n. 英国的国会大厦"
+      }
+    ]
+  },
+  {
+    "word": "preparation",
+    "phonetic": "",
+    "meaning": "n. 准备,预备;制剂,制备品",
+    "translations": [
+      {
+        "translation": "准备,预备;制剂,制备品",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "preparation for",
+        "translation": "为…做准备"
+      },
+      {
+        "phrase": "preparation method",
+        "translation": "制备方法"
+      },
+      {
+        "phrase": "in preparation",
+        "translation": "在准备中"
+      }
+    ]
+  },
+  {
+    "word": "prepare",
+    "phonetic": "",
+    "meaning": "v. 准备,预备",
+    "translations": [
+      {
+        "translation": "准备,预备",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "prepare something for someone",
+        "translation": "为某人准备某物"
+      },
+      {
+        "phrase": "prepare for",
+        "translation": "为…准备，使有准备"
+      },
+      {
+        "phrase": "prepare the way",
+        "translation": "排除障碍，扫清道路"
+      }
+    ]
+  },
+  {
+    "word": "separate",
+    "phonetic": "",
+    "meaning": "adj. (from)分离的,分开的",
+    "translations": [
+      {
+        "translation": "(from)分离的,分开的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "separate from",
+        "translation": "分离；把…和…分开"
+      },
+      {
+        "phrase": "separate out",
+        "translation": "析出；分出"
+      },
+      {
+        "phrase": "separate ways",
+        "translation": "分别，分道扬镳"
+      }
+    ]
+  },
+  {
+    "word": "transparent",
+    "phonetic": "",
+    "meaning": "adj. 透明的，透光的；易理解的；明显的",
+    "translations": [
+      {
+        "translation": "透明的，透光的；易理解的；明显的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "transparent glass",
+        "translation": "透明玻璃"
+      },
+      {
+        "phrase": "transparent plastic",
+        "translation": "透明塑胶"
+      },
+      {
+        "phrase": "transparent film",
+        "translation": "透明薄膜；透谩膜；透明胶片"
+      }
+    ]
+  },
+  {
+    "word": "penny",
+    "phonetic": "",
+    "meaning": "n. 便士,美分",
+    "translations": [
+      {
+        "translation": "便士,美分",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "not a penny",
+        "translation": "不名一文，一分钱也没有"
+      },
+      {
+        "phrase": "spend a penny",
+        "translation": "上公共厕所（旧时英国公厕的自动门须投一便士硬币后方行开启）"
+      },
+      {
+        "phrase": "pretty penny",
+        "translation": "一大笔钱；大数目之金钱"
+      }
+    ]
+  },
+  {
+    "word": "pension",
+    "phonetic": "",
+    "meaning": "n. 养老金,年金",
+    "translations": [
+      {
+        "translation": "养老金,年金",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "pension fund",
+        "translation": "养老基金；退休基金"
+      },
+      {
+        "phrase": "pension insurance",
+        "translation": "养老保险"
+      },
+      {
+        "phrase": "pension plan",
+        "translation": "公积金计划；退休金办法；养老计划"
+      }
+    ]
+  },
+  {
+    "word": "compensate",
+    "phonetic": "",
+    "meaning": "v. (for)补偿,赔偿",
+    "translations": [
+      {
+        "translation": "(for)补偿,赔偿",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "compensate for",
+        "translation": "赔偿，补偿"
+      }
+    ]
+  },
+  {
+    "word": "compensation",
+    "phonetic": "",
+    "meaning": "n. 补偿(或赔偿)的款物；补偿，赔偿",
+    "translations": [
+      {
+        "translation": "补偿(或赔偿)的款物；补偿，赔偿",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "compensation system",
+        "translation": "补偿制度"
+      },
+      {
+        "phrase": "error compensation",
+        "translation": "误差补偿，平差"
+      },
+      {
+        "phrase": "compensation method",
+        "translation": "补偿法"
+      }
+    ]
+  },
+  {
+    "word": "expense",
+    "phonetic": "",
+    "meaning": "n. 花费,消费,消耗",
+    "translations": [
+      {
+        "translation": "花费,消费,消耗",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "at the expense of",
+        "translation": "以…为代价；由…支付费用"
+      },
+      {
+        "phrase": "at the expense",
+        "translation": "以…为代价"
+      },
+      {
+        "phrase": "daily expense",
+        "translation": "每日费用"
+      }
+    ]
+  },
+  {
+    "word": "expensive",
+    "phonetic": "",
+    "meaning": "adj. 花费的,昂贵的",
+    "translations": [
+      {
+        "translation": "花费的,昂贵的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "less expensive",
+        "translation": "adj. 比较便宜的"
+      },
+      {
+        "phrase": "expensive thing",
+        "translation": "昂贵的东西"
+      },
+      {
+        "phrase": "a bit expensive",
+        "translation": "有点贵"
+      }
+    ]
+  },
+  {
+    "word": "indispensable",
+    "phonetic": "",
+    "meaning": "adj. (to,for)必不可少的,必需的",
+    "translations": [
+      {
+        "translation": "(to,for)必不可少的,必需的",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "pet",
+    "phonetic": "",
+    "meaning": "n. 爱畜,宠儿; adj. 宠爱的,表示亲昵的",
+    "translations": [
+      {
+        "translation": "爱畜,宠儿",
+        "type": "n"
+      },
+      {
+        "translation": "宠爱的,表示亲昵的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "pet food",
+        "translation": "宠物食品"
+      },
+      {
+        "phrase": "pet dog",
+        "translation": "宠物狗；宠物犬"
+      },
+      {
+        "phrase": "pet shop",
+        "translation": "宠物商店，玩赏动物商店"
+      }
+    ]
+  },
+  {
+    "word": "appetite",
+    "phonetic": "",
+    "meaning": "n. 食欲，胃口；欲望，性欲；爱好，趣味",
+    "translations": [
+      {
+        "translation": "食欲，胃口；欲望，性欲；爱好，趣味",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "appetite for",
+        "translation": "对…的欲望"
+      },
+      {
+        "phrase": "loss of appetite",
+        "translation": "食欲不振"
+      },
+      {
+        "phrase": "good appetite",
+        "translation": "很好的胃口"
+      }
+    ]
+  },
+  {
+    "word": "compete",
+    "phonetic": "",
+    "meaning": "v. 比赛；竞争；对抗",
+    "translations": [
+      {
+        "translation": "比赛；竞争；对抗",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "competent",
+    "phonetic": "",
+    "meaning": "adj. 有能力的，能胜任的；足够的",
+    "translations": [
+      {
+        "translation": "有能力的，能胜任的；足够的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "competent authority",
+        "translation": "[法]主管当局，主管部门"
+      },
+      {
+        "phrase": "competent department",
+        "translation": "主管部门"
+      },
+      {
+        "phrase": "competent in",
+        "translation": "胜任的；有能力"
+      }
+    ]
+  },
+  {
+    "word": "competition",
+    "phonetic": "",
+    "meaning": "n. 竞争，比赛；角逐，较量；竞争者",
+    "translations": [
+      {
+        "translation": "竞争，比赛；角逐，较量；竞争者",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "market competition",
+        "translation": "市场竞争"
+      },
+      {
+        "phrase": "fierce competition",
+        "translation": "激烈的竞争"
+      },
+      {
+        "phrase": "intense competition",
+        "translation": "激烈的竞争"
+      }
+    ]
+  },
+  {
+    "word": "competitive",
+    "phonetic": "",
+    "meaning": "adj. 竞争的；好竞争的；有竞争力的",
+    "translations": [
+      {
+        "translation": "竞争的；好竞争的；有竞争力的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "competitive advantage",
+        "translation": "竞争优势"
+      },
+      {
+        "phrase": "competitive power",
+        "translation": "竞争能力"
+      },
+      {
+        "phrase": "competitive price",
+        "translation": "竞争价格；公开招标价格"
+      }
+    ]
+  },
+  {
+    "word": "impetus",
+    "phonetic": "",
+    "meaning": "n. 推动(力),促进",
+    "translations": [
+      {
+        "translation": "推动(力),促进",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "perpetual",
+    "phonetic": "",
+    "meaning": "adj. 永久的,永恒的,长期的",
+    "translations": [
+      {
+        "translation": "永久的,永恒的,长期的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "perpetual motion",
+        "translation": "[物]永恒运动"
+      },
+      {
+        "phrase": "perpetual inventory",
+        "translation": "[经]永续盘存"
+      },
+      {
+        "phrase": "perpetual motion machine",
+        "translation": "永动机"
+      }
+    ]
+  },
+  {
+    "word": "petition",
+    "phonetic": "",
+    "meaning": "n. 请愿书,申请书; v. (向…)请愿,正式请求",
+    "translations": [
+      {
+        "translation": "请愿书,申请书",
+        "type": "n"
+      },
+      {
+        "translation": "(向…)请愿,正式请求",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "file a petition",
+        "translation": "提交请愿书"
+      }
+    ]
+  },
+  {
+    "word": "petty",
+    "phonetic": "",
+    "meaning": "adj. 小(器、规模)的,不重要的,细微的,卑鄙的",
+    "translations": [
+      {
+        "translation": "小(器、规模)的,不重要的,细微的,卑鄙的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "petty bourgeoisie",
+        "translation": "n. 小资产阶级（等于petite bourgeoisie）"
+      },
+      {
+        "phrase": "petty cash",
+        "translation": "零用现金；小额备用金"
+      },
+      {
+        "phrase": "petty bourgeois",
+        "translation": "小资产阶级分子"
+      }
+    ]
+  },
+  {
+    "word": "puppet",
+    "phonetic": "",
+    "meaning": "n. 木偶,傀儡",
+    "translations": [
+      {
+        "translation": "木偶,傀儡",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "puppet show",
+        "translation": "木偶剧，木偶表演"
+      },
+      {
+        "phrase": "hand puppet",
+        "translation": "n. 布袋木偶"
+      },
+      {
+        "phrase": "puppet play",
+        "translation": "傀儡戏；木偶戏"
+      }
+    ]
+  },
+  {
+    "word": "repetition",
+    "phonetic": "",
+    "meaning": "n. 重复,反复",
+    "translations": [
+      {
+        "translation": "重复,反复",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "repetition rate",
+        "translation": "重复率"
+      },
+      {
+        "phrase": "repetition frequency",
+        "translation": "[电]重复频；换帧频率"
+      },
+      {
+        "phrase": "pulse repetition frequency",
+        "translation": "[计]脉冲重复频率"
+      }
+    ]
+  },
+  {
+    "word": "trumpet",
+    "phonetic": "",
+    "meaning": "n. 喇叭,小号",
+    "translations": [
+      {
+        "translation": "喇叭,小号",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "poll",
+    "phonetic": "",
+    "meaning": "n. 民意测验;(pl.)政治选举; v. 获得…选票",
+    "translations": [
+      {
+        "translation": "民意测验;(pl.)政治选举",
+        "type": "n"
+      },
+      {
+        "translation": "获得…选票",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "opinion poll",
+        "translation": "民意测验；选举投票"
+      },
+      {
+        "phrase": "go to the polls",
+        "translation": "去投票处投票"
+      },
+      {
+        "phrase": "public opinion poll",
+        "translation": "民意测验"
+      }
+    ]
+  },
+  {
+    "word": "police",
+    "phonetic": "",
+    "meaning": "n. 警察,警察机关; adj. 警察的",
+    "translations": [
+      {
+        "translation": "警察,警察机关",
+        "type": "n"
+      },
+      {
+        "translation": "警察的",
+        "type": "adj"
+      },
+      {
+        "translation": "管辖",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "police station",
+        "translation": "派出所；警察局；公安局"
+      },
+      {
+        "phrase": "police officer",
+        "translation": "n. 警官；警员"
+      },
+      {
+        "phrase": "police force",
+        "translation": "警察；警察机关"
+      }
+    ]
+  },
+  {
+    "word": "policy",
+    "phonetic": "",
+    "meaning": "n. 政策,方针",
+    "translations": [
+      {
+        "translation": "政策,方针",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "monetary policy",
+        "translation": "货币政策"
+      },
+      {
+        "phrase": "economic policy",
+        "translation": "经济政策"
+      },
+      {
+        "phrase": "foreign policy",
+        "translation": "外交政策"
+      }
+    ]
+  },
+  {
+    "word": "polite",
+    "phonetic": "",
+    "meaning": "adj. 有礼貌的,客气的;有教养的,文雅的",
+    "translations": [
+      {
+        "translation": "有礼貌的,客气的;有教养的,文雅的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "polite society",
+        "translation": "上流社会；文雅社会"
+      }
+    ]
+  },
+  {
+    "word": "political",
+    "phonetic": "",
+    "meaning": "adj. 政治的",
+    "translations": [
+      {
+        "translation": "政治的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "political party",
+        "translation": "政党"
+      },
+      {
+        "phrase": "political system",
+        "translation": "政治制度；政治体系"
+      },
+      {
+        "phrase": "political power",
+        "translation": "政治权力；政治力；政治力量"
+      }
+    ]
+  },
+  {
+    "word": "politician",
+    "phonetic": "",
+    "meaning": "n. 政治家,政客",
+    "translations": [
+      {
+        "translation": "政治家,政客",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "politics",
+    "phonetic": "",
+    "meaning": "n. 政治,政治学;政纲,政见",
+    "translations": [
+      {
+        "translation": "政治,政治学;政纲,政见",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "international politics",
+        "translation": "国际政治"
+      },
+      {
+        "phrase": "world politics",
+        "translation": "世界政治；国际政治；世界政治季刊"
+      },
+      {
+        "phrase": "power politics",
+        "translation": "强权政治"
+      }
+    ]
+  },
+  {
+    "word": "apologise",
+    "phonetic": "",
+    "meaning": "v. (to,for)道歉，认错",
+    "translations": [
+      {
+        "translation": "(to,for)道歉，认错",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "apology",
+    "phonetic": "",
+    "meaning": "n. 道歉，认错，辩解，辩护",
+    "translations": [
+      {
+        "translation": "道歉，认错，辩解，辩护",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "an apology for something",
+        "translation": "不像样的代替品，勉强充作某物的东西，滥竽充数的样品[用于贬义]"
+      },
+      {
+        "phrase": "a poor apology",
+        "translation": "有名无实"
+      },
+      {
+        "phrase": "make an apology",
+        "translation": "道歉"
+      }
+    ]
+  },
+  {
+    "word": "metropolis",
+    "phonetic": "",
+    "meaning": "n. 大都市；首府；重要中心",
+    "translations": [
+      {
+        "translation": "大都市；首府；重要中心",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "port",
+    "phonetic": "",
+    "meaning": "n. 港口",
+    "translations": [
+      {
+        "translation": "港口",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "at the port",
+        "translation": "作持枪的姿势"
+      },
+      {
+        "phrase": "in port",
+        "translation": "在港内"
+      },
+      {
+        "phrase": "serial port",
+        "translation": "[计]串行端口；序列埠"
+      }
+    ]
+  },
+  {
+    "word": "airport",
+    "phonetic": "",
+    "meaning": "n. 机场，航空站，航空港",
+    "translations": [
+      {
+        "translation": "机场，航空站，航空港",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "international airport",
+        "translation": "国际机场"
+      },
+      {
+        "phrase": "airport bus",
+        "translation": "机场巴士；机场班车"
+      },
+      {
+        "phrase": "airport terminal",
+        "translation": "航站楼；机场候机楼"
+      }
+    ]
+  },
+  {
+    "word": "corporation",
+    "phonetic": "",
+    "meaning": "n. 市镇自治机关；法人；公司，企业",
+    "translations": [
+      {
+        "translation": "市镇自治机关；法人；公司，企业",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "transnational corporation",
+        "translation": "跨国公司"
+      },
+      {
+        "phrase": "multinational corporation",
+        "translation": "跨国公司"
+      },
+      {
+        "phrase": "import and export corporation",
+        "translation": "[经]进出口公司"
+      }
+    ]
+  },
+  {
+    "word": "evaporate",
+    "phonetic": "",
+    "meaning": "v. 蒸发,挥发;沉淀;发射;消失",
+    "translations": [
+      {
+        "translation": "蒸发,挥发;沉淀;发射;消失",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "export",
+    "phonetic": "",
+    "meaning": "v&n. 输出,出口; n. 出口商品",
+    "translations": [
+      {
+        "translation": "输出,出口",
+        "type": "v&n"
+      },
+      {
+        "translation": "出口商品",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "import and export",
+        "translation": "进出口；导入和导出；输入和输出"
+      },
+      {
+        "phrase": "export trade",
+        "translation": "出口贸易；出口商"
+      },
+      {
+        "phrase": "export commodities",
+        "translation": "出口商品"
+      }
+    ]
+  },
+  {
+    "word": "import",
+    "phonetic": "",
+    "meaning": "v&n. 进口,输入,(pl.)进口商品;要旨,含意",
+    "translations": [
+      {
+        "translation": "进口,输入,(pl.)进口商品;要旨,含意",
+        "type": "v&n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "import and export",
+        "translation": "进出口；导入和导出；输入和输出"
+      },
+      {
+        "phrase": "import and export corporation",
+        "translation": "[经]进出口公司"
+      },
+      {
+        "phrase": "import license",
+        "translation": "进口许可证"
+      }
+    ]
+  },
+  {
+    "word": "importance",
+    "phonetic": "",
+    "meaning": "n. 重要,重要性",
+    "translations": [
+      {
+        "translation": "重要,重要性",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "of great importance",
+        "translation": "有着重要意义，十分重要"
+      },
+      {
+        "phrase": "of importance",
+        "translation": "重要的；具有重要意义的"
+      },
+      {
+        "phrase": "attach importance to",
+        "translation": "重视；着重于…；对…给予重视"
+      }
+    ]
+  },
+  {
+    "word": "important",
+    "phonetic": "",
+    "meaning": "adj. 重要的,重大的;有地位的,有权力的",
+    "translations": [
+      {
+        "translation": "重要的,重大的;有地位的,有权力的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "most important",
+        "translation": "最重要的；首要的；最关键的"
+      },
+      {
+        "phrase": "more important",
+        "translation": "更加重要"
+      },
+      {
+        "phrase": "play an important role",
+        "translation": "起到重要作用"
+      }
+    ]
+  },
+  {
+    "word": "opportunity",
+    "phonetic": "",
+    "meaning": "n. 机会",
+    "translations": [
+      {
+        "translation": "机会",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "seize the opportunity",
+        "translation": "抓住机遇，抓住机会"
+      },
+      {
+        "phrase": "rare opportunity",
+        "translation": "稀有机会，难得机会"
+      },
+      {
+        "phrase": "equal opportunity",
+        "translation": "机会均等"
+      }
+    ]
+  },
+  {
+    "word": "portable",
+    "phonetic": "",
+    "meaning": "adj. 轻便的,手提(式)的,可移动的",
+    "translations": [
+      {
+        "translation": "轻便的,手提(式)的,可移动的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "portable computer",
+        "translation": "便携式计算机"
+      },
+      {
+        "phrase": "portable equipment",
+        "translation": "便携设备，手提设备；移动式设备"
+      },
+      {
+        "phrase": "portable type",
+        "translation": "便携式"
+      }
+    ]
+  },
+  {
+    "word": "porter",
+    "phonetic": "",
+    "meaning": "n. 守门人,门房,行李搬运工,服务员",
+    "translations": [
+      {
+        "translation": "守门人,门房,行李搬运工,服务员",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "portion",
+    "phonetic": "",
+    "meaning": "n. 一部分,一份",
+    "translations": [
+      {
+        "translation": "一部分,一份",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "central portion",
+        "translation": "中心部位"
+      },
+      {
+        "phrase": "main portion",
+        "translation": "主要部分"
+      },
+      {
+        "phrase": "portion something out",
+        "translation": "把(食品、土地、财产等)分成几份；把某物分成若干份；按比例分配"
+      }
+    ]
+  },
+  {
+    "word": "portrait",
+    "phonetic": "",
+    "meaning": "n. 肖像,画像",
+    "translations": [
+      {
+        "translation": "肖像,画像",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "head portrait",
+        "translation": "头像"
+      },
+      {
+        "phrase": "phase portrait",
+        "translation": "相位图；相图"
+      },
+      {
+        "phrase": "family portrait",
+        "translation": "全家福"
+      }
+    ]
+  },
+  {
+    "word": "portray",
+    "phonetic": "",
+    "meaning": "v. 描写，描述；画(人物、景象等)",
+    "translations": [
+      {
+        "translation": "描写，描述；画(人物、景象等)",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "proportion",
+    "phonetic": "",
+    "meaning": "n. 比例;部分;均衡,相称",
+    "translations": [
+      {
+        "translation": "比例;部分;均衡,相称",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in proportion",
+        "translation": "成比例；相称"
+      },
+      {
+        "phrase": "a large proportion of",
+        "translation": "一大部分"
+      },
+      {
+        "phrase": "direct proportion",
+        "translation": "n. 正比；正比例"
+      }
+    ]
+  },
+  {
+    "word": "report",
+    "phonetic": "",
+    "meaning": "n&v. 报告,汇报;传说,传阅",
+    "translations": [
+      {
+        "translation": "报告,汇报;传说,传阅",
+        "type": "n&v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "report oneself",
+        "translation": "去报到；到…去见某人"
+      },
+      {
+        "phrase": "report of",
+        "translation": "说出对…的印象；…的报告"
+      },
+      {
+        "phrase": "report on",
+        "translation": "就…作报告"
+      }
+    ]
+  },
+  {
+    "word": "reporter",
+    "phonetic": "",
+    "meaning": "n. 报告人,通讯员;记者,报导者",
+    "translations": [
+      {
+        "translation": "报告人,通讯员;记者,报导者",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "newspaper reporter",
+        "translation": "记者"
+      },
+      {
+        "phrase": "news reporter",
+        "translation": "新闻记者；新闻报道者"
+      },
+      {
+        "phrase": "tv reporter",
+        "translation": "电视台记者"
+      }
+    ]
+  },
+  {
+    "word": "support",
+    "phonetic": "",
+    "meaning": "n. /vt.支撑;支持;赡养;维持; n. 支持者;支柱",
+    "translations": [
+      {
+        "translation": "/vt.支撑;支持;赡养;维持",
+        "type": "n"
+      },
+      {
+        "translation": "支持者;支柱",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "support oneself",
+        "translation": "◎养活自己"
+      },
+      {
+        "phrase": "support of",
+        "translation": "支持；赞助"
+      },
+      {
+        "phrase": "support for",
+        "translation": "对…的支持"
+      }
+    ]
+  },
+  {
+    "word": "transport",
+    "phonetic": "",
+    "meaning": "v. 运输,运送,搬运n.运输;运输系统,运载工具",
+    "translations": [
+      {
+        "translation": "运输,运送,搬运n.运输;运输系统,运载工具",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "passenger transport",
+        "translation": "客运"
+      },
+      {
+        "phrase": "public transport",
+        "translation": "公交车"
+      },
+      {
+        "phrase": "transport system",
+        "translation": "运输系统；传输系统"
+      }
+    ]
+  },
+  {
+    "word": "incorporate",
+    "phonetic": "",
+    "meaning": "v. 合并,纳入,结合; adj. 合并的",
+    "translations": [
+      {
+        "translation": "合并,纳入,结合",
+        "type": "v"
+      },
+      {
+        "translation": "合并的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "incorporate with",
+        "translation": "合并；混合"
+      }
+    ]
+  },
+  {
+    "word": "contemporary",
+    "phonetic": "",
+    "meaning": "adj. 现代的,当代的;同时代的 time",
+    "translations": [
+      {
+        "translation": "现代的,当代的;同时代的 time",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "contemporary art",
+        "translation": "当代艺术"
+      },
+      {
+        "phrase": "contemporary literature",
+        "translation": "n. 现代文学"
+      },
+      {
+        "phrase": "the contemporary era",
+        "translation": "当代"
+      }
+    ]
+  },
+  {
+    "word": "temporary",
+    "phonetic": "",
+    "meaning": "adj. 暂时的,临时的",
+    "translations": [
+      {
+        "translation": "暂时的,临时的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "temporary storage",
+        "translation": "暂时存储器；暂时库容；中间存储器"
+      },
+      {
+        "phrase": "temporary work",
+        "translation": "临时工作；临时工程"
+      },
+      {
+        "phrase": "temporary shelter",
+        "translation": "临时避难所；临时收容中心；临时安置所；临时庇护站"
+      }
+    ]
+  },
+  {
+    "word": "pose",
+    "phonetic": "",
+    "meaning": "n. 姿势,姿态; v. 造成,提出,摆姿势,佯装",
+    "translations": [
+      {
+        "translation": "姿势,姿态",
+        "type": "n"
+      },
+      {
+        "translation": "造成,提出,摆姿势,佯装",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "pose a threat",
+        "translation": "构成威胁；形成一种威胁"
+      }
+    ]
+  },
+  {
+    "word": "compose",
+    "phonetic": "",
+    "meaning": "v. 组成,构成;(of)由…组成;创作(诗歌等)",
+    "translations": [
+      {
+        "translation": "组成,构成;(of)由…组成;创作(诗歌等)",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "compose oneself",
+        "translation": "镇静"
+      },
+      {
+        "phrase": "compose of",
+        "translation": "由…组成"
+      }
+    ]
+  },
+  {
+    "word": "composite",
+    "phonetic": "",
+    "meaning": "adj. 混合成的，综合成的n.合成物，复合材料",
+    "translations": [
+      {
+        "translation": "混合成的，综合成的n.合成物，复合材料",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "composite material",
+        "translation": "复合材料"
+      },
+      {
+        "phrase": "composite structure",
+        "translation": "组合结构；复合机构；混合结构"
+      },
+      {
+        "phrase": "composite index",
+        "translation": "复合指标；财经综合指数"
+      }
+    ]
+  },
+  {
+    "word": "composition",
+    "phonetic": "",
+    "meaning": "n. 作品,作文,乐曲;作曲;结构,组成,成分",
+    "translations": [
+      {
+        "translation": "作品,作文,乐曲;作曲;结构,组成,成分",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "chemical composition",
+        "translation": "化学成分；化学组成"
+      },
+      {
+        "phrase": "mineral composition",
+        "translation": "矿物组成，矿物成分"
+      },
+      {
+        "phrase": "phase composition",
+        "translation": "相组成；相成分；相位成分"
+      }
+    ]
+  },
+  {
+    "word": "deposit",
+    "phonetic": "",
+    "meaning": "v. 存放;使沉淀;付(保证金); n. 存款;沉积物",
+    "translations": [
+      {
+        "translation": "存放;使沉淀;付(保证金)",
+        "type": "v"
+      },
+      {
+        "translation": "存款;沉积物",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "ore deposit",
+        "translation": "矿床；矿层"
+      },
+      {
+        "phrase": "deposit insurance",
+        "translation": "存款保险"
+      },
+      {
+        "phrase": "deposit account",
+        "translation": "存款帐户；储蓄存款"
+      }
+    ]
+  },
+  {
+    "word": "disposal",
+    "phonetic": "",
+    "meaning": "n. 处理,处置;布置,安排",
+    "translations": [
+      {
+        "translation": "处理,处置;布置,安排",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "sewage disposal",
+        "translation": "污水处理"
+      },
+      {
+        "phrase": "waste disposal",
+        "translation": "废物处理；废物处理装置"
+      },
+      {
+        "phrase": "at your disposal",
+        "translation": "任意使用；任你自由支配；听你差遣"
+      }
+    ]
+  },
+  {
+    "word": "dispose",
+    "phonetic": "",
+    "meaning": "v. (of)处理,处置;(for)布置,安排",
+    "translations": [
+      {
+        "translation": "(of)处理,处置;(for)布置,安排",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "dispose of",
+        "translation": "处理；转让；解决；吃光；除掉；卖掉"
+      }
+    ]
+  },
+  {
+    "word": "disposition",
+    "phonetic": "",
+    "meaning": "n. 排列,部署;性格倾向;倾向,意向",
+    "translations": [
+      {
+        "translation": "排列,部署;性格倾向;倾向,意向",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "disposition plan",
+        "translation": "配置平面图"
+      },
+      {
+        "phrase": "disposition effect",
+        "translation": "处置效应；处分效果"
+      }
+    ]
+  },
+  {
+    "word": "expose",
+    "phonetic": "",
+    "meaning": "v. (to)使暴露,受到;使曝光",
+    "translations": [
+      {
+        "translation": "(to)使暴露,受到;使曝光",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "exposure",
+    "phonetic": "",
+    "meaning": "n. 暴露,揭露;方向;陈列;遗弃;照射量",
+    "translations": [
+      {
+        "translation": "暴露,揭露;方向;陈列;遗弃;照射量",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "exposure time",
+        "translation": "曝光时间"
+      },
+      {
+        "phrase": "sun exposure",
+        "translation": "日照"
+      },
+      {
+        "phrase": "occupational exposure",
+        "translation": "职业照射"
+      }
+    ]
+  },
+  {
+    "word": "impose",
+    "phonetic": "",
+    "meaning": "v. 征(税);(on)把…强加给",
+    "translations": [
+      {
+        "translation": "征(税);(on)把…强加给",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "impose on",
+        "translation": "利用；欺骗；施加影响于"
+      },
+      {
+        "phrase": "impose a fine",
+        "translation": "处以罚款"
+      }
+    ]
+  },
+  {
+    "word": "impossible",
+    "phonetic": "",
+    "meaning": "adj. 不可能的；难以忍受的，很难对付的",
+    "translations": [
+      {
+        "translation": "不可能的；难以忍受的，很难对付的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "nothing is impossible",
+        "translation": "没有什么不可能"
+      },
+      {
+        "phrase": "mission impossible",
+        "translation": "不可能的任务，棘手的任务"
+      },
+      {
+        "phrase": "impossible dream",
+        "translation": "不可能实现的梦；不可能的梦想"
+      }
+    ]
+  },
+  {
+    "word": "oppose",
+    "phonetic": "",
+    "meaning": "v. 反对,使对立,使对抗,使相对",
+    "translations": [
+      {
+        "translation": "反对,使对立,使对抗,使相对",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "opposite",
+    "phonetic": "",
+    "meaning": "adj. 对面的,相对的,相反的; n. 对立面",
+    "translations": [
+      {
+        "translation": "对面的,相对的,相反的",
+        "type": "adj"
+      },
+      {
+        "translation": "对立面",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "opposite direction",
+        "translation": "相反方向；敌对方向"
+      },
+      {
+        "phrase": "opposite sex",
+        "translation": "异性"
+      },
+      {
+        "phrase": "just the opposite",
+        "translation": "正好相反，恰巧相反"
+      }
+    ]
+  },
+  {
+    "word": "position",
+    "phonetic": "",
+    "meaning": "n. 位置;职位;姿势,姿态;见解,立场,形势",
+    "translations": [
+      {
+        "translation": "位置;职位;姿势,姿态;见解,立场,形势",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "leading position",
+        "translation": "基础地位；首要地位"
+      },
+      {
+        "phrase": "geographical position",
+        "translation": "地理位置"
+      },
+      {
+        "phrase": "in position",
+        "translation": "就位；在适当的位置；在原位"
+      }
+    ]
+  },
+  {
+    "word": "positive",
+    "phonetic": "",
+    "meaning": "adj. 肯定的,积极的,绝对的,无疑的,正的",
+    "translations": [
+      {
+        "translation": "肯定的,积极的,绝对的,无疑的,正的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "positive effect",
+        "translation": "积极的效果；明显效果"
+      },
+      {
+        "phrase": "positive and negative",
+        "translation": "正反；肯定和否定"
+      },
+      {
+        "phrase": "positive attitude",
+        "translation": "积极态度"
+      }
+    ]
+  },
+  {
+    "word": "preposition",
+    "phonetic": "",
+    "meaning": "n. 介词",
+    "translations": [
+      {
+        "translation": "介词",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "proposal",
+    "phonetic": "",
+    "meaning": "n. 提议,建议;求婚",
+    "translations": [
+      {
+        "translation": "提议,建议;求婚",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "proposal for sth",
+        "translation": "预备；提建议"
+      },
+      {
+        "phrase": "design proposal",
+        "translation": "设计方案，设计建议"
+      },
+      {
+        "phrase": "to table a proposal",
+        "translation": "提出建议"
+      }
+    ]
+  },
+  {
+    "word": "propose",
+    "phonetic": "",
+    "meaning": "v. 提议,建议;提名,推荐;求婚",
+    "translations": [
+      {
+        "translation": "提议,建议;提名,推荐;求婚",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "propose to someone",
+        "translation": "向某人求婚"
+      },
+      {
+        "phrase": "propose a toast",
+        "translation": "敬酒；举杯"
+      },
+      {
+        "phrase": "propose someone for",
+        "translation": "推荐某人(参加某组织)；提名某人(任某职)"
+      }
+    ]
+  },
+  {
+    "word": "proposition",
+    "phonetic": "",
+    "meaning": "n. 主张,建议;陈述,命题",
+    "translations": [
+      {
+        "translation": "主张,建议;陈述,命题",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "value proposition",
+        "translation": "价值主张；价值定位；价值命题"
+      },
+      {
+        "phrase": "make someone a proposition",
+        "translation": "◎[口语]向某人提出一项办法(或提议)"
+      },
+      {
+        "phrase": "unique selling proposition",
+        "translation": "独特的销售主张"
+      }
+    ]
+  },
+  {
+    "word": "purpose",
+    "phonetic": "",
+    "meaning": "n. 目的,意图;用途,效果",
+    "translations": [
+      {
+        "translation": "目的,意图;用途,效果",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "for the purpose",
+        "translation": "为某目的"
+      },
+      {
+        "phrase": "for the purpose of",
+        "translation": "为了…目的"
+      },
+      {
+        "phrase": "on purpose",
+        "translation": "有目的地，故意地"
+      }
+    ]
+  },
+  {
+    "word": "suppose",
+    "phonetic": "",
+    "meaning": "v. 料想,猜想;假定;conj.假使...结果会怎样",
+    "translations": [
+      {
+        "translation": "料想,猜想;假定;conj.假使...结果会怎样",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "symposium",
+    "phonetic": "",
+    "meaning": "n. 讨论会,专题报告会;专题论文集",
+    "translations": [
+      {
+        "translation": "讨论会,专题报告会;专题论文集",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "annual symposium",
+        "translation": "年会"
+      }
+    ]
+  },
+  {
+    "word": "possess",
+    "phonetic": "",
+    "meaning": "v. 占有,拥有",
+    "translations": [
+      {
+        "translation": "占有,拥有",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "possess oneself",
+        "translation": "自制，镇静"
+      },
+      {
+        "phrase": "possess someone of something",
+        "translation": "使某人拥有某物"
+      },
+      {
+        "phrase": "possess of",
+        "translation": "拥有；占有"
+      }
+    ]
+  },
+  {
+    "word": "possession",
+    "phonetic": "",
+    "meaning": "n. 持有,拥有;所有权;所有物;(pl.)财产,财富",
+    "translations": [
+      {
+        "translation": "持有,拥有;所有权;所有物;(pl.)财产,财富",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in possession of something",
+        "translation": "拥有(或占有)某物"
+      },
+      {
+        "phrase": "in possession",
+        "translation": "占有，持有"
+      },
+      {
+        "phrase": "in possession of",
+        "translation": "拥有，占有"
+      }
+    ]
+  },
+  {
+    "word": "possibility",
+    "phonetic": "",
+    "meaning": "n. 可能,可能性;可能的事,希望",
+    "translations": [
+      {
+        "translation": "可能,可能性;可能的事,希望",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "production possibility",
+        "translation": "生产可能性"
+      },
+      {
+        "phrase": "by any possibility",
+        "translation": "万一；可能"
+      }
+    ]
+  },
+  {
+    "word": "possible",
+    "phonetic": "",
+    "meaning": "adj. 可能的,做得到的;合理的;可允许的",
+    "translations": [
+      {
+        "translation": "可能的,做得到的;合理的;可允许的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "possible for",
+        "translation": "可能；对…可能的"
+      },
+      {
+        "phrase": "as much as possible",
+        "translation": "尽可能"
+      },
+      {
+        "phrase": "if possible",
+        "translation": "如果可能的话；如有可能"
+      }
+    ]
+  },
+  {
+    "word": "possibly",
+    "phonetic": "",
+    "meaning": "adv. 可能地，也许；无论如何",
+    "translations": [
+      {
+        "translation": "可能地，也许；无论如何",
+        "type": "adv"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "pray",
+    "phonetic": "",
+    "meaning": "v. 请求,恳求;祈祷,祈求",
+    "translations": [
+      {
+        "translation": "请求,恳求;祈祷,祈求",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "pray for",
+        "translation": "恳求，请求"
+      }
+    ]
+  },
+  {
+    "word": "appraisal",
+    "phonetic": "",
+    "meaning": "n. 对...作出的评价；评价，鉴定，评估; v. 赞扬,歌颂;表扬",
+    "translations": [
+      {
+        "translation": "对...作出的评价；评价，鉴定，评估",
+        "type": "n"
+      },
+      {
+        "translation": "赞扬,歌颂;表扬",
+        "type": "v"
+      },
+      {
+        "translation": "称赞,赞美;赞美的话",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "performance appraisal",
+        "translation": "成绩评价，业绩评价"
+      },
+      {
+        "phrase": "real estate appraisal",
+        "translation": "房地产评估；不动产评估"
+      },
+      {
+        "phrase": "assets appraisal",
+        "translation": "资产评估"
+      }
+    ]
+  },
+  {
+    "word": "prayer",
+    "phonetic": "",
+    "meaning": "n. 祈祷,祷告,祷文",
+    "translations": [
+      {
+        "translation": "祈祷,祷告,祷文",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "prayer meeting",
+        "translation": "n. 祈祷会"
+      },
+      {
+        "phrase": "lord's prayer",
+        "translation": "主祷文，天主经"
+      },
+      {
+        "phrase": "prayer book",
+        "translation": "n. 祈祷书"
+      }
+    ]
+  },
+  {
+    "word": "price",
+    "phonetic": "",
+    "meaning": "n. 价格,价钱;代价; v. 标价",
+    "translations": [
+      {
+        "translation": "价格,价钱;代价",
+        "type": "n"
+      },
+      {
+        "translation": "标价",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "reasonable price",
+        "translation": "合理价格；价格公道"
+      },
+      {
+        "phrase": "low price",
+        "translation": "低价；廉价"
+      },
+      {
+        "phrase": "market price",
+        "translation": "市价"
+      }
+    ]
+  },
+  {
+    "word": "appropriate",
+    "phonetic": "",
+    "meaning": "adj. 适当的恰当的特有的vt.拨给,挪用,盗用",
+    "translations": [
+      {
+        "translation": "适当的恰当的特有的vt.拨给,挪用,盗用",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "as appropriate",
+        "translation": "酌情；[拉丁语]视情况而定"
+      },
+      {
+        "phrase": "appropriate time",
+        "translation": "适当时间"
+      },
+      {
+        "phrase": "if appropriate",
+        "translation": "任选地；如果有的话"
+      }
+    ]
+  },
+  {
+    "word": "comprise",
+    "phonetic": "",
+    "meaning": "v. 包含，包括，由...组成；构成，组成",
+    "translations": [
+      {
+        "translation": "包含，包括，由...组成；构成，组成",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "be comprised of",
+        "translation": "由…组成"
+      }
+    ]
+  },
+  {
+    "word": "enterprise",
+    "phonetic": "",
+    "meaning": "n. 事业,企(事)业单位;事业心,进取心",
+    "translations": [
+      {
+        "translation": "事业,企(事)业单位;事业心,进取心",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "enterprise management",
+        "translation": "企业管理"
+      },
+      {
+        "phrase": "business enterprise",
+        "translation": "工商企业；企业机构"
+      },
+      {
+        "phrase": "private enterprise",
+        "translation": "民营企业；私营企业"
+      }
+    ]
+  },
+  {
+    "word": "pride",
+    "phonetic": "",
+    "meaning": "n. 自豪;自满；引以自豪的东西; v. 使自豪",
+    "translations": [
+      {
+        "translation": "自豪;自满；引以自豪的东西",
+        "type": "n"
+      },
+      {
+        "translation": "使自豪",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "pride in",
+        "translation": "以…为傲"
+      },
+      {
+        "phrase": "the pride of",
+        "translation": "...的全盛期"
+      },
+      {
+        "phrase": "take pride in",
+        "translation": "v. 以…为傲"
+      }
+    ]
+  },
+  {
+    "word": "priest",
+    "phonetic": "",
+    "meaning": "n. 教士,神父",
+    "translations": [
+      {
+        "translation": "教士,神父",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "high priest",
+        "translation": "大祭司；主教；主要人物；领袖"
+      }
+    ]
+  },
+  {
+    "word": "primary",
+    "phonetic": "",
+    "meaning": "adj. 最初的,初级的;首要的,主要的,基本的",
+    "translations": [
+      {
+        "translation": "最初的,初级的;首要的,主要的,基本的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "primary school",
+        "translation": "小学"
+      },
+      {
+        "phrase": "primary stage",
+        "translation": "初始阶段"
+      },
+      {
+        "phrase": "primary purpose",
+        "translation": "主要目的；根本目的"
+      }
+    ]
+  },
+  {
+    "word": "prime",
+    "phonetic": "",
+    "meaning": "adj. 首要的;最好的,第一流的; n. 青春,全盛期",
+    "translations": [
+      {
+        "translation": "首要的;最好的,第一流的",
+        "type": "adj"
+      },
+      {
+        "translation": "青春,全盛期",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "prime minister",
+        "translation": "首相，总理"
+      },
+      {
+        "phrase": "prime time",
+        "translation": "黄金时间"
+      },
+      {
+        "phrase": "deputy prime minister",
+        "translation": "副总理；副首相"
+      }
+    ]
+  },
+  {
+    "word": "primitive",
+    "phonetic": "",
+    "meaning": "adj. 原始的,远古的,早期的;粗糙的,简单的",
+    "translations": [
+      {
+        "translation": "原始的,远古的,早期的;粗糙的,简单的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "primitive religion",
+        "translation": "原始宗教"
+      },
+      {
+        "phrase": "primitive people",
+        "translation": "原始人；原始民族"
+      },
+      {
+        "phrase": "primitive culture",
+        "translation": "原始文明"
+      }
+    ]
+  },
+  {
+    "word": "prince",
+    "phonetic": "",
+    "meaning": "n. 王子,亲王",
+    "translations": [
+      {
+        "translation": "王子,亲王",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "prince charles",
+        "translation": "查尔斯王子（英国王储）"
+      },
+      {
+        "phrase": "crown prince",
+        "translation": "n. 皇太子；皇储"
+      },
+      {
+        "phrase": "prince of wales",
+        "translation": "n. 威尔士亲王（英国皇太子之封号）"
+      }
+    ]
+  },
+  {
+    "word": "princess",
+    "phonetic": "",
+    "meaning": "n. 公主,王妃",
+    "translations": [
+      {
+        "translation": "公主,王妃",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "princess diana",
+        "translation": "戴安娜王妃"
+      },
+      {
+        "phrase": "princess of wales",
+        "translation": "n. 威尔斯王妃"
+      },
+      {
+        "phrase": "crown princess",
+        "translation": "n. 将继承王位的公主；女王储"
+      }
+    ]
+  },
+  {
+    "word": "prior",
+    "phonetic": "",
+    "meaning": "adj. 优先的,在前的;(to)在…之前",
+    "translations": [
+      {
+        "translation": "优先的,在前的;(to)在…之前",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "prior notice",
+        "translation": "事先通知；预先通报"
+      },
+      {
+        "phrase": "prior art",
+        "translation": "先前技术"
+      },
+      {
+        "phrase": "prior approval",
+        "translation": "事先批准；预先审批；事前批准；事前许可；预先核准"
+      }
+    ]
+  },
+  {
+    "word": "priority",
+    "phonetic": "",
+    "meaning": "n. 先,前;优先,重点,优先权",
+    "translations": [
+      {
+        "translation": "先,前;优先,重点,优先权",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "give priority to",
+        "translation": "优先考虑；认为优先"
+      },
+      {
+        "phrase": "top priority",
+        "translation": "最优先的"
+      },
+      {
+        "phrase": "first priority",
+        "translation": "最优先；绝对优先权"
+      }
+    ]
+  },
+  {
+    "word": "prison",
+    "phonetic": "",
+    "meaning": "n. 监狱",
+    "translations": [
+      {
+        "translation": "监狱",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in prison",
+        "translation": "坐牢"
+      },
+      {
+        "phrase": "escape from prison",
+        "translation": "越狱"
+      },
+      {
+        "phrase": "prison sentence",
+        "translation": "n. 徒刑"
+      }
+    ]
+  },
+  {
+    "word": "prisoner",
+    "phonetic": "",
+    "meaning": "n. 囚犯",
+    "translations": [
+      {
+        "translation": "囚犯",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "prisoner of war",
+        "translation": "战俘"
+      },
+      {
+        "phrase": "prisoner of war (pow)",
+        "translation": "n. 战俘"
+      },
+      {
+        "phrase": "political prisoner",
+        "translation": "政治犯"
+      }
+    ]
+  },
+  {
+    "word": "privacy",
+    "phonetic": "",
+    "meaning": "n. (不受干扰的)独处，自由，隐私；私生活",
+    "translations": [
+      {
+        "translation": "(不受干扰的)独处，自由，隐私；私生活",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "privacy policy",
+        "translation": "隐私权政策；隐私策略"
+      },
+      {
+        "phrase": "privacy protection",
+        "translation": "秘密保护"
+      },
+      {
+        "phrase": "right of privacy",
+        "translation": "隐私权"
+      }
+    ]
+  },
+  {
+    "word": "private",
+    "phonetic": "",
+    "meaning": "adj. 私人的,个人的,秘密的,私下的",
+    "translations": [
+      {
+        "translation": "私人的,个人的,秘密的,私下的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in private",
+        "translation": "私下地；秘密地"
+      },
+      {
+        "phrase": "private enterprise",
+        "translation": "民营企业；私营企业"
+      },
+      {
+        "phrase": "private sector",
+        "translation": "私营部门；私营成分"
+      }
+    ]
+  },
+  {
+    "word": "privilege",
+    "phonetic": "",
+    "meaning": "n. 特权,优惠,特许; v. 给予优惠,给予特权",
+    "translations": [
+      {
+        "translation": "特权,优惠,特许",
+        "type": "n"
+      },
+      {
+        "translation": "给予优惠,给予特权",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "special privilege",
+        "translation": "特权；特别优惠；特殊许可"
+      }
+    ]
+  },
+  {
+    "word": "prize",
+    "phonetic": "",
+    "meaning": "n. 奖赏,奖金,奖品; v. 珍视,珍惜",
+    "translations": [
+      {
+        "translation": "奖赏,奖金,奖品",
+        "type": "n"
+      },
+      {
+        "translation": "珍视,珍惜",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "nobel prize",
+        "translation": "诺贝尔奖"
+      },
+      {
+        "phrase": "first prize",
+        "translation": "一等奖"
+      },
+      {
+        "phrase": "nobel peace prize",
+        "translation": "诺贝尔和平奖"
+      }
+    ]
+  },
+  {
+    "word": "surprise",
+    "phonetic": "",
+    "meaning": "v. 使诧异,使惊异;奇袭; n. 诧异,惊异;奇袭",
+    "translations": [
+      {
+        "translation": "使诧异,使惊异;奇袭",
+        "type": "v"
+      },
+      {
+        "translation": "诧异,惊异;奇袭",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "by surprise",
+        "translation": "出其不意地"
+      },
+      {
+        "phrase": "in surprise",
+        "translation": "惊奇地"
+      },
+      {
+        "phrase": "big surprise",
+        "translation": "大惊喜；大吃一惊"
+      }
+    ]
+  },
+  {
+    "word": "appreciate",
+    "phonetic": "",
+    "meaning": "v. 为...表示感激，感谢；欣赏，赏识，评价",
+    "translations": [
+      {
+        "translation": "为...表示感激，感谢；欣赏，赏识，评价",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "precious",
+    "phonetic": "",
+    "meaning": "adj. 珍贵的,贵重的",
+    "translations": [
+      {
+        "translation": "珍贵的,贵重的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "precious metal",
+        "translation": "贵金属，贵重金属"
+      },
+      {
+        "phrase": "precious stone",
+        "translation": "宝石"
+      },
+      {
+        "phrase": "precious moment",
+        "translation": "珍贵的时刻"
+      }
+    ]
+  },
+  {
+    "word": "precise",
+    "phonetic": "",
+    "meaning": "adj. 精确的,准确的",
+    "translations": [
+      {
+        "translation": "精确的,准确的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "to be precise",
+        "translation": "确切地讲"
+      },
+      {
+        "phrase": "to be more precise",
+        "translation": "更确切地说"
+      },
+      {
+        "phrase": "precise information",
+        "translation": "精确资料"
+      }
+    ]
+  },
+  {
+    "word": "precision",
+    "phonetic": "",
+    "meaning": "n. 精确,精确度",
+    "translations": [
+      {
+        "translation": "精确,精确度",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "high precision",
+        "translation": "高精度"
+      },
+      {
+        "phrase": "precision machinery",
+        "translation": "精密机械；精密机械学"
+      },
+      {
+        "phrase": "precision machining",
+        "translation": "精密加工；精密机械加工"
+      }
+    ]
+  },
+  {
+    "word": "prove",
+    "phonetic": "",
+    "meaning": "v. 证明,证实;检验;考验;鉴定;结果是,表明是",
+    "translations": [
+      {
+        "translation": "证明,证实;检验;考验;鉴定;结果是,表明是",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "prove to be",
+        "translation": "结果是，证明为"
+      },
+      {
+        "phrase": "go to prove",
+        "translation": "足以证明；证实[常用在it之后]"
+      },
+      {
+        "phrase": "prove yourself",
+        "translation": "证明你自己"
+      }
+    ]
+  },
+  {
+    "word": "approval",
+    "phonetic": "",
+    "meaning": "n. 批准，通过；赞成，同意",
+    "translations": [
+      {
+        "translation": "批准，通过；赞成，同意",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "approval of",
+        "translation": "批准；同意"
+      },
+      {
+        "phrase": "examination and approval",
+        "translation": "审查准许"
+      },
+      {
+        "phrase": "for approval",
+        "translation": "提交批准"
+      }
+    ]
+  },
+  {
+    "word": "approve",
+    "phonetic": "",
+    "meaning": "v. (of)赞成，赞许，同意；批准，审议，通过",
+    "translations": [
+      {
+        "translation": "(of)赞成，赞许，同意；批准，审议，通过",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "approve oneself",
+        "translation": "[古语]证明为，表明为"
+      },
+      {
+        "phrase": "approve of",
+        "translation": "赞成"
+      },
+      {
+        "phrase": "examine and approve",
+        "translation": "审批"
+      }
+    ]
+  },
+  {
+    "word": "improve",
+    "phonetic": "",
+    "meaning": "v. 改善,改进,增进;好转,进步",
+    "translations": [
+      {
+        "translation": "改善,改进,增进;好转,进步",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "improve efficiency",
+        "translation": "提高效率"
+      },
+      {
+        "phrase": "improve on",
+        "translation": "改进；对…加以改良"
+      },
+      {
+        "phrase": "improve in",
+        "translation": "在…方面有改进"
+      }
+    ]
+  },
+  {
+    "word": "improvement",
+    "phonetic": "",
+    "meaning": "n. 改进,进步,增进;改进措施",
+    "translations": [
+      {
+        "translation": "改进,进步,增进;改进措施",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "improvement in",
+        "translation": "好转；表示原物有改进"
+      },
+      {
+        "phrase": "continuous improvement",
+        "translation": "持续改进；进取不懈"
+      },
+      {
+        "phrase": "quality improvement",
+        "translation": "质量改进"
+      }
+    ]
+  },
+  {
+    "word": "waterproof",
+    "phonetic": "",
+    "meaning": "adj. 防水的,耐水的",
+    "translations": [
+      {
+        "translation": "防水的,耐水的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "waterproof paint",
+        "translation": "防水涂料；防水漆"
+      },
+      {
+        "phrase": "waterproof concrete",
+        "translation": "防水混凝土；防水砼"
+      },
+      {
+        "phrase": "waterproof membrane",
+        "translation": "防水膜"
+      }
+    ]
+  },
+  {
+    "word": "proof",
+    "phonetic": "",
+    "meaning": "n. 证据,证明;校样,样张",
+    "translations": [
+      {
+        "translation": "证据,证明;校样,样张",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "burden of proof",
+        "translation": "举证责任；提供证据之责任"
+      },
+      {
+        "phrase": "water proof",
+        "translation": "防水的；不透水的"
+      },
+      {
+        "phrase": "explosion proof",
+        "translation": "防爆"
+      }
+    ]
+  },
+  {
+    "word": "correct",
+    "phonetic": "",
+    "meaning": "adj. 正确的,恰当的,端正的; v. 改正,纠正,矫正",
+    "translations": [
+      {
+        "translation": "正确的,恰当的,端正的",
+        "type": "adj"
+      },
+      {
+        "translation": "改正,纠正,矫正",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "correct operation",
+        "translation": "正确动作"
+      },
+      {
+        "phrase": "correct time",
+        "translation": "正确时间"
+      },
+      {
+        "phrase": "correct pronunciation",
+        "translation": "正音；正确发音"
+      }
+    ]
+  },
+  {
+    "word": "direct",
+    "phonetic": "",
+    "meaning": "a&ad. 径直的(地); v. 管理,指导;(at,to)指向",
+    "translations": [
+      {
+        "translation": "径直的(地)",
+        "type": "a&ad"
+      },
+      {
+        "translation": "管理,指导;(at,to)指向",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "direct investment",
+        "translation": "[经]直接投资"
+      },
+      {
+        "phrase": "direct current",
+        "translation": "直流；[电]直流电"
+      },
+      {
+        "phrase": "foreign direct investment",
+        "translation": "n. 外国直接投资，对外直接投资"
+      }
+    ]
+  },
+  {
+    "word": "direction",
+    "phonetic": "",
+    "meaning": "n. 方向,方位;指令,说明",
+    "translations": [
+      {
+        "translation": "方向,方位;指令,说明",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in the direction",
+        "translation": "朝…方向；在…方向"
+      },
+      {
+        "phrase": "in all directions",
+        "translation": "四面八方；全面地；向各方面"
+      },
+      {
+        "phrase": "in the direction of",
+        "translation": "朝…方向，向…方向"
+      }
+    ]
+  },
+  {
+    "word": "directly",
+    "phonetic": "",
+    "meaning": "adv. 直接地,径直地;马上,立即",
+    "translations": [
+      {
+        "translation": "直接地,径直地;马上,立即",
+        "type": "adv"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "directly proportional",
+        "translation": "直接比例的"
+      },
+      {
+        "phrase": "directly address",
+        "translation": "直接寻址"
+      }
+    ]
+  },
+  {
+    "word": "director",
+    "phonetic": "",
+    "meaning": "n. 指导者,主任,导演",
+    "translations": [
+      {
+        "translation": "指导者,主任,导演",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "deputy director",
+        "translation": "副局长，副厅长；副院长"
+      },
+      {
+        "phrase": "managing director",
+        "translation": "n. 总经理，常务董事"
+      },
+      {
+        "phrase": "vice director",
+        "translation": "副处长；副主任；副院长；副会长"
+      }
+    ]
+  },
+  {
+    "word": "directory",
+    "phonetic": "",
+    "meaning": "n. 人名地址录,(电话)号码簿",
+    "translations": [
+      {
+        "translation": "人名地址录,(电话)号码簿",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "telephone directory",
+        "translation": "电话簿"
+      },
+      {
+        "phrase": "current directory",
+        "translation": "n. [计]当前目录"
+      },
+      {
+        "phrase": "root directory",
+        "translation": "根目录"
+      }
+    ]
+  },
+  {
+    "word": "erect",
+    "phonetic": "",
+    "meaning": "v. 树立,建立,使竖立; adj. 直立的,垂直的",
+    "translations": [
+      {
+        "translation": "树立,建立,使竖立",
+        "type": "v"
+      },
+      {
+        "translation": "直立的,垂直的",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "rectangle",
+    "phonetic": "",
+    "meaning": "n. [数]矩形, 长方形",
+    "translations": [
+      {
+        "translation": "[数]矩形, 长方形",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "rectangle tool",
+        "translation": "矩形工具"
+      }
+    ]
+  },
+  {
+    "word": "rectify",
+    "phonetic": "",
+    "meaning": "v. 纠正,整顿, [化]精馏",
+    "translations": [
+      {
+        "translation": "纠正,整顿, [化]精馏",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "same",
+    "phonetic": "",
+    "meaning": "adj. 相同的; pron. 相同的人(或物)",
+    "translations": [
+      {
+        "translation": "相同的",
+        "type": "adj"
+      },
+      {
+        "translation": "相同的人(或物)",
+        "type": "pron"
+      },
+      {
+        "translation": "同样地",
+        "type": "adv"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "same time",
+        "translation": "同时"
+      },
+      {
+        "phrase": "same as",
+        "translation": "等同于；与…一致"
+      },
+      {
+        "phrase": "same way",
+        "translation": "同样；同样的方法；同样的感受"
+      }
+    ]
+  },
+  {
+    "word": "sample",
+    "phonetic": "",
+    "meaning": "n. 样品,实例,标本,抽样检查; v. 取样,采样",
+    "translations": [
+      {
+        "translation": "样品,实例,标本,抽样检查",
+        "type": "n"
+      },
+      {
+        "translation": "取样,采样",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "sample preparation",
+        "translation": "样品制备；样品处理；样品加工"
+      },
+      {
+        "phrase": "sample data",
+        "translation": "样本数据；抽样资料"
+      },
+      {
+        "phrase": "sample size",
+        "translation": "样本量；样本大小"
+      }
+    ]
+  },
+  {
+    "word": "assembly",
+    "phonetic": "",
+    "meaning": "n. 集合；会议；装配；(美)洲议会的众议院",
+    "translations": [
+      {
+        "translation": "集合；会议；装配；(美)洲议会的众议院",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "assembly line",
+        "translation": "装配线；流水作业线"
+      },
+      {
+        "phrase": "general assembly",
+        "translation": "联合国大会"
+      },
+      {
+        "phrase": "assembly language",
+        "translation": "n. 汇编语言"
+      }
+    ]
+  },
+  {
+    "word": "resemblance",
+    "phonetic": "",
+    "meaning": "n. 相似,相似性[点,物]",
+    "translations": [
+      {
+        "translation": "相似,相似性[点,物]",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "family resemblance",
+        "translation": "家族类似性"
+      }
+    ]
+  },
+  {
+    "word": "resemble",
+    "phonetic": "",
+    "meaning": "v. 像,类似",
+    "translations": [
+      {
+        "translation": "像,类似",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "simple",
+    "phonetic": "",
+    "meaning": "adj. 简单的;单纯的,直率的;迟钝的,头脑简单的",
+    "translations": [
+      {
+        "translation": "简单的;单纯的,直率的;迟钝的,头脑简单的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "simple structure",
+        "translation": "简单结构；静定结构"
+      },
+      {
+        "phrase": "simple and easy",
+        "translation": "简易明了"
+      },
+      {
+        "phrase": "simple life",
+        "translation": "简单生活"
+      }
+    ]
+  },
+  {
+    "word": "simplicity",
+    "phonetic": "",
+    "meaning": "n. 简单,简易;朴素;直率,单纯",
+    "translations": [
+      {
+        "translation": "简单,简易;朴素;直率,单纯",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "for simplicity",
+        "translation": "为简单起见"
+      }
+    ]
+  },
+  {
+    "word": "simplify",
+    "phonetic": "",
+    "meaning": "v. 简化,使单纯",
+    "translations": [
+      {
+        "translation": "简化,使单纯",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "simply",
+    "phonetic": "",
+    "meaning": "adv. 简单地;完全,简直;仅仅,只不过;朴素地",
+    "translations": [
+      {
+        "translation": "简单地;完全,简直;仅仅,只不过;朴素地",
+        "type": "adv"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "simply supported",
+        "translation": "简支"
+      },
+      {
+        "phrase": "simply put",
+        "translation": "简言之；简单本说"
+      },
+      {
+        "phrase": "simply supported beam",
+        "translation": "简支梁；简单支撑梁；简支架"
+      }
+    ]
+  },
+  {
+    "word": "pessimistic",
+    "phonetic": "",
+    "meaning": "adj. 悲观(主义)的",
+    "translations": [
+      {
+        "translation": "悲观(主义)的",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "similar",
+    "phonetic": "",
+    "meaning": "adj. (to)相似的,类似的",
+    "translations": [
+      {
+        "translation": "(to)相似的,类似的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in a similar way",
+        "translation": "按同样的方式"
+      },
+      {
+        "phrase": "similar terms",
+        "translation": "[数]类似项；同类项"
+      },
+      {
+        "phrase": "similar figures",
+        "translation": "相似图形；相似形（similar figure的复数）"
+      }
+    ]
+  },
+  {
+    "word": "simulate",
+    "phonetic": "",
+    "meaning": "v. 模仿,模拟;假装,冒充",
+    "translations": [
+      {
+        "translation": "模仿,模拟;假装,冒充",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "simultaneous",
+    "phonetic": "",
+    "meaning": "adj. 同时的,同时存在的",
+    "translations": [
+      {
+        "translation": "同时的,同时存在的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "simultaneous interpretation",
+        "translation": "同声传译"
+      },
+      {
+        "phrase": "simultaneous translation",
+        "translation": "同声传译；同步翻译"
+      },
+      {
+        "phrase": "simultaneous measurement",
+        "translation": "同步量测；同时观测"
+      }
+    ]
+  },
+  {
+    "word": "approximate",
+    "phonetic": "",
+    "meaning": "adj. 近似的; v. (to)接近",
+    "translations": [
+      {
+        "translation": "近似的",
+        "type": "adj"
+      },
+      {
+        "translation": "(to)接近",
+        "type": "v"
+      },
+      {
+        "translation": "sim",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "approximate solution",
+        "translation": "[计]近似解"
+      },
+      {
+        "phrase": "approximate calculation",
+        "translation": "近似计算"
+      },
+      {
+        "phrase": "approximate method",
+        "translation": "近似法"
+      }
+    ]
+  },
+  {
+    "word": "assimilate",
+    "phonetic": "",
+    "meaning": "v. 吸收，消化；使同化; v. 被吸收；被同化",
+    "translations": [
+      {
+        "translation": "吸收，消化；使同化",
+        "type": "v"
+      },
+      {
+        "translation": "被吸收；被同化",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "resume",
+    "phonetic": "",
+    "meaning": "n. 个人简历; v. 再继续,重新开始;再用;恢复",
+    "translations": [
+      {
+        "translation": "个人简历",
+        "type": "n"
+      },
+      {
+        "translation": "再继续,重新开始;再用;恢复",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "personal resume",
+        "translation": "个人简历"
+      }
+    ]
+  },
+  {
+    "word": "assume",
+    "phonetic": "",
+    "meaning": "v. 假装；假定，设想；承担；呈现，采取",
+    "translations": [
+      {
+        "translation": "假装；假定，设想；承担；呈现，采取",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "assume responsibility",
+        "translation": "承担责任"
+      },
+      {
+        "phrase": "assume liability",
+        "translation": "承担责任"
+      },
+      {
+        "phrase": "subjective assume",
+        "translation": "主观臆断"
+      }
+    ]
+  },
+  {
+    "word": "assumption",
+    "phonetic": "",
+    "meaning": "n. 假定，设想；采取；承担；推测；假装",
+    "translations": [
+      {
+        "translation": "假定，设想；采取；承担；推测；假装",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "on the assumption that",
+        "translation": "假设"
+      },
+      {
+        "phrase": "fundamental assumption",
+        "translation": "n. 基本假定"
+      }
+    ]
+  },
+  {
+    "word": "consume",
+    "phonetic": "",
+    "meaning": "v. 消耗；吃完，喝光；(with)使着迷；烧毁",
+    "translations": [
+      {
+        "translation": "消耗；吃完，喝光；(with)使着迷；烧毁",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "propensity to consume",
+        "translation": "消费倾向"
+      },
+      {
+        "phrase": "marginal propensity to consume",
+        "translation": "[经]边际消费倾向"
+      }
+    ]
+  },
+  {
+    "word": "consumption",
+    "phonetic": "",
+    "meaning": "n. 消费(量),消耗",
+    "translations": [
+      {
+        "translation": "消费(量),消耗",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "energy consumption",
+        "translation": "[化]能量损耗"
+      },
+      {
+        "phrase": "power consumption",
+        "translation": "能量功耗"
+      },
+      {
+        "phrase": "water consumption",
+        "translation": "耗水量"
+      }
+    ]
+  },
+  {
+    "word": "presume",
+    "phonetic": "",
+    "meaning": "v. 假定,假设,认为,揣测,滥用,擅自行动",
+    "translations": [
+      {
+        "translation": "假定,假设,认为,揣测,滥用,擅自行动",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "sympathetic",
+    "phonetic": "",
+    "meaning": "adj. 有同情心的；赞同的；n.交感神经",
+    "translations": [
+      {
+        "translation": "有同情心的；赞同的；n.交感神经",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "sympathetic nerve",
+        "translation": "[解]交感神经"
+      },
+      {
+        "phrase": "sympathetic nervous system",
+        "translation": "交感神经系统"
+      },
+      {
+        "phrase": "sympathetic vibration",
+        "translation": "[物]共振"
+      }
+    ]
+  },
+  {
+    "word": "sympathize",
+    "phonetic": "",
+    "meaning": "v. (sympathise)(with)同情;共鸣,同感;赞成",
+    "translations": [
+      {
+        "translation": "(sympathise)(with)同情;共鸣,同感;赞成",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "sympathize with",
+        "translation": "同情…；与…产生共鸣"
+      }
+    ]
+  },
+  {
+    "word": "sympathy",
+    "phonetic": "",
+    "meaning": "n. 同情，同情心；赞同，同感；慰问",
+    "translations": [
+      {
+        "translation": "同情，同情心；赞同，同感；慰问",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "sympathy for",
+        "translation": "对…表示同情"
+      },
+      {
+        "phrase": "sympathy with",
+        "translation": "赞同；对…同情"
+      },
+      {
+        "phrase": "in sympathy with",
+        "translation": "同情；赞成"
+      }
+    ]
+  },
+  {
+    "word": "symphony",
+    "phonetic": "",
+    "meaning": "n. 交响乐,交响曲",
+    "translations": [
+      {
+        "translation": "交响乐,交响曲",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "symphony orchestra",
+        "translation": "交响乐团"
+      },
+      {
+        "phrase": "boston symphony orchestra",
+        "translation": "波士顿交响乐团"
+      }
+    ]
+  },
+  {
+    "word": "symptom",
+    "phonetic": "",
+    "meaning": "n. (疾病的)症状；(不好事情的)征兆,表征",
+    "translations": [
+      {
+        "translation": "(疾病的)症状；(不好事情的)征兆,表征",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "symptom complex",
+        "translation": "症候群"
+      }
+    ]
+  },
+  {
+    "word": "sanction",
+    "phonetic": "",
+    "meaning": "n&v. 批准,同意,支持,认可; n. 处罚,制裁",
+    "translations": [
+      {
+        "translation": "批准,同意,支持,认可",
+        "type": "n&v"
+      },
+      {
+        "translation": "处罚,制裁",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "legal sanction",
+        "translation": "n. 法律制裁"
+      },
+      {
+        "phrase": "economic sanction",
+        "translation": "[经]经济制裁"
+      }
+    ]
+  },
+  {
+    "word": "sane",
+    "phonetic": "",
+    "meaning": "adj. 心智健全的,神志清醒的,明智的,稳健的",
+    "translations": [
+      {
+        "translation": "心智健全的,神志清醒的,明智的,稳健的",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "syndrome",
+    "phonetic": "",
+    "meaning": "n. 综合病征；并存特性",
+    "translations": [
+      {
+        "translation": "综合病征；并存特性",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "severe acute respiratory syndrome",
+        "translation": "严重急性呼吸系统综合症"
+      },
+      {
+        "phrase": "irritable bowel syndrome",
+        "translation": "[医]肠道易激综合症"
+      },
+      {
+        "phrase": "nephrotic syndrome",
+        "translation": "肾病综合征；肾病症候群"
+      }
+    ]
+  },
+  {
+    "word": "synthesis",
+    "phonetic": "",
+    "meaning": "n. (pl.syntheses)综合,合成",
+    "translations": [
+      {
+        "translation": "(pl.syntheses)综合,合成",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "organic synthesis",
+        "translation": "[化]有机合成"
+      },
+      {
+        "phrase": "synthesis method",
+        "translation": "合成法，综合法"
+      },
+      {
+        "phrase": "chemical synthesis",
+        "translation": "化学合成"
+      }
+    ]
+  },
+  {
+    "word": "synthetic",
+    "phonetic": "",
+    "meaning": "adj. 合成的,人造的;综合的",
+    "translations": [
+      {
+        "translation": "合成的,人造的;综合的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "synthetic method",
+        "translation": "综合法；合成法"
+      },
+      {
+        "phrase": "synthetic aperture",
+        "translation": "合成孔径"
+      },
+      {
+        "phrase": "synthetic rubber",
+        "translation": "合成橡胶"
+      }
+    ]
+  },
+  {
+    "word": "script",
+    "phonetic": "",
+    "meaning": "n. 剧本(原稿)；手稿，原稿；笔迹，手迹",
+    "translations": [
+      {
+        "translation": "剧本(原稿)；手稿，原稿；笔迹，手迹",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "regular script",
+        "translation": "楷书"
+      },
+      {
+        "phrase": "cursive script",
+        "translation": "草书；草写体"
+      },
+      {
+        "phrase": "film script",
+        "translation": "电影剧本"
+      }
+    ]
+  },
+  {
+    "word": "description",
+    "phonetic": "",
+    "meaning": "n. 描写,形容;种类",
+    "translations": [
+      {
+        "translation": "描写,形容;种类",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "detailed description",
+        "translation": "详细描述；详细说明"
+      },
+      {
+        "phrase": "job description",
+        "translation": "工作说明"
+      },
+      {
+        "phrase": "brief description",
+        "translation": "简要说明；简介"
+      }
+    ]
+  },
+  {
+    "word": "prescription",
+    "phonetic": "",
+    "meaning": "n. 药方,处方",
+    "translations": [
+      {
+        "translation": "药方,处方",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "folk prescription",
+        "translation": "偏方；民间药方"
+      },
+      {
+        "phrase": "prescription drug",
+        "translation": "须医师处方才可买的药品"
+      },
+      {
+        "phrase": "exercise prescription",
+        "translation": "运动处方"
+      }
+    ]
+  },
+  {
+    "word": "describe",
+    "phonetic": "",
+    "meaning": "v. 描述,形容",
+    "translations": [
+      {
+        "translation": "描述,形容",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "describe as",
+        "translation": "v. 描述为"
+      },
+      {
+        "phrase": "describe with",
+        "translation": "用…描述"
+      }
+    ]
+  },
+  {
+    "word": "subscribe",
+    "phonetic": "",
+    "meaning": "v. (to)订阅，订购；同意vt.捐助，赞助",
+    "translations": [
+      {
+        "translation": "(to)订阅，订购；同意vt.捐助，赞助",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "prescribe",
+    "phonetic": "",
+    "meaning": "v. 指示,规定;处(方),开(药)",
+    "translations": [
+      {
+        "translation": "指示,规定;处(方),开(药)",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "prescribe for",
+        "translation": "开处方，开药方"
+      }
+    ]
+  },
+  {
+    "word": "second",
+    "phonetic": "",
+    "meaning": "adj. 第二;次等的,二等的; n. 秒",
+    "translations": [
+      {
+        "translation": "第二;次等的,二等的",
+        "type": "adj"
+      },
+      {
+        "translation": "秒",
+        "type": "n"
+      },
+      {
+        "translation": "赞成,附和",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "second half",
+        "translation": "下半场；后半时"
+      },
+      {
+        "phrase": "second time",
+        "translation": "第二次"
+      },
+      {
+        "phrase": "second order",
+        "translation": "adj. 二级的，二阶的"
+      }
+    ]
+  },
+  {
+    "word": "consecutive",
+    "phonetic": "",
+    "meaning": "adj. 连续的；连贯的；顺序的",
+    "translations": [
+      {
+        "translation": "连续的；连贯的；顺序的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "consecutive days",
+        "translation": "连续营业日；连续作业日"
+      },
+      {
+        "phrase": "consecutive interpreting",
+        "translation": "交替传译"
+      },
+      {
+        "phrase": "consecutive reaction",
+        "translation": "连锁反应"
+      }
+    ]
+  },
+  {
+    "word": "persecute",
+    "phonetic": "",
+    "meaning": "v. 迫害",
+    "translations": [
+      {
+        "translation": "迫害",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "prosecute",
+    "phonetic": "",
+    "meaning": "v. 实行，从事; v. 起诉，告发",
+    "translations": [
+      {
+        "translation": "实行，从事",
+        "type": "v"
+      },
+      {
+        "translation": "起诉，告发",
+        "type": "v"
+      },
+      {
+        "translation": "作检察官",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "secondary",
+    "phonetic": "",
+    "meaning": "adj. 次要的,二级的;中级的,第二的",
+    "translations": [
+      {
+        "translation": "次要的,二级的;中级的,第二的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "secondary school",
+        "translation": "中等学校"
+      },
+      {
+        "phrase": "secondary market",
+        "translation": "二级市场；次级市场"
+      },
+      {
+        "phrase": "secondary pollution",
+        "translation": "二次污染"
+      }
+    ]
+  },
+  {
+    "word": "consequence",
+    "phonetic": "",
+    "meaning": "n. 结果,后果,影响;重要性",
+    "translations": [
+      {
+        "translation": "结果,后果,影响;重要性",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "as a consequence",
+        "translation": "因此，结果"
+      },
+      {
+        "phrase": "in consequence",
+        "translation": "因此；结果"
+      },
+      {
+        "phrase": "as a consequence of",
+        "translation": "因此；由于…的结果"
+      }
+    ]
+  },
+  {
+    "word": "consequently",
+    "phonetic": "",
+    "meaning": "adv. 结果，因此，所以",
+    "translations": [
+      {
+        "translation": "结果，因此，所以",
+        "type": "adv"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "sequence",
+    "phonetic": "",
+    "meaning": "n. 先后,次序;连续,数列",
+    "translations": [
+      {
+        "translation": "先后,次序;连续,数列",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in sequence",
+        "translation": "依次，逐一"
+      },
+      {
+        "phrase": "time sequence",
+        "translation": "时间顺序"
+      },
+      {
+        "phrase": "sequence analysis",
+        "translation": "序列分析"
+      }
+    ]
+  },
+  {
+    "word": "subsequent",
+    "phonetic": "",
+    "meaning": "adj. 随后的,后来的",
+    "translations": [
+      {
+        "translation": "随后的,后来的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "subsequent events",
+        "translation": "财务报表编制后发生的事项"
+      },
+      {
+        "phrase": "subsequent handling",
+        "translation": "后续工序"
+      }
+    ]
+  },
+  {
+    "word": "sense",
+    "phonetic": "",
+    "meaning": "n. 感官;感觉;判断力;意义; v. 觉得,意识到",
+    "translations": [
+      {
+        "translation": "感官;感觉;判断力;意义",
+        "type": "n"
+      },
+      {
+        "translation": "觉得,意识到",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "sense of",
+        "translation": "…的感觉"
+      },
+      {
+        "phrase": "in a sense",
+        "translation": "在某种意义上"
+      },
+      {
+        "phrase": "make sense",
+        "translation": "有意义；讲得通；言之有理"
+      }
+    ]
+  },
+  {
+    "word": "absence",
+    "phonetic": "",
+    "meaning": "n. 缺乏，不存在；缺席，不在；缺席的时间",
+    "translations": [
+      {
+        "translation": "缺乏，不存在；缺席，不在；缺席的时间",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "absence of",
+        "translation": "缺乏"
+      },
+      {
+        "phrase": "in the absence of",
+        "translation": "缺乏，不存在；无…时，缺少…时"
+      },
+      {
+        "phrase": "absence from",
+        "translation": "缺席；不在"
+      }
+    ]
+  },
+  {
+    "word": "absent",
+    "phonetic": "",
+    "meaning": "adj. 缺席的；缺乏的,不存在的;心不在焉的",
+    "translations": [
+      {
+        "translation": "缺席的；缺乏的,不存在的;心不在焉的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "absent from",
+        "translation": "缺席"
+      },
+      {
+        "phrase": "absent minded",
+        "translation": "健忘的"
+      },
+      {
+        "phrase": "absent from work",
+        "translation": "旷工；缺勤"
+      }
+    ]
+  },
+  {
+    "word": "consensus",
+    "phonetic": "",
+    "meaning": "n. (意见等的)一致，一致同意，共识",
+    "translations": [
+      {
+        "translation": "(意见等的)一致，一致同意，共识",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "reach a consensus",
+        "translation": "达成共识"
+      }
+    ]
+  },
+  {
+    "word": "consent",
+    "phonetic": "",
+    "meaning": "v&n. (to)同意,赞成,答应",
+    "translations": [
+      {
+        "translation": "(to)同意,赞成,答应",
+        "type": "v&n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "informed consent",
+        "translation": "知情同意，知会同意；知后同意"
+      },
+      {
+        "phrase": "written consent",
+        "translation": "书面同意；同意书"
+      },
+      {
+        "phrase": "mutual consent",
+        "translation": "双方同意"
+      }
+    ]
+  },
+  {
+    "word": "essence",
+    "phonetic": "",
+    "meaning": "n. 本质,实质",
+    "translations": [
+      {
+        "translation": "本质,实质",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in essence",
+        "translation": "本质上；其实；大体上"
+      },
+      {
+        "phrase": "of the essence",
+        "translation": "非常重要的"
+      },
+      {
+        "phrase": "essence of beauty",
+        "translation": "美的本质"
+      }
+    ]
+  },
+  {
+    "word": "essential",
+    "phonetic": "",
+    "meaning": "adj. 本质的,基本的;净化的; n. 本质;要素",
+    "translations": [
+      {
+        "translation": "本质的,基本的;净化的",
+        "type": "adj"
+      },
+      {
+        "translation": "本质;要素",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "essential oil",
+        "translation": "香精油，精油"
+      },
+      {
+        "phrase": "essential condition",
+        "translation": "必要条件"
+      },
+      {
+        "phrase": "essential hypertension",
+        "translation": "原发性高血压；特发性高血压"
+      }
+    ]
+  },
+  {
+    "word": "presence",
+    "phonetic": "",
+    "meaning": "n. 出席,到场,存在,在",
+    "translations": [
+      {
+        "translation": "出席,到场,存在,在",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in the presence of",
+        "translation": "在…面前；有某人在场"
+      },
+      {
+        "phrase": "in presence of",
+        "translation": "提示"
+      },
+      {
+        "phrase": "physical presence",
+        "translation": "实体存在；实际存在"
+      }
+    ]
+  },
+  {
+    "word": "present",
+    "phonetic": "",
+    "meaning": "adj. 出席的,现在的; n. 现在,礼物",
+    "translations": [
+      {
+        "translation": "出席的,现在的",
+        "type": "adj"
+      },
+      {
+        "translation": "现在,礼物",
+        "type": "n"
+      },
+      {
+        "translation": "赠送,提出",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "present oneself",
+        "translation": "出席"
+      },
+      {
+        "phrase": "at present",
+        "translation": "目前，现在"
+      },
+      {
+        "phrase": "present situation",
+        "translation": "现状"
+      }
+    ]
+  },
+  {
+    "word": "presently",
+    "phonetic": "",
+    "meaning": "adv. 一会儿,不久;现在,目前",
+    "translations": [
+      {
+        "translation": "一会儿,不久;现在,目前",
+        "type": "adv"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "represent",
+    "phonetic": "",
+    "meaning": "v. 描述,表示;代表,代理;阐明,说明",
+    "translations": [
+      {
+        "translation": "描述,表示;代表,代理;阐明,说明",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "represent something to oneself",
+        "translation": "想像出某事物"
+      },
+      {
+        "phrase": "represent for",
+        "translation": "代表；象征"
+      }
+    ]
+  },
+  {
+    "word": "representative",
+    "phonetic": "",
+    "meaning": "n. 代表,代理人; adj. (of)典型的,有代表性的",
+    "translations": [
+      {
+        "translation": "代表,代理人",
+        "type": "n"
+      },
+      {
+        "translation": "(of)典型的,有代表性的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "representative of",
+        "translation": "表示；代表……的"
+      },
+      {
+        "phrase": "representative office",
+        "translation": "代表机构；办事处"
+      },
+      {
+        "phrase": "legal representative",
+        "translation": "n. 法定代理人"
+      }
+    ]
+  },
+  {
+    "word": "resent",
+    "phonetic": "",
+    "meaning": "v. 对…表示忿恨,怨恨",
+    "translations": [
+      {
+        "translation": "对…表示忿恨,怨恨",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "senate",
+    "phonetic": "",
+    "meaning": "n. 参议院,上院",
+    "translations": [
+      {
+        "translation": "参议院,上院",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "senate finance committee",
+        "translation": "参议院财政委员会"
+      },
+      {
+        "phrase": "senate banking committee",
+        "translation": "（美）参议院银行业委员会"
+      },
+      {
+        "phrase": "senate budget committee",
+        "translation": "n. 美国参议院预算委员会"
+      }
+    ]
+  },
+  {
+    "word": "senator",
+    "phonetic": "",
+    "meaning": "n. 参议员",
+    "translations": [
+      {
+        "translation": "参议员",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "senior",
+    "phonetic": "",
+    "meaning": "adj. 年长的;地位较高的; n. (大学)四年级学生",
+    "translations": [
+      {
+        "translation": "年长的;地位较高的",
+        "type": "adj"
+      },
+      {
+        "translation": "(大学)四年级学生",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "senior high",
+        "translation": "高中"
+      },
+      {
+        "phrase": "senior high school",
+        "translation": "高中"
+      },
+      {
+        "phrase": "senior management",
+        "translation": "高级管理"
+      }
+    ]
+  },
+  {
+    "word": "sensation",
+    "phonetic": "",
+    "meaning": "n. 感觉,知觉;激动,轰动,轰动一时的事情",
+    "translations": [
+      {
+        "translation": "感觉,知觉;激动,轰动,轰动一时的事情",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "pleasant sensation",
+        "translation": "快感"
+      },
+      {
+        "phrase": "visual sensation",
+        "translation": "视觉"
+      },
+      {
+        "phrase": "tactile sensation",
+        "translation": "触觉；质感"
+      }
+    ]
+  },
+  {
+    "word": "sensible",
+    "phonetic": "",
+    "meaning": "adj. 明智的,达理的;可觉察的,明显的",
+    "translations": [
+      {
+        "translation": "明智的,达理的;可觉察的,明显的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "sensible heat",
+        "translation": "显热；焓"
+      },
+      {
+        "phrase": "sensible of",
+        "translation": "察觉；了解"
+      }
+    ]
+  },
+  {
+    "word": "sensitive",
+    "phonetic": "",
+    "meaning": "adj. (to)敏感的,易受伤害的;灵敏的",
+    "translations": [
+      {
+        "translation": "(to)敏感的,易受伤害的;灵敏的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "sensitive skin",
+        "translation": "敏感性皮肤"
+      },
+      {
+        "phrase": "highly sensitive",
+        "translation": "高灵敏度的"
+      },
+      {
+        "phrase": "pressure sensitive",
+        "translation": "压敏，压敏材料"
+      }
+    ]
+  },
+  {
+    "word": "sentence",
+    "phonetic": "",
+    "meaning": "n. 句子;判决,宣判; v. 宣判,判决",
+    "translations": [
+      {
+        "translation": "句子;判决,宣判",
+        "type": "n"
+      },
+      {
+        "translation": "宣判,判决",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "sentiment",
+    "phonetic": "",
+    "meaning": "n. 感情，柔情；看法；感觉",
+    "translations": [
+      {
+        "translation": "感情，柔情；看法；感觉",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "market sentiment",
+        "translation": "市场情绪；市场气氛；市场人心"
+      },
+      {
+        "phrase": "public sentiment",
+        "translation": "公众意见；公众的情绪"
+      },
+      {
+        "phrase": "moral sentiment",
+        "translation": "道德情操"
+      }
+    ]
+  },
+  {
+    "word": "side",
+    "phonetic": "",
+    "meaning": "n. 旁边，侧面；坡，岸；一边/侧/方; v. 支持",
+    "translations": [
+      {
+        "translation": "旁边，侧面；坡，岸；一边/侧/方",
+        "type": "n"
+      },
+      {
+        "translation": "支持",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "on the side",
+        "translation": "另外；作为兼职"
+      },
+      {
+        "phrase": "on the other side",
+        "translation": "另一方面"
+      },
+      {
+        "phrase": "other side",
+        "translation": "另一面，对方"
+      }
+    ]
+  },
+  {
+    "word": "aside",
+    "phonetic": "",
+    "meaning": "adv. 在旁边，到一边; n. 旁白；离题的话",
+    "translations": [
+      {
+        "translation": "在旁边，到一边",
+        "type": "adv"
+      },
+      {
+        "translation": "旁白；离题的话",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "set aside",
+        "translation": "留出；驳回，撤销；不顾"
+      },
+      {
+        "phrase": "aside from",
+        "translation": "除…以外"
+      },
+      {
+        "phrase": "put aside",
+        "translation": "v. 撇开；储存…备用"
+      }
+    ]
+  },
+  {
+    "word": "alongside",
+    "phonetic": "",
+    "meaning": "adv. 在旁边; prep. 和...在一起；在...旁边",
+    "translations": [
+      {
+        "translation": "在旁边",
+        "type": "adv"
+      },
+      {
+        "translation": "和...在一起；在...旁边",
+        "type": "prep"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "alongside of",
+        "translation": "与…并肩；在旁边"
+      }
+    ]
+  },
+  {
+    "word": "beside",
+    "phonetic": "",
+    "meaning": "prep. 在...旁边，在...附近；和...相比",
+    "translations": [
+      {
+        "translation": "在...旁边，在...附近；和...相比",
+        "type": "prep"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "beside oneself",
+        "translation": "极度兴奋；发狂"
+      }
+    ]
+  },
+  {
+    "word": "besides",
+    "phonetic": "",
+    "meaning": "adv. 此外；并且; prep. 于…之外；除…以外",
+    "translations": [
+      {
+        "translation": "此外；并且",
+        "type": "adv"
+      },
+      {
+        "translation": "于…之外；除…以外",
+        "type": "prep"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "consider",
+    "phonetic": "",
+    "meaning": "v. 考虑，细想；体谅，顾及；认为，把…看作",
+    "translations": [
+      {
+        "translation": "考虑，细想；体谅，顾及；认为，把…看作",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "consider as",
+        "translation": "vt. 认为（把...看作）"
+      },
+      {
+        "phrase": "all things considered",
+        "translation": "从全面考虑"
+      },
+      {
+        "phrase": "consider doing",
+        "translation": "考虑做…"
+      }
+    ]
+  },
+  {
+    "word": "considerable",
+    "phonetic": "",
+    "meaning": "adj. 相当大(或多)的,可观的;值得考虑的",
+    "translations": [
+      {
+        "translation": "相当大(或多)的,可观的;值得考虑的",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "considerate",
+    "phonetic": "",
+    "meaning": "adj. 考虑周到的,体谅的",
+    "translations": [
+      {
+        "translation": "考虑周到的,体谅的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "be considerate of",
+        "translation": "体谅"
+      },
+      {
+        "phrase": "considerate towards",
+        "translation": "体谅；体贴"
+      }
+    ]
+  },
+  {
+    "word": "consideration",
+    "phonetic": "",
+    "meaning": "n. 需要考虑的事;考虑,思考;体谅,照顾",
+    "translations": [
+      {
+        "translation": "需要考虑的事;考虑,思考;体谅,照顾",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "consideration of",
+        "translation": "考虑"
+      },
+      {
+        "phrase": "in consideration",
+        "translation": "考虑到…，鉴于…"
+      },
+      {
+        "phrase": "in consideration of",
+        "translation": "考虑到，鉴于；作为对…的酬报"
+      }
+    ]
+  },
+  {
+    "word": "inside",
+    "phonetic": "",
+    "meaning": "adj. 里面的; adv. 在里面",
+    "translations": [
+      {
+        "translation": "里面的",
+        "type": "adj"
+      },
+      {
+        "translation": "在里面",
+        "type": "adv"
+      },
+      {
+        "translation": "内部",
+        "type": "n"
+      },
+      {
+        "translation": "在…里",
+        "type": "prep"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "inside of",
+        "translation": "在…之内；少于"
+      },
+      {
+        "phrase": "on the inside",
+        "translation": "adv. 在里面；在内心；知道内情"
+      },
+      {
+        "phrase": "inside out",
+        "translation": "彻底地；里面翻到外面"
+      }
+    ]
+  },
+  {
+    "word": "outside",
+    "phonetic": "",
+    "meaning": "adv. 向外面; n. 外部",
+    "translations": [
+      {
+        "translation": "向外面",
+        "type": "adv"
+      },
+      {
+        "translation": "外部",
+        "type": "n"
+      },
+      {
+        "translation": "外部的",
+        "type": "adj"
+      },
+      {
+        "translation": "在…外",
+        "type": "prep"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "outside of",
+        "translation": "在…的外面；超出…的范围"
+      },
+      {
+        "phrase": "inside and outside",
+        "translation": "内外；里面和外面"
+      },
+      {
+        "phrase": "on the outside",
+        "translation": "在外面；外部地"
+      }
+    ]
+  },
+  {
+    "word": "preside",
+    "phonetic": "",
+    "meaning": "v. (at,over)主持",
+    "translations": [
+      {
+        "translation": "(at,over)主持",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "preside over",
+        "translation": "主持；负责"
+      },
+      {
+        "phrase": "preside at",
+        "translation": "主持；负责"
+      }
+    ]
+  },
+  {
+    "word": "president",
+    "phonetic": "",
+    "meaning": "n. 总统,校长,会长,主席",
+    "translations": [
+      {
+        "translation": "总统,校长,会长,主席",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "vice president",
+        "translation": "副总统；副主席"
+      },
+      {
+        "phrase": "former president",
+        "translation": "前任总统"
+      },
+      {
+        "phrase": "senior vice president",
+        "translation": "高级副总裁"
+      }
+    ]
+  },
+  {
+    "word": "prestige",
+    "phonetic": "",
+    "meaning": "n. 声望,威望,威信",
+    "translations": [
+      {
+        "translation": "声望,威望,威信",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "residence",
+    "phonetic": "",
+    "meaning": "n. 住处,住宅",
+    "translations": [
+      {
+        "translation": "住处,住宅",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "residence time",
+        "translation": "[物理]停留时间；[化]逗留时间（等于residence）"
+      },
+      {
+        "phrase": "permanent residence",
+        "translation": "长期居留"
+      },
+      {
+        "phrase": "residence permit",
+        "translation": "居留证"
+      }
+    ]
+  },
+  {
+    "word": "resident",
+    "phonetic": "",
+    "meaning": "n. 居民,常住者; adj. 居住的",
+    "translations": [
+      {
+        "translation": "居民,常住者",
+        "type": "n"
+      },
+      {
+        "translation": "居住的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "permanent resident",
+        "translation": "永久性居民"
+      },
+      {
+        "phrase": "local resident",
+        "translation": "当地居民"
+      },
+      {
+        "phrase": "resident representative",
+        "translation": "居民代表；驻地代表"
+      }
+    ]
+  },
+  {
+    "word": "seaside",
+    "phonetic": "",
+    "meaning": "n. 海滨,海边",
+    "translations": [
+      {
+        "translation": "海滨,海边",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "seaside resort",
+        "translation": "海滨疗养地"
+      }
+    ]
+  },
+  {
+    "word": "sideways",
+    "phonetic": "",
+    "meaning": "adv&adj. 向旁边(的),侧身,横着(的),斜着(的)",
+    "translations": [
+      {
+        "translation": "向旁边(的),侧身,横着(的),斜着(的)",
+        "type": "adv&adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "subsidy",
+    "phonetic": "",
+    "meaning": "n. 补助金；津贴费",
+    "translations": [
+      {
+        "translation": "补助金；津贴费",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "government subsidy",
+        "translation": "政府补助金，政府补贴"
+      },
+      {
+        "phrase": "export subsidy",
+        "translation": "出口补贴"
+      }
+    ]
+  },
+  {
+    "word": "sign",
+    "phonetic": "",
+    "meaning": "n. 标记,招牌;征兆,迹象v.签名(于),署名(于)",
+    "translations": [
+      {
+        "translation": "标记,招牌;征兆,迹象v.签名(于),署名(于)",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "sign up",
+        "translation": "签约雇用，签约参加"
+      },
+      {
+        "phrase": "sign on",
+        "translation": "开始广播；签约雇用"
+      },
+      {
+        "phrase": "sign for",
+        "translation": "签收"
+      }
+    ]
+  },
+  {
+    "word": "assign",
+    "phonetic": "",
+    "meaning": "v. 派给，分配；选定，指定(时间、地点等)",
+    "translations": [
+      {
+        "translation": "派给，分配；选定，指定(时间、地点等)",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "assign work",
+        "translation": "派活；指派工作"
+      },
+      {
+        "phrase": "assign a value",
+        "translation": "分配一个值；赋值"
+      }
+    ]
+  },
+  {
+    "word": "assignment",
+    "phonetic": "",
+    "meaning": "n. 分配，指派；(指定的)作业，任务",
+    "translations": [
+      {
+        "translation": "分配，指派；(指定的)作业，任务",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "assignment problem",
+        "translation": "指派问题；分配问题；分派问题；配置问题"
+      },
+      {
+        "phrase": "pole assignment",
+        "translation": "极点配置"
+      },
+      {
+        "phrase": "assignment method",
+        "translation": "转让方法；指定分配方法"
+      }
+    ]
+  },
+  {
+    "word": "design",
+    "phonetic": "",
+    "meaning": "v. 设计;构思;绘制;图案;企图; n. 设计,图样",
+    "translations": [
+      {
+        "translation": "设计;构思;绘制;图案;企图",
+        "type": "v"
+      },
+      {
+        "translation": "设计,图样",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "design method",
+        "translation": "设计方法，设计法"
+      },
+      {
+        "phrase": "design for",
+        "translation": "设计来作"
+      },
+      {
+        "phrase": "system design",
+        "translation": "系统设计；制度设计"
+      }
+    ]
+  },
+  {
+    "word": "designate",
+    "phonetic": "",
+    "meaning": "v. 指明,指出;任命,指派",
+    "translations": [
+      {
+        "translation": "指明,指出;任命,指派",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "resign",
+    "phonetic": "",
+    "meaning": "v. 辞去,辞职,使听从(于),使顺从",
+    "translations": [
+      {
+        "translation": "辞去,辞职,使听从(于),使顺从",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "resign from",
+        "translation": "辞职"
+      }
+    ]
+  },
+  {
+    "word": "signal",
+    "phonetic": "",
+    "meaning": "n. 信号,暗号; v. 发信号,用信号通知",
+    "translations": [
+      {
+        "translation": "信号,暗号",
+        "type": "n"
+      },
+      {
+        "translation": "发信号,用信号通知",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "signal processing",
+        "translation": "信号处理"
+      },
+      {
+        "phrase": "digital signal",
+        "translation": "数字信号"
+      },
+      {
+        "phrase": "digital signal processing",
+        "translation": "数字信号处理"
+      }
+    ]
+  },
+  {
+    "word": "signature",
+    "phonetic": "",
+    "meaning": "n. 签名,署名,签字",
+    "translations": [
+      {
+        "translation": "签名,署名,签字",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "digital signature",
+        "translation": "数字签名，数字签字"
+      },
+      {
+        "phrase": "specimen signature",
+        "translation": "签字样本；印鉴样本"
+      },
+      {
+        "phrase": "authorized signature",
+        "translation": "有权签字人的签字"
+      }
+    ]
+  },
+  {
+    "word": "signify",
+    "phonetic": "",
+    "meaning": "v. 表示,意味;要紧,有重要性",
+    "translations": [
+      {
+        "translation": "表示,意味;要紧,有重要性",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "assist",
+    "phonetic": "",
+    "meaning": "v. 协助，帮助，促进; v. 帮忙，参加",
+    "translations": [
+      {
+        "translation": "协助，帮助，促进",
+        "type": "v"
+      },
+      {
+        "translation": "帮忙，参加",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "assist in",
+        "translation": "帮助"
+      }
+    ]
+  },
+  {
+    "word": "assistance",
+    "phonetic": "",
+    "meaning": "n. 协作; 援助; 帮助",
+    "translations": [
+      {
+        "translation": "协作; 援助; 帮助",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "technical assistance",
+        "translation": "技术援助"
+      },
+      {
+        "phrase": "financial assistance",
+        "translation": "财政资助"
+      },
+      {
+        "phrase": "mutual assistance",
+        "translation": "互相帮助；互相援助"
+      }
+    ]
+  },
+  {
+    "word": "assistant",
+    "phonetic": "",
+    "meaning": "adj. 帮助的，辅助的; n. 助手，助教；辅助物",
+    "translations": [
+      {
+        "translation": "帮助的，辅助的",
+        "type": "adj"
+      },
+      {
+        "translation": "助手，助教；辅助物",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "consist",
+    "phonetic": "",
+    "meaning": "v. (in)在于,存在于;(of)由…组成,由…构成",
+    "translations": [
+      {
+        "translation": "(in)在于,存在于;(of)由…组成,由…构成",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "consist of",
+        "translation": "由…构成"
+      },
+      {
+        "phrase": "consist in",
+        "translation": "在于；存在于"
+      },
+      {
+        "phrase": "consist with",
+        "translation": "符合；与…一致"
+      }
+    ]
+  },
+  {
+    "word": "consistent",
+    "phonetic": "",
+    "meaning": "adj. (in)前后一致的；（with）一致，符合",
+    "translations": [
+      {
+        "translation": "(in)前后一致的；（with）一致，符合",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "consistent with",
+        "translation": "符合；与…一致"
+      },
+      {
+        "phrase": "consistent quality",
+        "translation": "始终如一的质量"
+      },
+      {
+        "phrase": "consistent policy",
+        "translation": "一贯的政策"
+      }
+    ]
+  },
+  {
+    "word": "insist",
+    "phonetic": "",
+    "meaning": "v. (on)坚持要求,坚决主张,坚持",
+    "translations": [
+      {
+        "translation": "(on)坚持要求,坚决主张,坚持",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "insist on",
+        "translation": "坚持，坚决要求；督促，强调"
+      },
+      {
+        "phrase": "insist upon",
+        "translation": "坚持…"
+      }
+    ]
+  },
+  {
+    "word": "persist",
+    "phonetic": "",
+    "meaning": "v. (in)坚持,持续",
+    "translations": [
+      {
+        "translation": "(in)坚持,持续",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "persist in",
+        "translation": "坚持；固执于"
+      }
+    ]
+  },
+  {
+    "word": "resist",
+    "phonetic": "",
+    "meaning": "v. 抵抗,反抗;抗,忍得住,抵制",
+    "translations": [
+      {
+        "translation": "抵抗,反抗;抗,忍得住,抵制",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "resist the temptation",
+        "translation": "抵制诱惑；抵挡住诱惑"
+      },
+      {
+        "phrase": "hard to resist",
+        "translation": "人见人爱；无法抗拒；惹人喜爱"
+      },
+      {
+        "phrase": "resist heat",
+        "translation": "耐热"
+      }
+    ]
+  },
+  {
+    "word": "resistance",
+    "phonetic": "",
+    "meaning": "n. (to)抵抗,反抗;抵抗力,阻力;电阻",
+    "translations": [
+      {
+        "translation": "(to)抵抗,反抗;抵抗力,阻力;电阻",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "corrosion resistance",
+        "translation": "耐蚀性；抗腐蚀性"
+      },
+      {
+        "phrase": "wear resistance",
+        "translation": "[机]耐磨性，耐磨度"
+      },
+      {
+        "phrase": "heat resistance",
+        "translation": "[物]耐热性"
+      }
+    ]
+  },
+  {
+    "word": "resistant",
+    "phonetic": "",
+    "meaning": "adj. (to)抵抗的,有抵抗力的",
+    "translations": [
+      {
+        "translation": "(to)抵抗的,有抵抗力的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "corrosion resistant",
+        "translation": "抗腐蚀"
+      },
+      {
+        "phrase": "heat resistant",
+        "translation": "adj. 耐热的，抗热的"
+      },
+      {
+        "phrase": "wear resistant",
+        "translation": "耐磨的；耐磨性"
+      }
+    ]
+  },
+  {
+    "word": "sister",
+    "phonetic": "",
+    "meaning": "n. 姐，妹；护士长；修女，女教士",
+    "translations": [
+      {
+        "translation": "姐，妹；护士长；修女，女教士",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "younger sister",
+        "translation": "妹妹"
+      },
+      {
+        "phrase": "elder sister",
+        "translation": "姐姐，姊姊"
+      },
+      {
+        "phrase": "little sister",
+        "translation": "小妹妹，小女孩"
+      }
+    ]
+  },
+  {
+    "word": "transistor",
+    "phonetic": "",
+    "meaning": "n. 晶体管；晶体管收音机",
+    "translations": [
+      {
+        "translation": "晶体管；晶体管收音机",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "system",
+    "phonetic": "",
+    "meaning": "n. 系统，体系；制度；方法，方式，步聚",
+    "translations": [
+      {
+        "translation": "系统，体系；制度；方法，方式，步聚",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "control system",
+        "translation": "控制系统"
+      },
+      {
+        "phrase": "management system",
+        "translation": "管理系统；经营责任制"
+      },
+      {
+        "phrase": "information system",
+        "translation": "信息系统"
+      }
+    ]
+  },
+  {
+    "word": "systematic",
+    "phonetic": "",
+    "meaning": "adj. (al)系统的,有组织的",
+    "translations": [
+      {
+        "translation": "(al)系统的,有组织的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "systematic analysis",
+        "translation": "系统分析"
+      },
+      {
+        "phrase": "systematic study",
+        "translation": "系统研究"
+      },
+      {
+        "phrase": "systematic approach",
+        "translation": "系统观点，系统研究法"
+      }
+    ]
+  },
+  {
+    "word": "sole",
+    "phonetic": "",
+    "meaning": "adj. 单独的,唯一的; n. 脚垫,鞋底",
+    "translations": [
+      {
+        "translation": "单独的,唯一的",
+        "type": "adj"
+      },
+      {
+        "translation": "脚垫,鞋底",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "sole agent",
+        "translation": "n. 总代理商；独家经营商；包销人"
+      },
+      {
+        "phrase": "sole agency",
+        "translation": "独家经理；唯一代理"
+      },
+      {
+        "phrase": "sole purpose",
+        "translation": "唯一目的"
+      }
+    ]
+  },
+  {
+    "word": "obsolete",
+    "phonetic": "",
+    "meaning": "adj. 已废弃的,过时的",
+    "translations": [
+      {
+        "translation": "已废弃的,过时的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "obsolete equipment",
+        "translation": "陈旧设备"
+      }
+    ]
+  },
+  {
+    "word": "resolute",
+    "phonetic": "",
+    "meaning": "adj. 坚决的,果断的",
+    "translations": [
+      {
+        "translation": "坚决的,果断的",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "resolution",
+    "phonetic": "",
+    "meaning": "n. 坚决,决心;决定,决议",
+    "translations": [
+      {
+        "translation": "坚决,决心;决定,决议",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "high resolution",
+        "translation": "高分辨；高分辨率"
+      },
+      {
+        "phrase": "spatial resolution",
+        "translation": "空间分辨率；空间解析度"
+      },
+      {
+        "phrase": "dispute resolution",
+        "translation": "[法律]调解纠纷"
+      }
+    ]
+  },
+  {
+    "word": "resolve",
+    "phonetic": "",
+    "meaning": "v. 决心;(使)分解,溶解;决议; n. 解决;决心",
+    "translations": [
+      {
+        "translation": "决心;(使)分解,溶解;决议",
+        "type": "v"
+      },
+      {
+        "translation": "解决;决心",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "resolve into",
+        "translation": "使分解为…；归结为"
+      },
+      {
+        "phrase": "fail to resolve",
+        "translation": "解决未果"
+      }
+    ]
+  },
+  {
+    "word": "solar",
+    "phonetic": "",
+    "meaning": "adj. 太阳的,日光的",
+    "translations": [
+      {
+        "translation": "太阳的,日光的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "solar energy",
+        "translation": "太阳能"
+      },
+      {
+        "phrase": "solar system",
+        "translation": "太阳系"
+      },
+      {
+        "phrase": "solar power",
+        "translation": "太阳能；太阳能动力"
+      }
+    ]
+  },
+  {
+    "word": "soldier",
+    "phonetic": "",
+    "meaning": "n. 士兵,军人",
+    "translations": [
+      {
+        "translation": "士兵,军人",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "soldier on",
+        "translation": "继续服役；坚持着干；迎着困难干"
+      },
+      {
+        "phrase": "unknown soldier",
+        "translation": "（美）阵亡的无名英雄"
+      },
+      {
+        "phrase": "dead soldiers",
+        "translation": "[美国俚语]空酒瓶"
+      }
+    ]
+  },
+  {
+    "word": "solemn",
+    "phonetic": "",
+    "meaning": "adj. 庄严的,隆重的;严肃的",
+    "translations": [
+      {
+        "translation": "庄严的,隆重的;严肃的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "solemn promise",
+        "translation": "庄严承诺；誓言"
+      },
+      {
+        "phrase": "solemn ceremony",
+        "translation": "隆重的典礼"
+      }
+    ]
+  },
+  {
+    "word": "solid",
+    "phonetic": "",
+    "meaning": "adj. 固体的;结实的,稳固的,可靠的; n. 固体",
+    "translations": [
+      {
+        "translation": "固体的;结实的,稳固的,可靠的",
+        "type": "adj"
+      },
+      {
+        "translation": "固体",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "solid foundation",
+        "translation": "基础雄厚；实体基础"
+      },
+      {
+        "phrase": "solid waste",
+        "translation": "固体废物，固态废物；固体废料，固体垃圾"
+      },
+      {
+        "phrase": "solid state",
+        "translation": "固态"
+      }
+    ]
+  },
+  {
+    "word": "solidarity",
+    "phonetic": "",
+    "meaning": "n. 团结；休戚相关",
+    "translations": [
+      {
+        "translation": "团结；休戚相关",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "solitary",
+    "phonetic": "",
+    "meaning": "adj. (好)孤独的；偏僻的；单一的，唯一的",
+    "translations": [
+      {
+        "translation": "(好)孤独的；偏僻的；单一的，唯一的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "solitary wave",
+        "translation": "孤立波；独波，孤子波"
+      },
+      {
+        "phrase": "solitary confinement",
+        "translation": "单独拘禁（等于solitary）"
+      }
+    ]
+  },
+  {
+    "word": "solo",
+    "phonetic": "",
+    "meaning": "n. 独奏; adj. &ad.单独的(地)；独唱的(地)",
+    "translations": [
+      {
+        "translation": "独奏",
+        "type": "n"
+      },
+      {
+        "translation": "&ad.单独的(地)；独唱的(地)",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "solo concert",
+        "translation": "个人演唱会"
+      },
+      {
+        "phrase": "solo flight",
+        "translation": "单人飞行"
+      },
+      {
+        "phrase": "solo dance",
+        "translation": "独舞，单人舞"
+      }
+    ]
+  },
+  {
+    "word": "soluble",
+    "phonetic": "",
+    "meaning": "adj. 可溶的",
+    "translations": [
+      {
+        "translation": "可溶的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "water soluble",
+        "translation": "水溶性的；溶于水的"
+      },
+      {
+        "phrase": "soluble starch",
+        "translation": "可溶性淀粉"
+      },
+      {
+        "phrase": "soluble glass",
+        "translation": "n. [材料学]溶性玻璃（等于sodium silicate）"
+      }
+    ]
+  },
+  {
+    "word": "solution",
+    "phonetic": "",
+    "meaning": "n. 解答,解决办法;溶解,溶液",
+    "translations": [
+      {
+        "translation": "解答,解决办法;溶解,溶液",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "aqueous solution",
+        "translation": "水溶液"
+      },
+      {
+        "phrase": "optimal solution",
+        "translation": "最优解，最佳解"
+      },
+      {
+        "phrase": "in solution",
+        "translation": "在不断变化中；动摇不定；在溶解状态中"
+      }
+    ]
+  },
+  {
+    "word": "solve",
+    "phonetic": "",
+    "meaning": "v. 解决,解答",
+    "translations": [
+      {
+        "translation": "解决,解答",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "absolute",
+    "phonetic": "",
+    "meaning": "adj. 绝对的，完全的；确实的，肯定的",
+    "translations": [
+      {
+        "translation": "绝对的，完全的；确实的，肯定的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "absolute value",
+        "translation": "绝对值"
+      },
+      {
+        "phrase": "absolute advantage",
+        "translation": "绝对利益"
+      },
+      {
+        "phrase": "absolute power",
+        "translation": "绝对权力（电影名称）"
+      }
+    ]
+  },
+  {
+    "word": "console",
+    "phonetic": "",
+    "meaning": "n. 控制台，仪表板；落地柜; v. 安慰，慰问",
+    "translations": [
+      {
+        "translation": "控制台，仪表板；落地柜",
+        "type": "n"
+      },
+      {
+        "translation": "安慰，慰问",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "game console",
+        "translation": "游戏机；游戏控制器"
+      },
+      {
+        "phrase": "games console",
+        "translation": "游戏控制台；携带型电脑游戏"
+      },
+      {
+        "phrase": "control console",
+        "translation": "控制（操作）台"
+      }
+    ]
+  },
+  {
+    "word": "consolidate",
+    "phonetic": "",
+    "meaning": "v. 使加固，使加强；(把)联为一体，合并",
+    "translations": [
+      {
+        "translation": "使加固，使加强；(把)联为一体，合并",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "desolate",
+    "phonetic": "",
+    "meaning": "adj. 荒凉的;孤独的; v. 使荒芜",
+    "translations": [
+      {
+        "translation": "荒凉的;孤独的",
+        "type": "adj"
+      },
+      {
+        "translation": "使荒芜",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "dissolve",
+    "phonetic": "",
+    "meaning": "v. (使)溶解,(使)融化;解散,取消",
+    "translations": [
+      {
+        "translation": "(使)溶解,(使)融化;解散,取消",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "dissolve in",
+        "translation": "vt. 溶入"
+      }
+    ]
+  },
+  {
+    "word": "isle",
+    "phonetic": "",
+    "meaning": "n. 小岛(用于诗歌中)",
+    "translations": [
+      {
+        "translation": "小岛(用于诗歌中)",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "isle of wight",
+        "translation": "怀特岛（英国）"
+      },
+      {
+        "phrase": "isle of man",
+        "translation": "英国属地曼岛（首都道格拉斯，位于欧洲）"
+      }
+    ]
+  },
+  {
+    "word": "isolate",
+    "phonetic": "",
+    "meaning": "v. 隔离,孤立",
+    "translations": [
+      {
+        "translation": "隔离,孤立",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "protein isolate",
+        "translation": "分离蛋白"
+      },
+      {
+        "phrase": "soy protein isolate",
+        "translation": "分离大豆蛋白"
+      }
+    ]
+  },
+  {
+    "word": "island",
+    "phonetic": "",
+    "meaning": "n. 岛，岛屿；(道路上的)交通安全岛",
+    "translations": [
+      {
+        "translation": "岛，岛屿；(道路上的)交通安全岛",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "on the island",
+        "translation": "在岛上"
+      },
+      {
+        "phrase": "hainan island",
+        "translation": "海南岛"
+      },
+      {
+        "phrase": "rhode island",
+        "translation": "美国罗德岛州"
+      }
+    ]
+  },
+  {
+    "word": "consult",
+    "phonetic": "",
+    "meaning": "v. 请教，向...咨询，找...商量；查阅，查看",
+    "translations": [
+      {
+        "translation": "请教，向...咨询，找...商量；查阅，查看",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "consult with",
+        "translation": "商量，协商"
+      }
+    ]
+  },
+  {
+    "word": "consultant",
+    "phonetic": "",
+    "meaning": "n. 会诊医师,顾问医生;顾问",
+    "translations": [
+      {
+        "translation": "会诊医师,顾问医生;顾问",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "management consultant",
+        "translation": "管理顾问"
+      },
+      {
+        "phrase": "marketing consultant",
+        "translation": "营销顾问；市场顾问；销售顾问"
+      },
+      {
+        "phrase": "consultant firm",
+        "translation": "咨询公司；顾问公司"
+      }
+    ]
+  },
+  {
+    "word": "insulate",
+    "phonetic": "",
+    "meaning": "v. 隔离,孤立;使绝缘,使绝热",
+    "translations": [
+      {
+        "translation": "隔离,孤立;使绝缘,使绝热",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "insult",
+    "phonetic": "",
+    "meaning": "v. /n.侮辱,凌辱",
+    "translations": [
+      {
+        "translation": "/n.侮辱,凌辱",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "add insult to injury",
+        "translation": "雪上加霜；伤害之外又加侮辱"
+      }
+    ]
+  },
+  {
+    "word": "result",
+    "phonetic": "",
+    "meaning": "n. 结果,成绩; v. 结果,致使,导致,由…而造成",
+    "translations": [
+      {
+        "translation": "结果,成绩",
+        "type": "n"
+      },
+      {
+        "translation": "结果,致使,导致,由…而造成",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "result of",
+        "translation": "是…结果；由于…结果"
+      },
+      {
+        "phrase": "as a result",
+        "translation": "结果"
+      },
+      {
+        "phrase": "as a result of",
+        "translation": "adv. 因此，由于；作为…的结果"
+      }
+    ]
+  },
+  {
+    "word": "resultant",
+    "phonetic": "",
+    "meaning": "adj. 作为结果而发生的;合成的",
+    "translations": [
+      {
+        "translation": "作为结果而发生的;合成的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "resultant force",
+        "translation": "n. [机]合力"
+      }
+    ]
+  },
+  {
+    "word": "aspect",
+    "phonetic": "",
+    "meaning": "n. 样子, 外表, 面貌, (问题等的)方面",
+    "translations": [
+      {
+        "translation": "样子, 外表, 面貌, (问题等的)方面",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "aspect ratio",
+        "translation": "纵横比；屏幕高宽比"
+      },
+      {
+        "phrase": "negative aspect",
+        "translation": "否定体；否定式"
+      },
+      {
+        "phrase": "aspect angle",
+        "translation": "视界角；视线角；扫描角"
+      }
+    ]
+  },
+  {
+    "word": "expect",
+    "phonetic": "",
+    "meaning": "v. 预期;期望,指望",
+    "translations": [
+      {
+        "translation": "预期;期望,指望",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "expect too much of",
+        "translation": "对(某人)期望过高"
+      },
+      {
+        "phrase": "expect of",
+        "translation": "对…期望（要求）"
+      },
+      {
+        "phrase": "expect to do",
+        "translation": "期待去做；期望做某事"
+      }
+    ]
+  },
+  {
+    "word": "expectation",
+    "phonetic": "",
+    "meaning": "n. 预期,期望,指望",
+    "translations": [
+      {
+        "translation": "预期,期望,指望",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in expectation",
+        "translation": "期望着；意料之中"
+      },
+      {
+        "phrase": "expectation value",
+        "translation": "期待值"
+      },
+      {
+        "phrase": "expectation of life",
+        "translation": "平均寿命；预期寿命（等于life expectancy）"
+      }
+    ]
+  },
+  {
+    "word": "inspect",
+    "phonetic": "",
+    "meaning": "v. 检查,调查,视察",
+    "translations": [
+      {
+        "translation": "检查,调查,视察",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "irrespective",
+    "phonetic": "",
+    "meaning": "adj. 不顾的,不考虑的,无关的",
+    "translations": [
+      {
+        "translation": "不顾的,不考虑的,无关的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "irrespective of",
+        "translation": "不论；不考虑；不顾"
+      },
+      {
+        "phrase": "irrespective of percentage",
+        "translation": "不论损失如何全部赔偿"
+      }
+    ]
+  },
+  {
+    "word": "perspective",
+    "phonetic": "",
+    "meaning": "n. 透视画法,透视图;远景,前途;观点,看法",
+    "translations": [
+      {
+        "translation": "透视画法,透视图;远景,前途;观点,看法",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in perspective",
+        "translation": "正确地；符合透视法地"
+      },
+      {
+        "phrase": "new perspective",
+        "translation": "新观点"
+      },
+      {
+        "phrase": "historical perspective",
+        "translation": "历史展望"
+      }
+    ]
+  },
+  {
+    "word": "prospect",
+    "phonetic": "",
+    "meaning": "n. 景色;前景,前途,展望",
+    "translations": [
+      {
+        "translation": "景色;前景,前途,展望",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "prospect for",
+        "translation": "勘探"
+      },
+      {
+        "phrase": "market prospect",
+        "translation": "市场前景"
+      },
+      {
+        "phrase": "bright prospect",
+        "translation": "光明的前景，辉煌的前程"
+      }
+    ]
+  },
+  {
+    "word": "prospective",
+    "phonetic": "",
+    "meaning": "adj. 预期的",
+    "translations": [
+      {
+        "translation": "预期的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "prospective study",
+        "translation": "前瞻研究；预期研究；远景调查"
+      },
+      {
+        "phrase": "prospective market",
+        "translation": "未来的市场"
+      },
+      {
+        "phrase": "prospective customer",
+        "translation": "潜在顾客"
+      }
+    ]
+  },
+  {
+    "word": "respect",
+    "phonetic": "",
+    "meaning": "n&v. 尊敬,尊重; n. 敬意,问候,关系,方面",
+    "translations": [
+      {
+        "translation": "尊敬,尊重",
+        "type": "n&v"
+      },
+      {
+        "translation": "敬意,问候,关系,方面",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "respect oneself",
+        "translation": "自重"
+      },
+      {
+        "phrase": "in respect of",
+        "translation": "关于，涉及"
+      },
+      {
+        "phrase": "respect for",
+        "translation": "尊重…；对…的尊敬"
+      }
+    ]
+  },
+  {
+    "word": "respective",
+    "phonetic": "",
+    "meaning": "adj. 各自的,各个的",
+    "translations": [
+      {
+        "translation": "各自的,各个的",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "retrospect",
+    "phonetic": "",
+    "meaning": "v&n. 回顾，回想，追溯[反]foresee",
+    "translations": [
+      {
+        "translation": "回顾，回想，追溯[反]foresee",
+        "type": "v&n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in retrospect",
+        "translation": "回顾；回顾往事；检讨过去"
+      }
+    ]
+  },
+  {
+    "word": "spectacle",
+    "phonetic": "",
+    "meaning": "n. (pl.)眼镜;场面,景象;奇观,壮观",
+    "translations": [
+      {
+        "translation": "(pl.)眼镜;场面,景象;奇观,壮观",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "spectacle frame",
+        "translation": "眼镜架；双孔构架"
+      }
+    ]
+  },
+  {
+    "word": "spectacular",
+    "phonetic": "",
+    "meaning": "adj. 壮观的,引人注目的; n. 壮观的演出",
+    "translations": [
+      {
+        "translation": "壮观的,引人注目的",
+        "type": "adj"
+      },
+      {
+        "translation": "壮观的演出",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "spectator",
+    "phonetic": "",
+    "meaning": "n. 观众,旁观者",
+    "translations": [
+      {
+        "translation": "观众,旁观者",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "spectator sport",
+        "translation": "吸引大量观众的体育运动"
+      }
+    ]
+  },
+  {
+    "word": "spectrum",
+    "phonetic": "",
+    "meaning": "n. 谱，光谱，频谱；范围，幅度，系列",
+    "translations": [
+      {
+        "translation": "谱，光谱，频谱；范围，幅度，系列",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "spectrum analysis",
+        "translation": "光谱分析；分光分析"
+      },
+      {
+        "phrase": "frequency spectrum",
+        "translation": "频谱；频率谱"
+      },
+      {
+        "phrase": "infrared spectrum",
+        "translation": "红外光谱"
+      }
+    ]
+  },
+  {
+    "word": "suspect",
+    "phonetic": "",
+    "meaning": "v. 猜想；怀疑；察觉; adj. 可疑的",
+    "translations": [
+      {
+        "translation": "猜想；怀疑；察觉",
+        "type": "v"
+      },
+      {
+        "translation": "可疑的",
+        "type": "adj"
+      },
+      {
+        "translation": "嫌疑犯",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "prime suspect",
+        "translation": "嫌疑重犯；主要嫌疑犯"
+      },
+      {
+        "phrase": "suspect of",
+        "translation": "怀疑"
+      }
+    ]
+  },
+  {
+    "word": "unexpected",
+    "phonetic": "",
+    "meaning": "adj. 想不到的, 意外的, 未预料到",
+    "translations": [
+      {
+        "translation": "想不到的, 意外的, 未预料到",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "unexpected news",
+        "translation": "意外的消息；出乎意料的新闻"
+      },
+      {
+        "phrase": "unexpected accident",
+        "translation": "不能预料的事故"
+      }
+    ]
+  },
+  {
+    "word": "especially",
+    "phonetic": "",
+    "meaning": "adv. 特别，尤其，格外；专门地，主要地",
+    "translations": [
+      {
+        "translation": "特别，尤其，格外；专门地，主要地",
+        "type": "adv"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "especially english",
+        "translation": "具有英国特征的"
+      }
+    ]
+  },
+  {
+    "word": "special",
+    "phonetic": "",
+    "meaning": "adj. 特殊的,专门的;附加的,额外的",
+    "translations": [
+      {
+        "translation": "特殊的,专门的;附加的,额外的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in special",
+        "translation": "特殊的"
+      },
+      {
+        "phrase": "special administrative region",
+        "translation": "特别行政区"
+      },
+      {
+        "phrase": "special equipment",
+        "translation": "专用设备；特殊设备"
+      }
+    ]
+  },
+  {
+    "word": "specialist",
+    "phonetic": "",
+    "meaning": "n. 专家",
+    "translations": [
+      {
+        "translation": "专家",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "specialist system",
+        "translation": "专家系统；专家制度"
+      },
+      {
+        "phrase": "heart specialist",
+        "translation": "心脏病专家"
+      }
+    ]
+  },
+  {
+    "word": "speciality",
+    "phonetic": "",
+    "meaning": "n. (specialty)特性，性质；专业/长；特产",
+    "translations": [
+      {
+        "translation": "(specialty)特性，性质；专业/长；特产",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "speciality store",
+        "translation": "专业店，专卖店"
+      }
+    ]
+  },
+  {
+    "word": "specialize",
+    "phonetic": "",
+    "meaning": "v. (specialise)(in)专攻,专门研究,专业化",
+    "translations": [
+      {
+        "translation": "(specialise)(in)专攻,专门研究,专业化",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "specialize in",
+        "translation": "专门研究……"
+      }
+    ]
+  },
+  {
+    "word": "species",
+    "phonetic": "",
+    "meaning": "n. (物)种,种类",
+    "translations": [
+      {
+        "translation": "(物)种,种类",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "species diversity",
+        "translation": "物种多样性；歧异度"
+      },
+      {
+        "phrase": "species composition",
+        "translation": "物种组成；种类成分"
+      },
+      {
+        "phrase": "species richness",
+        "translation": "物种丰富度；种繁富度"
+      }
+    ]
+  },
+  {
+    "word": "specific",
+    "phonetic": "",
+    "meaning": "adj. 明确的,具体的;特定的,特有的",
+    "translations": [
+      {
+        "translation": "明确的,具体的;特定的,特有的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "specific surface",
+        "translation": "比表面；比表面积；表面系数"
+      },
+      {
+        "phrase": "specific surface area",
+        "translation": "比表面积"
+      },
+      {
+        "phrase": "specific gravity",
+        "translation": "比重"
+      }
+    ]
+  },
+  {
+    "word": "specification",
+    "phonetic": "",
+    "meaning": "n. 详述;(常pl.)规格,说明书,规范",
+    "translations": [
+      {
+        "translation": "详述;(常pl.)规格,说明书,规范",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "technical specification",
+        "translation": "技术规范；技术说明"
+      },
+      {
+        "phrase": "product specification",
+        "translation": "产品规格；制品技术规格"
+      },
+      {
+        "phrase": "design specification",
+        "translation": "设计规范；设计规格；设计任务书；设计细节"
+      }
+    ]
+  },
+  {
+    "word": "specify",
+    "phonetic": "",
+    "meaning": "v. 指定,详细说明",
+    "translations": [
+      {
+        "translation": "指定,详细说明",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "speculate",
+    "phonetic": "",
+    "meaning": "v. 思索；推测vt.投机；思索，推测",
+    "translations": [
+      {
+        "translation": "思索；推测vt.投机；思索，推测",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "speculate on",
+        "translation": "v. 推测；考虑"
+      }
+    ]
+  },
+  {
+    "word": "conspicuous",
+    "phonetic": "",
+    "meaning": "adj. 显眼的,明显的",
+    "translations": [
+      {
+        "translation": "显眼的,明显的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "conspicuous consumption",
+        "translation": "炫耀性消费；摆阔，挥霍"
+      },
+      {
+        "phrase": "conspicuous place",
+        "translation": "显眼地方"
+      },
+      {
+        "phrase": "conspicuous position",
+        "translation": "显眼位置"
+      }
+    ]
+  },
+  {
+    "word": "spicy",
+    "phonetic": "",
+    "meaning": "adj. 加很多香料的；(口味)浓郁的",
+    "translations": [
+      {
+        "translation": "加很多香料的；(口味)浓郁的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "spicy food",
+        "translation": "辛辣的食物"
+      }
+    ]
+  },
+  {
+    "word": "suspicion",
+    "phonetic": "",
+    "meaning": "n. 怀疑，猜疑；一点儿，少量",
+    "translations": [
+      {
+        "translation": "怀疑，猜疑；一点儿，少量",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "on suspicion",
+        "translation": "因嫌疑；根据猜想"
+      },
+      {
+        "phrase": "on suspicion of",
+        "translation": "有嫌疑"
+      },
+      {
+        "phrase": "with suspicion",
+        "translation": "怀疑地"
+      }
+    ]
+  },
+  {
+    "word": "suspicious",
+    "phonetic": "",
+    "meaning": "adj. (of)可疑的,多疑的,疑心的",
+    "translations": [
+      {
+        "translation": "(of)可疑的,多疑的,疑心的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "suspicious of",
+        "translation": "对…起疑"
+      }
+    ]
+  },
+  {
+    "word": "spirit",
+    "phonetic": "",
+    "meaning": "n. 精神;志气;(pl.)情绪,心情;(pl.)酒精",
+    "translations": [
+      {
+        "translation": "精神;志气;(pl.)情绪,心情;(pl.)酒精",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "team spirit",
+        "translation": "n. 团队精神；合作精神"
+      },
+      {
+        "phrase": "holy spirit",
+        "translation": "[宗]圣灵（等于Holy Ghost）"
+      },
+      {
+        "phrase": "in the spirit of",
+        "translation": "本着…的精神"
+      }
+    ]
+  },
+  {
+    "word": "aspire",
+    "phonetic": "",
+    "meaning": "v. (to，after)渴望，追求，有志于",
+    "translations": [
+      {
+        "translation": "(to，after)渴望，追求，有志于",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "aspire after",
+        "translation": "v. 渴望"
+      }
+    ]
+  },
+  {
+    "word": "conspiracy",
+    "phonetic": "",
+    "meaning": "n. 阴谋，密谋，共谋",
+    "translations": [
+      {
+        "translation": "阴谋，密谋，共谋",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "conspiracy theory",
+        "translation": "阴谋论"
+      },
+      {
+        "phrase": "conspiracy of silence",
+        "translation": "保持缄默的密约"
+      }
+    ]
+  },
+  {
+    "word": "inspiration",
+    "phonetic": "",
+    "meaning": "n. 灵感;鼓舞,激励",
+    "translations": [
+      {
+        "translation": "灵感;鼓舞,激励",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "inspire",
+    "phonetic": "",
+    "meaning": "v. 鼓舞,激起;使产生灵感",
+    "translations": [
+      {
+        "translation": "鼓舞,激起;使产生灵感",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "spiral",
+    "phonetic": "",
+    "meaning": "adj. 螺旋形的; n. 螺旋，螺线",
+    "translations": [
+      {
+        "translation": "螺旋形的",
+        "type": "adj"
+      },
+      {
+        "translation": "螺旋，螺线",
+        "type": "n"
+      },
+      {
+        "translation": "螺旋上升；盘旋",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "spiral bevel gear",
+        "translation": "弧齿锥齿轮；螺旋伞齿轮"
+      },
+      {
+        "phrase": "spiral groove",
+        "translation": "螺旋沟"
+      },
+      {
+        "phrase": "spiral case",
+        "translation": "蜗壳；水轮机蜗壳"
+      }
+    ]
+  },
+  {
+    "word": "spiritual",
+    "phonetic": "",
+    "meaning": "adj. 精神(上)的,心灵的",
+    "translations": [
+      {
+        "translation": "精神(上)的,心灵的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "spiritual civilization",
+        "translation": "精神文明"
+      },
+      {
+        "phrase": "spiritual world",
+        "translation": "精神世界"
+      },
+      {
+        "phrase": "spiritual leader",
+        "translation": "n. 精神领袖"
+      }
+    ]
+  },
+  {
+    "word": "desperate",
+    "phonetic": "",
+    "meaning": "adj. 不顾一切的，铤而走险的；绝望的，危急的",
+    "translations": [
+      {
+        "translation": "不顾一切的，铤而走险的；绝望的，危急的",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "disperse",
+    "phonetic": "",
+    "meaning": "v. (使)分散;(使)散开;疏散",
+    "translations": [
+      {
+        "translation": "(使)分散;(使)散开;疏散",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "disperse dye",
+        "translation": "分散染料"
+      },
+      {
+        "phrase": "disperse phase",
+        "translation": "分散相；分散质"
+      },
+      {
+        "phrase": "disperse system",
+        "translation": "分散体系；分散系统；分散物系"
+      }
+    ]
+  },
+  {
+    "word": "prosper",
+    "phonetic": "",
+    "meaning": "v. 成功,兴隆,昌盛,使成功,使昌隆,繁荣",
+    "translations": [
+      {
+        "translation": "成功,兴隆,昌盛,使成功,使昌隆,繁荣",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "prosperity",
+    "phonetic": "",
+    "meaning": "n. 繁荣,兴旺",
+    "translations": [
+      {
+        "translation": "繁荣,兴旺",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "common prosperity",
+        "translation": "共同繁荣；共同富裕"
+      },
+      {
+        "phrase": "economic prosperity",
+        "translation": "经济繁荣；发展生产"
+      },
+      {
+        "phrase": "growing prosperity",
+        "translation": "越来越欣欣向荣"
+      }
+    ]
+  },
+  {
+    "word": "prosperous",
+    "phonetic": "",
+    "meaning": "adj. 繁荣的,兴旺的,茂盛的,顺利的",
+    "translations": [
+      {
+        "translation": "繁荣的,兴旺的,茂盛的,顺利的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "thriving and prosperous",
+        "translation": "繁荣昌盛"
+      }
+    ]
+  },
+  {
+    "word": "contact",
+    "phonetic": "",
+    "meaning": "v&n. (使)接触,联系,交往",
+    "translations": [
+      {
+        "translation": "(使)接触,联系,交往",
+        "type": "v&n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "contact us",
+        "translation": "联系我们；联络我们；联系方式"
+      },
+      {
+        "phrase": "contact with",
+        "translation": "与…联系"
+      },
+      {
+        "phrase": "in contact with",
+        "translation": "接触；与…有联系"
+      }
+    ]
+  },
+  {
+    "word": "intact",
+    "phonetic": "",
+    "meaning": "adj. 完整无缺的,未经触动的,未受损伤的",
+    "translations": [
+      {
+        "translation": "完整无缺的,未经触动的,未受损伤的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "intact rock",
+        "translation": "完整岩石"
+      },
+      {
+        "phrase": "keep intact",
+        "translation": "保持原貌（样）"
+      }
+    ]
+  },
+  {
+    "word": "tactic",
+    "phonetic": "",
+    "meaning": "n. (s)策略,战术",
+    "translations": [
+      {
+        "translation": "(s)策略,战术",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "architect",
+    "phonetic": "",
+    "meaning": "n. 建筑师；设计师；缔造者；创造者",
+    "translations": [
+      {
+        "translation": "建筑师；设计师；缔造者；创造者",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "landscape architect",
+        "translation": "n. 造园技师；环境美化设计家"
+      },
+      {
+        "phrase": "chief architect",
+        "translation": "总建筑师"
+      },
+      {
+        "phrase": "system architect",
+        "translation": "系统架构师；系统结构设计员"
+      }
+    ]
+  },
+  {
+    "word": "architecture",
+    "phonetic": "",
+    "meaning": "n. 建筑，建筑学；建筑式样或风格，建筑物",
+    "translations": [
+      {
+        "translation": "建筑，建筑学；建筑式样或风格，建筑物",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "system architecture",
+        "translation": "系统架构"
+      },
+      {
+        "phrase": "landscape architecture",
+        "translation": "造园术，园林建筑学；造景建筑业"
+      },
+      {
+        "phrase": "modern architecture",
+        "translation": "现代建筑"
+      }
+    ]
+  },
+  {
+    "word": "detach",
+    "phonetic": "",
+    "meaning": "v. 分开, 分离, 分遣, 派遣(军队)",
+    "translations": [
+      {
+        "translation": "分开, 分离, 分遣, 派遣(军队)",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "detach from",
+        "translation": "从…分离；拆卸"
+      }
+    ]
+  },
+  {
+    "word": "detect",
+    "phonetic": "",
+    "meaning": "v. 察觉,发觉,侦察,探测",
+    "translations": [
+      {
+        "translation": "察觉,发觉,侦察,探测",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "detective",
+    "phonetic": "",
+    "meaning": "n. 侦探",
+    "translations": [
+      {
+        "translation": "侦探",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "detective story",
+        "translation": "侦探小说"
+      },
+      {
+        "phrase": "private detective",
+        "translation": "私家侦探"
+      },
+      {
+        "phrase": "detective film",
+        "translation": "侦探片"
+      }
+    ]
+  },
+  {
+    "word": "detector",
+    "phonetic": "",
+    "meaning": "n. 发现者,侦察器,探测器,检波器,检电器",
+    "translations": [
+      {
+        "translation": "发现者,侦察器,探测器,检波器,检电器",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "metal detector",
+        "translation": "金属探测器"
+      },
+      {
+        "phrase": "gas detector",
+        "translation": "气体检测器；瓦斯检查器；检气管"
+      },
+      {
+        "phrase": "infrared detector",
+        "translation": "红外检测器"
+      }
+    ]
+  },
+  {
+    "word": "protect",
+    "phonetic": "",
+    "meaning": "v. (from)保护,保卫",
+    "translations": [
+      {
+        "translation": "(from)保护,保卫",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "protect the environment",
+        "translation": "环境保护"
+      },
+      {
+        "phrase": "protect against",
+        "translation": "使免受"
+      },
+      {
+        "phrase": "protect from",
+        "translation": "使免受，保护"
+      }
+    ]
+  },
+  {
+    "word": "technical",
+    "phonetic": "",
+    "meaning": "adj. 技术(性)的，工艺的；专门性的，专业性的",
+    "translations": [
+      {
+        "translation": "技术(性)的，工艺的；专门性的，专业性的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "technical support",
+        "translation": "技术支持；技术援助"
+      },
+      {
+        "phrase": "technical personnel",
+        "translation": "技术人员"
+      },
+      {
+        "phrase": "technical staff",
+        "translation": "技术人员"
+      }
+    ]
+  },
+  {
+    "word": "technician",
+    "phonetic": "",
+    "meaning": "n. 技术员,技师,技工",
+    "translations": [
+      {
+        "translation": "技术员,技师,技工",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "maintenance technician",
+        "translation": "修理行业的技术人员"
+      },
+      {
+        "phrase": "laboratory technician",
+        "translation": "化验员；实验室技师"
+      },
+      {
+        "phrase": "engineering technician",
+        "translation": "工程技术员"
+      }
+    ]
+  },
+  {
+    "word": "technique",
+    "phonetic": "",
+    "meaning": "n. 技巧，手艺，技能；技术，工艺",
+    "translations": [
+      {
+        "translation": "技巧，手艺，技能；技术，工艺",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "new technique",
+        "translation": "新技术"
+      },
+      {
+        "phrase": "processing technique",
+        "translation": "生产工艺；制造工艺"
+      },
+      {
+        "phrase": "control technique",
+        "translation": "控制技术"
+      }
+    ]
+  },
+  {
+    "word": "time",
+    "phonetic": "",
+    "meaning": "n. 时间，时刻；次，回；时代，时期；倍，乘",
+    "translations": [
+      {
+        "translation": "时间，时刻；次，回；时代，时期；倍，乘",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "at the same time",
+        "translation": "同时；然而"
+      },
+      {
+        "phrase": "same time",
+        "translation": "同时"
+      },
+      {
+        "phrase": "in time",
+        "translation": "及时；适时"
+      }
+    ]
+  },
+  {
+    "word": "intimate",
+    "phonetic": "",
+    "meaning": "adj. 亲密的,密切的; n. 熟友,熟人",
+    "translations": [
+      {
+        "translation": "亲密的,密切的",
+        "type": "adj"
+      },
+      {
+        "translation": "熟友,熟人",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "intimate relationship",
+        "translation": "亲密的关系"
+      },
+      {
+        "phrase": "intimate friend",
+        "translation": "知交，知己"
+      },
+      {
+        "phrase": "intimate contact",
+        "translation": "亲密接触"
+      }
+    ]
+  },
+  {
+    "word": "intimidate",
+    "phonetic": "",
+    "meaning": "v. 胁迫，威胁(某人做某事)",
+    "translations": [
+      {
+        "translation": "胁迫，威胁(某人做某事)",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "daytime",
+    "phonetic": "",
+    "meaning": "n. 白天,日间",
+    "translations": [
+      {
+        "translation": "白天,日间",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in the daytime",
+        "translation": "在白天；在白昼"
+      }
+    ]
+  },
+  {
+    "word": "estimate",
+    "phonetic": "",
+    "meaning": "v&n. 估计,估价;评估",
+    "translations": [
+      {
+        "translation": "估计,估价;评估",
+        "type": "v&n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "estimate for",
+        "translation": "对…估价、估计"
+      },
+      {
+        "phrase": "cost estimate",
+        "translation": "成本估算，成本估计"
+      },
+      {
+        "phrase": "rough estimate",
+        "translation": "粗略的估计，粗算"
+      }
+    ]
+  },
+  {
+    "word": "overtime",
+    "phonetic": "",
+    "meaning": "adj. 超时的,加班的; adv. 加班",
+    "translations": [
+      {
+        "translation": "超时的,加班的",
+        "type": "adj"
+      },
+      {
+        "translation": "加班",
+        "type": "adv"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "work overtime",
+        "translation": "加班"
+      },
+      {
+        "phrase": "overtime pay",
+        "translation": "加班费"
+      },
+      {
+        "phrase": "overtime work",
+        "translation": "加班加点工作，超时工作"
+      }
+    ]
+  },
+  {
+    "word": "sometime",
+    "phonetic": "",
+    "meaning": "adv. 将来(或过去)某个时候a.以前的",
+    "translations": [
+      {
+        "translation": "将来(或过去)某个时候a.以前的",
+        "type": "adv"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "sometimes",
+    "phonetic": "",
+    "meaning": "adv. 不时，有时，间或",
+    "translations": [
+      {
+        "translation": "不时，有时，间或",
+        "type": "adv"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "timber",
+    "phonetic": "",
+    "meaning": "n. 木材,木料",
+    "translations": [
+      {
+        "translation": "木材,木料",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "timber tree",
+        "translation": "成材木"
+      },
+      {
+        "phrase": "timber structure",
+        "translation": "木结构；木构造"
+      },
+      {
+        "phrase": "sawn timber",
+        "translation": "锯材，锯木；成型木材"
+      }
+    ]
+  },
+  {
+    "word": "timely",
+    "phonetic": "",
+    "meaning": "adj. 及时的,适时的",
+    "translations": [
+      {
+        "translation": "及时的,适时的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "timely adjustment",
+        "translation": "适时调节"
+      }
+    ]
+  },
+  {
+    "word": "timid",
+    "phonetic": "",
+    "meaning": "adj. 胆怯的,怯懦的",
+    "translations": [
+      {
+        "translation": "胆怯的,怯懦的",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "underestimate",
+    "phonetic": "",
+    "meaning": "v. 低估，看轻",
+    "translations": [
+      {
+        "translation": "低估，看轻",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "attempt",
+    "phonetic": "",
+    "meaning": "v. 企图，试图; n. 努力，尝试，企图",
+    "translations": [
+      {
+        "translation": "企图，试图",
+        "type": "v"
+      },
+      {
+        "translation": "努力，尝试，企图",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "attempt at",
+        "translation": "企图，努力；尝试"
+      },
+      {
+        "phrase": "attempt to do something",
+        "translation": "努力...；试图..."
+      },
+      {
+        "phrase": "attempt to do",
+        "translation": "尝试去做"
+      }
+    ]
+  },
+  {
+    "word": "contemplate",
+    "phonetic": "",
+    "meaning": "v. 盘算，计议；周密考虑；注视，凝视",
+    "translations": [
+      {
+        "translation": "盘算，计议；周密考虑；注视，凝视",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "contempt",
+    "phonetic": "",
+    "meaning": "n. 轻视，藐视；受辱，丢脸",
+    "translations": [
+      {
+        "translation": "轻视，藐视；受辱，丢脸",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "contempt of court",
+        "translation": "蔑视法庭；对法院的藐视罪"
+      },
+      {
+        "phrase": "in contempt of",
+        "translation": "不顾；不把…放在眼里；藐视"
+      },
+      {
+        "phrase": "beneath contempt",
+        "translation": "卑鄙到极点的"
+      }
+    ]
+  },
+  {
+    "word": "temper",
+    "phonetic": "",
+    "meaning": "n. 脾气；韧度vt.调和，使缓和；使回火",
+    "translations": [
+      {
+        "translation": "脾气；韧度vt.调和，使缓和；使回火",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "bad temper",
+        "translation": "坏脾气；暴躁"
+      },
+      {
+        "phrase": "temper mill",
+        "translation": "平整机"
+      },
+      {
+        "phrase": "hot temper",
+        "translation": "急躁的脾气"
+      }
+    ]
+  },
+  {
+    "word": "temperament",
+    "phonetic": "",
+    "meaning": "n. 气质，性格，性情；资质",
+    "translations": [
+      {
+        "translation": "气质，性格，性情；资质",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "artistic temperament",
+        "translation": "艺术气质"
+      },
+      {
+        "phrase": "equal temperament",
+        "translation": "平均律；平均乐律"
+      }
+    ]
+  },
+  {
+    "word": "temperature",
+    "phonetic": "",
+    "meaning": "n. 温度，体温；热度，发烧",
+    "translations": [
+      {
+        "translation": "温度，体温；热度，发烧",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "high temperature",
+        "translation": "高温"
+      },
+      {
+        "phrase": "low temperature",
+        "translation": "低温"
+      },
+      {
+        "phrase": "temperature field",
+        "translation": "温度场"
+      }
+    ]
+  },
+  {
+    "word": "temple",
+    "phonetic": "",
+    "meaning": "n. 庙宇,神殿,寺;太阳穴",
+    "translations": [
+      {
+        "translation": "庙宇,神殿,寺;太阳穴",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "temple of heaven",
+        "translation": "天坛"
+      },
+      {
+        "phrase": "buddhist temple",
+        "translation": "佛寺；佛堂；佛庙"
+      },
+      {
+        "phrase": "temple fair",
+        "translation": "庙会"
+      }
+    ]
+  },
+  {
+    "word": "tempo",
+    "phonetic": "",
+    "meaning": "n. 节奏,行进速度;(音乐的)速度",
+    "translations": [
+      {
+        "translation": "节奏,行进速度;(音乐的)速度",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "tempt",
+    "phonetic": "",
+    "meaning": "v. 诱惑,引诱;吸引,使感兴趣",
+    "translations": [
+      {
+        "translation": "诱惑,引诱;吸引,使感兴趣",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "temptation",
+    "phonetic": "",
+    "meaning": "n. 引诱，诱惑；诱惑物",
+    "translations": [
+      {
+        "translation": "引诱，诱惑；诱惑物",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "resist the temptation",
+        "translation": "抵制诱惑；抵挡住诱惑"
+      },
+      {
+        "phrase": "resist temptation",
+        "translation": "抵制诱惑；不受引诱"
+      }
+    ]
+  },
+  {
+    "word": "determine",
+    "phonetic": "",
+    "meaning": "v. 决心,决定;确定,限定",
+    "translations": [
+      {
+        "translation": "决心,决定;确定,限定",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "term",
+    "phonetic": "",
+    "meaning": "n. 学期;期限,期间;(pl.)条件,条款;术语",
+    "translations": [
+      {
+        "translation": "学期;期限,期间;(pl.)条件,条款;术语",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in terms",
+        "translation": "明确地；毫不含糊地"
+      },
+      {
+        "phrase": "in terms of",
+        "translation": "依据；按照；在…方面；以…措词"
+      },
+      {
+        "phrase": "long term",
+        "translation": "长期的"
+      }
+    ]
+  },
+  {
+    "word": "terminal",
+    "phonetic": "",
+    "meaning": "adj. 晚期的;终点的;期末的; n. 终点(站);终端",
+    "translations": [
+      {
+        "translation": "晚期的;终点的;期末的",
+        "type": "adj"
+      },
+      {
+        "translation": "终点(站);终端",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "terminal market",
+        "translation": "农产品集散市场"
+      },
+      {
+        "phrase": "container terminal",
+        "translation": "集装箱码头；货柜码头"
+      },
+      {
+        "phrase": "terminal equipment",
+        "translation": "终端设备"
+      }
+    ]
+  },
+  {
+    "word": "terminate",
+    "phonetic": "",
+    "meaning": "v. (使)结束，(使)停止",
+    "translations": [
+      {
+        "translation": "(使)结束，(使)停止",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "terminate a contract",
+        "translation": "终止合约"
+      }
+    ]
+  },
+  {
+    "word": "tin",
+    "phonetic": "",
+    "meaning": "n. 罐头；锡; adj. 锡制的",
+    "translations": [
+      {
+        "translation": "罐头；锡",
+        "type": "n"
+      },
+      {
+        "translation": "锡制的",
+        "type": "adj"
+      },
+      {
+        "translation": "镀锡于",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "tin oxide",
+        "translation": "二氧化锡"
+      },
+      {
+        "phrase": "tin ore",
+        "translation": "锡矿（石）；锡矿砂"
+      },
+      {
+        "phrase": "on the tin",
+        "translation": "[美国英语]使用警徽的(指凭此可得到免费用餐等特殊照顾)"
+      }
+    ]
+  },
+  {
+    "word": "bulletin",
+    "phonetic": "",
+    "meaning": "n. 公报,公告,告示",
+    "translations": [
+      {
+        "translation": "公报,公告,告示",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "bulletin board",
+        "translation": "布告牌；电子公告栏"
+      },
+      {
+        "phrase": "news bulletin",
+        "translation": "新闻"
+      },
+      {
+        "phrase": "bulletin board system",
+        "translation": "电子布告栏系统"
+      }
+    ]
+  },
+  {
+    "word": "continent",
+    "phonetic": "",
+    "meaning": "n. 大陆,洲",
+    "translations": [
+      {
+        "translation": "大陆,洲",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "antarctic continent",
+        "translation": "南极大陆；南极洲"
+      }
+    ]
+  },
+  {
+    "word": "continual",
+    "phonetic": "",
+    "meaning": "adj. 不断的,连续的,频繁的",
+    "translations": [
+      {
+        "translation": "不断的,连续的,频繁的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "continual improvement",
+        "translation": "持续改进"
+      }
+    ]
+  },
+  {
+    "word": "continue",
+    "phonetic": "",
+    "meaning": "v. 继续,连续,延伸",
+    "translations": [
+      {
+        "translation": "继续,连续,延伸",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "continue with",
+        "translation": "继续做"
+      },
+      {
+        "phrase": "continue to do",
+        "translation": "继续做某事"
+      },
+      {
+        "phrase": "continue doing",
+        "translation": "一直做（同一件事）"
+      }
+    ]
+  },
+  {
+    "word": "continuous",
+    "phonetic": "",
+    "meaning": "adj. 连续的,持续的",
+    "translations": [
+      {
+        "translation": "连续的,持续的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "continuous casting",
+        "translation": "全连铸；连续浇铸"
+      },
+      {
+        "phrase": "continuous improvement",
+        "translation": "持续改进；进取不懈"
+      },
+      {
+        "phrase": "continuous innovation",
+        "translation": "连续创新"
+      }
+    ]
+  },
+  {
+    "word": "tiny",
+    "phonetic": "",
+    "meaning": "adj. 极小的,微小的",
+    "translations": [
+      {
+        "translation": "极小的,微小的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "tiny amount",
+        "translation": "微小额"
+      },
+      {
+        "phrase": "tiny island",
+        "translation": "小岛"
+      },
+      {
+        "phrase": "tiny baby",
+        "translation": "个儿小的婴儿"
+      }
+    ]
+  },
+  {
+    "word": "contain",
+    "phonetic": "",
+    "meaning": "v. 包含，容纳；容忍，抑制；可被...除尽",
+    "translations": [
+      {
+        "translation": "包含，容纳；容忍，抑制；可被...除尽",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "said to contain",
+        "translation": "据称内装"
+      }
+    ]
+  },
+  {
+    "word": "container",
+    "phonetic": "",
+    "meaning": "n. 容器;集装箱",
+    "translations": [
+      {
+        "translation": "容器;集装箱",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "container transport",
+        "translation": "集装箱运输"
+      },
+      {
+        "phrase": "container terminal",
+        "translation": "集装箱码头；货柜码头"
+      },
+      {
+        "phrase": "container ship",
+        "translation": "集装箱运货船；货柜船"
+      }
+    ]
+  },
+  {
+    "word": "detain",
+    "phonetic": "",
+    "meaning": "v. 耽搁;扣押,拘留",
+    "translations": [
+      {
+        "translation": "耽搁;扣押,拘留",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "entertain",
+    "phonetic": "",
+    "meaning": "v. 招待,款待;使娱乐;使欢乐;容纳,接受",
+    "translations": [
+      {
+        "translation": "招待,款待;使娱乐;使欢乐;容纳,接受",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "entertainment",
+    "phonetic": "",
+    "meaning": "n. 招待,款待;表演文娱节目",
+    "translations": [
+      {
+        "translation": "招待,款待;表演文娱节目",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "entertainment industry",
+        "translation": "娱乐业"
+      },
+      {
+        "phrase": "entertainment center",
+        "translation": "娱乐中心"
+      },
+      {
+        "phrase": "blizzard entertainment",
+        "translation": "暴雪娱乐公司"
+      }
+    ]
+  },
+  {
+    "word": "obtain",
+    "phonetic": "",
+    "meaning": "v. 获得,得到",
+    "translations": [
+      {
+        "translation": "获得,得到",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "obtain employment",
+        "translation": "就业，找到工作"
+      },
+      {
+        "phrase": "obtain information",
+        "translation": "获得信息；索取资料或合同"
+      },
+      {
+        "phrase": "obtain evidence",
+        "translation": "取证"
+      }
+    ]
+  },
+  {
+    "word": "retain",
+    "phonetic": "",
+    "meaning": "v. 保持,保留",
+    "translations": [
+      {
+        "translation": "保持,保留",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "attain",
+    "phonetic": "",
+    "meaning": "v. 达到；完成；获得; v. 达到",
+    "translations": [
+      {
+        "translation": "达到；完成；获得",
+        "type": "v"
+      },
+      {
+        "translation": "达到",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "tomb",
+    "phonetic": "",
+    "meaning": "n. 坟,冢",
+    "translations": [
+      {
+        "translation": "坟,冢",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "tomb stone",
+        "translation": "n. 墓碑"
+      }
+    ]
+  },
+  {
+    "word": "accustomed",
+    "phonetic": "",
+    "meaning": "adj. 惯常的；习惯的，适应的(一般作表语)",
+    "translations": [
+      {
+        "translation": "惯常的；习惯的，适应的(一般作表语)",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "become accustomed to",
+        "translation": "习惯于；对…变得习以为常"
+      },
+      {
+        "phrase": "get accustomed to",
+        "translation": "变得习惯于，习惯于"
+      },
+      {
+        "phrase": "became accustomed to sth",
+        "translation": "对…变得习惯起来"
+      }
+    ]
+  },
+  {
+    "word": "atom",
+    "phonetic": "",
+    "meaning": "n. 原子；微粒，微量",
+    "translations": [
+      {
+        "translation": "原子；微粒，微量",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "hydrogen atom",
+        "translation": "氢原子"
+      },
+      {
+        "phrase": "atom bomb",
+        "translation": "原子弹"
+      },
+      {
+        "phrase": "bohr atom",
+        "translation": "玻尔氏原子"
+      }
+    ]
+  },
+  {
+    "word": "bottom",
+    "phonetic": "",
+    "meaning": "n. 底(部);基础,根基;海底,湖底,河床",
+    "translations": [
+      {
+        "translation": "底(部);基础,根基;海底,湖底,河床",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "at the bottom",
+        "translation": "在底部；在底端"
+      },
+      {
+        "phrase": "at the bottom of",
+        "translation": "在…的底部"
+      },
+      {
+        "phrase": "from top to bottom",
+        "translation": "完完全全，从头到脚"
+      }
+    ]
+  },
+  {
+    "word": "custom",
+    "phonetic": "",
+    "meaning": "n. 习惯,风俗,惯例;(pl.)海关,关税",
+    "translations": [
+      {
+        "translation": "习惯,风俗,惯例;(pl.)海关,关税",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "folk custom",
+        "translation": "n. 民间习俗"
+      },
+      {
+        "phrase": "custom duty",
+        "translation": "关税"
+      },
+      {
+        "phrase": "custom made",
+        "translation": "定做的，非现成的；定制品"
+      }
+    ]
+  },
+  {
+    "word": "customary",
+    "phonetic": "",
+    "meaning": "adj. 习惯的,惯例的",
+    "translations": [
+      {
+        "translation": "习惯的,惯例的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "customary law",
+        "translation": "习惯法"
+      }
+    ]
+  },
+  {
+    "word": "customer",
+    "phonetic": "",
+    "meaning": "n. 顾客,主顾",
+    "translations": [
+      {
+        "translation": "顾客,主顾",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "customer service",
+        "translation": "客户服务；售后服务"
+      },
+      {
+        "phrase": "customer satisfaction",
+        "translation": "客户满意度"
+      },
+      {
+        "phrase": "customer first",
+        "translation": "客户至上；顾客至上"
+      }
+    ]
+  },
+  {
+    "word": "tomato",
+    "phonetic": "",
+    "meaning": "n. 西红柿",
+    "translations": [
+      {
+        "translation": "西红柿",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "tomato sauce",
+        "translation": "番茄酱，蕃茄汁；番茄沙司"
+      },
+      {
+        "phrase": "tomato paste",
+        "translation": "蕃茄酱，西红柿酱；蕃茄糊"
+      },
+      {
+        "phrase": "tomato juice",
+        "translation": "番茄汁"
+      }
+    ]
+  },
+  {
+    "word": "to",
+    "phonetic": "",
+    "meaning": "prep. (表示方向)到；向；(表示间接关系)给",
+    "translations": [
+      {
+        "translation": "(表示方向)到；向；(表示间接关系)给",
+        "type": "prep"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "to and fro",
+        "translation": "来回地"
+      }
+    ]
+  },
+  {
+    "word": "abstract",
+    "phonetic": "",
+    "meaning": "adj. 抽象的; n. 摘要，梗概",
+    "translations": [
+      {
+        "translation": "抽象的",
+        "type": "adj"
+      },
+      {
+        "translation": "摘要，梗概",
+        "type": "n"
+      },
+      {
+        "translation": "提取；摘录要点",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in the abstract",
+        "translation": "抽象地；理论上；概括地"
+      },
+      {
+        "phrase": "abstract art",
+        "translation": "n. 抽象派；抽象主义"
+      },
+      {
+        "phrase": "abstract class",
+        "translation": "[计]抽象类（不允许实例化的类）"
+      }
+    ]
+  },
+  {
+    "word": "attract",
+    "phonetic": "",
+    "meaning": "v. 引起的注意(或兴趣等),吸引；引起；激起",
+    "translations": [
+      {
+        "translation": "引起的注意(或兴趣等),吸引；引起；激起",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "attract foreign investment",
+        "translation": "吸引外商投资；对外招商"
+      },
+      {
+        "phrase": "attract investment",
+        "translation": "招商，招商引资"
+      }
+    ]
+  },
+  {
+    "word": "attractive",
+    "phonetic": "",
+    "meaning": "adj. 吸引人的，引人注意的；漂亮的，迷人的",
+    "translations": [
+      {
+        "translation": "吸引人的，引人注意的；漂亮的，迷人的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "attractive appearance",
+        "translation": "造型美观"
+      },
+      {
+        "phrase": "attractive force",
+        "translation": "引力，吸引力"
+      },
+      {
+        "phrase": "attractive designs",
+        "translation": "款式新颖；款式新奇"
+      }
+    ]
+  },
+  {
+    "word": "contract",
+    "phonetic": "",
+    "meaning": "n. (承包)合同/契约; v. 订合同/契约；使缩小",
+    "translations": [
+      {
+        "translation": "(承包)合同/契约",
+        "type": "n"
+      },
+      {
+        "translation": "订合同/契约；使缩小",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "contract with",
+        "translation": "承包；与…订有合约"
+      },
+      {
+        "phrase": "contract in",
+        "translation": "[法]保证承担义务"
+      },
+      {
+        "phrase": "labor contract",
+        "translation": "n. 劳工合同"
+      }
+    ]
+  },
+  {
+    "word": "distract",
+    "phonetic": "",
+    "meaning": "v. 分散;使分心;打扰;使心情烦乱",
+    "translations": [
+      {
+        "translation": "分散;使分心;打扰;使心情烦乱",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "distract from",
+        "translation": "转移；使从…分心"
+      }
+    ]
+  },
+  {
+    "word": "extract",
+    "phonetic": "",
+    "meaning": "v&n. 拔出,抽出;摘录; n. 抽取物;精华;选集",
+    "translations": [
+      {
+        "translation": "拔出,抽出;摘录",
+        "type": "v&n"
+      },
+      {
+        "translation": "抽取物;精华;选集",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "extract from",
+        "translation": "从…提取，文件的摘录"
+      },
+      {
+        "phrase": "water extract",
+        "translation": "水提取物"
+      },
+      {
+        "phrase": "plant extract",
+        "translation": "植物提取物；植物浸出液"
+      }
+    ]
+  },
+  {
+    "word": "tractor",
+    "phonetic": "",
+    "meaning": "n. 拖拉机,牵引车",
+    "translations": [
+      {
+        "translation": "拖拉机,牵引车",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "walking tractor",
+        "translation": "手扶拖拉机"
+      },
+      {
+        "phrase": "wheeled tractor",
+        "translation": "轮式拖拉机"
+      },
+      {
+        "phrase": "crawler tractor",
+        "translation": "覆带式拖拉机"
+      }
+    ]
+  },
+  {
+    "word": "subtract",
+    "phonetic": "",
+    "meaning": "v. (from)减(去)",
+    "translations": [
+      {
+        "translation": "(from)减(去)",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "subtract from",
+        "translation": "减去"
+      }
+    ]
+  },
+  {
+    "word": "vacant",
+    "phonetic": "",
+    "meaning": "adj. 空的,未占用的;空缺的;神情茫然的",
+    "translations": [
+      {
+        "translation": "空的,未占用的;空缺的;神情茫然的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "vacant space",
+        "translation": "空舱位；未用空间"
+      },
+      {
+        "phrase": "vacant room",
+        "translation": "空房"
+      },
+      {
+        "phrase": "vacant position",
+        "translation": "职位空缺；空座"
+      }
+    ]
+  },
+  {
+    "word": "vacation",
+    "phonetic": "",
+    "meaning": "n. 休假,假期",
+    "translations": [
+      {
+        "translation": "休假,假期",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "summer vacation",
+        "translation": "暑假"
+      },
+      {
+        "phrase": "on vacation",
+        "translation": "在度假中"
+      },
+      {
+        "phrase": "winter vacation",
+        "translation": "寒假"
+      }
+    ]
+  },
+  {
+    "word": "vacuum",
+    "phonetic": "",
+    "meaning": "n. 真空,真空吸尘器",
+    "translations": [
+      {
+        "translation": "真空,真空吸尘器",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "vacuum pump",
+        "translation": "[机]真空泵"
+      },
+      {
+        "phrase": "in a vacuum",
+        "translation": "似在真空中"
+      },
+      {
+        "phrase": "high vacuum",
+        "translation": "高度真空，高真空"
+      }
+    ]
+  },
+  {
+    "word": "evacuate",
+    "phonetic": "",
+    "meaning": "v. 撤离，疏散，排泄，剥夺",
+    "translations": [
+      {
+        "translation": "撤离，疏散，排泄，剥夺",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "vague",
+    "phonetic": "",
+    "meaning": "adj. 不明确的,含糊的,暧昧的",
+    "translations": [
+      {
+        "translation": "不明确的,含糊的,暧昧的",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "extravagant",
+    "phonetic": "",
+    "meaning": "adj. 奢侈的;过分的;(言行等)放肆的",
+    "translations": [
+      {
+        "translation": "奢侈的;过分的;(言行等)放肆的",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "equivalent",
+    "phonetic": "",
+    "meaning": "adj. (to)相等的,等价的; n. 相等物,等价物",
+    "translations": [
+      {
+        "translation": "(to)相等的,等价的",
+        "type": "adj"
+      },
+      {
+        "translation": "相等物,等价物",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "equivalent circuit",
+        "translation": "等效电路"
+      },
+      {
+        "phrase": "equivalent stress",
+        "translation": "等效应力；折算应力；相当应力"
+      },
+      {
+        "phrase": "carbon equivalent",
+        "translation": "[化]碳当量"
+      }
+    ]
+  },
+  {
+    "word": "evaluate",
+    "phonetic": "",
+    "meaning": "v. 估价,评价;求…的值",
+    "translations": [
+      {
+        "translation": "估价,评价;求…的值",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "interval",
+    "phonetic": "",
+    "meaning": "n. 间隔,间歇;(幕间或工间)休息",
+    "translations": [
+      {
+        "translation": "间隔,间歇;(幕间或工间)休息",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "time interval",
+        "translation": "时间间隔"
+      },
+      {
+        "phrase": "at intervals",
+        "translation": "时时，不时；相隔一定距离（或时间）"
+      },
+      {
+        "phrase": "confidence interval",
+        "translation": "置信区间，可靠区间"
+      }
+    ]
+  },
+  {
+    "word": "invalid",
+    "phonetic": "",
+    "meaning": "n. 病人,伤残人; adj. 有病的,伤残的;无效的",
+    "translations": [
+      {
+        "translation": "病人,伤残人",
+        "type": "n"
+      },
+      {
+        "translation": "有病的,伤残的;无效的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "invalid data",
+        "translation": "无效数据；不正当数据"
+      }
+    ]
+  },
+  {
+    "word": "invaluable",
+    "phonetic": "",
+    "meaning": "adj. 非常宝贵的,无价的",
+    "translations": [
+      {
+        "translation": "非常宝贵的,无价的",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "prevalent",
+    "phonetic": "",
+    "meaning": "adj. 流行的,普遍的",
+    "translations": [
+      {
+        "translation": "流行的,普遍的",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "valid",
+    "phonetic": "",
+    "meaning": "adj. 有效的;有根据的;正当的",
+    "translations": [
+      {
+        "translation": "有效的;有根据的;正当的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "valid period",
+        "translation": "有效期限"
+      },
+      {
+        "phrase": "valid certificate",
+        "translation": "有效证书；有效凭证"
+      },
+      {
+        "phrase": "valid until",
+        "translation": "有效期至"
+      }
+    ]
+  },
+  {
+    "word": "valley",
+    "phonetic": "",
+    "meaning": "n. (山)谷;流域",
+    "translations": [
+      {
+        "translation": "(山)谷;流域",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "river valley",
+        "translation": "河谷；山涧"
+      },
+      {
+        "phrase": "happy valley",
+        "translation": "欢乐谷（游乐场）；跑马地（香港一高级住宅区）"
+      },
+      {
+        "phrase": "napa valley",
+        "translation": "纳帕谷（美国加州葡萄酒的主要产地）"
+      }
+    ]
+  },
+  {
+    "word": "valuable",
+    "phonetic": "",
+    "meaning": "adj. 贵重的,有价值的; n. (pl.)贵重物品,财宝",
+    "translations": [
+      {
+        "translation": "贵重的,有价值的",
+        "type": "adj"
+      },
+      {
+        "translation": "(pl.)贵重物品,财宝",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "valuable experience",
+        "translation": "宝贵的经验"
+      },
+      {
+        "phrase": "valuable information",
+        "translation": "有价值的情报"
+      },
+      {
+        "phrase": "most valuable player",
+        "translation": "最有价值球员；最优秀选手"
+      }
+    ]
+  },
+  {
+    "word": "value",
+    "phonetic": "",
+    "meaning": "n. 价格;价值;实用性; v. 评价,估价;尊重",
+    "translations": [
+      {
+        "translation": "价格;价值;实用性",
+        "type": "n"
+      },
+      {
+        "translation": "评价,估价;尊重",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "of value",
+        "translation": "adj. 贵重的（重要的）"
+      },
+      {
+        "phrase": "reference value",
+        "translation": "参考值；标准值；参照值"
+      },
+      {
+        "phrase": "practical value",
+        "translation": "实际价值"
+      }
+    ]
+  },
+  {
+    "word": "advent",
+    "phonetic": "",
+    "meaning": "n. (重要事件等的)到来，来临",
+    "translations": [
+      {
+        "translation": "(重要事件等的)到来，来临",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "the advent of",
+        "translation": "(重要人物或事件)…的出现(或到来)"
+      },
+      {
+        "phrase": "with the advent of",
+        "translation": "随着…的出现"
+      }
+    ]
+  },
+  {
+    "word": "adventure",
+    "phonetic": "",
+    "meaning": "n. 冒险，冒险活动，奇遇; v. 大胆进行",
+    "translations": [
+      {
+        "translation": "冒险，冒险活动，奇遇",
+        "type": "n"
+      },
+      {
+        "translation": "大胆进行",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "adventure film",
+        "translation": "惊险片"
+      }
+    ]
+  },
+  {
+    "word": "avenue",
+    "phonetic": "",
+    "meaning": "n. 林荫路，大街；(比喻)途径，渠道，方法",
+    "translations": [
+      {
+        "translation": "林荫路，大街；(比喻)途径，渠道，方法",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "fifth avenue",
+        "translation": "（美国纽约的）第五大道"
+      },
+      {
+        "phrase": "park avenue",
+        "translation": "派克大街（美国纽约市的豪华大街街名，意译为公园大道或林荫大道）；林荫大道（别克汽车的旗舰品牌）"
+      },
+      {
+        "phrase": "madison avenue",
+        "translation": "美国广告业；美国广告业作风；麦德逊大道（美国广告业中心）"
+      }
+    ]
+  },
+  {
+    "word": "convenience",
+    "phonetic": "",
+    "meaning": "n. 便利,方便;(pl.)便利设备",
+    "translations": [
+      {
+        "translation": "便利,方便;(pl.)便利设备",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "for the convenience of",
+        "translation": "为了…的方便"
+      },
+      {
+        "phrase": "convenience store",
+        "translation": "便利商店"
+      },
+      {
+        "phrase": "for convenience",
+        "translation": "为了方便起见"
+      }
+    ]
+  },
+  {
+    "word": "convenient",
+    "phonetic": "",
+    "meaning": "adj. (to)便利的,方便的",
+    "translations": [
+      {
+        "translation": "(to)便利的,方便的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "convenient for",
+        "translation": "adj. 便于…"
+      }
+    ]
+  },
+  {
+    "word": "convention",
+    "phonetic": "",
+    "meaning": "n. 大会,会议;惯例,常规,习俗;公约,协定",
+    "translations": [
+      {
+        "translation": "大会,会议;惯例,常规,习俗;公约,协定",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "international convention",
+        "translation": "国际惯例；国际公约；国际协定"
+      },
+      {
+        "phrase": "convention center",
+        "translation": "n. 会议中心；会展中心"
+      },
+      {
+        "phrase": "national convention",
+        "translation": "全国代表大会（美国政党为总统候选人提名而召开）；国民公会（指1792－1795年间的法国议会）"
+      }
+    ]
+  },
+  {
+    "word": "conventional",
+    "phonetic": "",
+    "meaning": "adj. 惯例的,常规的",
+    "translations": [
+      {
+        "translation": "惯例的,常规的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "conventional method",
+        "translation": "常规方法；习用方法"
+      },
+      {
+        "phrase": "conventional type",
+        "translation": "常规型式"
+      },
+      {
+        "phrase": "conventional industries",
+        "translation": "传统产业"
+      }
+    ]
+  },
+  {
+    "word": "event",
+    "phonetic": "",
+    "meaning": "n. 事件,事情",
+    "translations": [
+      {
+        "translation": "事件,事情",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in the event",
+        "translation": "如果；结果"
+      },
+      {
+        "phrase": "in the event of",
+        "translation": "..发生"
+      },
+      {
+        "phrase": "in any event",
+        "translation": "无论如何；不管怎样"
+      }
+    ]
+  },
+  {
+    "word": "eventually",
+    "phonetic": "",
+    "meaning": "adv. 终于,最后",
+    "translations": [
+      {
+        "translation": "终于,最后",
+        "type": "adv"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "intervene",
+    "phonetic": "",
+    "meaning": "v. (in)干涉,干预;插入,介入",
+    "translations": [
+      {
+        "translation": "(in)干涉,干预;插入,介入",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "intervene in",
+        "translation": "干预；插手；调停"
+      }
+    ]
+  },
+  {
+    "word": "revenge",
+    "phonetic": "",
+    "meaning": "n. 报复,复仇; v. 替…报仇",
+    "translations": [
+      {
+        "translation": "报复,复仇",
+        "type": "n"
+      },
+      {
+        "translation": "替…报仇",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "take revenge on someone",
+        "translation": "向某人进行报复"
+      },
+      {
+        "phrase": "have one's revenge",
+        "translation": "◎向…报复"
+      },
+      {
+        "phrase": "revenge for",
+        "translation": "为…报复"
+      }
+    ]
+  },
+  {
+    "word": "invent",
+    "phonetic": "",
+    "meaning": "v. 发明,创造;捏造,虚构",
+    "translations": [
+      {
+        "translation": "发明,创造;捏造,虚构",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "invention",
+    "phonetic": "",
+    "meaning": "n. 发明,创造,发明物",
+    "translations": [
+      {
+        "translation": "发明,创造,发明物",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "patented invention",
+        "translation": "发明专利权"
+      },
+      {
+        "phrase": "patent of invention",
+        "translation": "发明专利"
+      }
+    ]
+  },
+  {
+    "word": "inventory",
+    "phonetic": "",
+    "meaning": "n. 详细目录,存货,财产清册,总量",
+    "translations": [
+      {
+        "translation": "详细目录,存货,财产清册,总量",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "inventory management",
+        "translation": "存货管理"
+      },
+      {
+        "phrase": "inventory control",
+        "translation": "存货控制；存货管理"
+      },
+      {
+        "phrase": "take inventory",
+        "translation": "实地清点盘存；编制...清单"
+      }
+    ]
+  },
+  {
+    "word": "prevent",
+    "phonetic": "",
+    "meaning": "v. (from)预防,防止,阻止,制止,妨碍",
+    "translations": [
+      {
+        "translation": "(from)预防,防止,阻止,制止,妨碍",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "prevent from",
+        "translation": "阻止，制止；妨碍"
+      },
+      {
+        "phrase": "prevent and control pollution",
+        "translation": "防治污染；预防和控制污染"
+      }
+    ]
+  },
+  {
+    "word": "revenue",
+    "phonetic": "",
+    "meaning": "n. 财政收入,税收",
+    "translations": [
+      {
+        "translation": "财政收入,税收",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "tax revenue",
+        "translation": "税收；赋税收入"
+      },
+      {
+        "phrase": "sales revenue",
+        "translation": "产品销售收入"
+      },
+      {
+        "phrase": "revenue and expenditure",
+        "translation": "收支"
+      }
+    ]
+  },
+  {
+    "word": "ventilate",
+    "phonetic": "",
+    "meaning": "v. 使通风;给…装通风设备",
+    "translations": [
+      {
+        "translation": "使通风;给…装通风设备",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "venture",
+    "phonetic": "",
+    "meaning": "v. 冒险,拼;大胆表示; n. 冒险事业,拼,闯",
+    "translations": [
+      {
+        "translation": "冒险,拼;大胆表示",
+        "type": "v"
+      },
+      {
+        "translation": "冒险事业,拼,闯",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "joint venture",
+        "translation": "合资企业；联合经营"
+      },
+      {
+        "phrase": "venture capital",
+        "translation": "风险资本，风险投资"
+      },
+      {
+        "phrase": "venture company",
+        "translation": "创业公司；风险投资公司"
+      }
+    ]
+  },
+  {
+    "word": "advance",
+    "phonetic": "",
+    "meaning": "n. 前进，预付; v. 前进，进展",
+    "translations": [
+      {
+        "translation": "前进，预付",
+        "type": "n"
+      },
+      {
+        "translation": "前进，进展",
+        "type": "v"
+      },
+      {
+        "translation": "促进，推进",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in advance",
+        "translation": "adv. 预先，提前"
+      },
+      {
+        "phrase": "in advance of",
+        "translation": "超过；在…前面"
+      },
+      {
+        "phrase": "advance in",
+        "translation": "进步；改进"
+      }
+    ]
+  },
+  {
+    "word": "advantage",
+    "phonetic": "",
+    "meaning": "n. 优点，长处，有利条件；利益，好处",
+    "translations": [
+      {
+        "translation": "优点，长处，有利条件；利益，好处",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "take advantage of",
+        "translation": "利用"
+      },
+      {
+        "phrase": "competitive advantage",
+        "translation": "竞争优势"
+      },
+      {
+        "phrase": "advantage in",
+        "translation": "发球占先；发球人领先"
+      }
+    ]
+  },
+  {
+    "word": "van",
+    "phonetic": "",
+    "meaning": "n. 有篷汽车;有篷货运车厢",
+    "translations": [
+      {
+        "translation": "有篷汽车;有篷货运车厢",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "van gogh",
+        "translation": "n. 梵高（荷兰画家）"
+      },
+      {
+        "phrase": "van der waals",
+        "translation": "范德瓦尔斯（荷兰物理学家， 曾获1910年诺贝尔物理学奖）"
+      },
+      {
+        "phrase": "vincent van gogh",
+        "translation": "文森特·梵高（荷兰画家）"
+      }
+    ]
+  },
+  {
+    "word": "vanish",
+    "phonetic": "",
+    "meaning": "v. 突然不见;消失",
+    "translations": [
+      {
+        "translation": "突然不见;消失",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "vanish from",
+        "translation": "从…失去；从…消失"
+      },
+      {
+        "phrase": "vanish away",
+        "translation": "消失"
+      }
+    ]
+  },
+  {
+    "word": "vanity",
+    "phonetic": "",
+    "meaning": "n. 虚荣心,浮华",
+    "translations": [
+      {
+        "translation": "虚荣心,浮华",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "vanity mirror",
+        "translation": "n. （妇女手提包中的）化妆镜"
+      }
+    ]
+  },
+  {
+    "word": "evade",
+    "phonetic": "",
+    "meaning": "v. 逃避，回避；避开，躲避",
+    "translations": [
+      {
+        "translation": "逃避，回避；避开，躲避",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "evade tax",
+        "translation": "逃税"
+      }
+    ]
+  },
+  {
+    "word": "invade",
+    "phonetic": "",
+    "meaning": "v. 入侵,侵略,侵袭,侵扰",
+    "translations": [
+      {
+        "translation": "入侵,侵略,侵袭,侵扰",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "invasion",
+    "phonetic": "",
+    "meaning": "n. 入侵,侵略,侵犯",
+    "translations": [
+      {
+        "translation": "入侵,侵略,侵犯",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "water invasion",
+        "translation": "水侵"
+      },
+      {
+        "phrase": "invasion of privacy",
+        "translation": "侵犯个人隐私；侵犯隐私权"
+      },
+      {
+        "phrase": "invasion depth",
+        "translation": "侵入深度"
+      }
+    ]
+  },
+  {
+    "word": "verse",
+    "phonetic": "",
+    "meaning": "n. 韵文,诗;诗节,诗句",
+    "translations": [
+      {
+        "translation": "韵文,诗;诗节,诗句",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "chapter and verse",
+        "translation": "n. 引经据典"
+      },
+      {
+        "phrase": "free verse",
+        "translation": "自由诗体（不受格律约束的）"
+      },
+      {
+        "phrase": "blank verse",
+        "translation": "素体诗，无韵诗（不押韵的五音步诗行）"
+      }
+    ]
+  },
+  {
+    "word": "adverb",
+    "phonetic": "",
+    "meaning": "n. 副词; adj. 副词的",
+    "translations": [
+      {
+        "translation": "副词",
+        "type": "n"
+      },
+      {
+        "translation": "副词的",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "adverse",
+    "phonetic": "",
+    "meaning": "adj. 逆的，相反的；敌对的；不利的；有害的",
+    "translations": [
+      {
+        "translation": "逆的，相反的；敌对的；不利的；有害的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "adverse effect",
+        "translation": "不利影响；副作用"
+      },
+      {
+        "phrase": "adverse selection",
+        "translation": "逆选择；相反的选择"
+      },
+      {
+        "phrase": "adverse reaction",
+        "translation": "不良反应；逆反应；有害反应"
+      }
+    ]
+  },
+  {
+    "word": "advertise",
+    "phonetic": "",
+    "meaning": "v. 公告，公布；为...做广告; v. 登广告",
+    "translations": [
+      {
+        "translation": "公告，公布；为...做广告",
+        "type": "v"
+      },
+      {
+        "translation": "登广告",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "advertise for",
+        "translation": "登广告征求（寻找）某物；登招请（待聘等）广告"
+      }
+    ]
+  },
+  {
+    "word": "anniversary",
+    "phonetic": "",
+    "meaning": "n. 周年，周年纪念日",
+    "translations": [
+      {
+        "translation": "周年，周年纪念日",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "wedding anniversary",
+        "translation": "结婚纪念日；结婚周年纪念日"
+      },
+      {
+        "phrase": "happy anniversary",
+        "translation": "周年纪念快乐"
+      },
+      {
+        "phrase": "silver anniversary",
+        "translation": "二十五周年纪念日"
+      }
+    ]
+  },
+  {
+    "word": "average",
+    "phonetic": "",
+    "meaning": "n. 平均,平均数; adj. 平均的；普通的",
+    "translations": [
+      {
+        "translation": "平均,平均数",
+        "type": "n"
+      },
+      {
+        "translation": "平均的；普通的",
+        "type": "adj"
+      },
+      {
+        "translation": "平均",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "an average of",
+        "translation": "平均是…"
+      },
+      {
+        "phrase": "an average",
+        "translation": "一般说来；平均起来"
+      },
+      {
+        "phrase": "on average",
+        "translation": "平均；普通，通常"
+      }
+    ]
+  },
+  {
+    "word": "avert",
+    "phonetic": "",
+    "meaning": "v. 防止，避免 ；转移(目光、注意力等)",
+    "translations": [
+      {
+        "translation": "防止，避免 ；转移(目光、注意力等)",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "beverage",
+    "phonetic": "",
+    "meaning": "n. (水，酒等之外的)饮料",
+    "translations": [
+      {
+        "translation": "(水，酒等之外的)饮料",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "food and beverage",
+        "translation": "食品和饮料"
+      },
+      {
+        "phrase": "beverage industry",
+        "translation": "饮料工业"
+      },
+      {
+        "phrase": "food and beverage industry",
+        "translation": "饮食业"
+      }
+    ]
+  },
+  {
+    "word": "controversial",
+    "phonetic": "",
+    "meaning": "adj. 引起争论的,有争议的",
+    "translations": [
+      {
+        "translation": "引起争论的,有争议的",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "controversy",
+    "phonetic": "",
+    "meaning": "n. 争论，辩论，争吵",
+    "translations": [
+      {
+        "translation": "争论，辩论，争吵",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "conversation",
+    "phonetic": "",
+    "meaning": "n. 会话,谈话",
+    "translations": [
+      {
+        "translation": "会话,谈话",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in conversation",
+        "translation": "在谈话；交谈中"
+      },
+      {
+        "phrase": "english conversation",
+        "translation": "英语会话；英文会话"
+      },
+      {
+        "phrase": "telephone conversation",
+        "translation": "打电话"
+      }
+    ]
+  },
+  {
+    "word": "conversely",
+    "phonetic": "",
+    "meaning": "adv. 相反地",
+    "translations": [
+      {
+        "translation": "相反地",
+        "type": "adv"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "conversion",
+    "phonetic": "",
+    "meaning": "n. 转变，转换；信仰的改变；",
+    "translations": [
+      {
+        "translation": "转变，转换；信仰的改变；",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "frequency conversion",
+        "translation": "频率变换"
+      },
+      {
+        "phrase": "conversion rate",
+        "translation": "汇率；折合率；兑换率"
+      },
+      {
+        "phrase": "conversion efficiency",
+        "translation": "换能效率"
+      }
+    ]
+  },
+  {
+    "word": "convert",
+    "phonetic": "",
+    "meaning": "v. 变换,转换；改变（信仰等）；兑换（钱）",
+    "translations": [
+      {
+        "translation": "变换,转换；改变（信仰等）；兑换（钱）",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "convert into",
+        "translation": "使转变；把…转化成；折合"
+      }
+    ]
+  },
+  {
+    "word": "diverse",
+    "phonetic": "",
+    "meaning": "adj. 多种多样的,(from)不同的",
+    "translations": [
+      {
+        "translation": "多种多样的,(from)不同的",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "diversion",
+    "phonetic": "",
+    "meaning": "n. 转向,转移;牵制;解闷;娱乐",
+    "translations": [
+      {
+        "translation": "转向,转移;牵制;解闷;娱乐",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "south-to-north water diversion",
+        "translation": "南水北调"
+      },
+      {
+        "phrase": "diversion tunnel",
+        "translation": "导流洞；导流隧洞"
+      },
+      {
+        "phrase": "river diversion",
+        "translation": "导流；河流改道"
+      }
+    ]
+  },
+  {
+    "word": "divert",
+    "phonetic": "",
+    "meaning": "v. 使转向，使改道；转移(注意力)；使娱乐",
+    "translations": [
+      {
+        "translation": "使转向，使改道；转移(注意力)；使娱乐",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "divert attention from",
+        "translation": "把注意力从…转移开来；分散注意力"
+      },
+      {
+        "phrase": "divert from",
+        "translation": "转移"
+      }
+    ]
+  },
+  {
+    "word": "inverse",
+    "phonetic": "",
+    "meaning": "adj. 相反的,倒转的,反转的; n. 相反之物",
+    "translations": [
+      {
+        "translation": "相反的,倒转的,反转的",
+        "type": "adj"
+      },
+      {
+        "translation": "相反之物",
+        "type": "n"
+      },
+      {
+        "translation": "倒转",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "inverse problem",
+        "translation": "反问题"
+      },
+      {
+        "phrase": "inverse matrix",
+        "translation": "[计]矩阵求逆，逆矩阵，反矩阵"
+      },
+      {
+        "phrase": "inverse proportion",
+        "translation": "n. 比例；反比例"
+      }
+    ]
+  },
+  {
+    "word": "invert",
+    "phonetic": "",
+    "meaning": "v. 倒置,倒转,颠倒",
+    "translations": [
+      {
+        "translation": "倒置,倒转,颠倒",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "invert sugar",
+        "translation": "[化]转化糖"
+      }
+    ]
+  },
+  {
+    "word": "reverse",
+    "phonetic": "",
+    "meaning": "n. 相反;背面; adj. 相反的",
+    "translations": [
+      {
+        "translation": "相反;背面",
+        "type": "n"
+      },
+      {
+        "translation": "相反的",
+        "type": "adj"
+      },
+      {
+        "translation": "颠倒,倒转",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in reverse",
+        "translation": "adv. 相反，向相反方向，倒（退），逆（行、转等）"
+      },
+      {
+        "phrase": "reverse engineering",
+        "translation": "逆向工程"
+      },
+      {
+        "phrase": "reverse osmosis",
+        "translation": "反渗透，逆向渗透"
+      }
+    ]
+  },
+  {
+    "word": "shiver",
+    "phonetic": "",
+    "meaning": "v&n. 战栗,发抖",
+    "translations": [
+      {
+        "translation": "战栗,发抖",
+        "type": "v&n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "silver",
+    "phonetic": "",
+    "meaning": "n. 银;银器;银币; v. 镀银",
+    "translations": [
+      {
+        "translation": "银;银器;银币",
+        "type": "n"
+      },
+      {
+        "translation": "镀银",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "sterling silver",
+        "translation": "标准纯银，法定纯度银制成品"
+      },
+      {
+        "phrase": "silver medal",
+        "translation": "银质奖章；银牌奖"
+      },
+      {
+        "phrase": "silver lining",
+        "translation": "（不幸或失望中的）一线希望；乌云周围的白光"
+      }
+    ]
+  },
+  {
+    "word": "universal",
+    "phonetic": "",
+    "meaning": "adj. 普遍的,全体的,通用的;宇宙的,世界的",
+    "translations": [
+      {
+        "translation": "普遍的,全体的,通用的;宇宙的,世界的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "universal joint",
+        "translation": "万向节；万向接头"
+      },
+      {
+        "phrase": "universal law",
+        "translation": "普遍规律；普遍法则"
+      },
+      {
+        "phrase": "universal suffrage",
+        "translation": "普选权"
+      }
+    ]
+  },
+  {
+    "word": "universe",
+    "phonetic": "",
+    "meaning": "n. 宇宙,万物",
+    "translations": [
+      {
+        "translation": "宇宙,万物",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "universe of discourse",
+        "translation": "n. 论域；讨论或辩论的范围"
+      },
+      {
+        "phrase": "island universe",
+        "translation": "岛宇宙"
+      },
+      {
+        "phrase": "universe toy company",
+        "translation": "宇宙玩具公司"
+      }
+    ]
+  },
+  {
+    "word": "university",
+    "phonetic": "",
+    "meaning": "n. (综合)大学",
+    "translations": [
+      {
+        "translation": "(综合)大学",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "normal university",
+        "translation": "师范大学"
+      },
+      {
+        "phrase": "university student",
+        "translation": "大学生"
+      },
+      {
+        "phrase": "beijing university",
+        "translation": "北京大学"
+      }
+    ]
+  },
+  {
+    "word": "verb",
+    "phonetic": "",
+    "meaning": "n. 动词",
+    "translations": [
+      {
+        "translation": "动词",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "verb phrase",
+        "translation": "动词短语；动词词组"
+      },
+      {
+        "phrase": "transitive verb",
+        "translation": "及物动词；单宾动词；外动词"
+      },
+      {
+        "phrase": "auxiliary verb",
+        "translation": "助动词"
+      }
+    ]
+  },
+  {
+    "word": "verbal",
+    "phonetic": "",
+    "meaning": "adj. 用言辞的,用文字的;口头的;动词的",
+    "translations": [
+      {
+        "translation": "用言辞的,用文字的;口头的;动词的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "verbal communication",
+        "translation": "语言通信"
+      },
+      {
+        "phrase": "verbal ability",
+        "translation": "n. 言语能力；语言能力"
+      },
+      {
+        "phrase": "verbal abuse",
+        "translation": "言语虐待；口头谩骂；说粗话，用污言秽语"
+      }
+    ]
+  },
+  {
+    "word": "verge",
+    "phonetic": "",
+    "meaning": "n. 边,边缘; v. 濒临",
+    "translations": [
+      {
+        "translation": "边,边缘",
+        "type": "n"
+      },
+      {
+        "translation": "濒临",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "on the verge of",
+        "translation": "濒临于；接近于"
+      }
+    ]
+  },
+  {
+    "word": "verify",
+    "phonetic": "",
+    "meaning": "v. 证实,查证;证明",
+    "translations": [
+      {
+        "translation": "证实,查证;证明",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "examine and verify",
+        "translation": "审核；审计"
+      }
+    ]
+  },
+  {
+    "word": "versatile",
+    "phonetic": "",
+    "meaning": "adj. 通用的;多才多艺的,多方面的",
+    "translations": [
+      {
+        "translation": "通用的;多才多艺的,多方面的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "versatile person",
+        "translation": "通才"
+      }
+    ]
+  },
+  {
+    "word": "version",
+    "phonetic": "",
+    "meaning": "n. 版本;译本,译文;说法",
+    "translations": [
+      {
+        "translation": "版本;译本,译文;说法",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "english version",
+        "translation": "英文版本；英译本"
+      },
+      {
+        "phrase": "latest version",
+        "translation": "最新版本"
+      },
+      {
+        "phrase": "original version",
+        "translation": "原始著作，原始版本"
+      }
+    ]
+  },
+  {
+    "word": "versus",
+    "phonetic": "",
+    "meaning": "prep. (vs.)…对…(在诉讼,比赛等);与…相对",
+    "translations": [
+      {
+        "translation": "(vs.)…对…(在诉讼,比赛等);与…相对",
+        "type": "prep"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "vertical",
+    "phonetic": "",
+    "meaning": "adj. 垂直的,竖的; n. 垂线",
+    "translations": [
+      {
+        "translation": "垂直的,竖的",
+        "type": "adj"
+      },
+      {
+        "translation": "垂线",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "vertical direction",
+        "translation": "垂直方向"
+      },
+      {
+        "phrase": "vertical shaft",
+        "translation": "立井；立轴；立柱"
+      },
+      {
+        "phrase": "vertical distribution",
+        "translation": "垂直分布；竖向分布"
+      }
+    ]
+  },
+  {
+    "word": "very",
+    "phonetic": "",
+    "meaning": "adv. 很，非常；完全; adj. 正是的；真正，真实的",
+    "translations": [
+      {
+        "translation": "很，非常；完全",
+        "type": "adv"
+      },
+      {
+        "translation": "正是的；真正，真实的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "thank you very much",
+        "translation": "非常感谢"
+      },
+      {
+        "phrase": "from the very beginning",
+        "translation": "adv. 从最初开始（首先）"
+      },
+      {
+        "phrase": "at the very beginning",
+        "translation": "最初；就在刚刚开始；在刚开始的时候；起初；在一开始"
+      }
+    ]
+  },
+  {
+    "word": "volcano",
+    "phonetic": "",
+    "meaning": "n. 火山",
+    "translations": [
+      {
+        "translation": "火山",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "active volcano",
+        "translation": "活火山"
+      },
+      {
+        "phrase": "dormant volcano",
+        "translation": "休眠火山；睡火山，休火山"
+      },
+      {
+        "phrase": "extinct volcano",
+        "translation": "死火山"
+      }
+    ]
+  },
+  {
+    "word": "volume",
+    "phonetic": "",
+    "meaning": "n. 容积,体积;卷,册;音量",
+    "translations": [
+      {
+        "translation": "容积,体积;卷,册;音量",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "sales volume",
+        "translation": "销售量"
+      },
+      {
+        "phrase": "volume fraction",
+        "translation": "体积分率，体积分数；容积率"
+      },
+      {
+        "phrase": "traffic volume",
+        "translation": "交通量"
+      }
+    ]
+  },
+  {
+    "word": "voluntary",
+    "phonetic": "",
+    "meaning": "adj. 自愿的,志愿的",
+    "translations": [
+      {
+        "translation": "自愿的,志愿的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "voluntary contributions",
+        "translation": "自愿捐款"
+      },
+      {
+        "phrase": "voluntary agreement",
+        "translation": "自愿协议"
+      },
+      {
+        "phrase": "voluntary withdrawal",
+        "translation": "自动撤销；自动退学"
+      }
+    ]
+  },
+  {
+    "word": "volunteer",
+    "phonetic": "",
+    "meaning": "n&v. 自愿(者,兵);自愿(提供)",
+    "translations": [
+      {
+        "translation": "自愿(者,兵);自愿(提供)",
+        "type": "n&v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "volunteer services",
+        "translation": "义工服务；志工服务台"
+      }
+    ]
+  },
+  {
+    "word": "evolution",
+    "phonetic": "",
+    "meaning": "n. 进化,演变,发展,进展",
+    "translations": [
+      {
+        "translation": "进化,演变,发展,进展",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "theory of evolution",
+        "translation": "进化学说，进化论"
+      },
+      {
+        "phrase": "evolution theory",
+        "translation": "进化论"
+      },
+      {
+        "phrase": "peaceful evolution",
+        "translation": "和平演变"
+      }
+    ]
+  },
+  {
+    "word": "evolve",
+    "phonetic": "",
+    "meaning": "v. (使)发展;(使)进化;(使)进展",
+    "translations": [
+      {
+        "translation": "(使)发展;(使)进化;(使)进展",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "evolve into",
+        "translation": "vt. 发展成，进化成"
+      },
+      {
+        "phrase": "evolve from",
+        "translation": "v. 由…进化"
+      }
+    ]
+  },
+  {
+    "word": "involve",
+    "phonetic": "",
+    "meaning": "v. 卷入,陷入,连累;包含,含有,涉及",
+    "translations": [
+      {
+        "translation": "卷入,陷入,连累;包含,含有,涉及",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "involve in",
+        "translation": "参与；涉及；卷入，陷入"
+      }
+    ]
+  },
+  {
+    "word": "revolt",
+    "phonetic": "",
+    "meaning": "v&n. 反抗,起义",
+    "translations": [
+      {
+        "translation": "反抗,起义",
+        "type": "v&n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in revolt",
+        "translation": "反抗；造反"
+      },
+      {
+        "phrase": "revolt against",
+        "translation": "反感；厌恶"
+      },
+      {
+        "phrase": "revolt at",
+        "translation": "厌恶；憎恶"
+      }
+    ]
+  },
+  {
+    "word": "revolution",
+    "phonetic": "",
+    "meaning": "n. 革命;旋转,转数",
+    "translations": [
+      {
+        "translation": "革命;旋转,转数",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "cultural revolution",
+        "translation": "文化大革命"
+      },
+      {
+        "phrase": "chinese revolution",
+        "translation": "辛亥革命"
+      },
+      {
+        "phrase": "industrial revolution",
+        "translation": "工业革命，产业革命"
+      }
+    ]
+  },
+  {
+    "word": "revolutionary",
+    "phonetic": "",
+    "meaning": "adj. 革命的,革新的; n. 革命者",
+    "translations": [
+      {
+        "translation": "革命的,革新的",
+        "type": "adj"
+      },
+      {
+        "translation": "革命者",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "revolutionary war",
+        "translation": "n. 美国之革命战争"
+      },
+      {
+        "phrase": "revolutionary committee",
+        "translation": "革命委员会"
+      }
+    ]
+  },
+  {
+    "word": "revolve",
+    "phonetic": "",
+    "meaning": "v. (使)旋转;考虑;【天】公转,循环",
+    "translations": [
+      {
+        "translation": "(使)旋转;考虑;【天】公转,循环",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "revolve around",
+        "translation": "围绕…转动；以…为中心"
+      }
+    ]
+  },
+  {
+    "word": "vision",
+    "phonetic": "",
+    "meaning": "n. 视力,视觉;远见;洞察力;幻想,幻影;想象力",
+    "translations": [
+      {
+        "translation": "视力,视觉;远见;洞察力;幻想,幻影;想象力",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "computer vision",
+        "translation": "计算机视觉；机械视觉"
+      },
+      {
+        "phrase": "machine vision",
+        "translation": "机器视觉；计算机视觉"
+      },
+      {
+        "phrase": "field of vision",
+        "translation": "视野；[光]视场"
+      }
+    ]
+  },
+  {
+    "word": "advisable",
+    "phonetic": "",
+    "meaning": "adj. 可取的，适当的，明智的",
+    "translations": [
+      {
+        "translation": "可取的，适当的，明智的",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "advise",
+    "phonetic": "",
+    "meaning": "v. 忠告，劝告，建议；通知，告知",
+    "translations": [
+      {
+        "translation": "忠告，劝告，建议；通知，告知",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "please advise",
+        "translation": "请指导；请指示"
+      },
+      {
+        "phrase": "advise of",
+        "translation": "通知"
+      }
+    ]
+  },
+  {
+    "word": "advice",
+    "phonetic": "",
+    "meaning": "n. 劝告，忠告，(医生等的)意见",
+    "translations": [
+      {
+        "translation": "劝告，忠告，(医生等的)意见",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "seek advice",
+        "translation": "征求意见；请教"
+      },
+      {
+        "phrase": "good advice",
+        "translation": "好建议"
+      },
+      {
+        "phrase": "give advice",
+        "translation": "劝告，忠告"
+      }
+    ]
+  },
+  {
+    "word": "device",
+    "phonetic": "",
+    "meaning": "n. 装置,设备,仪表;方法,设计",
+    "translations": [
+      {
+        "translation": "装置,设备,仪表;方法,设计",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "control device",
+        "translation": "控制装置，控制器"
+      },
+      {
+        "phrase": "medical device",
+        "translation": "医疗设备；医疗器材；人体医疗配件"
+      },
+      {
+        "phrase": "protection device",
+        "translation": "保护设备；防护设备"
+      }
+    ]
+  },
+  {
+    "word": "devise",
+    "phonetic": "",
+    "meaning": "v. 设计;发明;图谋;作出(计划);想出(办法)",
+    "translations": [
+      {
+        "translation": "设计;发明;图谋;作出(计划);想出(办法)",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "division",
+    "phonetic": "",
+    "meaning": "n. 分,分割;部门,科,处;除法;分界线",
+    "translations": [
+      {
+        "translation": "分,分割;部门,科,处;除法;分界线",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "division of labor",
+        "translation": "劳动力的分工"
+      },
+      {
+        "phrase": "frequency division",
+        "translation": "分频；频率划分"
+      },
+      {
+        "phrase": "administrative division",
+        "translation": "行政区域"
+      }
+    ]
+  },
+  {
+    "word": "envisage",
+    "phonetic": "",
+    "meaning": "v. 想象，设想，展望，正视",
+    "translations": [
+      {
+        "translation": "想象，设想，展望，正视",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "invisible",
+    "phonetic": "",
+    "meaning": "adj. 看不见的,无形的",
+    "translations": [
+      {
+        "translation": "看不见的,无形的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "invisible hand",
+        "translation": "看不见的手"
+      },
+      {
+        "phrase": "invisible assets",
+        "translation": "无形资产"
+      },
+      {
+        "phrase": "invisible trade",
+        "translation": "无形贸易"
+      }
+    ]
+  },
+  {
+    "word": "provision",
+    "phonetic": "",
+    "meaning": "n. 供应,供应品;预备;条款;(pl.)给养",
+    "translations": [
+      {
+        "translation": "供应,供应品;预备;条款;(pl.)给养",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "make provision for",
+        "translation": "为…预先采取措施；为…作好准备"
+      },
+      {
+        "phrase": "special provision",
+        "translation": "特别规定；专门条款"
+      },
+      {
+        "phrase": "general provision",
+        "translation": "普通准备金"
+      }
+    ]
+  },
+  {
+    "word": "revise",
+    "phonetic": "",
+    "meaning": "v. 修订,校订;修正,修改",
+    "translations": [
+      {
+        "translation": "修订,校订;修正,修改",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "revise for",
+        "translation": "v. 复习功课（迎考）"
+      }
+    ]
+  },
+  {
+    "word": "supervise",
+    "phonetic": "",
+    "meaning": "v. 管理,监督",
+    "translations": [
+      {
+        "translation": "管理,监督",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "supervise the manufacture of",
+        "translation": "监制"
+      }
+    ]
+  },
+  {
+    "word": "visa",
+    "phonetic": "",
+    "meaning": "n. (护照等的)签证;维萨信用卡; v. 签证",
+    "translations": [
+      {
+        "translation": "(护照等的)签证;维萨信用卡",
+        "type": "n"
+      },
+      {
+        "translation": "签证",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "visa application",
+        "translation": "签证申请"
+      },
+      {
+        "phrase": "student visa",
+        "translation": "学生签证"
+      },
+      {
+        "phrase": "visa office",
+        "translation": "签证办事处"
+      }
+    ]
+  },
+  {
+    "word": "visible",
+    "phonetic": "",
+    "meaning": "adj. 看得见的, 明显的, 显著的",
+    "translations": [
+      {
+        "translation": "看得见的, 明显的, 显著的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "visible light",
+        "translation": "可见光"
+      },
+      {
+        "phrase": "visible spectrum",
+        "translation": "可见光谱"
+      },
+      {
+        "phrase": "visible image",
+        "translation": "可见象；可见像；视像"
+      }
+    ]
+  },
+  {
+    "word": "visit",
+    "phonetic": "",
+    "meaning": "n. 访问,参观; v. 访问,参观;视察;降临;闲谈",
+    "translations": [
+      {
+        "translation": "访问,参观",
+        "type": "n"
+      },
+      {
+        "translation": "访问,参观;视察;降临;闲谈",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "pay a visit",
+        "translation": "进行访问"
+      },
+      {
+        "phrase": "visit with",
+        "translation": "聊天；与……闲谈"
+      },
+      {
+        "phrase": "state visit",
+        "translation": "国事访问（国家元首至其他国的官式访问）"
+      }
+    ]
+  },
+  {
+    "word": "visitor",
+    "phonetic": "",
+    "meaning": "n. 访问者,客人,来宾,参观者",
+    "translations": [
+      {
+        "translation": "访问者,客人,来宾,参观者",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "frequent visitor",
+        "translation": "常客；熟客"
+      },
+      {
+        "phrase": "winter visitor",
+        "translation": "冬候鸟，冬鸟"
+      }
+    ]
+  },
+  {
+    "word": "visual",
+    "phonetic": "",
+    "meaning": "adj. 看的,看得见的;视觉的",
+    "translations": [
+      {
+        "translation": "看的,看得见的;视觉的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "visual angle",
+        "translation": "n. 视界，视角"
+      },
+      {
+        "phrase": "visual effect",
+        "translation": "视觉效果；视觉特效，视觉效应"
+      },
+      {
+        "phrase": "visual field",
+        "translation": "视野"
+      }
+    ]
+  },
+  {
+    "word": "inevitable",
+    "phonetic": "",
+    "meaning": "adj. 不可避免的,必然发生的",
+    "translations": [
+      {
+        "translation": "不可避免的,必然发生的",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "invitation",
+    "phonetic": "",
+    "meaning": "n. 邀请,招待;请柬",
+    "translations": [
+      {
+        "translation": "邀请,招待;请柬",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "invitation letter",
+        "translation": "邀请函"
+      },
+      {
+        "phrase": "invitation card",
+        "translation": "请帖；招待券"
+      },
+      {
+        "phrase": "by invitation",
+        "translation": "凭请柬"
+      }
+    ]
+  },
+  {
+    "word": "invite",
+    "phonetic": "",
+    "meaning": "v. 邀请,招待",
+    "translations": [
+      {
+        "translation": "邀请,招待",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "invite public bidding",
+        "translation": "（公开）招标"
+      }
+    ]
+  },
+  {
+    "word": "vital",
+    "phonetic": "",
+    "meaning": "adj. 生死攸关的,重大的;生命的,生机的",
+    "translations": [
+      {
+        "translation": "生死攸关的,重大的;生命的,生机的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "vital part",
+        "translation": "要害部位"
+      },
+      {
+        "phrase": "vital energy",
+        "translation": "生命力"
+      },
+      {
+        "phrase": "vital force",
+        "translation": "n. 生机；生命力"
+      }
+    ]
+  },
+  {
+    "word": "divide",
+    "phonetic": "",
+    "meaning": "v. 分,划分,分开;分配;(by)除",
+    "translations": [
+      {
+        "translation": "分,划分,分开;分配;(by)除",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "divide into",
+        "translation": "把……分成"
+      },
+      {
+        "phrase": "digital divide",
+        "translation": "数字鸿沟"
+      },
+      {
+        "phrase": "divide the work",
+        "translation": "分工"
+      }
+    ]
+  },
+  {
+    "word": "dividend",
+    "phonetic": "",
+    "meaning": "n. 红利，股息；回报，效益；被除数",
+    "translations": [
+      {
+        "translation": "红利，股息；回报，效益；被除数",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "dividend policy",
+        "translation": "股息分配方针"
+      },
+      {
+        "phrase": "cash dividend",
+        "translation": "现金股利"
+      },
+      {
+        "phrase": "dividend distribution",
+        "translation": "股息分配"
+      }
+    ]
+  },
+  {
+    "word": "evidence",
+    "phonetic": "",
+    "meaning": "n. 明显;显著;根据;证据;迹象",
+    "translations": [
+      {
+        "translation": "明显;显著;根据;证据;迹象",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in evidence",
+        "translation": "明显的；[法]作为证据"
+      },
+      {
+        "phrase": "give evidence",
+        "translation": "作证"
+      },
+      {
+        "phrase": "empirical evidence",
+        "translation": "实验性证据"
+      }
+    ]
+  },
+  {
+    "word": "evident",
+    "phonetic": "",
+    "meaning": "adj. 明显的,明白的",
+    "translations": [
+      {
+        "translation": "明显的,明白的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "self evident",
+        "translation": "不言而喻的；不证自明的"
+      }
+    ]
+  },
+  {
+    "word": "individual",
+    "phonetic": "",
+    "meaning": "adj. 个人的,单独的;独特的; n. 个人,个体",
+    "translations": [
+      {
+        "translation": "个人的,单独的;独特的",
+        "type": "adj"
+      },
+      {
+        "translation": "个人,个体",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "individual character",
+        "translation": "个性；单字"
+      },
+      {
+        "phrase": "individual income tax",
+        "translation": "[经]个人所得税"
+      },
+      {
+        "phrase": "individual freedom",
+        "translation": "个人自由"
+      }
+    ]
+  },
+  {
+    "word": "provide",
+    "phonetic": "",
+    "meaning": "v. 供应,供给,准备,预防,规定",
+    "translations": [
+      {
+        "translation": "供应,供给,准备,预防,规定",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "provide oneself",
+        "translation": "自备；自办"
+      },
+      {
+        "phrase": "provide for",
+        "translation": "供养，供给；规定；为…作准备"
+      },
+      {
+        "phrase": "provide service",
+        "translation": "提供服务"
+      }
+    ]
+  },
+  {
+    "word": "provided",
+    "phonetic": "",
+    "meaning": "conj. 倘若,只要,假如",
+    "translations": [
+      {
+        "translation": "倘若,只要,假如",
+        "type": "conj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "provided by",
+        "translation": "具有；由…提供"
+      },
+      {
+        "phrase": "provided with",
+        "translation": "拥有，装备有…"
+      }
+    ]
+  },
+  {
+    "word": "video",
+    "phonetic": "",
+    "meaning": "n. 电视,视频;录像; adj. 电视的,视频的;录像的",
+    "translations": [
+      {
+        "translation": "电视,视频;录像",
+        "type": "n"
+      },
+      {
+        "translation": "电视的,视频的;录像的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "digital video",
+        "translation": "数字视频，数字录像"
+      },
+      {
+        "phrase": "video game",
+        "translation": "视频游戏；电视游戏"
+      },
+      {
+        "phrase": "video frequency",
+        "translation": "视频率"
+      }
+    ]
+  },
+  {
+    "word": "vivid",
+    "phonetic": "",
+    "meaning": "adj. 鲜艳的;生动的,栩栩如生的",
+    "translations": [
+      {
+        "translation": "鲜艳的;生动的,栩栩如生的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "vivid description",
+        "translation": "生动的描述；生动的报导"
+      },
+      {
+        "phrase": "vivid picture",
+        "translation": "逼真模式；栩栩如生的描写"
+      },
+      {
+        "phrase": "vivid green",
+        "translation": "翡翠绿"
+      }
+    ]
+  },
+  {
+    "word": "review",
+    "phonetic": "",
+    "meaning": "v. 回顾,复习; n. 回顾,复习;评论",
+    "translations": [
+      {
+        "translation": "回顾,复习",
+        "type": "v"
+      },
+      {
+        "translation": "回顾,复习;评论",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "literature review",
+        "translation": "文献回顾；文献综述；文献评论"
+      },
+      {
+        "phrase": "judicial review",
+        "translation": "n. 司法审查；复审"
+      },
+      {
+        "phrase": "comprehensive review",
+        "translation": "全面审查"
+      }
+    ]
+  },
+  {
+    "word": "view",
+    "phonetic": "",
+    "meaning": "n. 视野;风景;观察;见解;照片; v. 观察;认为",
+    "translations": [
+      {
+        "translation": "视野;风景;观察;见解;照片",
+        "type": "n"
+      },
+      {
+        "translation": "观察;认为",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in view",
+        "translation": "在视野范围内；在考虑中的；作为目标"
+      },
+      {
+        "phrase": "in view of",
+        "translation": "adv. 鉴于；考虑到"
+      },
+      {
+        "phrase": "point of view",
+        "translation": "观点；见地；立场"
+      }
+    ]
+  },
+  {
+    "word": "viewpoint",
+    "phonetic": "",
+    "meaning": "n. 观点",
+    "translations": [
+      {
+        "translation": "观点",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "revive",
+    "phonetic": "",
+    "meaning": "v. 恢复;(使)复苏",
+    "translations": [
+      {
+        "translation": "恢复;(使)复苏",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "survival",
+    "phonetic": "",
+    "meaning": "n. 幸存,生存;幸存者,残存物",
+    "translations": [
+      {
+        "translation": "幸存,生存;幸存者,残存物",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "survival rate",
+        "translation": "存活率"
+      },
+      {
+        "phrase": "survival time",
+        "translation": "生存时间；存活期"
+      },
+      {
+        "phrase": "survival of the fittest",
+        "translation": "适者生存"
+      }
+    ]
+  },
+  {
+    "word": "survive",
+    "phonetic": "",
+    "meaning": "v. 幸免于,幸存;比…长命",
+    "translations": [
+      {
+        "translation": "幸免于,幸存;比…长命",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "survive on",
+        "translation": "靠…活下来；靠…生存"
+      }
+    ]
+  },
+  {
+    "word": "vigorous",
+    "phonetic": "",
+    "meaning": "adj. 朝气蓬勃的,精力旺盛的",
+    "translations": [
+      {
+        "translation": "朝气蓬勃的,精力旺盛的",
+        "type": "adj"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "voice",
+    "phonetic": "",
+    "meaning": "n. 声音;嗓音;发音能力;意见,发言权;语态",
+    "translations": [
+      {
+        "translation": "声音;嗓音;发音能力;意见,发言权;语态",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "voice mail",
+        "translation": "语音邮件"
+      },
+      {
+        "phrase": "with one voice",
+        "translation": "异口同声地"
+      },
+      {
+        "phrase": "passive voice",
+        "translation": "[语]被动态，被动式"
+      }
+    ]
+  },
+  {
+    "word": "void",
+    "phonetic": "",
+    "meaning": "adj. 空虚的;没有的;无效的",
+    "translations": [
+      {
+        "translation": "空虚的;没有的;无效的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "void of",
+        "translation": "adj. 没有的，缺乏的；没有…的"
+      },
+      {
+        "phrase": "void fraction",
+        "translation": "空隙率；空隙分数；空隙组分"
+      },
+      {
+        "phrase": "void ratio",
+        "translation": "孔隙比；空隙比"
+      }
+    ]
+  },
+  {
+    "word": "avoid",
+    "phonetic": "",
+    "meaning": "v. 防止，避免；逃避，避开",
+    "translations": [
+      {
+        "translation": "防止，避免；逃避，避开",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "avoid doing",
+        "translation": "避免做某事；逃避…"
+      }
+    ]
+  },
+  {
+    "word": "victory",
+    "phonetic": "",
+    "meaning": "n. 胜利",
+    "translations": [
+      {
+        "translation": "胜利",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "victory over",
+        "translation": "战胜"
+      },
+      {
+        "phrase": "win victory",
+        "translation": "赢得胜利"
+      },
+      {
+        "phrase": "landslide victory",
+        "translation": "以绝对优势取得胜利"
+      }
+    ]
+  },
+  {
+    "word": "convict",
+    "phonetic": "",
+    "meaning": "v. (经审讯)证明…有罪,宣判…有罪; n. 囚犯",
+    "translations": [
+      {
+        "translation": "(经审讯)证明…有罪,宣判…有罪",
+        "type": "v"
+      },
+      {
+        "translation": "囚犯",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "conviction",
+    "phonetic": "",
+    "meaning": "n. 深信,确信；定罪，判罪；",
+    "translations": [
+      {
+        "translation": "深信,确信；定罪，判罪；",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "advocate",
+    "phonetic": "",
+    "meaning": "n. 辩护者，拥护者，鼓吹者; v. 拥护，提倡",
+    "translations": [
+      {
+        "translation": "辩护者，拥护者，鼓吹者",
+        "type": "n"
+      },
+      {
+        "translation": "拥护，提倡",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "devil's advocate",
+        "translation": "故意持相反意见的人；故意唱反调的人"
+      }
+    ]
+  },
+  {
+    "word": "vocabulary",
+    "phonetic": "",
+    "meaning": "n. 词汇,词汇量;词汇表",
+    "translations": [
+      {
+        "translation": "词汇,词汇量;词汇表",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "grammar and vocabulary",
+        "translation": "语法与词汇"
+      },
+      {
+        "phrase": "basic vocabulary",
+        "translation": "基本词汇"
+      }
+    ]
+  },
+  {
+    "word": "vocal",
+    "phonetic": "",
+    "meaning": "adj. 声音的;有声的;歌唱的; n. 元音;声乐作品",
+    "translations": [
+      {
+        "translation": "声音的;有声的;歌唱的",
+        "type": "adj"
+      },
+      {
+        "translation": "元音;声乐作品",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "vocal music",
+        "translation": "声乐；通过口头传唱的音乐"
+      },
+      {
+        "phrase": "vocal cord",
+        "translation": "[医]声带；[医]声襞"
+      },
+      {
+        "phrase": "vocal tract",
+        "translation": "声道"
+      }
+    ]
+  },
+  {
+    "word": "vocation",
+    "phonetic": "",
+    "meaning": "n. 职业;召唤;天命;天职;才能",
+    "translations": [
+      {
+        "translation": "职业;召唤;天命;天职;才能",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "evoke",
+    "phonetic": "",
+    "meaning": "v. 唤起(回忆、感情等)；引起",
+    "translations": [
+      {
+        "translation": "唤起(回忆、感情等)；引起",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "provoke",
+    "phonetic": "",
+    "meaning": "v. 挑动;激发;招惹",
+    "translations": [
+      {
+        "translation": "挑动;激发;招惹",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "paragraph",
+    "phonetic": "",
+    "meaning": "n. 段落；短评；段落符号; v. 将…分段",
+    "translations": [
+      {
+        "translation": "段落；短评；段落符号",
+        "type": "n"
+      },
+      {
+        "translation": "将…分段",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "new paragraph",
+        "translation": "另起一行，新段落"
+      },
+      {
+        "phrase": "opening paragraph",
+        "translation": "开始部分"
+      }
+    ]
+  },
+  {
+    "word": "influence",
+    "phonetic": "",
+    "meaning": "n. 影响；势力；感化；有影响的人或事; v. 影响；改变",
+    "translations": [
+      {
+        "translation": "影响；势力；感化；有影响的人或事",
+        "type": "n"
+      },
+      {
+        "translation": "影响；改变",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "influence on",
+        "translation": "对…的影响"
+      },
+      {
+        "phrase": "under the influence",
+        "translation": "酒醉的"
+      },
+      {
+        "phrase": "influence in",
+        "translation": "干涉；介入"
+      }
+    ]
+  },
+  {
+    "word": "intellectual",
+    "phonetic": "",
+    "meaning": "adj. 智力的；聪明的；理智的; n. 知识分子；凭理智做事者",
+    "translations": [
+      {
+        "translation": "智力的；聪明的；理智的",
+        "type": "adj"
+      },
+      {
+        "translation": "知识分子；凭理智做事者",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "intellectual property",
+        "translation": "知识产权；著作权"
+      },
+      {
+        "phrase": "intellectual property right",
+        "translation": "知识产权；智慧财产权"
+      },
+      {
+        "phrase": "intellectual capital",
+        "translation": "知识资本；智慧资本"
+      }
+    ]
+  },
+  {
+    "word": "political",
+    "phonetic": "",
+    "meaning": "adj. 政治的；党派的",
+    "translations": [
+      {
+        "translation": "政治的；党派的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "political party",
+        "translation": "政党"
+      },
+      {
+        "phrase": "political system",
+        "translation": "政治制度；政治体系"
+      },
+      {
+        "phrase": "political power",
+        "translation": "政治权力；政治力；政治力量"
+      }
+    ]
+  },
+  {
+    "word": "science",
+    "phonetic": "",
+    "meaning": "n. 科学；技术；学科；理科",
+    "translations": [
+      {
+        "translation": "科学；技术；学科；理科",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "science and technology",
+        "translation": "科学与技术"
+      },
+      {
+        "phrase": "computer science",
+        "translation": "计算机科学"
+      },
+      {
+        "phrase": "modern science",
+        "translation": "现代科学；近代科学"
+      }
+    ]
+  },
+  {
+    "word": "economic",
+    "phonetic": "",
+    "meaning": "adj. 经济的，经济上的；经济学的",
+    "translations": [
+      {
+        "translation": "经济的，经济上的；经济学的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "economic development",
+        "translation": "经济发展；经济开发"
+      },
+      {
+        "phrase": "economic growth",
+        "translation": "[经]经济增长，经济成长"
+      },
+      {
+        "phrase": "economic system",
+        "translation": "经济体制；经济体系，经济系统；经济制度"
+      }
+    ]
+  },
+  {
+    "word": "century",
+    "phonetic": "",
+    "meaning": "n. 世纪，百年；（板球）一百分",
+    "translations": [
+      {
+        "translation": "世纪，百年；（板球）一百分",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "the twentieth century",
+        "translation": "20世纪"
+      },
+      {
+        "phrase": "turn of the century",
+        "translation": "世纪之交；19世纪与20世纪转换交替时期；19世纪末20世纪初"
+      },
+      {
+        "phrase": "century park",
+        "translation": "世纪公园"
+      }
+    ]
+  },
+  {
+    "word": "increase",
+    "phonetic": "",
+    "meaning": "n. 增加，增长；提高; v. 增加，增大；繁殖",
+    "translations": [
+      {
+        "translation": "增加，增长；提高",
+        "type": "n"
+      },
+      {
+        "translation": "增加，增大；繁殖",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "increase in",
+        "translation": "（使）在…增加；（使）在…增大"
+      },
+      {
+        "phrase": "increase production",
+        "translation": "增产"
+      },
+      {
+        "phrase": "increase by",
+        "translation": "增加了；按…增长"
+      }
+    ]
+  },
+  {
+    "word": "stress",
+    "phonetic": "",
+    "meaning": "n. 压力；强调；紧张；重要性；重读; v. 强调；使紧张；加压力于；用重音读",
+    "translations": [
+      {
+        "translation": "压力；强调；紧张；重要性；重读",
+        "type": "n"
+      },
+      {
+        "translation": "强调；使紧张；加压力于；用重音读",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "stress on",
+        "translation": "对…的强调"
+      },
+      {
+        "phrase": "stress distribution",
+        "translation": "应力分布"
+      },
+      {
+        "phrase": "stress field",
+        "translation": "n. 应力场；胁强场"
+      }
+    ]
+  },
+  {
+    "word": "power",
+    "phonetic": "",
+    "meaning": "n. 力量，能力；电力，功率；政权，势力；[数] 幂; v. 激励；供以动力；使…有力量",
+    "translations": [
+      {
+        "translation": "力量，能力；电力，功率；政权，势力；[数] 幂",
+        "type": "n"
+      },
+      {
+        "translation": "激励；供以动力；使…有力量",
+        "type": "v"
+      },
+      {
+        "translation": "借影响有权势人物以操纵权力的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in power",
+        "translation": "adj. 执政的；掌权的；当权的"
+      },
+      {
+        "phrase": "power supply",
+        "translation": "电源；电源供应器"
+      },
+      {
+        "phrase": "electric power",
+        "translation": "电力；电功率"
+      }
+    ]
+  },
+  {
+    "word": "national",
+    "phonetic": "",
+    "meaning": "adj. 国家的；国民的；民族的；国立的; n. 国民",
+    "translations": [
+      {
+        "translation": "国家的；国民的；民族的；国立的",
+        "type": "adj"
+      },
+      {
+        "translation": "国民",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "national economy",
+        "translation": "国民经济"
+      },
+      {
+        "phrase": "national standard",
+        "translation": "国家标准"
+      },
+      {
+        "phrase": "national security",
+        "translation": "国家安全；民族安全"
+      }
+    ]
+  },
+  {
+    "word": "consider",
+    "phonetic": "",
+    "meaning": "v. 考虑；认为；考虑到；细想",
+    "translations": [
+      {
+        "translation": "考虑；认为；考虑到；细想",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "consider as",
+        "translation": "vt. 认为（把...看作）"
+      },
+      {
+        "phrase": "all things considered",
+        "translation": "从全面考虑"
+      },
+      {
+        "phrase": "consider doing",
+        "translation": "考虑做…"
+      }
+    ]
+  },
+  {
+    "word": "process",
+    "phonetic": "",
+    "meaning": "v. 处理；加工; n. 过程，进行；方法，步骤；作用；程序；推移",
+    "translations": [
+      {
+        "translation": "处理；加工",
+        "type": "v"
+      },
+      {
+        "translation": "过程，进行；方法，步骤；作用；程序；推移",
+        "type": "n"
+      },
+      {
+        "translation": "经过特殊加工（或处理）的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "process of",
+        "translation": "…的过程"
+      },
+      {
+        "phrase": "in the process of",
+        "translation": "在…的过程中"
+      },
+      {
+        "phrase": "in the process",
+        "translation": "在过程中；在进行中"
+      }
+    ]
+  },
+  {
+    "word": "create",
+    "phonetic": "",
+    "meaning": "v. 创造，创作；造成",
+    "translations": [
+      {
+        "translation": "创造，创作；造成",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "create button",
+        "translation": "创建按钮"
+      }
+    ]
+  },
+  {
+    "word": "drug",
+    "phonetic": "",
+    "meaning": "n. 药；毒品；麻醉药；滞销货; v. 使服麻醉药；使服毒品；掺麻醉药于",
+    "translations": [
+      {
+        "translation": "药；毒品；麻醉药；滞销货",
+        "type": "n"
+      },
+      {
+        "translation": "使服麻醉药；使服毒品；掺麻醉药于",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "food and drug administration",
+        "translation": "食品和药物管理局"
+      },
+      {
+        "phrase": "drug resistance",
+        "translation": "抗药性"
+      },
+      {
+        "phrase": "on drugs",
+        "translation": "有吸毒嗜好的"
+      }
+    ]
+  },
+  {
+    "word": "care",
+    "phonetic": "",
+    "meaning": "n. 关怀；照料；谨慎；忧虑; v. 照顾；关心；喜爱；顾虑",
+    "translations": [
+      {
+        "translation": "关怀；照料；谨慎；忧虑",
+        "type": "n"
+      },
+      {
+        "translation": "照顾；关心；喜爱；顾虑",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "take care",
+        "translation": "注意；小心"
+      },
+      {
+        "phrase": "take care of",
+        "translation": "照顾；注意；抚养"
+      },
+      {
+        "phrase": "care of",
+        "translation": "由…转交"
+      }
+    ]
+  },
+  {
+    "word": "group",
+    "phonetic": "",
+    "meaning": "n. 组；团体; adj. 群的；团体的",
+    "translations": [
+      {
+        "translation": "组；团体",
+        "type": "n"
+      },
+      {
+        "translation": "群的；团体的",
+        "type": "adj"
+      },
+      {
+        "translation": "聚合",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "a group of",
+        "translation": "一组，一群"
+      },
+      {
+        "phrase": "control group",
+        "translation": "控制组（自变量的一种处理方法）；实验对照组"
+      },
+      {
+        "phrase": "group company",
+        "translation": "集团公司"
+      }
+    ]
+  },
+  {
+    "word": "discovery",
+    "phonetic": "",
+    "meaning": "n. 发现，发觉；被发现的事物",
+    "translations": [
+      {
+        "translation": "发现，发觉；被发现的事物",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "scientific discovery",
+        "translation": "科学发现"
+      },
+      {
+        "phrase": "discovery channel",
+        "translation": "探索频道"
+      },
+      {
+        "phrase": "great discovery",
+        "translation": "伟大的发现；好棒的发现"
+      }
+    ]
+  },
+  {
+    "word": "include",
+    "phonetic": "",
+    "meaning": "v. 包含，包括",
+    "translations": [
+      {
+        "translation": "包含，包括",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "include in",
+        "translation": "包括在…中"
+      }
+    ]
+  },
+  {
+    "word": "price",
+    "phonetic": "",
+    "meaning": "n. 价格；价值；代价; v. 给……定价；问……的价格",
+    "translations": [
+      {
+        "translation": "价格；价值；代价",
+        "type": "n"
+      },
+      {
+        "translation": "给……定价；问……的价格",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "reasonable price",
+        "translation": "合理价格；价格公道"
+      },
+      {
+        "phrase": "low price",
+        "translation": "低价；廉价"
+      },
+      {
+        "phrase": "market price",
+        "translation": "市价"
+      }
+    ]
+  },
+  {
+    "word": "sector",
+    "phonetic": "",
+    "meaning": "n. 部门；扇形，扇区；象限仪；函数尺; vt. 把…分成扇形",
+    "translations": [
+      {
+        "translation": "部门；扇形，扇区；象限仪；函数尺",
+        "type": "n"
+      },
+      {
+        "translation": "把…分成扇形",
+        "type": "vt"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "private sector",
+        "translation": "私营部门；私营成分"
+      },
+      {
+        "phrase": "financial sector",
+        "translation": "财政部门"
+      },
+      {
+        "phrase": "public sector",
+        "translation": "国营部门经济；政府资助的企事业；社会经济的公有部份"
+      }
+    ]
+  },
+  {
+    "word": "service",
+    "phonetic": "",
+    "meaning": "n. 服务，服侍；服役；仪式; adj. 服务性的；耐用的；服现役的",
+    "translations": [
+      {
+        "translation": "服务，服侍；服役；仪式",
+        "type": "n"
+      },
+      {
+        "translation": "服务性的；耐用的；服现役的",
+        "type": "adj"
+      },
+      {
+        "translation": "维修，检修；保养",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "of service",
+        "translation": "有帮助的"
+      },
+      {
+        "phrase": "customer service",
+        "translation": "客户服务；售后服务"
+      },
+      {
+        "phrase": "service life",
+        "translation": "使用寿命；使用期限；耐用年限"
+      }
+    ]
+  },
+  {
+    "word": "search",
+    "phonetic": "",
+    "meaning": "v. 搜寻；调查；探求; n. 搜寻；探究，查究",
+    "translations": [
+      {
+        "translation": "搜寻；调查；探求",
+        "type": "v"
+      },
+      {
+        "translation": "搜寻；探究，查究",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "search for",
+        "translation": "v. 寻找；搜索"
+      },
+      {
+        "phrase": "in search of",
+        "translation": "寻找；搜寻"
+      },
+      {
+        "phrase": "search engine",
+        "translation": "搜索引擎"
+      }
+    ]
+  },
+  {
+    "word": "experience",
+    "phonetic": "",
+    "meaning": "n. 经验；经历；体验; v. 经验；经历；体验",
+    "translations": [
+      {
+        "translation": "经验；经历；体验",
+        "type": "n"
+      },
+      {
+        "translation": "经验；经历；体验",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "experience in",
+        "translation": "有经验；有…的经验"
+      },
+      {
+        "phrase": "working experience",
+        "translation": "工作经验；工作经历"
+      },
+      {
+        "phrase": "work experience",
+        "translation": "工作经验"
+      }
+    ]
+  },
+  {
+    "word": "require",
+    "phonetic": "",
+    "meaning": "v. 需要；要求；命令",
+    "translations": [
+      {
+        "translation": "需要；要求；命令",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "individual",
+    "phonetic": "",
+    "meaning": "adj. 个人的；个别的；独特的; n. 个人，个体",
+    "translations": [
+      {
+        "translation": "个人的；个别的；独特的",
+        "type": "adj"
+      },
+      {
+        "translation": "个人，个体",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "individual character",
+        "translation": "个性；单字"
+      },
+      {
+        "phrase": "individual income tax",
+        "translation": "[经]个人所得税"
+      },
+      {
+        "phrase": "individual freedom",
+        "translation": "个人自由"
+      }
+    ]
+  },
+  {
+    "word": "scientific",
+    "phonetic": "",
+    "meaning": "adj. 科学的，系统的",
+    "translations": [
+      {
+        "translation": "科学的，系统的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "scientific research",
+        "translation": "科学研究"
+      },
+      {
+        "phrase": "scientific management",
+        "translation": "科学管理"
+      },
+      {
+        "phrase": "scientific progress",
+        "translation": "科学进展"
+      }
+    ]
+  },
+  {
+    "word": "attention",
+    "phonetic": "",
+    "meaning": "n. 注意力；关心；立正！（口令）",
+    "translations": [
+      {
+        "translation": "注意力；关心；立正！（口令）",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "pay attention",
+        "translation": "专心；集中注意力"
+      },
+      {
+        "phrase": "pay more attention to",
+        "translation": "更加注意"
+      },
+      {
+        "phrase": "pay close attention to",
+        "translation": "密切注意"
+      }
+    ]
+  },
+  {
+    "word": "influential",
+    "phonetic": "",
+    "meaning": "adj. 有影响的；有势力的; n. 有影响力的人物",
+    "translations": [
+      {
+        "translation": "有影响的；有势力的",
+        "type": "adj"
+      },
+      {
+        "translation": "有影响力的人物",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "court",
+    "phonetic": "",
+    "meaning": "n. 法院；球场；朝廷；奉承; v. 招致（失败、危险等）；向…献殷勤；设法获得",
+    "translations": [
+      {
+        "translation": "法院；球场；朝廷；奉承",
+        "type": "n"
+      },
+      {
+        "translation": "招致（失败、危险等）；向…献殷勤；设法获得",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "people's court",
+        "translation": "人民法院；人民法庭（美国一种电视节目）"
+      },
+      {
+        "phrase": "supreme court",
+        "translation": "最高法院"
+      },
+      {
+        "phrase": "in court",
+        "translation": "在法庭上"
+      }
+    ]
+  },
+  {
+    "word": "law",
+    "phonetic": "",
+    "meaning": "n. 法律；规律；法治；法学；诉讼；司法界; vi. 起诉；控告",
+    "translations": [
+      {
+        "translation": "法律；规律；法治；法学；诉讼；司法界",
+        "type": "n"
+      },
+      {
+        "translation": "起诉；控告",
+        "type": "vi"
+      },
+      {
+        "translation": "控告；对…起诉",
+        "type": "vt"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "by law",
+        "translation": "n. 根据法律，在法律上；附则"
+      },
+      {
+        "phrase": "criminal law",
+        "translation": "刑法"
+      },
+      {
+        "phrase": "law enforcement",
+        "translation": "法律的实施"
+      }
+    ]
+  },
+  {
+    "word": "federal",
+    "phonetic": "",
+    "meaning": "adj. 联邦的；同盟的；联邦政府的； 联邦制的; adv. 联邦政府地",
+    "translations": [
+      {
+        "translation": "联邦的；同盟的；联邦政府的； 联邦制的",
+        "type": "adj"
+      },
+      {
+        "translation": "联邦政府地",
+        "type": "adv"
+      },
+      {
+        "translation": "(Federal)人名；(英)费德勒尔",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "federal reserve",
+        "translation": "（美国）联邦储备系统"
+      },
+      {
+        "phrase": "federal government",
+        "translation": "联邦政府"
+      },
+      {
+        "phrase": "federal law",
+        "translation": "联邦法律"
+      }
+    ]
+  },
+  {
+    "word": "past",
+    "phonetic": "",
+    "meaning": "n. 过去；往事; adj. 过去的；结束的",
+    "translations": [
+      {
+        "translation": "过去；往事",
+        "type": "n"
+      },
+      {
+        "translation": "过去的；结束的",
+        "type": "adj"
+      },
+      {
+        "translation": "越过；晚于",
+        "type": "prep"
+      },
+      {
+        "translation": "过；经过",
+        "type": "adv"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in the past",
+        "translation": "在过去"
+      },
+      {
+        "phrase": "past year",
+        "translation": "去年"
+      },
+      {
+        "phrase": "in the past year",
+        "translation": "在过去的一年中"
+      }
+    ]
+  },
+  {
+    "word": "deal",
+    "phonetic": "",
+    "meaning": "v. 处理；给予；分配；发牌; n. 交易；（美）政策；待遇；份量",
+    "translations": [
+      {
+        "translation": "处理；给予；分配；发牌",
+        "type": "v"
+      },
+      {
+        "translation": "交易；（美）政策；待遇；份量",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "deal with",
+        "translation": "处理；涉及；做生意"
+      },
+      {
+        "phrase": "great deal",
+        "translation": "大量"
+      },
+      {
+        "phrase": "a great deal of",
+        "translation": "大量"
+      }
+    ]
+  },
+  {
+    "word": "rise",
+    "phonetic": "",
+    "meaning": "v. 上升；增强；起立；高耸; n. 上升；高地；增加；出现",
+    "translations": [
+      {
+        "translation": "上升；增强；起立；高耸",
+        "type": "v"
+      },
+      {
+        "translation": "上升；高地；增加；出现",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "on the rise",
+        "translation": "在增加；在上涨"
+      },
+      {
+        "phrase": "give rise to",
+        "translation": "使发生，引起"
+      },
+      {
+        "phrase": "temperature rise",
+        "translation": "温升；温度上升"
+      }
+    ]
+  },
+  {
+    "word": "limit",
+    "phonetic": "",
+    "meaning": "n. 限制；限度；界线; v. 限制；限定",
+    "translations": [
+      {
+        "translation": "限制；限度；界线",
+        "type": "n"
+      },
+      {
+        "translation": "限制；限定",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "time limit",
+        "translation": "期限；限期"
+      },
+      {
+        "phrase": "upper limit",
+        "translation": "上限；最高极限"
+      },
+      {
+        "phrase": "speed limit",
+        "translation": "速度限制；最高车速"
+      }
+    ]
+  },
+  {
+    "word": "peer",
+    "phonetic": "",
+    "meaning": "n. 贵族；同等的人；同龄人; v. 凝视，盯着看；窥视",
+    "translations": [
+      {
+        "translation": "贵族；同等的人；同龄人",
+        "type": "n"
+      },
+      {
+        "translation": "凝视，盯着看；窥视",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "peer review",
+        "translation": "同业互查"
+      },
+      {
+        "phrase": "peer to peer",
+        "translation": "对等的；[计]端对端"
+      },
+      {
+        "phrase": "peer pressure",
+        "translation": "来自同辈的压力"
+      }
+    ]
+  },
+  {
+    "word": "scientist",
+    "phonetic": "",
+    "meaning": "n. 科学家",
+    "translations": [
+      {
+        "translation": "科学家",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "computer scientist",
+        "translation": "计算机科学家"
+      },
+      {
+        "phrase": "social scientist",
+        "translation": "社会科学家"
+      },
+      {
+        "phrase": "rocket scientist",
+        "translation": "火箭专家；股市分析高手；[喻]行家"
+      }
+    ]
+  },
+  {
+    "word": "financial",
+    "phonetic": "",
+    "meaning": "adj. 金融的；财政的，财务的",
+    "translations": [
+      {
+        "translation": "金融的；财政的，财务的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "financial crisis",
+        "translation": "金融危机；财政危机"
+      },
+      {
+        "phrase": "financial management",
+        "translation": "财务管理；金融管理"
+      },
+      {
+        "phrase": "financial system",
+        "translation": "金融体系；财务系统"
+      }
+    ]
+  },
+  {
+    "word": "report",
+    "phonetic": "",
+    "meaning": "n. 报告；报道；成绩单; v. 报告；报导；使报到",
+    "translations": [
+      {
+        "translation": "报告；报道；成绩单",
+        "type": "n"
+      },
+      {
+        "translation": "报告；报导；使报到",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "report oneself",
+        "translation": "去报到；到…去见某人"
+      },
+      {
+        "phrase": "report of",
+        "translation": "说出对…的印象；…的报告"
+      },
+      {
+        "phrase": "report on",
+        "translation": "就…作报告"
+      }
+    ]
+  },
+  {
+    "word": "issue",
+    "phonetic": "",
+    "meaning": "n. 问题；流出；期号；发行物; v. 发行，发布；发给；放出，排出",
+    "translations": [
+      {
+        "translation": "问题；流出；期号；发行物",
+        "type": "n"
+      },
+      {
+        "translation": "发行，发布；发给；放出，排出",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "issue in",
+        "translation": "v. 导致"
+      },
+      {
+        "phrase": "new issue",
+        "translation": "n. 新发行的证券"
+      },
+      {
+        "phrase": "key issue",
+        "translation": "关键议题"
+      }
+    ]
+  },
+  {
+    "word": "risk",
+    "phonetic": "",
+    "meaning": "n. 风险；危险；冒险; v. 冒…的危险",
+    "translations": [
+      {
+        "translation": "风险；危险；冒险",
+        "type": "n"
+      },
+      {
+        "translation": "冒…的危险",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "at risk",
+        "translation": "处于危险中"
+      },
+      {
+        "phrase": "risk management",
+        "translation": "风险管理"
+      },
+      {
+        "phrase": "risk assessment",
+        "translation": "风险估计，危险率估计"
+      }
+    ]
+  },
+  {
+    "word": "method",
+    "phonetic": "",
+    "meaning": "n. 方法；条理；类函数; adj. 使用体验派表演方法的",
+    "translations": [
+      {
+        "translation": "方法；条理；类函数",
+        "type": "n"
+      },
+      {
+        "translation": "使用体验派表演方法的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "analysis method",
+        "translation": "解析法；离子微探针质谱仪分析法"
+      },
+      {
+        "phrase": "design method",
+        "translation": "设计方法，设计法"
+      },
+      {
+        "phrase": "finite element method (FEM)",
+        "translation": "有限元素法"
+      }
+    ]
+  },
+  {
+    "word": "publish",
+    "phonetic": "",
+    "meaning": "v. 出版；发表；公布",
+    "translations": [
+      {
+        "translation": "出版；发表；公布",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "practice",
+    "phonetic": "",
+    "meaning": "n. 实践；练习；惯例; v. 练习；实习；实行",
+    "translations": [
+      {
+        "translation": "实践；练习；惯例",
+        "type": "n"
+      },
+      {
+        "translation": "练习；实习；实行",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in practice",
+        "translation": "在实践中；实际上，事实上"
+      },
+      {
+        "phrase": "practice of",
+        "translation": "有…的习惯"
+      },
+      {
+        "phrase": "into practice",
+        "translation": "实施；实行"
+      }
+    ]
+  },
+  {
+    "word": "future",
+    "phonetic": "",
+    "meaning": "n. 未来；前途；期货；将来时; adj. 将来的，未来的",
+    "translations": [
+      {
+        "translation": "未来；前途；期货；将来时",
+        "type": "n"
+      },
+      {
+        "translation": "将来的，未来的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in the future",
+        "translation": "在将来"
+      },
+      {
+        "phrase": "in future",
+        "translation": "从今以后，往后"
+      },
+      {
+        "phrase": "for the future",
+        "translation": "将来；从今以后"
+      }
+    ]
+  },
+  {
+    "word": "function",
+    "phonetic": "",
+    "meaning": "n. 功能；[数] 函数；职责；盛大的集会; v. 运行；活动；行使职责",
+    "translations": [
+      {
+        "translation": "功能；[数] 函数；职责；盛大的集会",
+        "type": "n"
+      },
+      {
+        "translation": "运行；活动；行使职责",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "and function",
+        "translation": "[计]与酌"
+      },
+      {
+        "phrase": "objective function",
+        "translation": "目标函数"
+      },
+      {
+        "phrase": "system function",
+        "translation": "系统功能；系统函数"
+      }
+    ]
+  },
+  {
+    "word": "evidence",
+    "phonetic": "",
+    "meaning": "n. 证据，证明；迹象；明显; v. 证明",
+    "translations": [
+      {
+        "translation": "证据，证明；迹象；明显",
+        "type": "n"
+      },
+      {
+        "translation": "证明",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in evidence",
+        "translation": "明显的；[法]作为证据"
+      },
+      {
+        "phrase": "give evidence",
+        "translation": "作证"
+      },
+      {
+        "phrase": "empirical evidence",
+        "translation": "实验性证据"
+      }
+    ]
+  },
+  {
+    "word": "pressure",
+    "phonetic": "",
+    "meaning": "n. 压力；压迫，[物] 压强; v. 迫使；密封；使……增压",
+    "translations": [
+      {
+        "translation": "压力；压迫，[物] 压强",
+        "type": "n"
+      },
+      {
+        "translation": "迫使；密封；使……增压",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "under pressure",
+        "translation": "面临压力，在压力之下；受到压力"
+      },
+      {
+        "phrase": "high pressure",
+        "translation": "高压，高气压；高度紧张"
+      },
+      {
+        "phrase": "blood pressure",
+        "translation": "n. 血压"
+      }
+    ]
+  },
+  {
+    "word": "turn",
+    "phonetic": "",
+    "meaning": "v. 转动，使旋转；转弯；翻过来；兑换; n. 转弯；变化；(损害或有益于别人的)行为，举动，举止",
+    "translations": [
+      {
+        "translation": "转动，使旋转；转弯；翻过来；兑换",
+        "type": "v"
+      },
+      {
+        "translation": "转弯；变化；(损害或有益于别人的)行为，举动，举止",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in turn",
+        "translation": "轮流，依次"
+      },
+      {
+        "phrase": "turn off",
+        "translation": "关掉，关闭；拐弯，使转变方向"
+      },
+      {
+        "phrase": "turn into",
+        "translation": "v. 变成；进入"
+      }
+    ]
+  },
+  {
+    "word": "argue",
+    "phonetic": "",
+    "meaning": "v. 争论，辩论；提出理由; n. (Argue)人名；(英、法)阿格",
+    "translations": [
+      {
+        "translation": "争论，辩论；提出理由",
+        "type": "v"
+      },
+      {
+        "translation": "(Argue)人名；(英、法)阿格",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "argue with",
+        "translation": "争论；和…争吵"
+      },
+      {
+        "phrase": "argue about",
+        "translation": "争论；议论某事"
+      },
+      {
+        "phrase": "argue for",
+        "translation": "赞成；支持；论证"
+      }
+    ]
+  },
+  {
+    "word": "support",
+    "phonetic": "",
+    "meaning": "v. 支持，支撑，支援；扶持，帮助；赡养，供养; n. 支持，维持；支援，供养；支持者，支撑物",
+    "translations": [
+      {
+        "translation": "支持，支撑，支援；扶持，帮助；赡养，供养",
+        "type": "v"
+      },
+      {
+        "translation": "支持，维持；支援，供养；支持者，支撑物",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "support oneself",
+        "translation": "◎养活自己"
+      },
+      {
+        "phrase": "support of",
+        "translation": "支持；赞助"
+      },
+      {
+        "phrase": "support for",
+        "translation": "对…的支持"
+      }
+    ]
+  },
+  {
+    "word": "offer",
+    "phonetic": "",
+    "meaning": "v. 提供；出价；试图; n. 提议；出价；意图；录取通知书",
+    "translations": [
+      {
+        "translation": "提供；出价；试图",
+        "type": "v"
+      },
+      {
+        "translation": "提议；出价；意图；录取通知书",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "offer for",
+        "translation": "对…报价"
+      },
+      {
+        "phrase": "on offer",
+        "translation": "出售中"
+      },
+      {
+        "phrase": "make an offer",
+        "translation": "要价，出价"
+      }
+    ]
+  },
+  {
+    "word": "understand",
+    "phonetic": "",
+    "meaning": "v. 理解；懂；获悉；推断；省略",
+    "translations": [
+      {
+        "translation": "理解；懂；获悉；推断；省略",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "do you understand",
+        "translation": "你能理解吗？"
+      },
+      {
+        "phrase": "come to understand",
+        "translation": "开始明白；开始了解"
+      }
+    ]
+  },
+  {
+    "word": "history",
+    "phonetic": "",
+    "meaning": "n. 历史，历史学；历史记录；来历",
+    "translations": [
+      {
+        "translation": "历史，历史学；历史记录；来历",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in the history",
+        "translation": "在历史上"
+      },
+      {
+        "phrase": "long history",
+        "translation": "历史悠久"
+      },
+      {
+        "phrase": "in history",
+        "translation": "在历史上"
+      }
+    ]
+  },
+  {
+    "word": "bring",
+    "phonetic": "",
+    "meaning": "v. 带来；促使；引起；使某人处于某种情况或境地; n. (Bring)人名；(英、瑞典)布林",
+    "translations": [
+      {
+        "translation": "带来；促使；引起；使某人处于某种情况或境地",
+        "type": "v"
+      },
+      {
+        "translation": "(Bring)人名；(英、瑞典)布林",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "bring about",
+        "translation": "引起；[航]使掉头"
+      },
+      {
+        "phrase": "bring forward",
+        "translation": "提出；提前；结转"
+      },
+      {
+        "phrase": "bring up",
+        "translation": "提出；教育；养育；呕出；[航]（船等）停下"
+      }
+    ]
+  },
+  {
+    "word": "knowledge",
+    "phonetic": "",
+    "meaning": "n. 知识，学问；知道，认识；学科",
+    "translations": [
+      {
+        "translation": "知识，学问；知道，认识；学科",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "knowledge of",
+        "translation": "知识"
+      },
+      {
+        "phrase": "knowledge economy",
+        "translation": "知识经济"
+      },
+      {
+        "phrase": "knowledge management",
+        "translation": "n. 知识管理"
+      }
+    ]
+  },
+  {
+    "word": "medical",
+    "phonetic": "",
+    "meaning": "adj. 医学的；药的；内科的; n. 医生；体格检查",
+    "translations": [
+      {
+        "translation": "医学的；药的；内科的",
+        "type": "adj"
+      },
+      {
+        "translation": "医生；体格检查",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "medical treatment",
+        "translation": "治疗，医疗"
+      },
+      {
+        "phrase": "medical equipment",
+        "translation": "医疗设备；医疗器材"
+      },
+      {
+        "phrase": "medical service",
+        "translation": "医疗服务"
+      }
+    ]
+  },
+  {
+    "word": "rate",
+    "phonetic": "",
+    "meaning": "n. 比率，率；速度；价格；等级; v. 认为；估价；责骂",
+    "translations": [
+      {
+        "translation": "比率，率；速度；价格；等级",
+        "type": "n"
+      },
+      {
+        "translation": "认为；估价；责骂",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "exchange rate",
+        "translation": "汇率；兑换率"
+      },
+      {
+        "phrase": "interest rate",
+        "translation": "[经]利率"
+      },
+      {
+        "phrase": "growth rate",
+        "translation": "增长率；生长速率"
+      }
+    ]
+  },
+  {
+    "word": "continue",
+    "phonetic": "",
+    "meaning": "v. 继续，延续；仍旧，连续",
+    "translations": [
+      {
+        "translation": "继续，延续；仍旧，连续",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "continue with",
+        "translation": "继续做"
+      },
+      {
+        "phrase": "continue to do",
+        "translation": "继续做某事"
+      },
+      {
+        "phrase": "continue doing",
+        "translation": "一直做（同一件事）"
+      }
+    ]
+  },
+  {
+    "word": "monkey",
+    "phonetic": "",
+    "meaning": "n. 猴子；顽童; v. 胡闹；捣蛋",
+    "translations": [
+      {
+        "translation": "猴子；顽童",
+        "type": "n"
+      },
+      {
+        "translation": "胡闹；捣蛋",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "monkey business",
+        "translation": "胡闹，骗人的把戏；欺骗；恶作剧"
+      },
+      {
+        "phrase": "monkey king",
+        "translation": "美猴王，孙悟空"
+      },
+      {
+        "phrase": "golden monkey",
+        "translation": "金丝猴"
+      }
+    ]
+  },
+  {
+    "word": "student",
+    "phonetic": "",
+    "meaning": "n. 学生；学者",
+    "translations": [
+      {
+        "translation": "学生；学者",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "college student",
+        "translation": "大学生"
+      },
+      {
+        "phrase": "university student",
+        "translation": "大学生"
+      },
+      {
+        "phrase": "graduate student",
+        "translation": "n. 研究生；毕业生"
+      }
+    ]
+  },
+  {
+    "word": "smell",
+    "phonetic": "",
+    "meaning": "v. 嗅，闻；有…气味; n. 气味，嗅觉；臭味",
+    "translations": [
+      {
+        "translation": "嗅，闻；有…气味",
+        "type": "v"
+      },
+      {
+        "translation": "气味，嗅觉；臭味",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "smell of",
+        "translation": "有…的气味；闻出…的味道"
+      },
+      {
+        "phrase": "sweet smell",
+        "translation": "闻起来香"
+      },
+      {
+        "phrase": "sense of smell",
+        "translation": "嗅觉"
+      }
+    ]
+  },
+  {
+    "word": "single",
+    "phonetic": "",
+    "meaning": "adj. 单一的；单身的；单程的; n. 一个；单打；单程票",
+    "translations": [
+      {
+        "translation": "单一的；单身的；单程的",
+        "type": "adj"
+      },
+      {
+        "translation": "一个；单打；单程票",
+        "type": "n"
+      },
+      {
+        "translation": "选出",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "every single",
+        "translation": "[口语][加强语气]每一个"
+      },
+      {
+        "phrase": "single chip",
+        "translation": "单晶片"
+      },
+      {
+        "phrase": "single crystal",
+        "translation": "单晶"
+      }
+    ]
+  },
+  {
+    "word": "average",
+    "phonetic": "",
+    "meaning": "n. 平均；平均数；海损; adj. 平均的；普通的；通常的",
+    "translations": [
+      {
+        "translation": "平均；平均数；海损",
+        "type": "n"
+      },
+      {
+        "translation": "平均的；普通的；通常的",
+        "type": "adj"
+      },
+      {
+        "translation": "算出…的平均数；将…平均分配；使…平衡",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "an average of",
+        "translation": "平均是…"
+      },
+      {
+        "phrase": "an average",
+        "translation": "一般说来；平均起来"
+      },
+      {
+        "phrase": "on average",
+        "translation": "平均；普通，通常"
+      }
+    ]
+  },
+  {
+    "word": "loss",
+    "phonetic": "",
+    "meaning": "n. 减少；亏损；失败；遗失",
+    "translations": [
+      {
+        "translation": "减少；亏损；失败；遗失",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "weight loss",
+        "translation": "失重；重量减轻"
+      },
+      {
+        "phrase": "at a loss",
+        "translation": "亏本地；困惑不解"
+      },
+      {
+        "phrase": "water loss",
+        "translation": "失水量；水耗"
+      }
+    ]
+  },
+  {
+    "word": "legal",
+    "phonetic": "",
+    "meaning": "adj. 法律的；合法的；法定的；依照法律的; n. (Legal)人名；(法)勒加尔",
+    "translations": [
+      {
+        "translation": "法律的；合法的；法定的；依照法律的",
+        "type": "adj"
+      },
+      {
+        "translation": "(Legal)人名；(法)勒加尔",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "legal system",
+        "translation": "法律制度"
+      },
+      {
+        "phrase": "legal status",
+        "translation": "法律地位"
+      },
+      {
+        "phrase": "legal protection",
+        "translation": "法律保护；合法保护"
+      }
+    ]
+  },
+  {
+    "word": "effect",
+    "phonetic": "",
+    "meaning": "n. 影响；效果；作用; v. 产生；达到目的",
+    "translations": [
+      {
+        "translation": "影响；效果；作用",
+        "type": "n"
+      },
+      {
+        "translation": "产生；达到目的",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "effect on",
+        "translation": "对…的作用"
+      },
+      {
+        "phrase": "curative effect",
+        "translation": "疗效"
+      },
+      {
+        "phrase": "main effect",
+        "translation": "主效应"
+      }
+    ]
+  },
+  {
+    "word": "feeling",
+    "phonetic": "",
+    "meaning": "n. 感觉，触觉；感情，情绪；同情; adj. 有感觉的；有同情心的；富于感情的",
+    "translations": [
+      {
+        "translation": "感觉，触觉；感情，情绪；同情",
+        "type": "n"
+      },
+      {
+        "translation": "有感觉的；有同情心的；富于感情的",
+        "type": "adj"
+      },
+      {
+        "translation": "感觉；认为（feel的现在分词）；触摸",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "have a feeling",
+        "translation": "预感到…；觉得…"
+      },
+      {
+        "phrase": "good feeling",
+        "translation": "好感"
+      },
+      {
+        "phrase": "strong feelings",
+        "translation": "强烈的感情"
+      }
+    ]
+  },
+  {
+    "word": "gamble",
+    "phonetic": "",
+    "meaning": "v. 赌博；孤注一掷；投机；打赌; n. 赌博；冒险；打赌",
+    "translations": [
+      {
+        "translation": "赌博；孤注一掷；投机；打赌",
+        "type": "v"
+      },
+      {
+        "translation": "赌博；冒险；打赌",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "gamble on",
+        "translation": "对…打赌"
+      },
+      {
+        "phrase": "gamble away",
+        "translation": "赌光"
+      }
+    ]
+  },
+  {
+    "word": "writing",
+    "phonetic": "",
+    "meaning": "n. 书写；作品；著作；[法] 笔迹; v. 书写（write的ing形式）",
+    "translations": [
+      {
+        "translation": "书写；作品；著作；[法] 笔迹",
+        "type": "n"
+      },
+      {
+        "translation": "书写（write的ing形式）",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in writing",
+        "translation": "书面；书面的；用书面写"
+      },
+      {
+        "phrase": "writing ability",
+        "translation": "写作能力；书写能力"
+      },
+      {
+        "phrase": "writing skill",
+        "translation": "写作技巧；书写技能；笔头"
+      }
+    ]
+  },
+  {
+    "word": "share",
+    "phonetic": "",
+    "meaning": "v. 分享，分担；分配; n. 份额；股份",
+    "translations": [
+      {
+        "translation": "分享，分担；分配",
+        "type": "v"
+      },
+      {
+        "translation": "份额；股份",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "market share",
+        "translation": "市场占有率"
+      },
+      {
+        "phrase": "share of",
+        "translation": "…的份额；…的部份"
+      },
+      {
+        "phrase": "share with",
+        "translation": "分与，分配；和…分享"
+      }
+    ]
+  },
+  {
+    "word": "earn",
+    "phonetic": "",
+    "meaning": "v. 赚，赚得；获得，挣得；使得到；博得; n. (Earn)人名；(泰)炎",
+    "translations": [
+      {
+        "translation": "赚，赚得；获得，挣得；使得到；博得",
+        "type": "v"
+      },
+      {
+        "translation": "(Earn)人名；(泰)炎",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "earn money",
+        "translation": "赚钱"
+      },
+      {
+        "phrase": "earn a living",
+        "translation": "谋生；活命"
+      },
+      {
+        "phrase": "earn interest",
+        "translation": "赚取利息"
+      }
+    ]
+  },
+  {
+    "word": "message",
+    "phonetic": "",
+    "meaning": "n. 消息；差使；启示；预言；广告词; v. 报信，报告；[通信] 报文",
+    "translations": [
+      {
+        "translation": "消息；差使；启示；预言；广告词",
+        "type": "n"
+      },
+      {
+        "translation": "报信，报告；[通信] 报文",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "your message",
+        "translation": "您的消息"
+      },
+      {
+        "phrase": "short message",
+        "translation": "短讯；短报文"
+      },
+      {
+        "phrase": "message from",
+        "translation": "来自…的消息"
+      }
+    ]
+  },
+  {
+    "word": "standard",
+    "phonetic": "",
+    "meaning": "n. 标准；水准；旗；度量衡标准; adj. 标准的；合规格的；公认为优秀的",
+    "translations": [
+      {
+        "translation": "标准；水准；旗；度量衡标准",
+        "type": "n"
+      },
+      {
+        "translation": "标准的；合规格的；公认为优秀的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "quality standard",
+        "translation": "质量标准"
+      },
+      {
+        "phrase": "national standard",
+        "translation": "国家标准"
+      },
+      {
+        "phrase": "living standard",
+        "translation": "生活水平，生活标准"
+      }
+    ]
+  },
+  {
+    "word": "quit",
+    "phonetic": "",
+    "meaning": "v. 离开；放弃；停止；使…解除; n. 离开；[计] 退出",
+    "translations": [
+      {
+        "translation": "离开；放弃；停止；使…解除",
+        "type": "v"
+      },
+      {
+        "translation": "离开；[计] 退出",
+        "type": "n"
+      },
+      {
+        "translation": "摆脱了…的；已经了结的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "quit smoking",
+        "translation": "戒烟"
+      }
+    ]
+  },
+  {
+    "word": "railroad",
+    "phonetic": "",
+    "meaning": "v. 由铁道运输；铺设铁路；以捏造不实之罪使入狱; n. 铁路；铁路公司",
+    "translations": [
+      {
+        "translation": "由铁道运输；铺设铁路；以捏造不实之罪使入狱",
+        "type": "v"
+      },
+      {
+        "translation": "铁路；铁路公司",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "railroad car",
+        "translation": "有轨电车"
+      },
+      {
+        "phrase": "railroad industry",
+        "translation": "铁路工业"
+      },
+      {
+        "phrase": "railroad station",
+        "translation": "火车站；铁路车站"
+      }
+    ]
+  },
+  {
+    "word": "certain",
+    "phonetic": "",
+    "meaning": "adj. 某一；必然的；确信；无疑的；有把握的; pron. 某些；某几个",
+    "translations": [
+      {
+        "translation": "某一；必然的；确信；无疑的；有把握的",
+        "type": "adj"
+      },
+      {
+        "translation": "某些；某几个",
+        "type": "pron"
+      },
+      {
+        "translation": "(Certain)人名；(葡)塞尔塔因；(法)塞尔坦",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "a certain extent",
+        "translation": "一定程度上"
+      },
+      {
+        "phrase": "a certain degree",
+        "translation": "到某种程度"
+      },
+      {
+        "phrase": "for certain",
+        "translation": "肯定地；确凿地"
+      }
+    ]
+  },
+  {
+    "word": "decision",
+    "phonetic": "",
+    "meaning": "n. 决定，决心；决议",
+    "translations": [
+      {
+        "translation": "决定，决心；决议",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "decision making",
+        "translation": "判定，决策"
+      },
+      {
+        "phrase": "decision support",
+        "translation": "决策支持"
+      },
+      {
+        "phrase": "make a decision",
+        "translation": "作决定"
+      }
+    ]
+  },
+  {
+    "word": "performance",
+    "phonetic": "",
+    "meaning": "n. 性能；绩效；表演；执行；表现",
+    "translations": [
+      {
+        "translation": "性能；绩效；表演；执行；表现",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "high performance",
+        "translation": "高性能；高效能的"
+      },
+      {
+        "phrase": "good performance",
+        "translation": "良好的性能；良好绩效"
+      },
+      {
+        "phrase": "performance evaluation",
+        "translation": "性能评估；性能赋值"
+      }
+    ]
+  },
+  {
+    "word": "concept",
+    "phonetic": "",
+    "meaning": "n. 观念，概念",
+    "translations": [
+      {
+        "translation": "观念，概念",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "new concept",
+        "translation": "新概念"
+      },
+      {
+        "phrase": "basic concept",
+        "translation": "基本概念；本义"
+      },
+      {
+        "phrase": "design concept",
+        "translation": "设计理念；设计构思；设计原理"
+      }
+    ]
+  },
+  {
+    "word": "class",
+    "phonetic": "",
+    "meaning": "n. 阶级；班级；种类；班；等级; v. 分类；把…分等级；把…归入某等级，把…看作（或分类、归类）；把…编入某一班级",
+    "translations": [
+      {
+        "translation": "阶级；班级；种类；班；等级",
+        "type": "n"
+      },
+      {
+        "translation": "分类；把…分等级；把…归入某等级，把…看作（或分类、归类）；把…编入某一班级",
+        "type": "v"
+      },
+      {
+        "translation": "极好的；很好的，优秀的，出色的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in class",
+        "translation": "在课堂上；上课中"
+      },
+      {
+        "phrase": "first class",
+        "translation": "头等，第一流；最高级"
+      },
+      {
+        "phrase": "economy class",
+        "translation": "（飞机上的）经济舱位"
+      }
+    ]
+  },
+  {
+    "word": "difference",
+    "phonetic": "",
+    "meaning": "n. 差异；不同；争执",
+    "translations": [
+      {
+        "translation": "差异；不同；争执",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "difference in",
+        "translation": "在…方面的差别"
+      },
+      {
+        "phrase": "significant difference",
+        "translation": "显著性差异"
+      },
+      {
+        "phrase": "finite difference",
+        "translation": "有限差"
+      }
+    ]
+  },
+  {
+    "word": "genetic",
+    "phonetic": "",
+    "meaning": "adj. 遗传的；基因的；起源的",
+    "translations": [
+      {
+        "translation": "遗传的；基因的；起源的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "genetic algorithm",
+        "translation": "遗传算法"
+      },
+      {
+        "phrase": "genetic engineering",
+        "translation": "遗传工程"
+      },
+      {
+        "phrase": "genetic material",
+        "translation": "遗传物质；基因材料"
+      }
+    ]
+  },
+  {
+    "word": "journal",
+    "phonetic": "",
+    "meaning": "n. 日报，杂志；日记；分类账",
+    "translations": [
+      {
+        "translation": "日报，杂志；日记；分类账",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "wall street journal",
+        "translation": "华尔街日报"
+      },
+      {
+        "phrase": "medical journal",
+        "translation": "医学期刊"
+      },
+      {
+        "phrase": "academic journal",
+        "translation": "学报，学术期刊"
+      }
+    ]
+  },
+  {
+    "word": "slave",
+    "phonetic": "",
+    "meaning": "n. 奴隶；从动装置; v. 苦干；拼命工作",
+    "translations": [
+      {
+        "translation": "奴隶；从动装置",
+        "type": "n"
+      },
+      {
+        "translation": "苦干；拼命工作",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "brain",
+    "phonetic": "",
+    "meaning": "n. 头脑，智力；脑袋; v. 猛击…的头部",
+    "translations": [
+      {
+        "translation": "头脑，智力；脑袋",
+        "type": "n"
+      },
+      {
+        "translation": "猛击…的头部",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "human brain",
+        "translation": "人脑"
+      },
+      {
+        "phrase": "brain injury",
+        "translation": "[医]脑损伤"
+      },
+      {
+        "phrase": "brain damage",
+        "translation": "脑损伤"
+      }
+    ]
+  },
+  {
+    "word": "response",
+    "phonetic": "",
+    "meaning": "n. 响应；反应；回答",
+    "translations": [
+      {
+        "translation": "响应；反应；回答",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in response",
+        "translation": "作为回答"
+      },
+      {
+        "phrase": "dynamic response",
+        "translation": "动态响应；动力特性"
+      },
+      {
+        "phrase": "response time",
+        "translation": "响应时间"
+      }
+    ]
+  },
+  {
+    "word": "potential",
+    "phonetic": "",
+    "meaning": "n. 潜能；可能性；[电] 电势; adj. 潜在的；可能的；势的",
+    "translations": [
+      {
+        "translation": "潜能；可能性；[电] 电势",
+        "type": "n"
+      },
+      {
+        "translation": "潜在的；可能的；势的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "market potential",
+        "translation": "[经]市场潜力；市场潜在需求量"
+      },
+      {
+        "phrase": "potential energy",
+        "translation": "势能"
+      },
+      {
+        "phrase": "development potential",
+        "translation": "发展潜力；发展前景"
+      }
+    ]
+  },
+  {
+    "word": "site",
+    "phonetic": "",
+    "meaning": "n. 地点；位置；场所; v. 设置；为…选址",
+    "translations": [
+      {
+        "translation": "地点；位置；场所",
+        "type": "n"
+      },
+      {
+        "translation": "设置；为…选址",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "web site",
+        "translation": "网页；网址"
+      },
+      {
+        "phrase": "on site",
+        "translation": "现场；原地；原位"
+      },
+      {
+        "phrase": "construction site",
+        "translation": "建筑工地；施工场地"
+      }
+    ]
+  },
+  {
+    "word": "produce",
+    "phonetic": "",
+    "meaning": "v. 生产；引起；创作；生育，繁殖; n. 农产品，产品",
+    "translations": [
+      {
+        "translation": "生产；引起；创作；生育，繁殖",
+        "type": "v"
+      },
+      {
+        "translation": "农产品，产品",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "farm produce",
+        "translation": "农产品"
+      },
+      {
+        "phrase": "dairy produce",
+        "translation": "乳制品"
+      },
+      {
+        "phrase": "produce electricity",
+        "translation": "发电"
+      }
+    ]
+  },
+  {
+    "word": "spread",
+    "phonetic": "",
+    "meaning": "v. 传播；伸展; n. 传播；伸展",
+    "translations": [
+      {
+        "translation": "传播；伸展",
+        "type": "v"
+      },
+      {
+        "translation": "传播；伸展",
+        "type": "n"
+      },
+      {
+        "translation": "伸展的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "spread oneself",
+        "translation": "◎直挺挺地躺卧；平伸四肢"
+      },
+      {
+        "phrase": "spread out",
+        "translation": "展开；铺开；伸张"
+      },
+      {
+        "phrase": "spread spectrum",
+        "translation": "扩展频谱"
+      }
+    ]
+  },
+  {
+    "word": "attitude",
+    "phonetic": "",
+    "meaning": "n. 态度；看法；意见；姿势",
+    "translations": [
+      {
+        "translation": "态度；看法；意见；姿势",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "attitude towards",
+        "translation": "态度，看法"
+      },
+      {
+        "phrase": "positive attitude",
+        "translation": "积极态度"
+      },
+      {
+        "phrase": "attitude toward",
+        "translation": "对...的态度；意见"
+      }
+    ]
+  },
+  {
+    "word": "living",
+    "phonetic": "",
+    "meaning": "adj. 活的；现存的；活跃的；逼真的; n. 生活；生存；生计",
+    "translations": [
+      {
+        "translation": "活的；现存的；活跃的；逼真的",
+        "type": "adj"
+      },
+      {
+        "translation": "生活；生存；生计",
+        "type": "n"
+      },
+      {
+        "translation": "生活；居住（live的ing形式）；度过",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "living environment",
+        "translation": "生活环境"
+      },
+      {
+        "phrase": "living room",
+        "translation": "客厅，起居室"
+      },
+      {
+        "phrase": "living standard",
+        "translation": "生活水平，生活标准"
+      }
+    ]
+  },
+  {
+    "word": "union",
+    "phonetic": "",
+    "meaning": "n. 联盟，协会；工会；联合",
+    "translations": [
+      {
+        "translation": "联盟，协会；工会；联合",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "european union",
+        "translation": "欧洲联盟，欧盟"
+      },
+      {
+        "phrase": "soviet union",
+        "translation": "前苏联（1922-1991，首都莫斯科Moscow，位于欧、亚洲）"
+      },
+      {
+        "phrase": "trade union",
+        "translation": "工会"
+      }
+    ]
+  },
+  {
+    "word": "born",
+    "phonetic": "",
+    "meaning": "v. 出世（bear的过去分词）; adj. 天生的",
+    "translations": [
+      {
+        "translation": "出世（bear的过去分词）",
+        "type": "v"
+      },
+      {
+        "translation": "天生的",
+        "type": "adj"
+      },
+      {
+        "translation": "(Born)人名；(柬)邦；(英、西、俄、捷、德、瑞典、匈)博恩",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "was born",
+        "translation": "出生"
+      },
+      {
+        "phrase": "born on",
+        "translation": "出生于（时间）"
+      },
+      {
+        "phrase": "born of",
+        "translation": "源于，出生于"
+      }
+    ]
+  },
+  {
+    "word": "define",
+    "phonetic": "",
+    "meaning": "v. 定义；使明确；规定; n. (Define)人名；(英)德法恩；(葡)德菲内",
+    "translations": [
+      {
+        "translation": "定义；使明确；规定",
+        "type": "v"
+      },
+      {
+        "translation": "(Define)人名；(英)德法恩；(葡)德菲内",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "define as",
+        "translation": "vt. 解释为"
+      }
+    ]
+  },
+  {
+    "word": "critic",
+    "phonetic": "",
+    "meaning": "n. 批评家，评论家；爱挑剔的人",
+    "translations": [
+      {
+        "translation": "批评家，评论家；爱挑剔的人",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "art critic",
+        "translation": "艺术评论家"
+      }
+    ]
+  },
+  {
+    "word": "institution",
+    "phonetic": "",
+    "meaning": "n. 制度；建立；（社会或宗教等）公共机构；习俗",
+    "translations": [
+      {
+        "translation": "制度；建立；（社会或宗教等）公共机构；习俗",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "financial institution",
+        "translation": "金融机构"
+      },
+      {
+        "phrase": "institution of higher learning",
+        "translation": "高等学校"
+      },
+      {
+        "phrase": "medical institution",
+        "translation": "医疗机构；医疗院所"
+      }
+    ]
+  },
+  {
+    "word": "experiment",
+    "phonetic": "",
+    "meaning": "v. 尝试；进行实验; n. 实验，试验；尝试",
+    "translations": [
+      {
+        "translation": "尝试；进行实验",
+        "type": "v"
+      },
+      {
+        "translation": "实验，试验；尝试",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "experiment on",
+        "translation": "vt. 对…进行实验；试用"
+      },
+      {
+        "phrase": "simulation experiment",
+        "translation": "仿真实验；模拟实验"
+      },
+      {
+        "phrase": "orthogonal experiment",
+        "translation": "正交试验"
+      }
+    ]
+  },
+  {
+    "word": "adult",
+    "phonetic": "",
+    "meaning": "adj. 成年的；成熟的; n. 成年人",
+    "translations": [
+      {
+        "translation": "成年的；成熟的",
+        "type": "adj"
+      },
+      {
+        "translation": "成年人",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "adult education",
+        "translation": "成人教育"
+      },
+      {
+        "phrase": "young adult",
+        "translation": "年轻人；大学生"
+      },
+      {
+        "phrase": "adult population",
+        "translation": "成年人口"
+      }
+    ]
+  },
+  {
+    "word": "review",
+    "phonetic": "",
+    "meaning": "n. 回顾；复习；评论；检讨；检阅; v. 回顾；检查；复审",
+    "translations": [
+      {
+        "translation": "回顾；复习；评论；检讨；检阅",
+        "type": "n"
+      },
+      {
+        "translation": "回顾；检查；复审",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "literature review",
+        "translation": "文献回顾；文献综述；文献评论"
+      },
+      {
+        "phrase": "judicial review",
+        "translation": "n. 司法审查；复审"
+      },
+      {
+        "phrase": "comprehensive review",
+        "translation": "全面审查"
+      }
+    ]
+  },
+  {
+    "word": "generation",
+    "phonetic": "",
+    "meaning": "n. 一代；产生；一代人；生殖",
+    "translations": [
+      {
+        "translation": "一代；产生；一代人；生殖",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "new generation",
+        "translation": "新世代，新一代；新生代"
+      },
+      {
+        "phrase": "power generation",
+        "translation": "发电，发电量；发电机设备"
+      },
+      {
+        "phrase": "from generation to generation",
+        "translation": "代代相传"
+      }
+    ]
+  },
+  {
+    "word": "quality",
+    "phonetic": "",
+    "meaning": "n. 质量，[统计] 品质；特性；才能; adj. 优质的；高品质的；<英俚>棒极了",
+    "translations": [
+      {
+        "translation": "质量，[统计] 品质；特性；才能",
+        "type": "n"
+      },
+      {
+        "translation": "优质的；高品质的；<英俚>棒极了",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "high quality",
+        "translation": "高品质"
+      },
+      {
+        "phrase": "product quality",
+        "translation": "产品质量"
+      },
+      {
+        "phrase": "quality control",
+        "translation": "质量控制，质量管理"
+      }
+    ]
+  },
+  {
+    "word": "criticism",
+    "phonetic": "",
+    "meaning": "n. 批评；考证；苛求",
+    "translations": [
+      {
+        "translation": "批评；考证；苛求",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "literary criticism",
+        "translation": "n. 文艺评论"
+      },
+      {
+        "phrase": "textual criticism",
+        "translation": "校勘；考订；版本鉴定"
+      },
+      {
+        "phrase": "new criticism",
+        "translation": "新批评主义"
+      }
+    ]
+  },
+  {
+    "word": "remain",
+    "phonetic": "",
+    "meaning": "v. 保持；依然；留下；剩余；逗留；残存; n. 遗迹；剩余物，残骸",
+    "translations": [
+      {
+        "translation": "保持；依然；留下；剩余；逗留；残存",
+        "type": "v"
+      },
+      {
+        "translation": "遗迹；剩余物，残骸",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "remain invincible",
+        "translation": "立于不败之地"
+      },
+      {
+        "phrase": "remain silent",
+        "translation": "保持沉默"
+      },
+      {
+        "phrase": "remain with",
+        "translation": "v. 属于"
+      }
+    ]
+  },
+  {
+    "word": "product",
+    "phonetic": "",
+    "meaning": "n. 产品；结果；[数] 乘积；作品",
+    "translations": [
+      {
+        "translation": "产品；结果；[数] 乘积；作品",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "product quality",
+        "translation": "产品质量"
+      },
+      {
+        "phrase": "product development",
+        "translation": "产品开发；产品发展"
+      },
+      {
+        "phrase": "product design",
+        "translation": "产品设计"
+      }
+    ]
+  },
+  {
+    "word": "nation",
+    "phonetic": "",
+    "meaning": "n. 国家；民族；国民",
+    "translations": [
+      {
+        "translation": "国家；民族；国民",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "chinese nation",
+        "translation": "中华民族"
+      },
+      {
+        "phrase": "host nation",
+        "translation": "东道国"
+      },
+      {
+        "phrase": "developing nation",
+        "translation": "n. 发展中国家"
+      }
+    ]
+  },
+  {
+    "word": "infer",
+    "phonetic": "",
+    "meaning": "v. 推断；推论",
+    "translations": [
+      {
+        "translation": "推断；推论",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "community",
+    "phonetic": "",
+    "meaning": "n. 社区；[生态] 群落；共同体；团体",
+    "translations": [
+      {
+        "translation": "社区；[生态] 群落；共同体；团体",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "international community",
+        "translation": "国际社会；国际共同体"
+      },
+      {
+        "phrase": "community health",
+        "translation": "社区卫生（健康）；公共卫生；社会健康"
+      },
+      {
+        "phrase": "community service",
+        "translation": "社会服务；社区服务性劳役"
+      }
+    ]
+  },
+  {
+    "word": "happy",
+    "phonetic": "",
+    "meaning": "adj. 幸福的；高兴的；巧妙的; n. (Happy)人名；(英、瑞典、喀)哈皮",
+    "translations": [
+      {
+        "translation": "幸福的；高兴的；巧妙的",
+        "type": "adj"
+      },
+      {
+        "translation": "(Happy)人名；(英、瑞典、喀)哈皮",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "happy new year",
+        "translation": "新年快乐；恭贺新禧"
+      },
+      {
+        "phrase": "happy birthday",
+        "translation": "生日快乐"
+      },
+      {
+        "phrase": "happy life",
+        "translation": "幸福生活；快乐的人生"
+      }
+    ]
+  },
+  {
+    "word": "cover",
+    "phonetic": "",
+    "meaning": "v. 包括；采访，报导；涉及; n. 封面，封皮；盖子；掩蔽物;幌子，借口",
+    "translations": [
+      {
+        "translation": "包括；采访，报导；涉及",
+        "type": "v"
+      },
+      {
+        "translation": "封面，封皮；盖子；掩蔽物;幌子，借口",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "from cover to cover",
+        "translation": "从头至尾"
+      },
+      {
+        "phrase": "under cover",
+        "translation": "隐藏着；秘密地"
+      },
+      {
+        "phrase": "cover up",
+        "translation": "掩盖，盖住"
+      }
+    ]
+  },
+  {
+    "word": "publication",
+    "phonetic": "",
+    "meaning": "n. 出版；出版物；发表",
+    "translations": [
+      {
+        "translation": "出版；出版物；发表",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "date of publication",
+        "translation": "公布日期；出版日期"
+      },
+      {
+        "phrase": "publication date",
+        "translation": "n. 出版日期"
+      },
+      {
+        "phrase": "publication time",
+        "translation": "发表时间"
+      }
+    ]
+  },
+  {
+    "word": "segment",
+    "phonetic": "",
+    "meaning": "v. 分割; n. 段；部分",
+    "translations": [
+      {
+        "translation": "分割",
+        "type": "v"
+      },
+      {
+        "translation": "段；部分",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "market segment",
+        "translation": "细分市场；市场区隔；分块市场"
+      },
+      {
+        "phrase": "line segment",
+        "translation": "n. 线段"
+      },
+      {
+        "phrase": "soft segment",
+        "translation": "软链段，柔性链段"
+      }
+    ]
+  },
+  {
+    "word": "seek",
+    "phonetic": "",
+    "meaning": "v. 寻求；寻找；探索；搜索",
+    "translations": [
+      {
+        "translation": "寻求；寻找；探索；搜索",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "seek for",
+        "translation": "v. 寻找；追求；探索"
+      },
+      {
+        "phrase": "seek out",
+        "translation": "找出；搜出；想获得"
+      },
+      {
+        "phrase": "seek advice",
+        "translation": "征求意见；请教"
+      }
+    ]
+  },
+  {
+    "word": "condition",
+    "phonetic": "",
+    "meaning": "n. 条件；情况；环境；身份; v. 决定；使适应；使健康；以…为条件",
+    "translations": [
+      {
+        "translation": "条件；情况；环境；身份",
+        "type": "n"
+      },
+      {
+        "translation": "决定；使适应；使健康；以…为条件",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "present condition",
+        "translation": "目前的状态"
+      },
+      {
+        "phrase": "working condition",
+        "translation": "工作环境；使用状态"
+      },
+      {
+        "phrase": "actual condition",
+        "translation": "实际情况；实际状况"
+      }
+    ]
+  },
+  {
+    "word": "internet",
+    "phonetic": "",
+    "meaning": "n. 因特网",
+    "translations": [
+      {
+        "translation": "因特网",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "on the internet",
+        "translation": "在网上"
+      },
+      {
+        "phrase": "internet access",
+        "translation": "互联网接入"
+      },
+      {
+        "phrase": "internet connection",
+        "translation": "网络连接，因特网联通"
+      }
+    ]
+  },
+  {
+    "word": "success",
+    "phonetic": "",
+    "meaning": "n. 成功，成就；胜利；大获成功的人或事物",
+    "translations": [
+      {
+        "translation": "成功，成就；胜利；大获成功的人或事物",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "success in",
+        "translation": "在…方面成功"
+      },
+      {
+        "phrase": "great success",
+        "translation": "巨大成功；非常成功"
+      },
+      {
+        "phrase": "with success",
+        "translation": "成功地"
+      }
+    ]
+  },
+  {
+    "word": "fund",
+    "phonetic": "",
+    "meaning": "n. 基金；资金；存款; v. 投资；资助",
+    "translations": [
+      {
+        "translation": "基金；资金；存款",
+        "type": "n"
+      },
+      {
+        "translation": "投资；资助",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "provident fund",
+        "translation": "公积金；福利基金；准备基金"
+      },
+      {
+        "phrase": "investment fund",
+        "translation": "[经]投资基金"
+      },
+      {
+        "phrase": "capital fund",
+        "translation": "资本基金"
+      }
+    ]
+  },
+  {
+    "word": "structure",
+    "phonetic": "",
+    "meaning": "n. 结构；构造；建筑物; v. 组织；构成；建造",
+    "translations": [
+      {
+        "translation": "结构；构造；建筑物",
+        "type": "n"
+      },
+      {
+        "translation": "组织；构成；建造",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "industrial structure",
+        "translation": "产业结构"
+      },
+      {
+        "phrase": "simple structure",
+        "translation": "简单结构；静定结构"
+      },
+      {
+        "phrase": "structure design",
+        "translation": "结构设计"
+      }
+    ]
+  },
+  {
+    "word": "sense",
+    "phonetic": "",
+    "meaning": "n. 感觉，功能；观念；道理；理智; v. 感觉到；检测",
+    "translations": [
+      {
+        "translation": "感觉，功能；观念；道理；理智",
+        "type": "n"
+      },
+      {
+        "translation": "感觉到；检测",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "sense of",
+        "translation": "…的感觉"
+      },
+      {
+        "phrase": "in a sense",
+        "translation": "在某种意义上"
+      },
+      {
+        "phrase": "make sense",
+        "translation": "有意义；讲得通；言之有理"
+      }
+    ]
+  },
+  {
+    "word": "newspaper",
+    "phonetic": "",
+    "meaning": "n. 报纸",
+    "translations": [
+      {
+        "translation": "报纸",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in the newspaper",
+        "translation": "在报纸上"
+      },
+      {
+        "phrase": "newspaper reporter",
+        "translation": "记者"
+      },
+      {
+        "phrase": "newspaper office",
+        "translation": "n. 报社"
+      }
+    ]
+  },
+  {
+    "word": "customer",
+    "phonetic": "",
+    "meaning": "n. 顾客；家伙",
+    "translations": [
+      {
+        "translation": "顾客；家伙",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "customer service",
+        "translation": "客户服务；售后服务"
+      },
+      {
+        "phrase": "customer satisfaction",
+        "translation": "客户满意度"
+      },
+      {
+        "phrase": "customer first",
+        "translation": "客户至上；顾客至上"
+      }
+    ]
+  },
+  {
+    "word": "learned",
+    "phonetic": "",
+    "meaning": "adj. 博学的；有学问的；学术上的; n. (Learned)人名；(英)勒尼德",
+    "translations": [
+      {
+        "translation": "博学的；有学问的；学术上的",
+        "type": "adj"
+      },
+      {
+        "translation": "(Learned)人名；(英)勒尼德",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "lessons learned",
+        "translation": "经验教训；教训总结；取得的教训"
+      },
+      {
+        "phrase": "learned helplessness",
+        "translation": "习得性无助；学习性无力感"
+      },
+      {
+        "phrase": "learned behavior",
+        "translation": "习得行为"
+      }
+    ]
+  },
+  {
+    "word": "board",
+    "phonetic": "",
+    "meaning": "n. 董事会；木板；甲板；膳食; v. 上（飞机、车、船等）；用板盖上；给提供膳宿",
+    "translations": [
+      {
+        "translation": "董事会；木板；甲板；膳食",
+        "type": "n"
+      },
+      {
+        "translation": "上（飞机、车、船等）；用板盖上；给提供膳宿",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "on board",
+        "translation": "在船（火车、飞机）上"
+      },
+      {
+        "phrase": "on the board",
+        "translation": "在董事会，将在会上讨论；在那块木板上"
+      },
+      {
+        "phrase": "circuit board",
+        "translation": "电路板；线路板"
+      }
+    ]
+  },
+  {
+    "word": "president",
+    "phonetic": "",
+    "meaning": "n. 总统；董事长；校长；主席",
+    "translations": [
+      {
+        "translation": "总统；董事长；校长；主席",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "vice president",
+        "translation": "副总统；副主席"
+      },
+      {
+        "phrase": "former president",
+        "translation": "前任总统"
+      },
+      {
+        "phrase": "senior vice president",
+        "translation": "高级副总裁"
+      }
+    ]
+  },
+  {
+    "word": "remove",
+    "phonetic": "",
+    "meaning": "v. 移动，迁移；开除；调动; n. 移动；距离；搬家",
+    "translations": [
+      {
+        "translation": "移动，迁移；开除；调动",
+        "type": "v"
+      },
+      {
+        "translation": "移动；距离；搬家",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "remove oneself",
+        "translation": "[戏谑语]挪动挪动;走开,离开：\n\nShe removed herself reluctantly.\n她勉强地走开了。"
+      },
+      {
+        "phrase": "remove all",
+        "translation": "删除所有；全部移除"
+      },
+      {
+        "phrase": "remove from",
+        "translation": "除掉；移动"
+      }
+    ]
+  },
+  {
+    "word": "series",
+    "phonetic": "",
+    "meaning": "n. 系列，连续；[电] 串联；级数；丛书",
+    "translations": [
+      {
+        "translation": "系列，连续；[电] 串联；级数；丛书",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "series of",
+        "translation": "一系列；一连串"
+      },
+      {
+        "phrase": "time series analysis",
+        "translation": "时间序列分析；时序分析"
+      },
+      {
+        "phrase": "series expansion",
+        "translation": "级数展开"
+      }
+    ]
+  },
+  {
+    "word": "record",
+    "phonetic": "",
+    "meaning": "v. 记录，记载；标明；将录音; n. 档案，履历；唱片；最高纪录",
+    "translations": [
+      {
+        "translation": "记录，记载；标明；将录音",
+        "type": "v"
+      },
+      {
+        "translation": "档案，履历；唱片；最高纪录",
+        "type": "n"
+      },
+      {
+        "translation": "创纪录的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "world record",
+        "translation": "世界纪录"
+      },
+      {
+        "phrase": "of record",
+        "translation": "有案可查的"
+      },
+      {
+        "phrase": "for the record",
+        "translation": "为正式记录在案目的"
+      }
+    ]
+  },
+  {
+    "word": "moral",
+    "phonetic": "",
+    "meaning": "adj. 道德的；精神上的；品性端正的; n. 道德；寓意",
+    "translations": [
+      {
+        "translation": "道德的；精神上的；品性端正的",
+        "type": "adj"
+      },
+      {
+        "translation": "道德；寓意",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "moral education",
+        "translation": "道德教育"
+      },
+      {
+        "phrase": "moral character",
+        "translation": "品德"
+      },
+      {
+        "phrase": "moral hazard",
+        "translation": "道德危机；由于投保人可能不可靠所冒的风险"
+      }
+    ]
+  },
+  {
+    "word": "production",
+    "phonetic": "",
+    "meaning": "n. 成果；产品；生产；作品",
+    "translations": [
+      {
+        "translation": "成果；产品；生产；作品",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "production process",
+        "translation": "生产流程"
+      },
+      {
+        "phrase": "production line",
+        "translation": "生产线"
+      },
+      {
+        "phrase": "production equipment",
+        "translation": "生产设备；生产装备"
+      }
+    ]
+  },
+  {
+    "word": "population",
+    "phonetic": "",
+    "meaning": "n. 人口；[生物] 种群，[生物] 群体；全体居民",
+    "translations": [
+      {
+        "translation": "人口；[生物] 种群，[生物] 群体；全体居民",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "population growth",
+        "translation": "人口的增长"
+      },
+      {
+        "phrase": "rural population",
+        "translation": "农村人口"
+      },
+      {
+        "phrase": "population density",
+        "translation": "人口密度；种群密度"
+      }
+    ]
+  },
+  {
+    "word": "underline",
+    "phonetic": "",
+    "meaning": "v. 强调；在…下面划线；预告; n. 下划线；下期节目预告",
+    "translations": [
+      {
+        "translation": "强调；在…下面划线；预告",
+        "type": "v"
+      },
+      {
+        "translation": "下划线；下期节目预告",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "humanity",
+    "phonetic": "",
+    "meaning": "n. 人类；人道；仁慈；人文学科",
+    "translations": [
+      {
+        "translation": "人类；人道；仁慈；人文学科",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "crime against humanity",
+        "translation": "违反人道罪；危害人类罪"
+      }
+    ]
+  },
+  {
+    "word": "position",
+    "phonetic": "",
+    "meaning": "n. 位置，方位；职位，工作；姿态；站位; v. 安置；把……放在适当位置",
+    "translations": [
+      {
+        "translation": "位置，方位；职位，工作；姿态；站位",
+        "type": "n"
+      },
+      {
+        "translation": "安置；把……放在适当位置",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "leading position",
+        "translation": "基础地位；首要地位"
+      },
+      {
+        "phrase": "geographical position",
+        "translation": "地理位置"
+      },
+      {
+        "phrase": "in position",
+        "translation": "就位；在适当的位置；在原位"
+      }
+    ]
+  },
+  {
+    "word": "particular",
+    "phonetic": "",
+    "meaning": "adj. 特别的；详细的；独有的；挑剔的; n. 详细说明；个别项目",
+    "translations": [
+      {
+        "translation": "特别的；详细的；独有的；挑剔的",
+        "type": "adj"
+      },
+      {
+        "translation": "详细说明；个别项目",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in particular",
+        "translation": "尤其，特别"
+      },
+      {
+        "phrase": "particular case",
+        "translation": "特例；特定情况"
+      },
+      {
+        "phrase": "particular about",
+        "translation": "过分讲究的；难以取悦的"
+      }
+    ]
+  },
+  {
+    "word": "immigrant",
+    "phonetic": "",
+    "meaning": "adj. 移民的；迁入的; n. 移民，侨民",
+    "translations": [
+      {
+        "translation": "移民的；迁入的",
+        "type": "adj"
+      },
+      {
+        "translation": "移民，侨民",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "illegal immigrant",
+        "translation": "非法移民；非法入境者"
+      },
+      {
+        "phrase": "immigrant visa",
+        "translation": "移民签证"
+      }
+    ]
+  },
+  {
+    "word": "opportunity",
+    "phonetic": "",
+    "meaning": "n. 时机，机会",
+    "translations": [
+      {
+        "translation": "时机，机会",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "seize the opportunity",
+        "translation": "抓住机遇，抓住机会"
+      },
+      {
+        "phrase": "rare opportunity",
+        "translation": "稀有机会，难得机会"
+      },
+      {
+        "phrase": "equal opportunity",
+        "translation": "机会均等"
+      }
+    ]
+  },
+  {
+    "word": "access",
+    "phonetic": "",
+    "meaning": "v. 使用；存取；接近; n. 进入；使用权；通路",
+    "translations": [
+      {
+        "translation": "使用；存取；接近",
+        "type": "v"
+      },
+      {
+        "translation": "进入；使用权；通路",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "access control",
+        "translation": "访问控制"
+      },
+      {
+        "phrase": "have access to",
+        "translation": "使用；接近；可以利用"
+      },
+      {
+        "phrase": "internet access",
+        "translation": "互联网接入"
+      }
+    ]
+  },
+  {
+    "word": "observe",
+    "phonetic": "",
+    "meaning": "v. 庆祝",
+    "translations": [
+      {
+        "translation": "庆祝",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "observe on",
+        "translation": "评论"
+      }
+    ]
+  },
+  {
+    "word": "stay",
+    "phonetic": "",
+    "meaning": "v. 停留；坚持；暂住；停下; n. 逗留；停止；支柱",
+    "translations": [
+      {
+        "translation": "停留；坚持；暂住；停下",
+        "type": "v"
+      },
+      {
+        "translation": "逗留；停止；支柱",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "stay in",
+        "translation": "呆在家里；不外出"
+      },
+      {
+        "phrase": "stay at",
+        "translation": "暂住在…；保留"
+      },
+      {
+        "phrase": "stay with",
+        "translation": "同…住在一起；把…坚持下去；与…并驾齐驱"
+      }
+    ]
+  },
+  {
+    "word": "commercial",
+    "phonetic": "",
+    "meaning": "adj. 商业的；营利的；靠广告收入的; n. 商业广告",
+    "translations": [
+      {
+        "translation": "商业的；营利的；靠广告收入的",
+        "type": "adj"
+      },
+      {
+        "translation": "商业广告",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "commercial bank",
+        "translation": "商业银行"
+      },
+      {
+        "phrase": "industrial and commercial bank",
+        "translation": "工商银行"
+      },
+      {
+        "phrase": "commercial value",
+        "translation": "市场价值；经济价值；出售价格"
+      }
+    ]
+  },
+  {
+    "word": "reveal",
+    "phonetic": "",
+    "meaning": "v. 显示；透露；揭露；泄露; n. 揭露；暴露；门侧，窗侧",
+    "translations": [
+      {
+        "translation": "显示；透露；揭露；泄露",
+        "type": "v"
+      },
+      {
+        "translation": "揭露；暴露；门侧，窗侧",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "reveal itself",
+        "translation": "v. 呈现，出现；被认知"
+      },
+      {
+        "phrase": "reveal all",
+        "translation": "显示全部（计算机操作命令）"
+      }
+    ]
+  },
+  {
+    "word": "effort",
+    "phonetic": "",
+    "meaning": "n. 努力；成就",
+    "translations": [
+      {
+        "translation": "努力；成就",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in an effort to",
+        "translation": "企图（努力想）；试图要"
+      },
+      {
+        "phrase": "great effort",
+        "translation": "巨大努力"
+      },
+      {
+        "phrase": "make every effort",
+        "translation": "尽一切努力"
+      }
+    ]
+  },
+  {
+    "word": "reduce",
+    "phonetic": "",
+    "meaning": "v. 减少；降低；使处于；把…分解",
+    "translations": [
+      {
+        "translation": "减少；降低；使处于；把…分解",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "reduce pollution",
+        "translation": "降低污染"
+      },
+      {
+        "phrase": "reduce weight",
+        "translation": "整形美容减肥"
+      },
+      {
+        "phrase": "reduce waste",
+        "translation": "减少浪费"
+      }
+    ]
+  },
+  {
+    "word": "term",
+    "phonetic": "",
+    "meaning": "n. 术语；学期；期限；条款；(代数式等的)项; v. 把…叫做",
+    "translations": [
+      {
+        "translation": "术语；学期；期限；条款；(代数式等的)项",
+        "type": "n"
+      },
+      {
+        "translation": "把…叫做",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in terms",
+        "translation": "明确地；毫不含糊地"
+      },
+      {
+        "phrase": "in terms of",
+        "translation": "依据；按照；在…方面；以…措词"
+      },
+      {
+        "phrase": "long term",
+        "translation": "长期的"
+      }
+    ]
+  },
+  {
+    "word": "action",
+    "phonetic": "",
+    "meaning": "n. 行动；活动；功能；战斗；情节",
+    "translations": [
+      {
+        "translation": "行动；活动；功能；战斗；情节",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "take action",
+        "translation": "采取行动；提出诉讼"
+      },
+      {
+        "phrase": "action on",
+        "translation": "对…的作用"
+      },
+      {
+        "phrase": "in action",
+        "translation": "在活动；在运转"
+      }
+    ]
+  },
+  {
+    "word": "decade",
+    "phonetic": "",
+    "meaning": "n. 十年，十年期；十",
+    "translations": [
+      {
+        "translation": "十年，十年期；十",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "over the past decade",
+        "translation": "在过去的十年里"
+      }
+    ]
+  },
+  {
+    "word": "productivity",
+    "phonetic": "",
+    "meaning": "n. 生产力；生产率；生产能力",
+    "translations": [
+      {
+        "translation": "生产力；生产率；生产能力",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "labor productivity",
+        "translation": "劳动生产率"
+      },
+      {
+        "phrase": "labour productivity",
+        "translation": "劳动生产率"
+      },
+      {
+        "phrase": "primary productivity",
+        "translation": "初级生产力；第一性生产力；基础生产力；初级生产率"
+      }
+    ]
+  },
+  {
+    "word": "sentence",
+    "phonetic": "",
+    "meaning": "n. [语][计] 句子，命题；宣判，判决; v. 判决，宣判",
+    "translations": [
+      {
+        "translation": "[语][计] 句子，命题；宣判，判决",
+        "type": "n"
+      },
+      {
+        "translation": "判决，宣判",
+        "type": "v"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "celebrity",
+    "phonetic": "",
+    "meaning": "n. 名人；名声",
+    "translations": [
+      {
+        "translation": "名人；名声",
+        "type": "n"
+      }
+    ],
+    "phrases": []
+  },
+  {
+    "word": "teacher",
+    "phonetic": "",
+    "meaning": "n. 教师；导师",
+    "translations": [
+      {
+        "translation": "教师；导师",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "english teacher",
+        "translation": "英语教师"
+      },
+      {
+        "phrase": "good teacher",
+        "translation": "良师，好老师"
+      },
+      {
+        "phrase": "teacher education",
+        "translation": "教师教育；师范教育"
+      }
+    ]
+  },
+  {
+    "word": "concern",
+    "phonetic": "",
+    "meaning": "v. 涉及，关系到；使担心; n. 关系；关心；关心的事；忧虑",
+    "translations": [
+      {
+        "translation": "涉及，关系到；使担心",
+        "type": "v"
+      },
+      {
+        "translation": "关系；关心；关心的事；忧虑",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "concern oneself",
+        "translation": "◎从事,忙于(常与with, about, in, over连用)"
+      },
+      {
+        "phrase": "of concern",
+        "translation": "重要的；具有意义"
+      },
+      {
+        "phrase": "concern about",
+        "translation": "对…表示担心/忧虑；使（自己）关心…"
+      }
+    ]
+  },
+  {
+    "word": "score",
+    "phonetic": "",
+    "meaning": "n. 分数；二十；配乐；刻痕; v. 获得；评价；划线，刻划；把…记下",
+    "translations": [
+      {
+        "translation": "分数；二十；配乐；刻痕",
+        "type": "n"
+      },
+      {
+        "translation": "获得；评价；划线，刻划；把…记下",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "total score",
+        "translation": "总分数"
+      },
+      {
+        "phrase": "score for",
+        "translation": "为（某队）进球/得分；为…得分；把…改写成器乐曲"
+      },
+      {
+        "phrase": "score card",
+        "translation": "记分卡"
+      }
+    ]
+  },
+  {
+    "word": "variety",
+    "phonetic": "",
+    "meaning": "n. 多样；种类；杂耍；变化，多样化",
+    "translations": [
+      {
+        "translation": "多样；种类；杂耍；变化，多样化",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "variety of",
+        "translation": "各种各样的"
+      },
+      {
+        "phrase": "product variety",
+        "translation": "货品种类，产品种类；产品多样化；积簇"
+      },
+      {
+        "phrase": "a great variety of",
+        "translation": "各种各样的；大量的"
+      }
+    ]
+  },
+  {
+    "word": "unique",
+    "phonetic": "",
+    "meaning": "adj. 独特的，稀罕的；[数] 唯一的，独一无二的; n. 独一无二的人或物",
+    "translations": [
+      {
+        "translation": "独特的，稀罕的；[数] 唯一的，独一无二的",
+        "type": "adj"
+      },
+      {
+        "translation": "独一无二的人或物",
+        "type": "n"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "unique style",
+        "translation": "独特的风格"
+      },
+      {
+        "phrase": "unique feature",
+        "translation": "特色；特性；独到之处"
+      },
+      {
+        "phrase": "unique opportunity",
+        "translation": "唯一机会；极难得的机会"
+      }
+    ]
+  },
+  {
+    "word": "depend",
+    "phonetic": "",
+    "meaning": "v. 依赖，依靠；取决于；相信，信赖",
+    "translations": [
+      {
+        "translation": "依赖，依靠；取决于；相信，信赖",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "depend on",
+        "translation": "取决于；依赖；依靠"
+      },
+      {
+        "phrase": "depend upon",
+        "translation": "依赖；取决于"
+      },
+      {
+        "phrase": "depend on yourself",
+        "translation": "依靠自己"
+      }
+    ]
+  },
+  {
+    "word": "nuclear",
+    "phonetic": "",
+    "meaning": "adj. 原子能的；[细胞] 细胞核的；中心的；原子核的",
+    "translations": [
+      {
+        "translation": "原子能的；[细胞] 细胞核的；中心的；原子核的",
+        "type": "adj"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "nuclear power",
+        "translation": "核能；核动力"
+      },
+      {
+        "phrase": "nuclear power plant",
+        "translation": "核电站；核能发电厂"
+      },
+      {
+        "phrase": "nuclear energy",
+        "translation": "n. 核能"
+      }
+    ]
+  },
+  {
+    "word": "involve",
+    "phonetic": "",
+    "meaning": "v. 包含；牵涉；使陷于；潜心于",
+    "translations": [
+      {
+        "translation": "包含；牵涉；使陷于；潜心于",
+        "type": "v"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "involve in",
+        "translation": "参与；涉及；卷入，陷入"
+      }
+    ]
+  }
+]

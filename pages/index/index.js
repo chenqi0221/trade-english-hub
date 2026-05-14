@@ -195,7 +195,7 @@ Page({
     var dailyWord = this.data.dailyWord
     if (dailyWord && dailyWord.word && dailyWord.word !== 'loading...') {
       wx.navigateTo({
-        url: '/pages/word-detail/word-detail?word=' + dailyWord.word
+        url: '/package-study/pages/word-detail/word-detail?word=' + dailyWord.word
       })
     }
   },
@@ -212,22 +212,7 @@ Page({
     var text = dailySentence.text.trim()
     console.log('Playing audio for text:', text)
     
-    var self = this
-    
-    // 使用有道智云 TTS 播放
-    var self = this
-    audioManager.playYoudaoAPI(text, {
-      onError: function(err) {
-        console.error('有道智云TTS播放失败，尝试有道词典:', err)
-        // 如果有道智云失败，回退到有道词典 TTS
-        audioManager.playYoudao(text, {
-          onError: function(err2) {
-            console.error('有道词典TTS也失败:', err2)
-            wx.showToast({ title: '音频播放失败', icon: 'none' })
-          }
-        })
-      }
-    })
+    audioManager.playTTS(text)
   },
 
   playQuoteAudio: function() {
@@ -237,18 +222,7 @@ Page({
       return
     }
 
-    audioManager.playYoudaoAPI(dailyQuote.text, {
-      onError: function(err) {
-        console.error('有道智云名言播放失败，尝试有道词典:', err)
-        // 如果有道智云失败，回退到有道词典 TTS
-        audioManager.playYoudao(dailyQuote.text, {
-          onError: function(err2) {
-            console.error('有道词典名言也失败:', err2)
-            wx.showToast({ title: '音频播放失败', icon: 'none' })
-          }
-        })
-      }
-    })
+    audioManager.playTTS(dailyQuote.text)
   },
 
   startLearning: function() {

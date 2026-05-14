@@ -58,25 +58,12 @@ Page({
 
     var self = this
     
-    // 使用有道智云 TTS 播放
-    audioManager.playYoudaoAPI(dialog.text, {
-      voiceName: 'youxiaomei',
+    audioManager.playTTS(dialog.text, {
       onEnded: function() {
         self.setData({ isPlaying: false })
       },
-      onError: function(err) {
-        console.error('有道智云TTS播放失败，尝试有道词典:', err)
-        // 如果有道智云失败，回退到有道词典 TTS
-        audioManager.playYoudao(dialog.text, {
-          onEnded: function() {
-            self.setData({ isPlaying: false })
-          },
-          onError: function(err2) {
-            console.error('有道词典TTS也失败:', err2)
-            self.setData({ isPlaying: false })
-            wx.showToast({ title: '音频播放失败', icon: 'none' })
-          }
-        })
+      onError: function() {
+        self.setData({ isPlaying: false })
       }
     })
   },

@@ -200,12 +200,7 @@ Page({
       return
     }
 
-    audioManager.playYoudao(text, {
-      onError: (err) => {
-        console.error('消息音频播放失败:', err)
-        wx.showToast({ title: '音频播放失败', icon: 'none' })
-      }
-    })
+    audioManager.playTTS(text)
   },
 
   // 显示/隐藏话题选择

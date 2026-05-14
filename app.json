@@ -5,18 +5,7 @@
     "pages/practice/practice",
     "pages/exam/exam",
     "pages/profile/profile",
-    "pages/word-practice/word-practice",
-    "pages/pronunciation/pronunciation",
-    "pages/ai-chat/ai-chat",
-    "pages/scene-practice/scene-practice",
-    "pages/word-detail/word-detail",
-    "pages/error-book/error-book",
-    "pages/favorites/favorites",
-    "pages/exam-select/exam-select",
-    "pages/flashcard/flashcard",
-    "pages/exam-typing/exam-typing",
-    "pages/dictation/dictation",
-    "pages/exam-quiz/exam-quiz"
+    "pages/upload-vocab/upload-vocab"
   ],
   "tabBar": {
     "color": "#999999",
@@ -63,5 +52,73 @@
     "navigationBarTextStyle": "white"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "lazyCodeLoading": "requiredComponents",
+  "sitemapLocation": "sitemap.json",
+  "subpackages": [
+    {
+      "root": "package-study",
+      "name": "studyPackage",
+      "pages": [
+        "pages/word-practice/word-practice",
+        "pages/word-detail/word-detail",
+        "pages/flashcard/flashcard",
+        "pages/dictation/dictation",
+        "pages/error-book/error-book",
+        "pages/favorites/favorites"
+      ]
+    },
+    {
+      "root": "package-practice",
+      "name": "practicePackage",
+      "pages": [
+        "pages/pronunciation/pronunciation",
+        "pages/ai-chat/ai-chat",
+        "pages/scene-practice/scene-practice"
+      ]
+    },
+    {
+      "root": "package-exam",
+      "name": "examPackage",
+      "pages": [
+        "pages/exam-select/exam-select",
+        "pages/exam-typing/exam-typing",
+        "pages/exam-quiz/exam-quiz"
+      ]
+    },
+    {
+      "root": "package-vocab/cet4",
+      "name": "vocabCet4",
+      "pages": []
+    },
+    {
+      "root": "package-vocab/cet6",
+      "name": "vocabCet6",
+      "pages": []
+    },
+    {
+      "root": "package-vocab/ielts",
+      "name": "vocabIelts",
+      "pages": []
+    },
+    {
+      "root": "package-vocab/toefl",
+      "name": "vocabToefl",
+      "pages": []
+    },
+    {
+      "root": "package-vocab/gre",
+      "name": "vocabGre",
+      "pages": []
+    },
+    {
+      "root": "package-vocab/sat",
+      "name": "vocabSat",
+      "pages": []
+    },
+    {
+      "root": "package-vocab/kaoyan",
+      "name": "vocabKaoyan",
+      "pages": []
+    }
+  ]
 }

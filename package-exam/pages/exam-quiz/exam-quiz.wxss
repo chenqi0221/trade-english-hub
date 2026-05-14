@@ -1,0 +1,224 @@
+.container {
+  padding: 30rpx;
+  background-color: #F5F5F5;
+  min-height: 100vh;
+}
+
+/* 结果页面 */
+.result-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+.result-icon {
+  font-size: 120rpx;
+  margin-bottom: 30rpx;
+}
+
+.result-title {
+  font-size: 48rpx;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20rpx;
+}
+
+.result-score {
+  font-size: 72rpx;
+  font-weight: 700;
+  color: #1E5F8E;
+  margin-bottom: 10rpx;
+}
+
+.result-percent {
+  font-size: 40rpx;
+  color: #666;
+  margin-bottom: 30rpx;
+}
+
+.result-message {
+  font-size: 32rpx;
+  color: #666;
+  margin-bottom: 60rpx;
+}
+
+.result-buttons {
+  display: flex;
+  gap: 40rpx;
+}
+
+.btn {
+  padding: 24rpx 60rpx;
+  border-radius: 16rpx;
+  font-size: 32rpx;
+  font-weight: 500;
+  text-align: center;
+}
+
+.btn-restart {
+  background: linear-gradient(135deg, #1E5F8E, #2E7FB8);
+  color: white;
+  box-shadow: 0 4rpx 16rpx rgba(30, 95, 142, 0.3);
+}
+
+.btn-back {
+  background: white;
+  color: #666;
+  border: 2rpx solid #E0E0E0;
+}
+
+/* 答题页面 */
+.quiz-page {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 进度条 */
+.progress-bar {
+  width: 100%;
+  height: 8rpx;
+  background: #E0E0E0;
+  border-radius: 4rpx;
+  margin-bottom: 16rpx;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #1E5F8E, #2E7FB8);
+  border-radius: 4rpx;
+  transition: width 0.3s;
+}
+
+.progress-text {
+  text-align: center;
+  font-size: 28rpx;
+  color: #666;
+  margin-bottom: 40rpx;
+}
+
+/* 题目区 */
+.question-section {
+  background: white;
+  border-radius: 24rpx;
+  padding: 40rpx;
+  margin-bottom: 40rpx;
+  text-align: center;
+  box-shadow: 0 4rpx 16rpx rgba(0, 0, 0, 0.06);
+}
+
+.question-label {
+  font-size: 28rpx;
+  color: #999;
+  margin-bottom: 20rpx;
+}
+
+/* 音频按钮 */
+.audio-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #E3F2FD;
+  border-radius: 40rpx;
+  padding: 16rpx 40rpx;
+  margin-bottom: 30rpx;
+}
+
+.audio-icon {
+  font-size: 36rpx;
+  margin-right: 12rpx;
+}
+
+.audio-text {
+  font-size: 28rpx;
+  color: #1E5F8E;
+  font-weight: 500;
+}
+
+.question-meaning {
+  font-size: 36rpx;
+  color: #333;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+/* 选项区 */
+.options-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20rpx;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 16rpx;
+  padding: 30rpx;
+  box-shadow: 0 4rpx 16rpx rgba(0, 0, 0, 0.06);
+  border: 2rpx solid transparent;
+}
+
+.option-letter {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  background: #F5F5F5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28rpx;
+  font-weight: 600;
+  color: #666;
+  margin-right: 20rpx;
+}
+
+.option-text {
+  font-size: 32rpx;
+  color: #333;
+  flex: 1;
+}
+
+.option.correct {
+  border-color: #5CB85C;
+  background: #E8F5E9;
+}
+
+.option.correct .option-letter {
+  background: #5CB85C;
+  color: white;
+}
+
+.option.wrong {
+  border-color: #D9534F;
+  background: #FFEBEE;
+}
+
+.option.wrong .option-letter {
+  background: #D9534F;
+  color: white;
+}
+
+/* 得分 */
+.score-display {
+  text-align: center;
+  font-size: 32rpx;
+  color: #1E5F8E;
+  font-weight: 600;
+  margin-top: 40rpx;
+}
+
+/* 加载状态 */
+.loading-state {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+}
+
+.loading-text {
+  font-size: 32rpx;
+  color: #666;
+}

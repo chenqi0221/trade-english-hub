@@ -1,0 +1,34 @@
+<view class="container">
+  <view class="header">
+    <text class="title">上传词库到云端</text>
+    <text class="subtitle">将本地词库文件上传到云存储，供小程序调用</text>
+  </view>
+
+  <view class="exam-list">
+    <view class="exam-item" wx:for="{{exams}}" wx:key="id">
+      <view class="exam-info">
+        <text class="exam-name">{{item.name}}</text>
+        <text class="exam-id">{{item.id}}</text>
+      </view>
+      <view class="exam-status">
+        <text class="status-text">{{uploadStatus[item.id] || '未上传'}}</text>
+      </view>
+      <button 
+        class="upload-btn" 
+        size="mini" 
+        type="primary"
+        data-exam-id="{{item.id}}"
+        data-exam-name="{{item.name}}"
+        bindtap="uploadVocab"
+        disabled="{{uploadStatus[item.id] === '上传中...'}}"
+      >
+        上传
+      </button>
+    </view>
+  </view>
+
+  <view class="footer">
+    <button class="upload-all-btn" type="warn" bindtap="uploadAll">一键上传全部</button>
+    <text class="tip">上传完成后，词库将通过云函数提供给用户使用</text>
+  </view>
+</view>

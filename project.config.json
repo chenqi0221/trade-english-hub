@@ -1,7 +1,16 @@
 {
   "description": "外贸英语通 - 整合GitHub三大高星项目的商务英语学习平台",
   "packOptions": {
-    "ignore": [],
+    "ignore": [
+      {
+        "type": "folder",
+        "value": "node_modules"
+      },
+      {
+        "type": "folder",
+        "value": "cloudfunctions"
+      }
+    ],
     "include": []
   },
   "setting": {
@@ -11,7 +20,7 @@
     "compileHotReLoad": false,
     "lazyloadPlaceholderEnable": false,
     "preloadBackgroundData": false,
-    "minified": false,
+    "minified": true,
     "newFeature": false,
     "coverView": true,
     "nodeModules": false,
@@ -32,8 +41,8 @@
     },
     "enableEngineNative": false,
     "useCompilerPlugins": false,
-    "minifyWXSS": false,
-    "minifyWXML": false,
+    "minifyWXSS": true,
+    "minifyWXML": true,
     "es6": true,
     "postcss": false,
     "compileWorklet": false,
@@ -47,6 +56,7 @@
     "disableSWC": true
   },
   "compileType": "miniprogram",
+  "cloudfunctionRoot": "cloudfunctions/",
   "libVersion": "3.16.0",
   "appid": "wxdac55b68194bef4f",
   "projectname": "trade-english-hub",
@@ -55,5 +65,6 @@
     "tabIndent": "insertSpaces",
     "tabSize": 2
   },
-  "simulatorPluginLibVersion": {}
+  "simulatorPluginLibVersion": {},
+  "cloudfunctionTemplateRoot": "cloudfunctionTemplate/"
 }
